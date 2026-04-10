@@ -1,0 +1,109 @@
+import urllib.request
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone, timedelta
+
+def get_articles(domain: str, hours: int = 24, max_articles: int = 10):
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    
+    # Step 1: Get sitemap URLs from robots.txt
+    sitemap_urls = []
+    try:
+        req = urllib.request.Request(f"https://{domain}/robots.txt", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            for line in r.read().decode("utf-8", errors="ignore").splitlines():
+                if line.lower().startswith("sitemap:"):
+                    sitemap_urls.append(line.split(":", 1)[1].strip())
+    except Exception as e:
+        print(f"robots.txt error: {e}")
+
+    # Step 2: Prioritize news sitemaps
+    sitemap_urls.sort(key=lambda u: "news" not in u.lower())
+    print(f"Sitemaps found: {sitemap_urls[:5]}")
+
+    # Step 3: Fetch each sitemap, resolve indexes, find articles
+    articles = []
+    visited = set()
+
+    def fetch_xml(url):
+        if url in visited:
+            return None
+        visited.add(url)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                return ET.fromstring(r.read())
+        except Exception as e:
+            print(f"  Failed to fetch {url}: {e}")
+            return None
+
+    def parse_date(text):
+        if not text:
+            return None
+        for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d"):
+            try:
+                dt = datetime.strptime(text.strip()[:25], fmt)
+                return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+            except:
+                continue
+        return None
+
+    def process_sitemap(url):
+        root = fetch_xml(url)
+        if root is None:
+            return
+
+        # Strip namespace for easier tag matching
+        for el in root.iter():
+            el.tag = el.tag.split("}")[1] if "}" in el.tag else el.tag
+
+        tag = root.tag
+
+        if tag == "sitemapindex":
+            # Only follow first 3 children to avoid crawling everything
+            for child in list(root)[:3]:
+                loc = child.findtext("loc")
+                if loc:
+                    process_sitemap(loc)
+
+        elif tag == "urlset":
+            for url_el in root.findall("url"):
+                if len(articles) >= max_articles:
+                    return
+                    
+                loc = url_el.findtext("loc")
+                if not loc:
+                    continue
+
+                # Grab date from any date-like field
+                date_text = (
+                    url_el.findtext("news/publication_date") or
+                    url_el.findtext("news/pub_date") or
+                    url_el.findtext("lastmod")
+                )
+                title = url_el.findtext("news/title") or loc.split("/")[-1].replace("-", " ")
+                dt = parse_date(date_text)
+                JUNK_PREFIXES = ["BRIEF", "TABLE", "RPT ", "CORRECTED", "OFRMO", "BUZZ"]
+                if any(title.upper().startswith(p) for p in JUNK_PREFIXES):
+                    continue
+            
+                if dt is None or dt >= cutoff:
+                    articles.append({
+                        "title": title,
+                        "url": loc,
+                        "date": date_text or "no date"
+                    })
+
+    for sitemap_url in sitemap_urls[:5]:
+        if len(articles) >= max_articles:
+            break
+        process_sitemap(sitemap_url)
+
+    return articles
+
+
+# Test it
+results = get_articles("reuters.com")
+for a in results:
+    print(f"\nTitle: {a['title']}")
+    print(f"URL:   {a['url']}")
+    print(f"Date:  {a['date']}")
