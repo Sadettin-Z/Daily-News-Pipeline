@@ -2,9 +2,7 @@ name: Run Sitemap Extractor
 
 on:
   workflow_dispatch: # Adds the "Run" button in the Actions tab
-  schedule:
-    - cron: '0 0 * * *' # Automatically runs every 24 hours
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
