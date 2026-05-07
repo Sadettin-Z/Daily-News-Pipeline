@@ -2,9 +2,6 @@ name: Run News Extractor
 
 on:
   workflow_dispatch:
-  # Optional: also run on a schedule (every 6 hours)
-  # schedule:
-  #   - cron: '0 */6 * * *'
 
 jobs:
   build:
@@ -18,7 +15,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Install dependencies
         run: |
@@ -26,4 +22,4 @@ jobs:
           pip install requests curl_cffi trafilatura beautifulsoup4 lxml newspaper3k googlenewsdecoder
 
       - name: Run script
-        run: python test_transkript.py
+        run: python main
