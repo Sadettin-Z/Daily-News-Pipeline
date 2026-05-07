@@ -1,8 +1,11 @@
-name: Run Sitemap Extractor
+name: Run News Extractor
 
 on:
-  workflow_dispatch: # Adds the "Run" button in the Actions tab
-  
+  workflow_dispatch:
+  # Optional: also run on a schedule (every 6 hours)
+  # schedule:
+  #   - cron: '0 */6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,8 +17,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests curl_cffi trafilatura beautifulsoup4 lxml newspaper3k googlenewsdecoder
 
       - name: Run script
-        # Because your file has no extension, we call it directly by its name
-        run: python main
+        run: python test_transkript.py
