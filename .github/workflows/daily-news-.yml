@@ -33,7 +33,7 @@ jobs:
           GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
           GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python analyze.py           # Actually runs the pipeline
+        run: python -u analyze.py           # Actually runs the pipeline
 
       - name: Upload run outputs
         if: always()                     # Upload even if the run failed
