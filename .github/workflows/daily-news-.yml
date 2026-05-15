@@ -1,0 +1,47 @@
+name: Daily News Pipeline                # Name shown in GitHub Actions tab
+
+on:
+  schedule:
+    # 08:00 Europe/Istanbul (UTC+3, no DST) = 05:00 UTC
+    - cron: '0 5 * * *'                  # Runs daily at 5:00 UTC = 8:00 Turkey
+  workflow_dispatch:                     # Lets you trigger it manually from the UI
+
+jobs:
+  run:
+    runs-on: ubuntu-latest               # Uses a Linux runner (free for public repos)
+    timeout-minutes: 30                  # Kills the job if it hangs past 30 min
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4        # Clones your repo into the runner
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'         # Python version on the runner
+          cache: pip                     # Caches pip deps between runs (faster)
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt   # Installs deps listed in requirements.txt
+
+      - name: Run news pipeline
+        env:                             # Injects secrets as env vars for analyze.py
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+          GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python analyze.py           # Actually runs the pipeline
+
+      - name: Upload run outputs
+        if: always()                     # Upload even if the run failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-output-${{ github.run_number }}
+          path: |
+            news_clusters.json
+            report.md
+            discord_messages.json
+          retention-days: 14             # Files kept for 14 days then auto-deleted
