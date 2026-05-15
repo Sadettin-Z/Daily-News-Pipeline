@@ -1,0 +1,6 @@
+google-genai>=0.10
+python-dotenv>=1.0
+requests>=2.32
+curl_cffi>=0.7
+trafilatura>=1.12
+beautifulsoup4>=4.12
