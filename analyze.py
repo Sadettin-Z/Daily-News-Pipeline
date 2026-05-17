@@ -5,6 +5,7 @@ import re
 import threading
 import time
 
+import requests
 from google import genai
 from google.genai import types
 
@@ -420,25 +421,21 @@ def main():
     print(f"Wrote {len(output)} clusters to news_clusters.json")
 
     from datetime import date
-    report_path = f"Haber Analizi {date.today().strftime('%d %m %Y')}.md"
-    write_report(output, report_path)
-    print(f"Wrote human-readable report to {report_path}")
-
+    report_text = build_report_text(output)
+    filename = f"Haber Analizi {date.today().strftime('%d %m %Y')}.md"
     messages = build_discord_messages(output)
-    with open("discord_messages.json", "w", encoding="utf-8") as f:
-        json.dump(messages, f, ensure_ascii=False, indent=2)
-    print(f"Wrote {len(messages)} Discord-ready messages to discord_messages.json")
 
     webhook = os.environ.get("DISCORD_WEBHOOK_URL")
     if webhook:
-        print(f"Posting {len(messages)} messages to Discord webhook...")
+        print(f"Posting {len(messages)} chunked messages to Discord webhook...")
         send_to_discord(messages, webhook)
+        upload_report_to_discord(report_text, filename, webhook)
     else:
-        print("DISCORD_WEBHOOK_URL not set in env — skipping auto-post. Add it to keys/.env to enable.")
+        print("DISCORD_WEBHOOK_URL not set in env — skipping Discord. Add it to keys/.env to enable.")
 
 
-def write_report(output, path):
-    """Discord-friendly Markdown report: date header, multi-source 'common news' first, then per-source sections."""
+def build_report_text(output):
+    """Return the full Markdown report as a single string (no file I/O)."""
     from datetime import date
 
     multi = [e for e in output if len(e["sources"]) > 1]
@@ -483,12 +480,11 @@ def write_report(output, path):
             lines.append("---")
             lines.append("")
 
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+    return "\n".join(lines)
 
 
-DISCORD_LIMIT = 1990  # 2000 cap minus a small safety margin
-DISCORD_SUPPRESS_EMBEDS = 4  # message flag: drop auto-generated URL previews
+DISCORD_LIMIT = 1990
+DISCORD_SUPPRESS_EMBEDS = 4
 
 
 def chunk_for_discord(text, limit=DISCORD_LIMIT):
@@ -500,20 +496,16 @@ def chunk_for_discord(text, limit=DISCORD_LIMIT):
     while len(remaining) > limit:
         window = remaining[:limit]
         cut = None
-        # Prefer "good" breaks in the back half of the window (avoid tiny chunks).
-        # Include separator length so the chunk ends WITH the separator, not before it.
         for sep in ("\n\n", "\n", ". ", "! ", "? ", "; ", ", ", " "):
             pos = window.rfind(sep)
             if pos >= limit // 2:
                 cut = pos + len(sep)
                 break
         if cut is None:
-            # No good break in back half — accept ANY space to avoid mid-word cut.
             pos = window.rfind(" ")
             if pos > 0:
                 cut = pos + 1
             else:
-                # Single token longer than the limit (e.g., a giant URL). Hard cut as last resort.
                 cut = limit
         chunks.append(remaining[:cut].rstrip())
         remaining = remaining[cut:].lstrip()
@@ -523,7 +515,6 @@ def chunk_for_discord(text, limit=DISCORD_LIMIT):
 
 
 def _article_to_payloads(entry, index_prefix=""):
-    """Convert one news entry to a list of plain-content Discord webhook payload dicts."""
     title = index_prefix + entry["title"]
     summary = entry["summary"]
     sources = entry["sources"]
@@ -549,12 +540,10 @@ def _article_to_payloads(entry, index_prefix=""):
             {"content": c, "flags": DISCORD_SUPPRESS_EMBEDS}
             for c in chunk_for_discord(link_msg, limit=DISCORD_LIMIT)
         )
-
     return payloads
 
 
 def _section_header(title, subtitle=None):
-    """A plain-content Discord message used purely as a visual section divider."""
     content = f"# {title}"
     if subtitle:
         content += f"\n-# {subtitle}"
@@ -562,7 +551,7 @@ def _section_header(title, subtitle=None):
 
 
 def build_discord_messages(output):
-    """Build a list of Discord webhook payload dicts (each is one ready-to-POST body)."""
+    """Build the list of webhook payload dicts. Ping is attached to the first payload only."""
     from datetime import date
 
     multi = [e for e in output if len(e["sources"]) > 1]
@@ -597,38 +586,25 @@ def build_discord_messages(output):
 
 
 def send_to_discord(payloads, webhook_url, delay=0.4):
-    """POST each payload (dict with content/embeds) to a Discord webhook. Respects 429 retry_after."""
-    import urllib.request
-    import urllib.error
-
+    """POST each chunked payload to the webhook. Respects 429 retry_after."""
     total = len(payloads)
     start = time.time()
     for i, payload_dict in enumerate(payloads, 1):
-        payload = json.dumps(payload_dict).encode("utf-8")
-        req = urllib.request.Request(
-            webhook_url,
-            data=payload,
-            headers={"Content-Type": "application/json", "User-Agent": "haber-news-pipeline"},
-        )
         attempts = 0
         while True:
             attempts += 1
             try:
-                with urllib.request.urlopen(req, timeout=30) as resp:
-                    if resp.status >= 300:
-                        print(f"  [discord {i}/{total}] HTTP {resp.status}", flush=True)
-                break
-            except urllib.error.HTTPError as e:
-                body = e.read().decode("utf-8", errors="replace")
-                if e.code == 429 and attempts < 3:
+                r = requests.post(webhook_url, json=payload_dict, timeout=30)
+                if r.status_code == 429 and attempts < 3:
                     try:
-                        retry = json.loads(body).get("retry_after", 5)
+                        retry = r.json().get("retry_after", 5)
                     except Exception:
                         retry = 5
                     print(f"  [discord {i}/{total}] rate-limited, sleeping {retry}s", flush=True)
                     time.sleep(float(retry) + 0.5)
                     continue
-                print(f"  [discord {i}/{total}] HTTP {e.code}: {body}", flush=True)
+                if r.status_code >= 400:
+                    print(f"  [discord {i}/{total}] HTTP {r.status_code}: {r.text[:200]}", flush=True)
                 break
             except Exception as e:
                 print(f"  [discord {i}/{total}] error: {e}", flush=True)
@@ -642,6 +618,24 @@ def send_to_discord(payloads, webhook_url, delay=0.4):
 
         if i < total:
             time.sleep(delay)
+
+
+def upload_report_to_discord(report_text, filename, webhook_url):
+    """POST a final message with the report attached as a .md file. No ping (already fired)."""
+    print(f"Uploading {filename} ({len(report_text):,} chars) to Discord...")
+    payload = {"content": "📄 **Full report (Markdown):**"}
+    files = {
+        "payload_json": (None, json.dumps(payload), "application/json"),
+        "file": (filename, report_text.encode("utf-8"), "text/markdown"),
+    }
+    try:
+        r = requests.post(webhook_url, files=files, timeout=60)
+        if r.status_code >= 400:
+            print(f"  Discord HTTP {r.status_code}: {r.text[:300]}")
+        else:
+            print(f"  Discord upload OK")
+    except Exception as e:
+        print(f"  Discord upload error: {e}")
 
 
 if __name__ == "__main__":
