@@ -19,7 +19,7 @@ try:
 except ImportError:
     print("[env] python-dotenv not installed; using OS environment only")
 
-from scraper import collect_articles
+from scraper import collect_articles, RSS_FEEDS
 
 
 # Up to 4 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_4
@@ -465,7 +465,9 @@ def write_report(output, path):
             lines.append("---")
             lines.append("")
 
-    for src in sorted(by_source.keys()):
+    for src in RSS_FEEDS:
+        if src not in by_source:
+            continue
         lines.append(f"# {src}")
         lines.append("")
         for entry in by_source[src]:
@@ -484,6 +486,7 @@ def write_report(output, path):
 
 
 DISCORD_LIMIT = 1990  # 2000 cap minus a small safety margin
+DISCORD_SUPPRESS_EMBEDS = 4  # message flag: drop auto-generated URL previews
 
 
 def chunk_for_discord(text, limit=DISCORD_LIMIT):
@@ -517,53 +520,43 @@ def chunk_for_discord(text, limit=DISCORD_LIMIT):
     return chunks
 
 
-EMBED_DESC_LIMIT = 4096
-EMBED_TITLE_LIMIT = 256
-COMMON_NEWS_COLOR = 0xE67E22   # orange — multi-source breaking news
-SINGLE_SOURCE_COLOR = 0x3498DB # blue — per-source individual story
-SECTION_HEADER_COLOR = 0x95A5A6  # gray — section divider embeds
-
-
-def _article_to_payloads(entry, color, index_prefix=""):
-    """Convert one news entry to a list of Discord webhook payload dicts (one or more embeds)."""
-    title = (index_prefix + entry["title"])[:EMBED_TITLE_LIMIT]
+def _article_to_payloads(entry, index_prefix=""):
+    """Convert one news entry to a list of plain-content Discord webhook payload dicts."""
+    title = index_prefix + entry["title"]
     summary = entry["summary"]
     sources = entry["sources"]
     primary_url = sources[0]["url"]
     primary_source = sources[0]["source"]
 
-    parts = chunk_for_discord(summary, limit=EMBED_DESC_LIMIT)
-    payloads = []
+    if len(sources) > 1:
+        tail = " · ".join(s["source"] for s in sources)
+        header = f"## [{title}](<{primary_url}>)\n-# {primary_source} · Covered by: {tail}\n\n"
+    else:
+        header = f"## [{title}](<{primary_url}>)\n-# {primary_source}\n\n"
 
-    for i, part in enumerate(parts):
-        embed = {"description": part, "color": color}
-        if i == 0:
-            embed["title"] = title
-            embed["url"] = primary_url
-            embed["author"] = {"name": primary_source}
-            if len(sources) > 1:
-                tail = " · ".join(s["source"] for s in sources)
-                if len(tail) > 2000:
-                    tail = tail[:2000] + "..."
-                embed["footer"] = {"text": f"Covered by: {tail}"}
-        else:
-            embed["footer"] = {"text": f"(continued — part {i + 1}/{len(parts)})"}
-        payloads.append({"embeds": [embed]})
+    full = header + summary
+    payloads = [
+        {"content": c, "flags": DISCORD_SUPPRESS_EMBEDS}
+        for c in chunk_for_discord(full, limit=DISCORD_LIMIT)
+    ]
 
     if len(sources) > 1:
-        links = "\n".join(f"• [{s['source']} — {s['title'][:80]}]({s['url']})" for s in sources)
+        links = "\n".join(f"• [{s['source']} — {s['title'][:80]}](<{s['url']}>)" for s in sources)
         link_msg = f"**Sources:**\n{links}"
-        payloads.extend({"content": c} for c in chunk_for_discord(link_msg, limit=1990))
+        payloads.extend(
+            {"content": c, "flags": DISCORD_SUPPRESS_EMBEDS}
+            for c in chunk_for_discord(link_msg, limit=DISCORD_LIMIT)
+        )
 
     return payloads
 
 
-def _section_header(title, subtitle=None, color=SECTION_HEADER_COLOR):
-    """A Discord embed used purely as a visual section divider."""
-    embed = {"title": title, "color": color}
+def _section_header(title, subtitle=None):
+    """A plain-content Discord message used purely as a visual section divider."""
+    content = f"# {title}"
     if subtitle:
-        embed["description"] = f"_{subtitle}_"
-    return {"embeds": [embed]}
+        content += f"\n-# {subtitle}"
+    return {"content": content, "flags": DISCORD_SUPPRESS_EMBEDS}
 
 
 def build_discord_messages(output):
@@ -578,22 +571,25 @@ def build_discord_messages(output):
         src = entry["sources"][0]["source"]
         by_source.setdefault(src, []).append(entry)
 
-    payloads = [_section_header(f"📰 News Report — {date.today().isoformat()}",
-                                subtitle=f"{len(multi)} cross-source stories · {len(singles)} unique stories")]
+    first = _section_header(f"📰 News Report — {date.today().isoformat()}",
+                            subtitle=f"{len(multi)} cross-source stories · {len(singles)} unique stories")
+    first["content"] = f"<@331085172264927235>\n{first['content']}"
+    first["allowed_mentions"] = {"parse": ["users"]}
+    payloads = [first]
 
     if multi:
         payloads.append(_section_header("🔥 Common News",
-                                        subtitle="Stories covered by multiple sources",
-                                        color=COMMON_NEWS_COLOR))
+                                        subtitle="Stories covered by multiple sources"))
         for i, entry in enumerate(multi, 1):
-            payloads.extend(_article_to_payloads(entry, COMMON_NEWS_COLOR, index_prefix=f"{i}. "))
+            payloads.extend(_article_to_payloads(entry, index_prefix=f"{i}. "))
 
-    for src in sorted(by_source.keys()):
+    for src in RSS_FEEDS:
+        if src not in by_source:
+            continue
         payloads.append(_section_header(f"📡 {src}",
-                                        subtitle=f"{len(by_source[src])} stories",
-                                        color=SINGLE_SOURCE_COLOR))
+                                        subtitle=f"{len(by_source[src])} stories"))
         for entry in by_source[src]:
-            payloads.extend(_article_to_payloads(entry, SINGLE_SOURCE_COLOR))
+            payloads.extend(_article_to_payloads(entry))
 
     return payloads
 
