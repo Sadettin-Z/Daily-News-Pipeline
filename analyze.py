@@ -419,8 +419,10 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(output)} clusters to news_clusters.json")
 
-    write_report(output, "report.md")
-    print(f"Wrote human-readable report to report.md")
+    from datetime import date
+    report_path = f"Haber Analizi {date.today().strftime('%d %m %Y')}.md"
+    write_report(output, report_path)
+    print(f"Wrote human-readable report to {report_path}")
 
     messages = build_discord_messages(output)
     with open("discord_messages.json", "w", encoding="utf-8") as f:
