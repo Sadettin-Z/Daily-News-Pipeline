@@ -422,14 +422,20 @@ def main():
 
     from datetime import date
     report_text = build_report_text(output)
-    filename = f"Haber Analizi {date.today().strftime('%d %m %Y')}.md"
     messages = build_discord_messages(output)
 
     webhook = os.environ.get("DISCORD_WEBHOOK_URL")
     if webhook:
         print(f"Posting {len(messages)} chunked messages to Discord webhook...")
         send_to_discord(messages, webhook)
-        upload_report_to_discord(report_text, filename, webhook)
+        print("Pausing 10s before file upload to let Discord rate-limit window drain...")
+        time.sleep(10)
+        upload_report_to_discord(
+            strip_markdown(report_text),
+            "Rapor.md",
+            webhook,
+            f"**Haber Kaynakları {date.today().strftime('%d %m %Y')}**",
+        )
     else:
         print("DISCORD_WEBHOOK_URL not set in env — skipping Discord. Add it to keys/.env to enable.")
 
@@ -565,7 +571,7 @@ def build_discord_messages(output):
     first = _section_header(f"📰 News Report — {date.today().isoformat()}",
                             subtitle=f"{len(multi)} cross-source stories · {len(singles)} unique stories")
     first["content"] = f"<@331085172264927235>\n{first['content']}"
-    first["allowed_mentions"] = {"parse": ["users"]}
+    first["allowed_mentions"] = {"parse": [], "users": ["331085172264927235"]}
     payloads = [first]
 
     if multi:
@@ -620,22 +626,59 @@ def send_to_discord(payloads, webhook_url, delay=0.4):
             time.sleep(delay)
 
 
-def upload_report_to_discord(report_text, filename, webhook_url):
+def strip_markdown(text):
+    """Convert markdown to decorated plain text: underlined headings, UPPERCASE labels, • bullets."""
+    text = re.sub(r'^\*\s+', '- ', text, flags=re.MULTILINE)
+
+    def heading_repl(m):
+        title = m.group(1).strip()
+        underline = "─" * min(len(title), 60)
+        return f"\n{title}\n{underline}\n"
+
+    text = re.sub(r'^#{1,6}\s+(.+)$', heading_repl, text, flags=re.MULTILINE)
+    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+    text = re.sub(r'`([^`]+)`', r'\1', text)
+    text = re.sub(r'\[([^\]]+)\]\(<?([^)>]+)>?\)', r'\1', text)
+    text = re.sub(r'^Sources:', 'SOURCES:', text, flags=re.MULTILINE)
+    text = re.sub(r'^- ', '• ', text, flags=re.MULTILINE)
+    text = re.sub(r'^(?!• )(.+)\n(?=• )', r'\1\n\n', text, flags=re.MULTILINE)
+    text = re.sub(r'(^• .+)\n(?=• )', r'\1\n\n', text, flags=re.MULTILINE)
+    text = re.sub(r'\n{3,}', '\n\n', text)
+    return text
+
+
+def upload_report_to_discord(report_text, filename, webhook_url, message):
     """POST a final message with the report attached as a .md file. No ping (already fired)."""
     print(f"Uploading {filename} ({len(report_text):,} chars) to Discord...")
-    payload = {"content": "📄 **Full report (Markdown):**"}
-    files = {
-        "payload_json": (None, json.dumps(payload), "application/json"),
-        "file": (filename, report_text.encode("utf-8"), "text/markdown"),
-    }
-    try:
-        r = requests.post(webhook_url, files=files, timeout=60)
-        if r.status_code >= 400:
-            print(f"  Discord HTTP {r.status_code}: {r.text[:300]}")
-        else:
-            print(f"  Discord upload OK")
-    except Exception as e:
-        print(f"  Discord upload error: {e}")
+    payload = {"content": message}
+    file_bytes = report_text.encode("utf-8")
+
+    for attempt in range(1, 6):
+        files = {
+            "payload_json": (None, json.dumps(payload), "application/json"),
+            "file": (filename, file_bytes, "text/markdown"),
+        }
+        try:
+            r = requests.post(webhook_url, files=files, timeout=60)
+            if r.status_code == 429 and attempt < 5:
+                try:
+                    retry = r.json().get("retry_after", 5)
+                except Exception:
+                    retry = 5
+                wait = float(retry) + 1.0
+                print(f"  Discord upload rate-limited (attempt {attempt}/5), sleeping {wait:.1f}s")
+                time.sleep(wait)
+                continue
+            if r.status_code >= 400:
+                print(f"  Discord HTTP {r.status_code}: {r.text[:300]}")
+            else:
+                print(f"  Discord upload OK")
+            return
+        except Exception as e:
+            print(f"  Discord upload error (attempt {attempt}/5): {e}")
+            if attempt < 5:
+                time.sleep(5)
+    print(f"  Discord upload FAILED after 5 attempts")
 
 
 if __name__ == "__main__":
