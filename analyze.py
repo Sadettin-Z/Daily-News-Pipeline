@@ -430,9 +430,15 @@ def main():
         send_to_discord(messages, webhook)
         print("Pausing 10s before file upload to let Discord rate-limit window drain...")
         time.sleep(10)
+        plain = strip_markdown(report_text)
+        chunks = split_report(plain)
+        if len(chunks) == 1:
+            files = [("Rapor.md", chunks[0])]
+        else:
+            n = len(chunks)
+            files = [(f"Rapor_{i+1}_of_{n}.md", c) for i, c in enumerate(chunks)]
         upload_report_to_discord(
-            strip_markdown(report_text),
-            "Rapor.md",
+            files,
             webhook,
             f"**Haber Kaynakları {date.today().strftime('%d %m %Y')}**",
         )
@@ -591,7 +597,7 @@ def build_discord_messages(output):
     return payloads
 
 
-def send_to_discord(payloads, webhook_url, delay=0.4):
+def send_to_discord(payloads, webhook_url, delay=2.0):
     """POST each chunked payload to the webhook. Respects 429 retry_after."""
     total = len(payloads)
     start = time.time()
@@ -647,17 +653,41 @@ def strip_markdown(text):
     return text
 
 
-def upload_report_to_discord(report_text, filename, webhook_url, message):
-    """POST a final message with the report attached as a .md file. No ping (already fired)."""
-    print(f"Uploading {filename} ({len(report_text):,} chars) to Discord...")
+def split_report(text, max_bytes=75_000):
+    """Split report text into parts <= max_bytes (UTF-8), breaking only at --- separators between stories.
+    Discord's in-browser file viewer truncates text files above ~80 KB, so we cap each part below that."""
+    parts = re.split(r'(?m)^---\s*$\n?', text)
+    blocks = []
+    for i, p in enumerate(parts):
+        if i < len(parts) - 1:
+            blocks.append(p + '---\n')
+        elif p.strip():
+            blocks.append(p)
+
+    files = []
+    current = ""
+    for block in blocks:
+        if current and len((current + block).encode("utf-8")) > max_bytes:
+            files.append(current)
+            current = block
+        else:
+            current += block
+    if current:
+        files.append(current)
+    return files
+
+
+def upload_report_to_discord(parts, webhook_url, message):
+    """POST a final message with the report attached as one or more .md files. No ping (already fired).
+    parts: list of (filename, text) tuples — all uploaded as attachments on the same message."""
+    total_chars = sum(len(text) for _, text in parts)
+    print(f"Uploading {len(parts)} file(s) ({total_chars:,} chars total) to Discord...")
     payload = {"content": message}
-    file_bytes = report_text.encode("utf-8")
 
     for attempt in range(1, 6):
-        files = {
-            "payload_json": (None, json.dumps(payload), "application/json"),
-            "file": (filename, file_bytes, "text/markdown"),
-        }
+        files = [("payload_json", (None, json.dumps(payload), "application/json"))]
+        for i, (fname, text) in enumerate(parts):
+            files.append((f"files[{i}]", (fname, text.encode("utf-8"), "text/markdown")))
         try:
             r = requests.post(webhook_url, files=files, timeout=60)
             if r.status_code == 429 and attempt < 5:
