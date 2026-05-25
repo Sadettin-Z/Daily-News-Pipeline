@@ -310,7 +310,7 @@ def fetch_html(url):
     return b"", url, last_err
 
 
-def get_articles_from_rss(rss_url, max_articles=10, hours=24):
+def get_articles_from_rss(rss_url, hours=24):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
 
     req = urllib.request.Request(rss_url, headers=HEADERS)
@@ -329,9 +329,6 @@ def get_articles_from_rss(rss_url, max_articles=10, hours=24):
     articles = []
 
     for item in root.findall(".//item"):
-        if len(articles) >= max_articles:
-            break
-
         title = item.findtext("title")
         url = item.findtext("link")
         date = item.findtext("pubDate")
@@ -378,7 +375,7 @@ def collect_articles():
     by_source = defaultdict(list)
     for source, feed_url in RSS_FEEDS.items():
         print(f"=== {source} ===")
-        articles = get_articles_from_rss(feed_url, max_articles=10, hours=24)
+        articles = get_articles_from_rss(feed_url, hours=24)
         if not articles:
             print("  No articles found in last 24 hours.")
             continue
