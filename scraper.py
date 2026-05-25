@@ -22,22 +22,27 @@ except ImportError:
     gnewsdecoder = None
 
 
-RSS_FEEDS = {
-    # Uluslararası
-     "apnews.com/google-news": "https://news.google.com/rss/search?q=site:apnews.com&hl=en&gl=US&ceid=US:en",
-     "bbc.com": "https://feeds.bbci.co.uk/news/world/rss.xml",
-     "aljazeera.com": "https://www.aljazeera.com/xml/rss/all.xml",
+# Add new sources to the matching dict below — RSS_FEEDS and TURKISH_SOURCES are derived from these.
+_INTERNATIONAL_FEEDS = {
+    "apnews.com/google-news": "https://news.google.com/rss/search?q=site:apnews.com&hl=en&gl=US&ceid=US:en",
+    "bbc.com": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "aljazeera.com": "https://www.aljazeera.com/xml/rss/all.xml",
     "npr.org": "https://feeds.npr.org/1001/rss.xml",
-     "theguardian.com": "https://www.theguardian.com/world/rss",
-     "propublica.org": "https://feeds.propublica.org/propublica/main",
-     "theintercept.com": "https://theintercept.com/feed/?rss",
-
-    # Türkiye
-     "sozcu.com.tr": "https://www.sozcu.com.tr/feeds-rss-category-sozcu",
-     "bloomberght.com": "https://www.bloomberght.com/rss",
-     "veryansintv.com/direct": "https://www.veryansintv.com/feed",
-     "bbc.com/turkce": "https://feeds.bbci.co.uk/turkce/rss.xml",
+    "theguardian.com": "https://www.theguardian.com/world/rss",
+    "propublica.org": "https://feeds.propublica.org/propublica/main",
+    "theintercept.com": "https://theintercept.com/feed/?rss",
 }
+
+_TURKISH_FEEDS = {
+    "sozcu.com.tr": "https://www.sozcu.com.tr/feeds-rss-category-sozcu",
+    "bloomberght.com": "https://www.bloomberght.com/rss",
+    "veryansintv.com/direct": "https://www.veryansintv.com/feed",
+    "bbc.com/turkce": "https://feeds.bbci.co.uk/turkce/rss.xml",
+}
+
+# International first, Turkish last — iteration order matters for the single-source report sections.
+RSS_FEEDS = {**_INTERNATIONAL_FEEDS, **_TURKISH_FEEDS}
+TURKISH_SOURCES = set(_TURKISH_FEEDS)
 
 
 HEADERS = {
@@ -100,7 +105,13 @@ def clean_text(text):
     if not text:
         return ""
 
-    text = html_lib.unescape(text)
+    # Some sources double-escape entities (&amp;ccedil;). One unescape pass leaves them
+    # as literal &ccedil; in the output, so loop until stable.
+    for _ in range(5):
+        unescaped = html_lib.unescape(text)
+        if unescaped == text:
+            break
+        text = unescaped
     text = text.replace("\xa0", " ")
 
     lines = []
@@ -267,6 +278,9 @@ def resolve_google_news_url(url):
 
 
 def fetch_html(url):
+    # Return raw bytes (not r.text) so downstream parsers can read the page's own meta-charset.
+    # requests/curl_cffi default to ISO-8859-1 when Content-Type has no charset, which mangles
+    # UTF-8 Turkish content (ş→ř, ğ→đ, etc.) consistently within each source.
     last_err = "ERROR_FETCH: no strategy attempted"
 
     for session, kwargs in FETCH_STRATEGIES:
@@ -277,7 +291,7 @@ def fetch_html(url):
             continue
 
         if r.status_code < 400:
-            return r.text, r.url, ""
+            return r.content, r.url, ""
 
         if r.status_code in [401, 403, 429]:
             last_err = f"ERROR_BLOCKED: HTTP {r.status_code}"
@@ -288,12 +302,12 @@ def fetch_html(url):
     try:
         r = requests.get(url, headers=HEADERS, timeout=20, allow_redirects=True)
         if r.status_code < 400:
-            return r.text, r.url, ""
+            return r.content, r.url, ""
         last_err = f"ERROR_HTTP: HTTP {r.status_code}"
     except Exception as e:
         last_err = f"ERROR_FETCH: {e}"
 
-    return "", url, last_err
+    return b"", url, last_err
 
 
 def get_articles_from_rss(rss_url, max_articles=10, hours=24):
