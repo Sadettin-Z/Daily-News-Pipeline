@@ -230,11 +230,30 @@ def parse_json_lenient(text):
         return json.loads(fixed)
 
 
+SUMMARIZE_BATCH_SIZE = 10  # Max articles per Gemini call. More than this hurts per-article quality.
+
+
 def summarize_source(source_name, articles):
-    """Stage 1: batch-summarize all articles from one source. Returns list of dicts."""
+    """Stage 1: summarize articles from one source. Splits into batches of SUMMARIZE_BATCH_SIZE
+    (e.g. 23 articles → batches of 10, 10, 3) and makes one Gemini call per batch."""
     if not articles:
         return []
 
+    batches = [
+        articles[i:i + SUMMARIZE_BATCH_SIZE]
+        for i in range(0, len(articles), SUMMARIZE_BATCH_SIZE)
+    ]
+
+    out = []
+    for batch_idx, batch in enumerate(batches, 1):
+        if len(batches) > 1:
+            print(f"  Batch {batch_idx}/{len(batches)} ({len(batch)} articles)")
+        out.extend(_summarize_batch(source_name, batch))
+    return out
+
+
+def _summarize_batch(source_name, articles):
+    """Send one batch (≤ SUMMARIZE_BATCH_SIZE articles) in a single Gemini call."""
     payload = "\n\n---\n\n".join(
         f"[{i}] TITLE: {a['title']}\nURL: {a['url']}\nTEXT: {a['text']}"
         for i, a in enumerate(articles)
@@ -259,36 +278,30 @@ def summarize_source(source_name, articles):
     }
 
     prompt = (
-        "You are producing COMPREHENSIVE, detail-preserving briefings of news articles. "
-        "These are NOT short abstracts. Coverage of every salient fact beats brevity. "
+        f"Articles:\n\n{payload}\n\n"
+
+        "Based on the articles above, produce one concise, scannable news briefing per article. "
+        "A reader should be able to absorb each briefing in one sitting. "
         "Write each briefing in the same language as the source article "
         "(Turkish stays Turkish, English stays English).\n\n"
 
         "For each numbered article, follow this procedure internally before writing:\n"
-        "  STEP 1 — Entity sweep. Identify EVERY salient detail in the article: "
-        "people (with full names, roles, titles), organizations and institutions, "
-        "places, dates and times, numbers, money figures, percentages, "
-        "laws and regulations, products, named events, direct quotes, "
-        "stated causes, stated consequences, and any qualifications or caveats.\n"
-        "  STEP 2 — Draft a briefing that incorporates every item from STEP 1.\n"
-        "  STEP 3 — Verify: re-check the article and confirm no salient detail is missing. "
-        "If anything is missing, fuse it in. Do NOT drop a detail to keep the text short.\n\n"
+        "  STEP 1 — Identify the CENTRAL facts: the main people (full names + roles), "
+        "the key organizations and places, the central event, the most important numbers and dates, "
+        "the primary cause and consequence, and at most one defining direct quote IF it adds substance.\n"
+        "  STEP 2 — Draft a tight briefing covering the central facts in flowing prose.\n"
+        "  STEP 3 — Trim: cut secondary details, minor entities, peripheral examples, "
+        "journalistic attribution (grant funders, editors, photo credits), and supporting quotes "
+        "that restate what other quotes already said. If a detail does not change the reader's "
+        "understanding of the main story, drop it.\n\n"
 
-        "Output style for the final briefing:\n"
-        "  - Length is dictated ENTIRELY by the article's information density. There is NO upper limit "
-        "and NO target sentence count. A long, fact-rich article MUST produce a long briefing. "
-        "If you find yourself compressing, summarizing, or skipping any named person, organization, place, "
-        "date, number, quote, cause, or consequence — STOP and rewrite to include it. "
-        "Err on the side of more detail, never less.\n"
-        "  - Preserve specific numbers, dates, full names, titles, and direct quotes VERBATIM.\n"
-        "  - Preserve the sequence of events and cause-effect chain.\n"
-        "  - Include attribution when the article gives it (\"X said\", \"according to Y\").\n"
+        "Constraints:\n"
+        "  - Stay tight. Only stretch when an article genuinely covers multiple distinct events.\n"
+        "  - Preserve central numbers, dates, full names, and titles VERBATIM.\n"
+        "  - Preserve the cause-effect chain and sequence of events.\n"
         "  - Flowing prose. No bullet points, no headings, no markdown.\n"
-        "  - Do NOT add information that is not in the source. Do NOT speculate or infer. "
-        "Length must come from the source's actual content, not from padding.\n\n"
-
-        "Return one entry per article using the article's index.\n\n"
-        f"Articles:\n\n{payload}"
+        "  - Do NOT add information that is not in the source. Do NOT speculate or infer.\n"
+        "  - Return one entry per article using the article's index."
     )
 
     response = gemini_generate(prompt, response_schema=schema)
@@ -367,8 +380,10 @@ def merge_cluster(items):
     }
 
     prompt = (
-        "These items report the SAME news event from different sources. "
-        "Produce TWO outputs in one response:\n"
+        f"Items:\n\n{payload}\n\n"
+
+        "The items above report the SAME news event from different sources. "
+        "Based on them, produce TWO outputs in one response:\n"
         "  1. title — a short, neutral, headline-style title for the event (≤15 words, no clickbait).\n"
         "  2. summary — ONE unified, COMPREHENSIVE briefing preserving every salient detail across all sources. "
         "Coverage beats brevity.\n\n"
@@ -384,7 +399,7 @@ def merge_cluster(items):
         "  STEP 3 — Verify: re-check each item and confirm no salient detail is missing. "
         "If only one source mentions a detail, KEEP IT.\n\n"
 
-        "Style for the summary:\n"
+        "Constraints:\n"
         "  - Length is dictated by the COMBINED information density of all sources. There is NO upper limit "
         "and NO target sentence count. If multiple sources together provide many distinct facts, "
         "the merged briefing MUST be long. Err on the side of more detail, never less. "
@@ -393,9 +408,7 @@ def merge_cluster(items):
         "  - Preserve sequence of events and cause-effect chain.\n"
         "  - Flowing prose. No bullets, no headings, no markdown.\n"
         "  - Language for BOTH title and summary: use the language of the MAJORITY of items.\n"
-        "  - Do NOT invent details. Do NOT speculate. Length must come from the sources' actual content.\n\n"
-
-        f"Items:\n\n{payload}"
+        "  - Do NOT invent details. Do NOT speculate. Length must come from the sources' actual content."
     )
 
     response = gemini_generate(prompt, response_schema=schema)
