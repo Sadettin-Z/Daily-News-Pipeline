@@ -20,12 +20,45 @@ try:
 except ImportError:
     print("[env] python-dotenv not installed; using OS environment only")
 
-from scraper import collect_articles, RSS_FEEDS
+from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES
+
+
+# Relevance criteria for the post-summary filter. Edit freely; the LLM reads this verbatim.
+# Bias is intentionally conservative — when unsure, the article is kept.
+INTERESTS = """
+You are filtering news for a reader who follows world affairs and Turkish politics/economy.
+Apply criteria MODERATELY — when genuinely unsure between KEEP and DROP, KEEP.
+
+KEEP:
+- International geopolitics, diplomacy, wars, conflicts, peace processes
+- Turkish politics, government decisions, judicial cases of national significance
+- Turkish economy, lira, central bank, major Turkish corporate news
+- Foreign policy decisions affecting Türkiye, the Middle East, or major powers
+- Major global economic developments — markets, central banks, trade policy, sanctions, large M&A
+- Significant technology / science breakthroughs with broad social, economic, or geopolitical implications
+- Major business stories with industry-wide or regulatory impact (antitrust, large bankruptcies, major investigations)
+- Investigative journalism, exposés, leaks of public interest
+- Major social/political movements, protests, civil unrest
+- Climate, energy, environment policy and major related events
+- Health policy, pandemics, major medical or public-health developments
+- Major attacks, large-scale violence with political dimension
+
+DROP:
+- Sports of any kind — football, basketball, NBA, tennis, F1, Olympics, individual athletes, match results, transfers
+- Celebrity gossip, entertainment industry, individual celebrities' personal lives, TV shows, awards
+- Lifestyle content — DIY tips, recipes, cleaning hacks, "amazing trick" listicles, before/after transformations
+- Hyper-local incidents in any country — single house fires, single car accidents, isolated shark attacks, individual crimes — UNLESS they have broader political/policy implications
+- Minor business stories — single small-company layoffs, single-store closures, small class actions, gadget releases, app updates
+- Routine product reviews, unboxings, "best of" lists
+- Weather — unless major disaster (hurricane landfall, large earthquake)
+- Clickbait — "you won't believe", "amazing", before/after transformations, "one weird trick"
+- Hyper-local Turkish news — local building fires, local accidents, isolated petty crimes
+""".strip()
 
 
 # Up to 4 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_4
 # Falls back to GEMINI_API_KEY if numbered keys are not set.
-PRIMARY_MODEL = "gemini-3-flash-preview"
+PRIMARY_MODEL = "gemini-3.5-flash"
 FALLBACK_MODEL = "gemini-2.5-pro"
 FALLBACK_THINKING_BUDGET = 24576  # Gemini API max for 2.5-pro; 2.5 series uses thinking_budget (int), not thinking_level
 
@@ -370,6 +403,57 @@ def merge_cluster(items):
     return data["title"], data["summary"]
 
 
+def filter_summaries(summaries):
+    """Drop summaries that don't match INTERESTS. Falls back to keeping all on filter failure
+    so a single bad LLM response can't wipe out the report."""
+    if not summaries:
+        return summaries
+
+    payload = "\n\n".join(
+        f"[{i}] ({s['source']}) {s['title']}\n{s['summary']}"
+        for i, s in enumerate(summaries)
+    )
+
+    schema = {
+        "type": "object",
+        "properties": {
+            "drop_indices": {
+                "type": "array",
+                "items": {"type": "integer"},
+            },
+        },
+        "required": ["drop_indices"],
+    }
+
+    prompt = (
+        f"{INTERESTS}\n\n"
+        "Below are news article briefings, each with a source and title. "
+        "Based on the criteria above, decide which to DROP. "
+        "When genuinely unsure, KEEP. Return ONLY the indices to drop, no other indices.\n\n"
+        f"Items:\n\n{payload}"
+    )
+
+    print(f"Filtering {len(summaries)} summaries against interest criteria...")
+    try:
+        response = gemini_generate(prompt, response_schema=schema)
+        data = parse_json_lenient(response.text)
+        drop = {i for i in data.get("drop_indices", []) if 0 <= i < len(summaries)}
+    except Exception as e:
+        print(f"  Filter call failed ({e}); keeping all.")
+        return summaries
+
+    kept = [s for i, s in enumerate(summaries) if i not in drop]
+    print(f"  Kept {len(kept)}/{len(summaries)} ({len(drop)} dropped)")
+    if drop:
+        print("  Dropped:")
+        ordered = sorted(drop)
+        for i in ordered[:30]:
+            print(f"    - [{summaries[i]['source']}] {summaries[i]['title'][:80]}")
+        if len(ordered) > 30:
+            print(f"    ... and {len(ordered)-30} more")
+    return kept
+
+
 def main():
     articles_by_source = collect_articles()
 
@@ -380,6 +464,11 @@ def main():
 
     if not all_summaries:
         print("No articles collected.")
+        return
+
+    all_summaries = filter_summaries(all_summaries)
+    if not all_summaries:
+        print("Interest filter dropped everything — nothing to report.")
         return
 
     print(f"Clustering {len(all_summaries)} summaries...")
@@ -446,11 +535,19 @@ def main():
         print("DISCORD_WEBHOOK_URL not set in env — skipping Discord. Add it to keys/.env to enable.")
 
 
+def _is_turkish_cluster(entry):
+    """A cluster counts as Turkish if more than half its sources are Turkish-language feeds.
+    Used to sort multi-source stories: English clusters first, Turkish clusters last."""
+    n_tr = sum(1 for s in entry["sources"] if s["source"] in TURKISH_SOURCES)
+    return n_tr * 2 > len(entry["sources"])
+
+
 def build_report_text(output):
     """Return the full Markdown report as a single string (no file I/O)."""
     from datetime import date
 
     multi = [e for e in output if len(e["sources"]) > 1]
+    multi.sort(key=_is_turkish_cluster)  # False (English) before True (Turkish); stable sort preserves rest
     singles = [e for e in output if len(e["sources"]) == 1]
 
     by_source = {}
@@ -567,6 +664,7 @@ def build_discord_messages(output):
     from datetime import date
 
     multi = [e for e in output if len(e["sources"]) > 1]
+    multi.sort(key=_is_turkish_cluster)  # English clusters first, Turkish last
     singles = [e for e in output if len(e["sources"]) == 1]
 
     by_source = {}
@@ -653,9 +751,10 @@ def strip_markdown(text):
     return text
 
 
-def split_report(text, max_bytes=75_000):
+def split_report(text, max_bytes=48_000):
     """Split report text into parts <= max_bytes (UTF-8), breaking only at --- separators between stories.
-    Discord's in-browser file viewer truncates text files above ~80 KB, so we cap each part below that."""
+    Discord's in-browser file viewer truncates around ~50 KB even when 'View whole document' is clicked,
+    so we cap below that to keep every part fully previewable."""
     parts = re.split(r'(?m)^---\s*$\n?', text)
     blocks = []
     for i, p in enumerate(parts):
