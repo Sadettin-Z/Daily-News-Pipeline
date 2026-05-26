@@ -20,7 +20,7 @@ try:
 except ImportError:
     print("[env] python-dotenv not installed; using OS environment only")
 
-from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES
+from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES, normalize_turkish_chars
 
 
 # Relevance criteria for the post-summary filter. Edit freely; the LLM reads this verbatim.
@@ -220,7 +220,9 @@ def gemini_generate(contents, response_schema=None):
 
 
 def parse_json_lenient(text):
-    """Parse Gemini JSON output, repairing malformed \\uXXXX escapes if needed."""
+    """Parse Gemini JSON output, repairing malformed \\uXXXX escapes and fixing
+    LLM Turkish-char substitutions (ř→ş, đ→ğ, ¼/ù→ü, etc.) before parsing."""
+    text = normalize_turkish_chars(text)
     try:
         return json.loads(text)
     except json.JSONDecodeError:
@@ -459,11 +461,8 @@ def filter_summaries(summaries):
     print(f"  Kept {len(kept)}/{len(summaries)} ({len(drop)} dropped)")
     if drop:
         print("  Dropped:")
-        ordered = sorted(drop)
-        for i in ordered[:30]:
-            print(f"    - [{summaries[i]['source']}] {summaries[i]['title'][:80]}")
-        if len(ordered) > 30:
-            print(f"    ... and {len(ordered)-30} more")
+        for i in sorted(drop):
+            print(f"    - [{summaries[i]['source']}] {summaries[i]['title']}")
     return kept
 
 
