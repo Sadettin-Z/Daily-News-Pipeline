@@ -101,6 +101,29 @@ def parse_rss_date(date_str):
         return None
 
 
+_TURKISH_CHAR_FIXES = str.maketrans({
+    "ř": "ş", "Ř": "Ş",
+    "đ": "ğ", "Đ": "Ğ",
+    "¼": "ü",
+    "ù": "ü", "Ù": "Ü",
+    "ě": "e", "Ě": "E",
+    "ő": "ş", "Ő": "Ş",
+    "ţ": "ş", "Ţ": "Ş",
+    "ĺ": "ş", "Ĺ": "Ş",
+})
+
+
+def normalize_turkish_chars(text):
+    """Fix LLM-output character substitutions where the model picks visually-similar
+    Slavic/Romance chars instead of the intended Turkish ones (ř→ş, đ→ğ, ¼→ü, etc.).
+    Also strips stray underscores the model sometimes inserts between Turkish chars."""
+    if not text:
+        return text
+    text = text.translate(_TURKISH_CHAR_FIXES)
+    text = re.sub(r"([şğüöçıİŞĞÜÖÇI])_(?=[a-zA-ZşğüöçıİŞĞÜÖÇI])", r"\1", text)
+    return text
+
+
 def clean_text(text):
     if not text:
         return ""
