@@ -27,7 +27,23 @@ from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES, normalize_turk
 # Bias is intentionally conservative — when unsure, the article is kept.
 INTERESTS = """
 You are filtering news for a reader who follows world affairs and Turkish politics/economy.
-Apply criteria MODERATELY — when genuinely unsure between KEEP and DROP, KEEP.
+Apply criteria moderately — when genuinely unsure between keep and drop, keep.
+
+For news that's internal to a single country (anywhere in the world, not just Türkiye), the question isn't "did something happen there" but "does this story carry a signal that travels beyond its borders?" An ordinary domestic story without that signal — even if technically political, dramatic, or unusual — is not interesting.
+
+Keep a country-internal story when:
+- It reveals something distinctive about that country's culture, legal system, or social conditions — a death caused by a state-level abortion ban, a court ruling that breaks long-standing precedent, a pattern of religious or ethnic violence, a public-health failure that says something about institutional capacity.
+- It involves a globally recognized head of state or defining political figure (Trump, Netanyahu, Putin, Xi, Macron, Modi, etc.) and what they did or said reveals something about their strategy, psychology, or political project.
+- It could shift a national outcome the rest of the world cares about — a US presidential election development, a Chinese leadership decision, a major-economy policy turn.
+- It has a direct cross-border consequence — outbreak crossing borders, financial contagion, refugee flow, conflict spreading.
+
+Drop a country-internal story when:
+- It's routine sub-national politics — state redistricting maps, congressional primary endorsements, state-legislator behavior, local party realignments — even if technically political.
+- It's a personnel or institutional announcement — CEO replacement, news-director appointment, board reshuffle, ambassador appointment without scandal.
+- It centers on an individual the international reader wouldn't recognize (state-level officials, mid-tier executives, sub-national party figures) and they're not standing in for a larger trend.
+- It's a quirky crime, fraud, or eccentric corruption case (a CIA officer stealing gold bars, an unusual theft, a colorful scandal) — entertaining isn't the same as significant.
+- It's a procedural court step (filing made, motion submitted, trial begins, hearing scheduled) where nothing unusual has actually happened yet. Keep it if the outcome is unexpected or sets a new precedent; drop it if it's just "the case is proceeding as expected."
+- It's a local commercial or environmental dispute (a regional project delay, a state-level permit fight) without national or industry-wide impact.
 
 KEEP:
 - International geopolitics, diplomacy, wars, conflicts, peace processes
@@ -47,7 +63,7 @@ DROP:
 - Sports of any kind — football, basketball, NBA, tennis, F1, Olympics, individual athletes, match results, transfers
 - Celebrity gossip, entertainment industry, individual celebrities' personal lives, TV shows, awards
 - Lifestyle content — DIY tips, recipes, cleaning hacks, "amazing trick" listicles, before/after transformations
-- Hyper-local incidents in any country — single house fires, single car accidents, isolated shark attacks, individual crimes — UNLESS they have broader political/policy implications
+- Hyper-local incidents in any country — single house fires, single car accidents, isolated shark attacks, individual crimes — unless they have broader political/policy implications
 - Minor business stories — single small-company layoffs, single-store closures, small class actions, gadget releases, app updates
 - Routine product reviews, unboxings, "best of" lists
 - Weather — unless major disaster (hurricane landfall, large earthquake)
@@ -219,17 +235,32 @@ def gemini_generate(contents, response_schema=None):
     )
 
 
+def _normalize_strings(obj):
+    """Walk a parsed JSON structure and normalize every string value."""
+    if isinstance(obj, str):
+        return normalize_turkish_chars(obj)
+    if isinstance(obj, list):
+        return [_normalize_strings(x) for x in obj]
+    if isinstance(obj, dict):
+        return {k: _normalize_strings(v) for k, v in obj.items()}
+    return obj
+
+
 def parse_json_lenient(text):
-    """Parse Gemini JSON output, repairing malformed \\uXXXX escapes and fixing
-    LLM Turkish-char substitutions (ř→ş, đ→ğ, ¼/ù→ü, etc.) before parsing."""
+    """Parse Gemini JSON output, repairing malformed \\uXXXX escapes, then normalize
+    every string in the parsed result. Post-parse normalization is required because
+    Gemini may emit a corrupted char as a \\uXXXX escape (e.g. \\u0159 for ř) — those
+    only become real characters after json.loads, so a raw-text pass would miss them."""
+    # First, normalize the raw JSON in case literal corrupted chars sit inside it.
     text = normalize_turkish_chars(text)
     try:
-        return json.loads(text)
+        data = json.loads(text)
     except json.JSONDecodeError:
         # Gemini occasionally emits a stray \u not followed by 4 hex digits.
         # Re-escape those backslashes so the literal characters survive parsing.
         fixed = re.sub(r'\\u(?![0-9a-fA-F]{4})', r'\\\\u', text)
-        return json.loads(fixed)
+        data = json.loads(fixed)
+    return _normalize_strings(data)
 
 
 SUMMARIZE_BATCH_SIZE = 10  # Max articles per Gemini call. More than this hurts per-article quality.
