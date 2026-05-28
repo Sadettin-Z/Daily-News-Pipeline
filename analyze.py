@@ -315,8 +315,9 @@ def _summarize_batch(source_name, articles):
 
         "Based on the articles above, produce one concise, scannable news briefing per article. "
         "A reader should be able to absorb each briefing in one sitting. "
-        "Write each briefing in the same language as the source article "
-        "(Turkish stays Turkish, English stays English).\n\n"
+        "Language rule: Turkish source → write the briefing in Turkish. "
+        "Any other language (English, German, French, etc.) → write the briefing in English. "
+        "If the source is German or French, translate as you summarize.\n\n"
 
         "For each numbered article, follow this procedure internally before writing:\n"
         "  STEP 1 — Identify the CENTRAL facts: the main people (full names + roles), "
