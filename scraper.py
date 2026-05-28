@@ -1,11 +1,12 @@
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
-from collections import defaultdict
+from collections import Counter, defaultdict
 import xml.etree.ElementTree as ET
 import urllib.request
 import html as html_lib
 import json
 import re
+import unicodedata
 import requests
 from curl_cffi import requests as cffi_requests
 import trafilatura
@@ -112,16 +113,29 @@ _TURKISH_CHAR_FIXES = str.maketrans({
     "ĺ": "ş", "Ĺ": "Ş",
 })
 
+# Anti-scraping placeholder: %XYZ (3 digits) sandwiched between letters, e.g. "T%300rk".
+# Some Turkish sources use a custom web font where bytes like %300 render as a real
+# Turkish character. When scraped as text we just get the bytes, with no way to know
+# which letter they represented — so we replace with '?' rather than guess.
+# URLs use 2-hex-digit encoding (%XX), so this pattern won't false-positive on them.
+_PLACEHOLDER_PATTERN = re.compile(
+    r"(?<=[A-Za-zçğıöşüÇĞİÖŞÜ])%\d{3}(?=[A-Za-zçğıöşüÇĞİÖŞÜ])"
+)
+
 
 def normalize_turkish_chars(text):
-    """Fix LLM-output character substitutions where the model picks visually-similar
-    Slavic/Romance chars instead of the intended Turkish ones (ř→ş, đ→ğ, ¼→ü, etc.).
+    """Make Turkish text safe for the report. Three layers:
+    1. NFC-normalize — collapses decomposed forms (r + combining caron) into ř,
+       so the translation table below can actually match them.
+    2. Translate known LLM/encoding substitutions (ř→ş, đ→ğ, ¼→ü, etc.).
+    3. Replace unrecoverable anti-scraping placeholders (%300-style) with '?'.
     Also strips stray underscores the model sometimes inserts between Turkish chars."""
     if not text:
         return text
+    text = unicodedata.normalize("NFC", text)
     text = text.translate(_TURKISH_CHAR_FIXES)
     text = re.sub(r"([şğüöçıİŞĞÜÖÇI])_(?=[a-zA-ZşğüöçıİŞĞÜÖÇI])", r"\1", text)
-    return text
+    return _PLACEHOLDER_PATTERN.sub("?", text)
 
 
 def clean_text(text):
@@ -402,15 +416,30 @@ def collect_articles():
         if not articles:
             print("  No articles found in last 24 hours.")
             continue
+        breakdown = Counter()
+        failures = []
+        placeholder_hits = 0
         for item in articles:
             text, _, kind = get_article_text(item)
+            breakdown[kind] += 1
             if kind == "PAGE":
+                clean_title = normalize_turkish_chars(item["title"])
+                clean_body = normalize_turkish_chars(text)
+                if "?" in clean_body and _PLACEHOLDER_PATTERN.search(text):
+                    placeholder_hits += 1
+                    print(f"    placeholder corruption from {item['url']}")
                 by_source[source].append({
-                    "title": item["title"],
+                    "title": clean_title,
                     "url": item["url"],
-                    "text": text,
+                    "text": clean_body,
                 })
-        print(f"  Collected {len(by_source[source])} articles.")
+            elif kind == "ERROR":
+                failures.append((item["title"][:60], text[:100]))
+        print(f"  Collected {len(by_source[source])} of {len(articles)} (breakdown: {dict(breakdown)})")
+        if placeholder_hits:
+            print(f"    {placeholder_hits} article(s) had %NNN placeholder corruption (source-side obfuscation)")
+        for title, err in failures[:5]:
+            print(f"    fail: {err} :: {title}")
     return by_source
 
 
