@@ -25,13 +25,17 @@ except ImportError:
 
 # Add new sources to the matching dict below — RSS_FEEDS and TURKISH_SOURCES are derived from these.
 _INTERNATIONAL_FEEDS = {
-    "apnews.com/google-news": "https://news.google.com/rss/search?q=site:apnews.com&hl=en&gl=US&ceid=US:en",
+    "nytimes.com": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "cnn.com": "http://rss.cnn.com/rss/edition_world.rss",
     "bbc.com": "https://feeds.bbci.co.uk/news/world/rss.xml",
     "aljazeera.com": "https://www.aljazeera.com/xml/rss/all.xml",
     "npr.org": "https://feeds.npr.org/1001/rss.xml",
     "theguardian.com": "https://www.theguardian.com/world/rss",
     "propublica.org": "https://feeds.propublica.org/propublica/main",
     "theintercept.com": "https://theintercept.com/feed/?rss",
+    "lemonde.fr/en": "https://www.lemonde.fr/en/rss/une.xml",
+    "spiegel.de/international": "https://www.spiegel.de/international/index.rss",
+    "welt.de": "https://www.welt.de/feeds/section/politik/ausland.rss",
 }
 
 _TURKISH_FEEDS = {
