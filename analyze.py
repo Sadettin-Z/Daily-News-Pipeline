@@ -20,30 +20,14 @@ try:
 except ImportError:
     print("[env] python-dotenv not installed; using OS environment only")
 
-from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES, normalize_turkish_chars
+from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES, NON_ENGLISH_INTERNATIONAL_SOURCES, normalize_turkish_chars
 
 
 # Relevance criteria for the post-summary filter. Edit freely; the LLM reads this verbatim.
 # Bias is intentionally conservative — when unsure, the article is kept.
 INTERESTS = """
 You are filtering news for a reader who follows world affairs and Turkish politics/economy.
-Apply criteria moderately — when genuinely unsure between keep and drop, keep.
-
-For news that's internal to a single country (anywhere in the world, not just Türkiye), the question isn't "did something happen there" but "does this story carry a signal that travels beyond its borders?" An ordinary domestic story without that signal — even if technically political, dramatic, or unusual — is not interesting.
-
-Keep a country-internal story when:
-- It reveals something distinctive about that country's culture, legal system, or social conditions — a death caused by a state-level abortion ban, a court ruling that breaks long-standing precedent, a pattern of religious or ethnic violence, a public-health failure that says something about institutional capacity.
-- It involves a globally recognized head of state or defining political figure (Trump, Netanyahu, Putin, Xi, Macron, Modi, etc.) and what they did or said reveals something about their strategy, psychology, or political project.
-- It could shift a national outcome the rest of the world cares about — a US presidential election development, a Chinese leadership decision, a major-economy policy turn.
-- It has a direct cross-border consequence — outbreak crossing borders, financial contagion, refugee flow, conflict spreading.
-
-Drop a country-internal story when:
-- It's routine sub-national politics — state redistricting maps, congressional primary endorsements, state-legislator behavior, local party realignments — even if technically political.
-- It's a personnel or institutional announcement — CEO replacement, news-director appointment, board reshuffle, ambassador appointment without scandal.
-- It centers on an individual the international reader wouldn't recognize (state-level officials, mid-tier executives, sub-national party figures) and they're not standing in for a larger trend.
-- It's a quirky crime, fraud, or eccentric corruption case (a CIA officer stealing gold bars, an unusual theft, a colorful scandal) — entertaining isn't the same as significant.
-- It's a procedural court step (filing made, motion submitted, trial begins, hearing scheduled) where nothing unusual has actually happened yet. Keep it if the outcome is unexpected or sets a new precedent; drop it if it's just "the case is proceeding as expected."
-- It's a local commercial or environmental dispute (a regional project delay, a state-level permit fight) without national or industry-wide impact.
+When genuinely unsure between keep and drop, KEEP.
 
 KEEP:
 - International geopolitics, diplomacy, wars, conflicts, peace processes
@@ -56,19 +40,28 @@ KEEP:
 - Investigative journalism, exposés, leaks of public interest
 - Major social/political movements, protests, civil unrest
 - Climate, energy, environment policy and major related events
-- Health policy, pandemics, major medical or public-health developments
+- Health policy, pandemics, treatment or vaccine breakthroughs, major medical or public-health developments — not single observational studies
 - Major attacks, large-scale violence with political dimension
+- Actions or statements by globally recognized heads of state (Trump, Netanyahu, Putin, Xi, Macron, Modi, etc.) that reveal strategy or political project
+- Country-internal stories carrying a signal beyond their borders: precedent-setting rulings on issues of broad international debate (rights, speech, antitrust, religion), institutional failures revealing capacity problems, patterns of religious/ethnic violence, direct cross-border consequences (contagion, refugee flow, conflict spread)
 
 DROP:
 - Sports of any kind — football, basketball, NBA, tennis, F1, Olympics, individual athletes, match results, transfers
-- Celebrity gossip, entertainment industry, individual celebrities' personal lives, TV shows, awards
+- Celebrity gossip, entertainment industry, TV shows, awards, personal lives of celebrities
 - Lifestyle content — DIY tips, recipes, cleaning hacks, "amazing trick" listicles, before/after transformations
-- Hyper-local incidents in any country — single house fires, single car accidents, isolated shark attacks, individual crimes — unless they have broader political/policy implications
-- Minor business stories — single small-company layoffs, single-store closures, small class actions, gadget releases, app updates
+- Hyper-local incidents — single fires, single accidents, individual crimes — unless they have broader political/policy implications
+- Minor business stories — small-company layoffs, single-store closures, small class actions, gadget releases, app updates
 - Routine product reviews, unboxings, "best of" lists
 - Weather — unless major disaster (hurricane landfall, large earthquake)
-- Clickbait — "you won't believe", "amazing", before/after transformations, "one weird trick"
-- Hyper-local Turkish news — local building fires, local accidents, isolated petty crimes
+- Clickbait — "you won't believe", "amazing", "one weird trick"
+- Routine sub-national politics — state redistricting, congressional primary endorsements, local party realignments, state-legislator behavior
+- Personnel or institutional announcements — CEO replacements, news-director appointments, board reshuffles, ambassador appointments without scandal
+- Stories centered on figures the international reader wouldn't recognize (state-level officials, mid-tier executives, sub-national party figures) unless they stand in for a larger trend
+- Quirky crime, fraud, or eccentric corruption cases — entertaining is not significant
+- Procedural court steps (filing made, motion submitted, trial begins, hearing scheduled) where nothing unusual has happened yet
+- Local commercial or environmental disputes without national or industry-wide impact
+- Single accidents (road, rail, air) without political or terror dimension, even with high casualties
+- Domestic stories with no cross-border signal, no globally recognized figure, and no precedent-setting outcome
 """.strip()
 
 
@@ -287,10 +280,21 @@ def summarize_source(source_name, articles):
 
 def _summarize_batch(source_name, articles):
     """Send one batch (≤ SUMMARIZE_BATCH_SIZE articles) in a single Gemini call."""
+    translate_titles = source_name in NON_ENGLISH_INTERNATIONAL_SOURCES
+
     payload = "\n\n---\n\n".join(
         f"[{i}] TITLE: {a['title']}\nURL: {a['url']}\nTEXT: {a['text']}"
         for i, a in enumerate(articles)
     )
+
+    item_props = {
+        "index": {"type": "integer"},
+        "summary": {"type": "string"},
+    }
+    required = ["index", "summary"]
+    if translate_titles:
+        item_props["title_en"] = {"type": "string"}
+        required.append("title_en")
 
     schema = {
         "type": "object",
@@ -299,16 +303,19 @@ def _summarize_batch(source_name, articles):
                 "type": "array",
                 "items": {
                     "type": "object",
-                    "properties": {
-                        "index": {"type": "integer"},
-                        "summary": {"type": "string"},
-                    },
-                    "required": ["index", "summary"],
+                    "properties": item_props,
+                    "required": required,
                 },
             },
         },
         "required": ["summaries"],
     }
+
+    title_instruction = (
+        "  - Also provide title_en: a faithful English translation of the article's original title. "
+        "Preserve names, places, numbers, and quoted phrases verbatim. Do not editorialize.\n"
+        if translate_titles else ""
+    )
 
     prompt = (
         f"Articles:\n\n{payload}\n\n"
@@ -335,6 +342,7 @@ def _summarize_batch(source_name, articles):
         "  - Preserve the cause-effect chain and sequence of events.\n"
         "  - Flowing prose. No bullet points, no headings, no markdown.\n"
         "  - Do NOT add information that is not in the source. Do NOT speculate or infer.\n"
+        f"{title_instruction}"
         "  - Return one entry per article using the article's index."
     )
 
@@ -345,9 +353,14 @@ def _summarize_batch(source_name, articles):
     for entry in data.get("summaries", []):
         i = entry.get("index", -1)
         if 0 <= i < len(articles):
+            title = articles[i]["title"]
+            if translate_titles:
+                title_en = (entry.get("title_en") or "").strip()
+                if title_en:
+                    title = title_en
             out.append({
                 "source": source_name,
-                "title": articles[i]["title"],
+                "title": title,
                 "url": articles[i]["url"],
                 "summary": entry["summary"],
             })
@@ -473,11 +486,10 @@ def filter_summaries(summaries):
     }
 
     prompt = (
+        f"Items (each with index, source, title, briefing):\n\n{payload}\n\n"
         f"{INTERESTS}\n\n"
-        "Below are news article briefings, each with a source and title. "
-        "Based on the criteria above, decide which to DROP. "
-        "When genuinely unsure, KEEP. Return ONLY the indices to drop, no other indices.\n\n"
-        f"Items:\n\n{payload}"
+        "Apply the criteria above to the items. Return drop_indices: the indices of items to DROP. "
+        "When genuinely unsure, KEEP (omit the index). Return only drop_indices."
     )
 
     print(f"Filtering {len(summaries)} summaries against interest criteria...")
