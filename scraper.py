@@ -23,8 +23,9 @@ except ImportError:
     gnewsdecoder = None
 
 
-# Add new sources to the matching dict below — RSS_FEEDS and TURKISH_SOURCES are derived from these.
-_INTERNATIONAL_FEEDS = {
+# Add new sources to the matching dict below — RSS_FEEDS, TURKISH_SOURCES, and
+# NON_ENGLISH_INTERNATIONAL_SOURCES are derived from these.
+_INTERNATIONAL_FEEDS_EN = {
     "nytimes.com": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
     "cnn.com": "http://rss.cnn.com/rss/edition_world.rss",
     "bbc.com": "https://feeds.bbci.co.uk/news/world/rss.xml",
@@ -35,6 +36,11 @@ _INTERNATIONAL_FEEDS = {
     "theintercept.com": "https://theintercept.com/feed/?rss",
     "lemonde.fr/en": "https://www.lemonde.fr/en/rss/une.xml",
     "spiegel.de/international": "https://www.spiegel.de/international/index.rss",
+}
+
+# International sources whose titles are NOT in English. Titles from these
+# get translated to English at summarization time so the report stays readable.
+_INTERNATIONAL_FEEDS_NON_EN = {
     "welt.de": "https://www.welt.de/feeds/section/politik/ausland.rss",
 }
 
@@ -45,9 +51,12 @@ _TURKISH_FEEDS = {
     "bbc.com/turkce": "https://feeds.bbci.co.uk/turkce/rss.xml",
 }
 
+_INTERNATIONAL_FEEDS = {**_INTERNATIONAL_FEEDS_EN, **_INTERNATIONAL_FEEDS_NON_EN}
+
 # International first, Turkish last — iteration order matters for the single-source report sections.
 RSS_FEEDS = {**_INTERNATIONAL_FEEDS, **_TURKISH_FEEDS}
 TURKISH_SOURCES = set(_TURKISH_FEEDS)
+NON_ENGLISH_INTERNATIONAL_SOURCES = set(_INTERNATIONAL_FEEDS_NON_EN)
 
 
 HEADERS = {
