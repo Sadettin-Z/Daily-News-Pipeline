@@ -68,8 +68,6 @@ DROP:
 # Up to 4 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_4
 # Falls back to GEMINI_API_KEY if numbered keys are not set.
 PRIMARY_MODEL = "gemini-3.5-flash"
-FALLBACK_MODEL = "gemini-2.5-pro"
-FALLBACK_THINKING_BUDGET = 24576  # Gemini API max for 2.5-pro; 2.5 series uses thinking_budget (int), not thinking_level
 
 _raw_keys = {f"GEMINI_API_KEY_{i}": os.environ.get(f"GEMINI_API_KEY_{i}") for i in range(1, 5)}
 GEMINI_KEYS = [v for v in _raw_keys.values() if v]
@@ -119,11 +117,7 @@ def _short_err(e):
 
 
 def _build_config(model, response_schema):
-    # Gemini 3+ uses thinking_level; 2.5 series uses thinking_budget (mixing the two returns 400).
-    if model.startswith("gemini-2.5"):
-        thinking = types.ThinkingConfig(thinking_budget=FALLBACK_THINKING_BUDGET)
-    else:
-        thinking = types.ThinkingConfig(thinking_level="high")
+    thinking = types.ThinkingConfig(thinking_level="high")
     if response_schema is not None:
         return types.GenerateContentConfig(
             response_mime_type="application/json",
@@ -134,97 +128,81 @@ def _build_config(model, response_schema):
 
 
 def gemini_generate(contents, response_schema=None):
-    """Try PRIMARY_MODEL across all keys, then fall back to FALLBACK_MODEL across all keys."""
+    """Run PRIMARY_MODEL across all keys, retrying transient failures."""
     if not GEMINI_KEYS:
         raise RuntimeError("No Gemini API keys configured. Set GEMINI_API_KEY_1..4 or GEMINI_API_KEY.")
 
     quota_signals = ("429", "quota", "rate limit", "rate_limit", "resource_exhausted", "exhausted")
-    transient_signals = ("503", "unavailable", "overloaded", "high demand", "502", "504", "499", "deadline", "timeout", "timed out", "cancelled", "canceled", "empty response")
+    transient_signals = ("503", "unavailable", "overloaded", "high demand", "502", "504", "499", "deadline", "timeout", "timed out", "cancelled", "canceled", "empty response", "server disconnected", "remoteprotocolerror", "connection reset", "connection aborted", "connection closed", "broken pipe", "incomplete read")
     not_found_signals = ("404", "not_found", "not found", "is not supported")
 
-    models = [PRIMARY_MODEL, FALLBACK_MODEL]
     last_err = None
     last_was_transient = False
+    model = PRIMARY_MODEL
+    config = _build_config(model, response_schema)
 
     MAX_MODEL_ATTEMPTS = 3       # initial pass + up to 2 retries on all-transient rounds
     TRANSIENT_RETRY_WAIT = 20    # base seconds; multiplied by attempt number for backoff
 
-    for i, model in enumerate(models):
-        next_model = models[i + 1] if i + 1 < len(models) else None
-        config = _build_config(model, response_schema)
-        model_unavailable = False
+    for attempt in range(1, MAX_MODEL_ATTEMPTS + 1):
+        round_quota = 0
+        round_transient = 0
 
-        for attempt in range(1, MAX_MODEL_ATTEMPTS + 1):
-            round_quota = 0
-            round_transient = 0
-
-            for key_idx, key in _rotated_keys():
-                client = genai.Client(
-                    api_key=key,
-                    http_options=types.HttpOptions(timeout=180_000),
+        for key_idx, key in _rotated_keys():
+            client = genai.Client(
+                api_key=key,
+                http_options=types.HttpOptions(timeout=180_000),
+            )
+            try:
+                response = client.models.generate_content(
+                    model=model,
+                    contents=contents,
+                    config=config,
                 )
-                try:
-                    response = client.models.generate_content(
-                        model=model,
-                        contents=contents,
-                        config=config,
-                    )
-                    if not response.text:
-                        finish, block = "?", "?"
-                        try:
-                            if response.candidates:
-                                finish = str(response.candidates[0].finish_reason)
-                            if response.prompt_feedback and response.prompt_feedback.block_reason:
-                                block = str(response.prompt_feedback.block_reason)
-                        except Exception:
-                            pass
-                        raise RuntimeError(f"empty response from model (finish={finish}, block={block})")
-                    return response
-                except Exception as e:
-                    msg = str(e).lower()
-                    last_err = e
-                    if any(s in msg for s in not_found_signals):
-                        print(f"  [{model}] not available on these keys: {_short_err(e)}")
-                        model_unavailable = True
-                        break  # 404 is the same on every key — go straight to next model
-                    if any(s in msg for s in quota_signals):
-                        print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] quota/rate-limit, rotating: {_short_err(e)}")
-                        round_quota += 1
-                        last_was_transient = False
-                        continue
-                    if any(s in msg for s in transient_signals):
-                        print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] transient error, rotating: {_short_err(e)}")
-                        round_transient += 1
-                        last_was_transient = True
-                        continue
-                    print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] non-retryable error: {_short_err(e)}")
-                    raise
+                if not response.text:
+                    finish, block = "?", "?"
+                    try:
+                        if response.candidates:
+                            finish = str(response.candidates[0].finish_reason)
+                        if response.prompt_feedback and response.prompt_feedback.block_reason:
+                            block = str(response.prompt_feedback.block_reason)
+                    except Exception:
+                        pass
+                    raise RuntimeError(f"empty response from model (finish={finish}, block={block})")
+                return response
+            except Exception as e:
+                msg = str(e).lower()
+                last_err = e
+                if any(s in msg for s in not_found_signals):
+                    raise RuntimeError(f"Model '{model}' not available on these keys: {_short_err(e)}")
+                if any(s in msg for s in quota_signals):
+                    print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] quota/rate-limit, rotating: {_short_err(e)}")
+                    round_quota += 1
+                    last_was_transient = False
+                    continue
+                if any(s in msg for s in transient_signals):
+                    print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] transient error, rotating: {_short_err(e)}")
+                    round_transient += 1
+                    last_was_transient = True
+                    continue
+                print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] non-retryable error: {_short_err(e)}")
+                raise
 
-            if model_unavailable:
-                break  # skip retries, go to next model
-
-            # All keys exhausted this round. Retry the same model if at least one failure was transient
-            # (those keys may recover; quota'd keys will fail again instantly but cost ~1s each).
-            # Skip retry only if EVERY key is quota-dead — no possibility of recovery on this model today.
-            if round_transient > 0 and attempt < MAX_MODEL_ATTEMPTS:
-                wait = TRANSIENT_RETRY_WAIT * attempt
-                print(f"  '{model}' round {attempt}/{MAX_MODEL_ATTEMPTS} done (quota={round_quota}, transient={round_transient}). Waiting {wait}s before retrying transient keys...")
-                time.sleep(wait)
-                continue
-            break  # all keys quota-dead on this model — fall through to next model
-
-        if next_model:
-            print(f"  Falling back from '{model}' to '{next_model}'...")
+        # All keys exhausted this round. Retry if at least one failure was transient.
+        if round_transient > 0 and attempt < MAX_MODEL_ATTEMPTS:
+            wait = TRANSIENT_RETRY_WAIT * attempt
+            print(f"  '{model}' round {attempt}/{MAX_MODEL_ATTEMPTS} done (quota={round_quota}, transient={round_transient}). Waiting {wait}s before retrying transient keys...")
+            time.sleep(wait)
+            continue
+        break  # all keys quota-dead — give up
 
     if last_was_transient:
         raise RuntimeError(
-            f"Both '{PRIMARY_MODEL}' and '{FALLBACK_MODEL}' are unavailable on Google's side "
-            f"(503/overload) across all {len(GEMINI_KEYS)} key(s). Wait a few minutes and retry. "
-            f"Last error: {last_err}"
+            f"'{PRIMARY_MODEL}' unavailable on Google's side (503/overload) across all "
+            f"{len(GEMINI_KEYS)} key(s). Wait a few minutes and retry. Last error: {last_err}"
         )
     raise RuntimeError(
-        f"All Gemini keys exhausted across primary '{PRIMARY_MODEL}' and fallback '{FALLBACK_MODEL}'. "
-        f"Last error: {last_err}"
+        f"All Gemini keys exhausted on '{PRIMARY_MODEL}'. Last error: {last_err}"
     )
 
 
