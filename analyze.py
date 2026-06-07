@@ -4,6 +4,8 @@ import os
 import re
 import threading
 import time
+from collections import Counter
+from datetime import date
 
 import requests
 from google import genai
@@ -76,7 +78,7 @@ if not GEMINI_KEYS:
     if fallback:
         GEMINI_KEYS = [fallback]
 print(f"Loaded {len(GEMINI_KEYS)} Gemini API key(s): " +
-      ", ".join(name for name, val in _raw_keys.items() if val) or "(fallback GEMINI_API_KEY)")
+      (", ".join(name for name, val in _raw_keys.items() if val) or "(fallback GEMINI_API_KEY)"))
 
 
 _key_lock = threading.Lock()
@@ -301,8 +303,7 @@ def _summarize_batch(source_name, articles):
         "Based on the articles above, produce one concise, scannable news briefing per article. "
         "A reader should be able to absorb each briefing in one sitting. "
         "Language rule: Turkish source → write the briefing in Turkish. "
-        "Any other language (English, German, French, etc.) → write the briefing in English. "
-        "If the source is German or French, translate as you summarize.\n\n"
+        "Any other source → write the briefing in English (translate if the source is in another language).\n\n"
 
         "For each numbered article, follow this procedure internally before writing:\n"
         "  STEP 1 — Identify the CENTRAL facts: the main people (full names + roles), "
@@ -328,20 +329,32 @@ def _summarize_batch(source_name, articles):
     data = parse_json_lenient(response.text)
 
     out = []
+    seen_indices = set()
+    bad_indices = []
     for entry in data.get("summaries", []):
         i = entry.get("index", -1)
-        if 0 <= i < len(articles):
-            title = articles[i]["title"]
-            if translate_titles:
-                title_en = (entry.get("title_en") or "").strip()
-                if title_en:
-                    title = title_en
-            out.append({
-                "source": source_name,
-                "title": title,
-                "url": articles[i]["url"],
-                "summary": entry["summary"],
-            })
+        if not (0 <= i < len(articles)):
+            bad_indices.append(i)
+            continue
+        if i in seen_indices:
+            continue
+        seen_indices.add(i)
+        title = articles[i]["title"]
+        if translate_titles:
+            title_en = (entry.get("title_en") or "").strip()
+            if title_en:
+                title = title_en
+        out.append({
+            "source": source_name,
+            "title": title,
+            "url": articles[i]["url"],
+            "summary": entry["summary"],
+        })
+    missing = [i for i in range(len(articles)) if i not in seen_indices]
+    if missing or bad_indices:
+        print(f"  ! [{source_name}] batch sonucu: {len(out)}/{len(articles)} özet alındı"
+              + (f", eksik index'ler: {missing}" if missing else "")
+              + (f", geçersiz index'ler: {bad_indices}" if bad_indices else ""))
     return out
 
 
@@ -373,11 +386,11 @@ def cluster_summaries(summaries):
     }
 
     prompt = (
-        "Group the news items below so each group covers the same underlying news event. "
+        f"News items:\n\n{payload}\n\n"
+        "Group the items above so each group covers the same underlying news event. "
         "Items about the same story (even from different sources or in different languages) belong together. "
         "Items unique to one event form a single-item group. "
-        "Every index must appear in exactly ONE group. No duplicates, no omissions.\n\n"
-        f"{payload}"
+        "Every index must appear in exactly ONE group. No duplicates, no omissions."
     )
 
     response = gemini_generate(prompt, response_schema=schema)
@@ -425,10 +438,9 @@ def merge_cluster(items):
         "If only one source mentions a detail, KEEP IT.\n\n"
 
         "Constraints:\n"
-        "  - Length is dictated by the COMBINED information density of all sources. There is NO upper limit "
-        "and NO target sentence count. If multiple sources together provide many distinct facts, "
-        "the merged briefing MUST be long. Err on the side of more detail, never less. "
-        "If you catch yourself compressing or dropping a detail any source mentioned, rewrite to include it.\n"
+        "  - Length follows source content density. Include every distinct detail from any source — "
+        "do not pad, do not drop. If you catch yourself compressing or dropping a detail any source mentioned, "
+        "rewrite to include it.\n"
         "  - Preserve numbers, dates, full names, titles, and direct quotes VERBATIM.\n"
         "  - Preserve sequence of events and cause-effect chain.\n"
         "  - Flowing prose. No bullets, no headings, no markdown.\n"
@@ -508,13 +520,30 @@ def main():
     print(f"Clustering {len(all_summaries)} summaries...")
     clusters = cluster_summaries(all_summaries)
 
+    seen = set()
+    duplicate_count = 0
     cluster_items = []
     for cluster_indices in clusters:
-        items = [all_summaries[i] for i in cluster_indices if 0 <= i < len(all_summaries)]
-        if items:
-            cluster_items.append(items)
+        cleaned = []
+        for i in cluster_indices:
+            if not (0 <= i < len(all_summaries)):
+                continue
+            if i in seen:
+                duplicate_count += 1
+                continue
+            seen.add(i)
+            cleaned.append(all_summaries[i])
+        if cleaned:
+            cluster_items.append(cleaned)
 
-    from collections import Counter
+    missing = [i for i in range(len(all_summaries)) if i not in seen]
+    if missing:
+        print(f"  ! {len(missing)} özet hiçbir cluster'a girmedi, singleton olarak ekleniyor: {missing}")
+        for i in missing:
+            cluster_items.append([all_summaries[i]])
+    if duplicate_count:
+        print(f"  ! {duplicate_count} özet birden fazla cluster'da geçti, ilki tutuldu")
+
     size_counts = Counter(len(items) for items in cluster_items)
     multi = sum(c for size, c in size_counts.items() if size > 1)
     singletons = size_counts.get(1, 0)
@@ -543,7 +572,6 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(output)} clusters to news_clusters.json")
 
-    from datetime import date
     report_text = build_report_text(output)
     messages = build_discord_messages(output)
 
@@ -578,8 +606,6 @@ def _is_turkish_cluster(entry):
 
 def build_report_text(output):
     """Return the full Markdown report as a single string (no file I/O)."""
-    from datetime import date
-
     multi = [e for e in output if len(e["sources"]) > 1]
     multi.sort(key=_is_turkish_cluster)  # False (English) before True (Turkish); stable sort preserves rest
     singles = [e for e in output if len(e["sources"]) == 1]
@@ -695,8 +721,6 @@ def _section_header(title, subtitle=None):
 
 def build_discord_messages(output):
     """Build the list of webhook payload dicts. Ping is attached to the first payload only."""
-    from datetime import date
-
     multi = [e for e in output if len(e["sources"]) > 1]
     multi.sort(key=_is_turkish_cluster)  # English clusters first, Turkish last
     singles = [e for e in output if len(e["sources"]) == 1]
