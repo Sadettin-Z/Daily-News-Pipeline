@@ -304,16 +304,15 @@ def _summarize_batch(source_name, articles):
     prompt = (
         f"Articles:\n\n{payload}\n\n"
 
-        "Based on the articles above, produce one concise, scannable news briefing per article. "
-        "A reader should be able to absorb each briefing in one sitting. "
+        "Based on the articles above, produce one clear news briefing per article. "
         "Language rule: Turkish source → write the briefing in Turkish. "
         "Any other source → write the briefing in English (translate if the source is in another language).\n\n"
 
         "For each numbered article, follow this procedure internally before writing:\n"
-        "  STEP 1 — Identify the CENTRAL facts: the main people (full names + roles), "
-        "the key organizations and places, the central event, the most important numbers and dates, "
-        "the primary cause and consequence, and at most one defining direct quote IF it adds substance.\n"
-        "  STEP 2 — Draft a tight briefing covering the central facts in flowing prose.\n"
+        "  STEP 1 — Identify the facts: the people (full names + roles), the organizations and places, "
+        "the events, the numbers and dates, the causes and consequences, and the direct quotes "
+        "that add substance.\n"
+        "  STEP 2 — Draft a tight briefing covering these facts in flowing prose.\n"
         "  STEP 3 — Tighten the WORDING, not the information: cut journalistic boilerplate "
         "(grant funders, editors, photo credits), rhetorical filler, and quotes that restate "
         "what another quote already said. Keep every concrete fact — names, numbers, dates, "
@@ -456,7 +455,7 @@ def merge_cluster(items):
         "  - Preserve numbers, dates, full names, titles, and direct quotes VERBATIM.\n"
         "  - Preserve the cause-effect chain.\n"
         "  - Flowing prose. No bullets, no headings, no markdown.\n"
-        "  - Language for BOTH title and summary: use the language of the MAJORITY of items.\n"
+        "  - Language for BOTH title and summary: use the language of the MAJORITY of items; if tied, use Turkish.\n"
         "  - Do NOT invent details. Do NOT speculate. Length must come from the sources' actual content."
     )
 
