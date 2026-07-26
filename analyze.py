@@ -69,7 +69,7 @@ DROP:
 
 # Up to 4 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_4
 # Falls back to GEMINI_API_KEY if numbered keys are not set.
-PRIMARY_MODEL = "gemini-3.5-flash"
+PRIMARY_MODEL = "gemini-3.6-flash"
 
 _raw_keys = {f"GEMINI_API_KEY_{i}": os.environ.get(f"GEMINI_API_KEY_{i}") for i in range(1, 5)}
 GEMINI_KEYS = [v for v in _raw_keys.values() if v]
@@ -254,7 +254,11 @@ def summarize_source(source_name, articles):
     for batch_idx, batch in enumerate(batches, 1):
         if len(batches) > 1:
             print(f"  Batch {batch_idx}/{len(batches)} ({len(batch)} articles)")
-        out.extend(_summarize_batch(source_name, batch))
+        try:
+            out.extend(_summarize_batch(source_name, batch))
+        except Exception as e:
+            print(f"  ! [{source_name}] batch {batch_idx}/{len(batches)} failed, "
+                  f"skipping its {len(batch)} article(s): {e}")
     return out
 
 
@@ -310,10 +314,11 @@ def _summarize_batch(source_name, articles):
         "the key organizations and places, the central event, the most important numbers and dates, "
         "the primary cause and consequence, and at most one defining direct quote IF it adds substance.\n"
         "  STEP 2 — Draft a tight briefing covering the central facts in flowing prose.\n"
-        "  STEP 3 — Trim: cut secondary details, minor entities, peripheral examples, "
-        "journalistic attribution (grant funders, editors, photo credits), and supporting quotes "
-        "that restate what other quotes already said. If a detail does not change the reader's "
-        "understanding of the main story, drop it.\n\n"
+        "  STEP 3 — Tighten the WORDING, not the information: cut journalistic boilerplate "
+        "(grant funders, editors, photo credits), rhetorical filler, and quotes that restate "
+        "what another quote already said. Keep every concrete fact — names, numbers, dates, "
+        "causes, consequences, and the context needed to understand why the event matters. "
+        "Brevity must come from tighter sentences, not from dropping facts.\n\n"
 
         "Constraints:\n"
         "  - Stay tight. Only stretch when an article genuinely covers multiple distinct events.\n"
@@ -393,9 +398,13 @@ def cluster_summaries(summaries):
         "Every index must appear in exactly ONE group. No duplicates, no omissions."
     )
 
-    response = gemini_generate(prompt, response_schema=schema)
-    data = parse_json_lenient(response.text)
-    return [c["indices"] for c in data.get("clusters", [])]
+    try:
+        response = gemini_generate(prompt, response_schema=schema)
+        data = parse_json_lenient(response.text)
+        return [c["indices"] for c in data.get("clusters", [])]
+    except Exception as e:
+        print(f"  ! Clustering failed ({e}); treating every summary as its own story.")
+        return [[i] for i in range(len(summaries))]
 
 
 def merge_cluster(items):
@@ -422,9 +431,15 @@ def merge_cluster(items):
 
         "The items above report the SAME news event from different sources. "
         "Based on them, produce TWO outputs in one response:\n"
-        "  1. title — a short, neutral, headline-style title for the event (≤15 words, no clickbait).\n"
-        "  2. summary — ONE unified, COMPREHENSIVE briefing preserving every salient detail across all sources. "
-        "Coverage beats brevity.\n\n"
+        "  1. title — a headline (≤15 words) that pulls the reader in while staying honest. "
+        "Be specific: concrete actor + concrete action + the story's most striking element "
+        "(unexpected outcome, contradiction, number, confrontation), taken from the sources. "
+        "Active verb, key fact front-loaded. Curiosity is fine but the title's promise must be "
+        "answered in the summary: no withholding phrases ('what happened next', 'shocking decision'), "
+        "no ALL-CAPS or exclamations, no unanswered question headlines, no hype adjectives — "
+        "the striking element must come from the story's own facts.\n"
+        "  2. summary — ONE unified briefing preserving every salient detail across all sources, "
+        "each detail stated exactly once in tight prose. Brevity comes from wording, never from dropping details.\n\n"
 
         "Procedure (internal) for the summary:\n"
         "  STEP 1 — Detail sweep. List every distinct salient detail mentioned by ANY item: "
@@ -558,7 +573,12 @@ def main():
             merge_idx += 1
             sources_list = ", ".join(it["source"] for it in items)
             print(f"  [merge {merge_idx}/{multi}] {len(items)} sources: {sources_list}")
-        title, merged = merge_cluster(items)
+        try:
+            title, merged = merge_cluster(items)
+        except Exception as e:
+            print(f"  ! Merge failed ({e}); stacking the source summaries unmerged.")
+            title = items[0]["title"]
+            merged = "\n\n".join(f"({it['source']}) {it['summary']}" for it in items)
         output.append({
             "title": title,
             "summary": merged,
@@ -572,7 +592,6 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(output)} clusters to news_clusters.json")
 
-    report_text = build_report_text(output)
     messages = build_discord_messages(output)
 
     webhook = os.environ.get("DISCORD_WEBHOOK_URL")
@@ -581,15 +600,17 @@ def main():
         send_to_discord(messages, webhook)
         print("Pausing 10s before file upload to let Discord rate-limit window drain...")
         time.sleep(10)
-        plain = strip_markdown(report_text)
-        chunks = split_report(plain)
-        if len(chunks) == 1:
-            files = [("Rapor.md", chunks[0])]
-        else:
-            n = len(chunks)
-            files = [(f"Rapor_{i+1}_of_{n}.md", c) for i, c in enumerate(chunks)]
+        parts = []
+        for fname, text in build_report_files(output):
+            plain = strip_markdown(text)
+            if len(plain.encode("utf-8")) > 48_000:
+                chunks = split_report(plain)
+                n = len(chunks)
+                parts.extend((f"{fname[:-3]} {i+1}_of_{n}.md", c) for i, c in enumerate(chunks))
+            else:
+                parts.append((fname, plain))
         upload_report_to_discord(
-            files,
+            parts,
             webhook,
             f"**Haber Kaynakları {date.today().strftime('%d %m %Y')}**",
         )
@@ -604,52 +625,54 @@ def _is_turkish_cluster(entry):
     return n_tr * 2 > len(entry["sources"])
 
 
-def build_report_text(output):
-    """Return the full Markdown report as a single string (no file I/O)."""
+def _safe_filename(name, max_len=100):
+    """Strip characters Discord/Windows reject and cap the length."""
+    name = re.sub(r"[\\/]", "-", name)
+    name = re.sub(r'[:*?"<>|\n\r\t]', "", name)
+    name = re.sub(r"\s+", " ", name).strip(" .")
+    return name[:max_len].rstrip(" .") or "Rapor"
+
+
+def build_report_files(output):
+    """One (filename, text) part per multi-source story — filename is the title plus the
+    covering sources — then one part per source holding its single-source stories."""
     multi = [e for e in output if len(e["sources"]) > 1]
-    multi.sort(key=_is_turkish_cluster)  # False (English) before True (Turkish); stable sort preserves rest
+    # Most-covered stories first; ties keep English clusters before Turkish ones.
+    multi.sort(key=lambda e: (-len(e["sources"]), _is_turkish_cluster(e)))
     singles = [e for e in output if len(e["sources"]) == 1]
 
     by_source = {}
     for entry in singles:
-        src = entry["sources"][0]["source"]
-        by_source.setdefault(src, []).append(entry)
+        by_source.setdefault(entry["sources"][0]["source"], []).append(entry)
 
-    lines = [f"# News Report — {date.today().isoformat()}", ""]
+    files = []
+    used = set()
 
-    if multi:
-        lines.append("# Common News")
-        lines.append("*Stories covered by multiple sources*")
-        lines.append("")
-        for i, entry in enumerate(multi, 1):
-            lines.append(f"## {i}. {entry['title']}")
-            lines.append("")
-            lines.append(entry["summary"])
-            lines.append("")
-            lines.append("**Sources:**")
-            for s in entry["sources"]:
-                lines.append(f"- [{s['source']} — {s['title']}]({s['url']})")
-            lines.append("")
-            lines.append("---")
-            lines.append("")
+    def add_file(base, text):
+        fname = _safe_filename(base)
+        n = 2
+        while fname.lower() in used:
+            fname = _safe_filename(base, max_len=95) + f" ({n})"
+            n += 1
+        used.add(fname.lower())
+        files.append((fname + ".md", text))
+
+    for entry in multi:
+        src_names = [name for name, _ in Counter(s["source"] for s in entry["sources"]).most_common()]
+        lines = [f"## {entry['title']}", "", entry["summary"], "", "**Sources:**"]
+        lines.extend(f"- [{s['source']} — {s['title']}]({s['url']})" for s in entry["sources"])
+        add_file(f"{entry['title']} - {', '.join(src_names)}", "\n".join(lines))
 
     for src in RSS_FEEDS:
         if src not in by_source:
             continue
-        lines.append(f"# {src}")
-        lines.append("")
+        lines = [f"# {src}", ""]
         for entry in by_source[src]:
-            url = entry["sources"][0]["url"]
-            lines.append(f"## {entry['title']}")
-            lines.append("")
-            lines.append(entry["summary"])
-            lines.append("")
-            lines.append(f"[Read more]({url})")
-            lines.append("")
-            lines.append("---")
-            lines.append("")
+            lines += [f"## {entry['title']}", "", entry["summary"], "",
+                      f"[Read more]({entry['sources'][0]['url']})", "", "---", ""]
+        add_file(src, "\n".join(lines))
 
-    return "\n".join(lines)
+    return files
 
 
 DISCORD_LIMIT = 1990
@@ -691,8 +714,11 @@ def _article_to_payloads(entry, index_prefix=""):
     primary_source = sources[0]["source"]
 
     if len(sources) > 1:
-        tail = " · ".join(s["source"] for s in sources)
-        header = f"## [{title}](<{primary_url}>)\n-# {primary_source} · Covered by: {tail}\n\n"
+        # A cluster may hold several articles from the same source — show each source once,
+        # with its article count when > 1 (e.g. "bbc.com 3 · aljazeera.com").
+        counts = Counter(s["source"] for s in sources)
+        tail = " · ".join(f"{src} {n}" if n > 1 else src for src, n in counts.most_common())
+        header = f"## [{title}](<{primary_url}>)\n-# Covered by: {tail}\n\n"
     else:
         header = f"## [{title}](<{primary_url}>)\n-# {primary_source}\n\n"
 
@@ -722,7 +748,8 @@ def _section_header(title, subtitle=None):
 def build_discord_messages(output):
     """Build the list of webhook payload dicts. Ping is attached to the first payload only."""
     multi = [e for e in output if len(e["sources"]) > 1]
-    multi.sort(key=_is_turkish_cluster)  # English clusters first, Turkish last
+    # Most-covered stories first; ties keep English clusters before Turkish ones.
+    multi.sort(key=lambda e: (-len(e["sources"]), _is_turkish_cluster(e)))
     singles = [e for e in output if len(e["sources"]) == 1]
 
     by_source = {}
@@ -835,15 +862,25 @@ def split_report(text, max_bytes=48_000):
 
 
 def upload_report_to_discord(parts, webhook_url, message):
-    """POST a final message with the report attached as one or more .md files. No ping (already fired).
-    parts: list of (filename, text) tuples — all uploaded as attachments on the same message."""
+    """Upload (filename, text) parts as .md attachments. No ping (already fired).
+    Discord allows max 10 files per message, so parts go out in batches; the
+    message text rides on the first batch only."""
     total_chars = sum(len(text) for _, text in parts)
     print(f"Uploading {len(parts)} file(s) ({total_chars:,} chars total) to Discord...")
+    for batch_no, start in enumerate(range(0, len(parts), 10), 1):
+        batch = parts[start:start + 10]
+        content = message if start == 0 else f"{message} (devam {batch_no})"
+        _upload_file_batch(batch, webhook_url, content)
+        if start + 10 < len(parts):
+            time.sleep(2)
+
+
+def _upload_file_batch(batch, webhook_url, message):
     payload = {"content": message}
 
     for attempt in range(1, 6):
         files = [("payload_json", (None, json.dumps(payload), "application/json"))]
-        for i, (fname, text) in enumerate(parts):
+        for i, (fname, text) in enumerate(batch):
             files.append((f"files[{i}]", (fname, text.encode("utf-8"), "text/markdown")))
         try:
             r = requests.post(webhook_url, files=files, timeout=60)
