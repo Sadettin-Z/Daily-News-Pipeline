@@ -596,17 +596,10 @@ def main():
         send_to_discord(messages, webhook)
         print("Pausing 10s before file upload to let Discord rate-limit window drain...")
         time.sleep(10)
-        parts = []
-        for fname, text in build_report_files(output):
-            plain = strip_markdown(text)
-            if len(plain.encode("utf-8")) > 48_000:
-                chunks = split_report(plain)
-                n = len(chunks)
-                parts.extend((f"{fname[:-3]} {i+1}_of_{n}.md", c) for i, c in enumerate(chunks))
-            else:
-                parts.append((fname, plain))
+        fname, text = build_report_file(output)
         upload_report_to_discord(
-            parts,
+            fname,
+            strip_markdown(text),
             webhook,
             f"**Haber Kaynakları {date.today().strftime('%d %m %Y')}**",
         )
@@ -621,17 +614,12 @@ def _is_turkish_cluster(entry):
     return n_tr * 2 > len(entry["sources"])
 
 
-def _safe_filename(name, max_len=100):
-    """Strip characters Discord/Windows reject and cap the length."""
-    name = re.sub(r"[\\/]", "-", name)
-    name = re.sub(r'[:*?"<>|\n\r\t]', "", name)
-    name = re.sub(r"\s+", " ", name).strip(" .")
-    return name[:max_len].rstrip(" .") or "Rapor"
+REPORT_FILENAME = "News Report.md"
 
 
-def build_report_files(output):
-    """One (filename, text) part per multi-source story — filename is the title plus the
-    covering sources — then one part per source holding its single-source stories."""
+def build_report_file(output):
+    """The whole report as one (filename, markdown) pair: cross-source stories first,
+    then the single-source stories grouped by their feed."""
     multi = [e for e in output if len(e["sources"]) > 1]
     # Most-covered stories first; ties keep English clusters before Turkish ones.
     multi.sort(key=lambda e: (-len(e["sources"]), _is_turkish_cluster(e)))
@@ -641,34 +629,31 @@ def build_report_files(output):
     for entry in singles:
         by_source.setdefault(entry["sources"][0]["source"], []).append(entry)
 
-    files = []
-    used = set()
+    lines = [
+        f"# News Report — {date.today().isoformat()}",
+        "",
+        f"{len(multi)} cross-source stories · {len(singles)} unique stories",
+        "",
+        "---",
+        "",
+    ]
 
-    def add_file(base, text):
-        fname = _safe_filename(base)
-        n = 2
-        while fname.lower() in used:
-            fname = _safe_filename(base, max_len=95) + f" ({n})"
-            n += 1
-        used.add(fname.lower())
-        files.append((fname + ".md", text))
-
-    for entry in multi:
-        src_names = [name for name, _ in Counter(s["source"] for s in entry["sources"]).most_common()]
-        lines = [f"## {entry['title']}", "", entry["summary"], "", "**Sources:**"]
-        lines.extend(f"- [{s['source']} — {s['title']}]({s['url']})" for s in entry["sources"])
-        add_file(f"{entry['title']} - {', '.join(src_names)}", "\n".join(lines))
+    if multi:
+        lines += ["## Common News", ""]
+        for i, entry in enumerate(multi, 1):
+            lines += [f"### {i}. {entry['title']}", "", entry["summary"], "", "**Sources:**"]
+            lines += [f"- [{s['source']} — {s['title']}]({s['url']})" for s in entry["sources"]]
+            lines += ["", "---", ""]
 
     for src in RSS_FEEDS:
         if src not in by_source:
             continue
-        lines = [f"# {src}", ""]
+        lines += [f"## {src}", ""]
         for entry in by_source[src]:
-            lines += [f"## {entry['title']}", "", entry["summary"], "",
+            lines += [f"### {entry['title']}", "", entry["summary"], "",
                       f"[Read more]({entry['sources'][0]['url']})", "", "---", ""]
-        add_file(src, "\n".join(lines))
 
-    return files
+    return REPORT_FILENAME, "\n".join(lines)
 
 
 DISCORD_LIMIT = 1990
@@ -816,11 +801,11 @@ def strip_markdown(text):
     text = re.sub(r'^\*\s+', '- ', text, flags=re.MULTILINE)
 
     def heading_repl(m):
-        title = m.group(1).strip()
-        underline = "─" * min(len(title), 60)
+        title = m.group(2).strip()
+        underline = {1: "═", 2: "━"}.get(len(m.group(1)), "─") * min(len(title), 60)
         return f"\n{title}\n{underline}\n"
 
-    text = re.sub(r'^#{1,6}\s+(.+)$', heading_repl, text, flags=re.MULTILINE)
+    text = re.sub(r'^(#{1,6})\s+(.+)$', heading_repl, text, flags=re.MULTILINE)
     text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
     text = re.sub(r'`([^`]+)`', r'\1', text)
     text = re.sub(r'\[([^\]]+)\]\(<?([^)>]+)>?\)', r'\1', text)
@@ -832,52 +817,16 @@ def strip_markdown(text):
     return text
 
 
-def split_report(text, max_bytes=48_000):
-    """Split report text into parts <= max_bytes (UTF-8), breaking only at --- separators between stories.
-    Discord's in-browser file viewer truncates around ~50 KB even when 'View whole document' is clicked,
-    so we cap below that to keep every part fully previewable."""
-    parts = re.split(r'(?m)^---\s*$\n?', text)
-    blocks = []
-    for i, p in enumerate(parts):
-        if i < len(parts) - 1:
-            blocks.append(p + '---\n')
-        elif p.strip():
-            blocks.append(p)
-
-    files = []
-    current = ""
-    for block in blocks:
-        if current and len((current + block).encode("utf-8")) > max_bytes:
-            files.append(current)
-            current = block
-        else:
-            current += block
-    if current:
-        files.append(current)
-    return files
-
-
-def upload_report_to_discord(parts, webhook_url, message):
-    """Upload (filename, text) parts as .md attachments. No ping (already fired).
-    Discord allows max 10 files per message, so parts go out in batches; the
-    message text rides on the first batch only."""
-    total_chars = sum(len(text) for _, text in parts)
-    print(f"Uploading {len(parts)} file(s) ({total_chars:,} chars total) to Discord...")
-    for batch_no, start in enumerate(range(0, len(parts), 10), 1):
-        batch = parts[start:start + 10]
-        content = message if start == 0 else f"{message} (devam {batch_no})"
-        _upload_file_batch(batch, webhook_url, content)
-        if start + 10 < len(parts):
-            time.sleep(2)
-
-
-def _upload_file_batch(batch, webhook_url, message):
+def upload_report_to_discord(filename, text, webhook_url, message):
+    """Upload the whole report as one .md attachment. No ping (already fired)."""
+    print(f"Uploading {filename} ({len(text):,} chars) to Discord...")
     payload = {"content": message}
 
     for attempt in range(1, 6):
-        files = [("payload_json", (None, json.dumps(payload), "application/json"))]
-        for i, (fname, text) in enumerate(batch):
-            files.append((f"files[{i}]", (fname, text.encode("utf-8"), "text/markdown")))
+        files = {
+            "payload_json": (None, json.dumps(payload), "application/json"),
+            "files[0]": (filename, text.encode("utf-8"), "text/markdown"),
+        }
         try:
             r = requests.post(webhook_url, files=files, timeout=60)
             if r.status_code == 429 and attempt < 5:
