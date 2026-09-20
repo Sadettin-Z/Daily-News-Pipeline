@@ -51,7 +51,9 @@ _INTERNATIONAL_FEEDS_NON_EN = {
 
 _TURKISH_FEEDS = {
     "sozcu.com.tr": "https://www.sozcu.com.tr/feeds-rss-category-sozcu",
-    "bloomberght.com": "https://www.bloomberght.com/rss",
+    # bloomberght.com/rss froze on 2026-09-14 (20 items, none newer); the Google News sitemap
+    # listed in their sitemap.xml is updated continuously.
+    "bloomberght.com": "https://www.bloomberght.com/sitemap_google_news.xml",
     "veryansintv.com/direct": "https://www.veryansintv.com/feed",
     "bbc.com/turkce": "https://feeds.bbci.co.uk/turkce/rss.xml",
 }
@@ -76,11 +78,14 @@ SOURCE_URL_FILTERS = {
 # Newest-first cap for sources that can list far more than a day's worth of relevant stories.
 MAX_ARTICLES_PER_SOURCE = {
     "cnn.com": 25,
+    "bloomberght.com": 25,
 }
 
-# Last resort for publishers that block direct fetches with 401/403 (nytimes.com does):
-# a reader proxy that returns the page as plain text. Set READER_PROXY="" to disable.
-READER_PROXY = os.environ.get("READER_PROXY", "https://r.jina.ai/")
+# Optional reader proxy for publishers that block direct fetches with 401/403 (nytimes.com does).
+# Off by default: r.jina.ai answers GitHub-runner requests with a Cloudflare challenge (403),
+# so it never helped and cost ~4s per blocked article. Set READER_PROXY="https://r.jina.ai/"
+# (or another reader) in the environment to try one.
+READER_PROXY = os.environ.get("READER_PROXY", "")
 READER_MIN_INTERVAL = 3.5   # seconds between reader calls (free tier allows ~20/min)
 _last_reader_call = 0.0
 
