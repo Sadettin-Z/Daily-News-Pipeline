@@ -69,7 +69,8 @@ DROP:
 
 # Up to 4 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_4
 # Falls back to GEMINI_API_KEY if numbered keys are not set.
-PRIMARY_MODEL = "gemini-3.6-flash"
+# Override the model with GEMINI_MODEL if Google ships a newer Flash.
+PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
 _raw_keys = {f"GEMINI_API_KEY_{i}": os.environ.get(f"GEMINI_API_KEY_{i}") for i in range(1, 5)}
 GEMINI_KEYS = [v for v in _raw_keys.values() if v]
@@ -79,14 +80,32 @@ if not GEMINI_KEYS:
         GEMINI_KEYS = [fallback]
 print(f"Loaded {len(GEMINI_KEYS)} Gemini API key(s): " +
       (", ".join(name for name, val in _raw_keys.items() if val) or "(fallback GEMINI_API_KEY)"))
+print(f"Model: {PRIMARY_MODEL}")
+
+
+class GeminiError(RuntimeError):
+    """Base for errors gemini_generate raises after giving up."""
+
+
+class ContentBlocked(GeminiError):
+    """The model refused the prompt (PROHIBITED_CONTENT / safety). Deterministic —
+    the same prompt fails on every key, so callers should shrink the prompt, not retry."""
+
+
+class QuotaExhausted(GeminiError):
+    """Every usable key is out of daily quota (or dead). Nothing more will succeed today."""
 
 
 _key_lock = threading.Lock()
 _key_counter = 0
+# key_idx (1-based) -> reason. A key lands here when it can never succeed again this run:
+# 403 API_KEY_SERVICE_BLOCKED, invalid key, or its free-tier DAILY quota is used up.
+_dead_keys = {}
+_key_ok_calls = Counter()   # key_idx -> successful calls, for the end-of-run summary
 
 
 def _rotated_keys():
-    """Return [(key_idx_1based, key), ...] rotated so a different key starts each call."""
+    """Return [(key_idx_1based, key), ...] of LIVE keys, rotated so a different key starts each call."""
     global _key_counter
     if not GEMINI_KEYS:
         return []
@@ -94,7 +113,26 @@ def _rotated_keys():
         start = _key_counter % len(GEMINI_KEYS)
         _key_counter += 1
     n = len(GEMINI_KEYS)
-    return [(((start + i) % n) + 1, GEMINI_KEYS[(start + i) % n]) for i in range(n)]
+    order = [(((start + i) % n) + 1, GEMINI_KEYS[(start + i) % n]) for i in range(n)]
+    return [(idx, key) for idx, key in order if idx not in _dead_keys]
+
+
+def _kill_key(key_idx, reason):
+    with _key_lock:
+        if key_idx in _dead_keys:
+            return
+        _dead_keys[key_idx] = reason
+    live = len(GEMINI_KEYS) - len(_dead_keys)
+    print(f"  !! key {key_idx}/{len(GEMINI_KEYS)} retired for the rest of this run ({reason}). {live} key(s) left.")
+
+
+def gemini_key_report():
+    """One-line status of every key, printed at the end of the run."""
+    parts = []
+    for idx in range(1, len(GEMINI_KEYS) + 1):
+        state = _dead_keys.get(idx, "ok")
+        parts.append(f"key {idx}: {_key_ok_calls[idx]} calls, {state}")
+    return "; ".join(parts) if parts else "no keys"
 
 
 def _short_err(e):
@@ -118,6 +156,56 @@ def _short_err(e):
     return " — ".join(bits) if bits else type(e).__name__
 
 
+_TRANSIENT_SIGNALS = (
+    "503", "unavailable", "overloaded", "high demand", "502", "504", "500", "internal",
+    "499", "deadline", "timeout", "timed out", "cancelled", "canceled",
+    "server disconnected", "remoteprotocolerror", "connection reset", "connection aborted",
+    "connection closed", "broken pipe", "incomplete read", "connecterror", "readerror",
+)
+
+
+def _classify_error(e):
+    """Map an exception from generate_content to (kind, detail).
+
+    kind is one of:
+      'blocked'   - content refusal; retrying the same prompt is pointless
+      'notfound'  - model id unknown; abort the run
+      'dead'      - this key can never work (403 service blocked, invalid key)
+      'daily'     - this key's free-tier DAILY request quota is spent
+      'rate'      - per-minute rate limit; wait `detail` seconds and try again
+      'transient' - Google-side 5xx / network; rotate and retry with backoff
+      'fatal'     - anything else; raise immediately
+    Uses the structured fields google-genai puts on APIError (code/status/details) and
+    falls back to substring matching for plain exceptions."""
+    if isinstance(e, ContentBlocked):
+        return "blocked", str(e)
+
+    code = getattr(e, "code", None)
+    status = str(getattr(e, "status", "") or "").upper()
+    message = str(getattr(e, "message", "") or "")
+    details = getattr(e, "details", None)
+    details_text = json.dumps(details, default=str) if details is not None else ""
+    blob = f"{status} {message} {details_text} {e}".lower()
+
+    if code == 404 or status == "NOT_FOUND":
+        return "notfound", _short_err(e)
+    if code == 403 or status == "PERMISSION_DENIED":
+        return "dead", f"403 {message or 'permission denied'}"
+    if code == 400 and "api key" in blob:
+        return "dead", f"400 {message}"
+    if code == 429 or status == "RESOURCE_EXHAUSTED" or "quota" in blob or "rate limit" in blob:
+        if re.search(r"perday|per day|daily", blob):
+            return "daily", "free-tier daily request quota used up"
+        m = re.search(r"retrydelay['\"]?\s*:\s*['\"]?(\d+(?:\.\d+)?)s", blob)
+        wait = float(m.group(1)) if m else 20.0
+        return "rate", min(max(wait, 5.0), 90.0)
+    if code is not None and 500 <= int(code) < 600:
+        return "transient", _short_err(e)
+    if any(s in blob for s in _TRANSIENT_SIGNALS):
+        return "transient", _short_err(e)
+    return "fatal", _short_err(e)
+
+
 def _build_config(model, response_schema):
     thinking = types.ThinkingConfig(thinking_level="high")
     if response_schema is not None:
@@ -129,28 +217,55 @@ def _build_config(model, response_schema):
     return types.GenerateContentConfig(thinking_config=thinking)
 
 
+def _check_response(response):
+    """Raise ContentBlocked for a safety/prohibited-content refusal, RuntimeError for any other empty reply."""
+    if response.text:
+        return
+    finish, block = "?", "?"
+    try:
+        if response.candidates:
+            finish = str(response.candidates[0].finish_reason or "?")
+        if response.prompt_feedback and response.prompt_feedback.block_reason:
+            block = str(response.prompt_feedback.block_reason)
+    except Exception:
+        pass
+    tag = f"{finish} {block}".upper()
+    if any(s in tag for s in ("PROHIBITED", "SAFETY", "BLOCKLIST", "SPII", "RECITATION")):
+        raise ContentBlocked(f"model refused the prompt (finish={finish}, block={block})")
+    raise RuntimeError(f"empty response from model (finish={finish}, block={block})")
+
+
+MAX_ROUNDS = 3               # passes over the live keys before giving up on transient errors
+TRANSIENT_RETRY_WAIT = 20    # base seconds between rounds; multiplied by round number
+
+
 def gemini_generate(contents, response_schema=None):
-    """Run PRIMARY_MODEL across all keys, retrying transient failures."""
+    """Run PRIMARY_MODEL across the live keys.
+
+    Per key: content refusals raise ContentBlocked at once (no rotation — every key would refuse).
+    A 403 / invalid key / spent daily quota retires that key for the rest of the run so later
+    calls stop wasting time on it. Per-minute 429s and 5xx errors rotate to the next key and,
+    if the whole round fails that way, wait and try again (up to MAX_ROUNDS rounds).
+    Raises QuotaExhausted when no live key is left."""
     if not GEMINI_KEYS:
         raise RuntimeError("No Gemini API keys configured. Set GEMINI_API_KEY_1..4 or GEMINI_API_KEY.")
 
-    quota_signals = ("429", "quota", "rate limit", "rate_limit", "resource_exhausted", "exhausted")
-    transient_signals = ("503", "unavailable", "overloaded", "high demand", "502", "504", "499", "deadline", "timeout", "timed out", "cancelled", "canceled", "empty response", "server disconnected", "remoteprotocolerror", "connection reset", "connection aborted", "connection closed", "broken pipe", "incomplete read")
-    not_found_signals = ("404", "not_found", "not found", "is not supported")
-
-    last_err = None
-    last_was_transient = False
     model = PRIMARY_MODEL
     config = _build_config(model, response_schema)
+    n = len(GEMINI_KEYS)
+    last_err = None
 
-    MAX_MODEL_ATTEMPTS = 3       # initial pass + up to 2 retries on all-transient rounds
-    TRANSIENT_RETRY_WAIT = 20    # base seconds; multiplied by attempt number for backoff
+    for round_no in range(1, MAX_ROUNDS + 1):
+        keys = _rotated_keys()
+        if not keys:
+            raise QuotaExhausted(
+                f"No usable Gemini key left on '{model}': "
+                + "; ".join(f"key {i}: {r}" for i, r in sorted(_dead_keys.items()))
+            )
 
-    for attempt in range(1, MAX_MODEL_ATTEMPTS + 1):
-        round_quota = 0
-        round_transient = 0
-
-        for key_idx, key in _rotated_keys():
+        round_retryable = 0
+        rate_wait = 0.0
+        for key_idx, key in keys:
             client = genai.Client(
                 api_key=key,
                 http_options=types.HttpOptions(timeout=180_000),
@@ -161,50 +276,52 @@ def gemini_generate(contents, response_schema=None):
                     contents=contents,
                     config=config,
                 )
-                if not response.text:
-                    finish, block = "?", "?"
-                    try:
-                        if response.candidates:
-                            finish = str(response.candidates[0].finish_reason)
-                        if response.prompt_feedback and response.prompt_feedback.block_reason:
-                            block = str(response.prompt_feedback.block_reason)
-                    except Exception:
-                        pass
-                    raise RuntimeError(f"empty response from model (finish={finish}, block={block})")
+                _check_response(response)
+                _key_ok_calls[key_idx] += 1
                 return response
             except Exception as e:
-                msg = str(e).lower()
                 last_err = e
-                if any(s in msg for s in not_found_signals):
-                    raise RuntimeError(f"Model '{model}' not available on these keys: {_short_err(e)}")
-                if any(s in msg for s in quota_signals):
-                    print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] quota/rate-limit, rotating: {_short_err(e)}")
-                    round_quota += 1
-                    last_was_transient = False
+                kind, detail = _classify_error(e)
+                tag = f"[{model} | key {key_idx}/{n}]"
+                if kind == "blocked":
+                    raise
+                if kind == "notfound":
+                    raise RuntimeError(f"Model '{model}' not available on these keys: {detail}")
+                if kind == "dead":
+                    _kill_key(key_idx, detail)
                     continue
-                if any(s in msg for s in transient_signals):
-                    print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] transient error, rotating: {_short_err(e)}")
-                    round_transient += 1
-                    last_was_transient = True
+                if kind == "daily":
+                    _kill_key(key_idx, detail)
                     continue
-                print(f"  [{model} | key {key_idx}/{len(GEMINI_KEYS)}] non-retryable error: {_short_err(e)}")
+                if kind == "rate":
+                    print(f"  {tag} per-minute rate limit, rotating (retry after ~{detail:.0f}s)")
+                    rate_wait = max(rate_wait, detail)
+                    round_retryable += 1
+                    continue
+                if kind == "transient":
+                    print(f"  {tag} transient error, rotating: {detail}")
+                    round_retryable += 1
+                    continue
+                print(f"  {tag} non-retryable error: {detail}")
                 raise
 
-        # All keys exhausted this round. Retry if at least one failure was transient.
-        if round_transient > 0 and attempt < MAX_MODEL_ATTEMPTS:
-            wait = TRANSIENT_RETRY_WAIT * attempt
-            print(f"  '{model}' round {attempt}/{MAX_MODEL_ATTEMPTS} done (quota={round_quota}, transient={round_transient}). Waiting {wait}s before retrying transient keys...")
+        if not _rotated_keys():
+            break
+        if round_retryable and round_no < MAX_ROUNDS:
+            wait = max(TRANSIENT_RETRY_WAIT * round_no, rate_wait)
+            print(f"  '{model}' round {round_no}/{MAX_ROUNDS}: all live keys failed with retryable errors. "
+                  f"Waiting {wait:.0f}s...")
             time.sleep(wait)
-            continue
-        break  # all keys quota-dead — give up
 
-    if last_was_transient:
-        raise RuntimeError(
-            f"'{PRIMARY_MODEL}' unavailable on Google's side (503/overload) across all "
-            f"{len(GEMINI_KEYS)} key(s). Wait a few minutes and retry. Last error: {last_err}"
+    if not _rotated_keys():
+        raise QuotaExhausted(
+            f"All Gemini keys are dead or out of daily quota on '{model}': "
+            + "; ".join(f"key {i}: {r}" for i, r in sorted(_dead_keys.items()))
+            + f". Last error: {_short_err(last_err) if last_err else '?'}"
         )
-    raise RuntimeError(
-        f"All Gemini keys exhausted on '{PRIMARY_MODEL}'. Last error: {last_err}"
+    raise GeminiError(
+        f"'{model}' failed on every live key for {MAX_ROUNDS} rounds (Google-side errors / rate limits). "
+        f"Last error: {_short_err(last_err) if last_err else '?'}"
     )
 
 
@@ -255,11 +372,29 @@ def summarize_source(source_name, articles):
         if len(batches) > 1:
             print(f"  Batch {batch_idx}/{len(batches)} ({len(batch)} articles)")
         try:
-            out.extend(_summarize_batch(source_name, batch))
+            out.extend(_summarize_batch_bisecting(source_name, batch))
+        except QuotaExhausted as e:
+            print(f"  ! [{source_name}] batch {batch_idx}/{len(batches)} skipped: {e}")
+            break
         except Exception as e:
             print(f"  ! [{source_name}] batch {batch_idx}/{len(batches)} failed, "
                   f"skipping its {len(batch)} article(s): {e}")
     return out
+
+
+def _summarize_batch_bisecting(source_name, articles):
+    """Summarize a batch; if the model refuses the whole batch (PROHIBITED_CONTENT), split it in half
+    and retry each half so one offending article costs one article, not ten."""
+    try:
+        return _summarize_batch(source_name, articles)
+    except ContentBlocked as e:
+        if len(articles) == 1:
+            print(f"  ! [{source_name}] model refused this article, skipping: {articles[0]['title'][:70]} ({e})")
+            return []
+        mid = len(articles) // 2
+        print(f"  ! [{source_name}] model refused a batch of {len(articles)}; splitting to find the offending article")
+        return (_summarize_batch_bisecting(source_name, articles[:mid])
+                + _summarize_batch_bisecting(source_name, articles[mid:]))
 
 
 def _summarize_batch(source_name, articles):
@@ -401,35 +536,21 @@ def cluster_summaries(summaries):
         response = gemini_generate(prompt, response_schema=schema)
         data = parse_json_lenient(response.text)
         return [c["indices"] for c in data.get("clusters", [])]
+    except QuotaExhausted as e:
+        print(f"  ! Clustering skipped — no Gemini quota left ({e}).")
+        print("  ! Every story will be reported on its own. Cross-source stories cannot be connected today.")
+        return [[i] for i in range(len(summaries))]
     except Exception as e:
         print(f"  ! Clustering failed ({e}); treating every summary as its own story.")
         return [[i] for i in range(len(summaries))]
 
 
-def merge_cluster(items):
-    """Stage 3: merge multi-source items into (title, summary). Singletons skip the LLM and reuse the source's own title."""
-    if len(items) == 1:
-        return items[0]["title"], items[0]["summary"]
+MERGE_BATCH_SIZE = 6  # clusters merged per Gemini call; free tier allows ~20 requests/day/key
 
-    payload = "\n\n".join(
-        f"({it['source']}) {it['title']}\n{it['summary']}"
-        for it in items
-    )
 
-    schema = {
-        "type": "object",
-        "properties": {
-            "title": {"type": "string"},
-            "summary": {"type": "string"},
-        },
-        "required": ["title", "summary"],
-    }
-
-    prompt = (
-        f"Items:\n\n{payload}\n\n"
-
-        "The items above report the SAME news event from different sources. "
-        "Based on them, produce TWO outputs in one response:\n"
+def _merge_prompt_rules():
+    return (
+        "For EACH group produce TWO outputs:\n"
         "  1. title — a headline (≤15 words) that pulls the reader in while staying honest. "
         "Be specific: concrete actor + concrete action + the story's most striking element "
         "(unexpected outcome, contradiction, number, confrontation), taken from the sources. "
@@ -437,10 +558,10 @@ def merge_cluster(items):
         "answered in the summary: no withholding phrases ('what happened next', 'shocking decision'), "
         "no ALL-CAPS or exclamations, no unanswered question headlines, no hype adjectives — "
         "the striking element must come from the story's own facts.\n"
-        "  2. summary — ONE unified briefing that merges the items into a single readable account.\n\n"
+        "  2. summary — ONE unified briefing that merges the group's items into a single readable account.\n\n"
 
         "How to merge:\n"
-        "  - The items overlap heavily. State each shared fact ONCE — never stack near-identical "
+        "  - The items in a group overlap heavily. State each shared fact ONCE — never stack near-identical "
         "tellings of the same fact from different sources.\n"
         "  - Add the substantive facts that only some sources mention: names, numbers, dates, "
         "causes, consequences, key quotes.\n"
@@ -452,16 +573,95 @@ def merge_cluster(items):
         "sometimes a number, sometimes a decision — then continue in decreasing importance.\n\n"
 
         "Constraints:\n"
+        "  - Never mix facts between groups. Each group is a separate story.\n"
         "  - Preserve numbers, dates, full names, titles, and direct quotes VERBATIM.\n"
         "  - Preserve the cause-effect chain.\n"
         "  - Flowing prose. No bullets, no headings, no markdown.\n"
-        "  - Language for BOTH title and summary: use the language of the MAJORITY of items; if tied, use Turkish.\n"
-        "  - Do NOT invent details. Do NOT speculate. Length must come from the sources' actual content."
+        "  - Language for BOTH title and summary of a group: use the language of the MAJORITY of that "
+        "group's items; if tied, use Turkish.\n"
+        "  - Do NOT invent details. Do NOT speculate. Length must come from the sources' actual content.\n"
+        "  - Return exactly one entry per group, using the group's number."
     )
 
-    response = gemini_generate(prompt, response_schema=schema)
-    data = parse_json_lenient(response.text)
-    return data["title"], data["summary"]
+
+def _stacked(items):
+    """Fallback when the LLM cannot merge: keep the first title and stack the source summaries."""
+    return items[0]["title"], "\n\n".join(f"({it['source']}) {it['summary']}" for it in items)
+
+
+def merge_clusters(cluster_list):
+    """Stage 3: merge multi-source clusters into (title, summary) pairs, several clusters per Gemini
+    call to stay inside the free-tier daily request quota. Returns a list aligned with cluster_list.
+    Singletons never touch the LLM; a failed call falls back to stacking that batch's summaries."""
+    results = [None] * len(cluster_list)
+    multi_idx = [i for i, items in enumerate(cluster_list) if len(items) > 1]
+    for i, items in enumerate(cluster_list):
+        if len(items) == 1:
+            results[i] = (items[0]["title"], items[0]["summary"])
+
+    schema = {
+        "type": "object",
+        "properties": {
+            "merged": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "group": {"type": "integer"},
+                        "title": {"type": "string"},
+                        "summary": {"type": "string"},
+                    },
+                    "required": ["group", "title", "summary"],
+                },
+            },
+        },
+        "required": ["merged"],
+    }
+
+    batches = [multi_idx[i:i + MERGE_BATCH_SIZE] for i in range(0, len(multi_idx), MERGE_BATCH_SIZE)]
+    quota_gone = False
+    for b_no, batch in enumerate(batches, 1):
+        for i in batch:
+            print(f"  [merge {b_no}/{len(batches)}] group {i}: {len(cluster_list[i])} sources: "
+                  + ", ".join(it["source"] for it in cluster_list[i]))
+        if quota_gone:
+            for i in batch:
+                results[i] = _stacked(cluster_list[i])
+            continue
+
+        groups_text = []
+        for g_no, i in enumerate(batch, 1):
+            body = "\n\n".join(f"({it['source']}) {it['title']}\n{it['summary']}" for it in cluster_list[i])
+            groups_text.append(f"=== GROUP {g_no} ===\n{body}")
+        prompt = (
+            f"{len(batch)} groups of news items follow. Each group's items report the SAME news event "
+            f"from different sources.\n\n" + "\n\n".join(groups_text) + "\n\n" + _merge_prompt_rules()
+        )
+
+        try:
+            response = gemini_generate(prompt, response_schema=schema)
+            data = parse_json_lenient(response.text)
+            got = {}
+            for entry in data.get("merged", []):
+                g = entry.get("group")
+                if isinstance(g, int) and 1 <= g <= len(batch) and entry.get("summary"):
+                    got[g] = (entry.get("title") or cluster_list[batch[g - 1]][0]["title"], entry["summary"])
+            for g_no, i in enumerate(batch, 1):
+                if g_no in got:
+                    results[i] = got[g_no]
+                else:
+                    print(f"  ! merge batch {b_no}: no result for group {g_no}; stacking its summaries unmerged.")
+                    results[i] = _stacked(cluster_list[i])
+        except QuotaExhausted as e:
+            print(f"  ! Merge batch {b_no}/{len(batches)} skipped, quota gone ({e}); stacking the rest unmerged.")
+            quota_gone = True
+            for i in batch:
+                results[i] = _stacked(cluster_list[i])
+        except Exception as e:
+            print(f"  ! Merge batch {b_no}/{len(batches)} failed ({e}); stacking its summaries unmerged.")
+            for i in batch:
+                results[i] = _stacked(cluster_list[i])
+    return results
 
 
 def filter_summaries(summaries):
@@ -530,6 +730,7 @@ def main():
 
     print(f"Clustering {len(all_summaries)} summaries...")
     clusters = cluster_summaries(all_summaries)
+    print(f"Gemini keys: {gemini_key_report()}")
 
     seen = set()
     duplicate_count = 0
@@ -560,21 +761,12 @@ def main():
     singletons = size_counts.get(1, 0)
     dist = ", ".join(f"{c} cluster(s) with {size} sources" for size, c in sorted(size_counts.items()))
     print(f"Cluster size distribution: {dist}")
-    print(f"Merging {len(cluster_items)} clusters serially ({multi} need an API call, {singletons} singletons skip)...")
+    calls = (multi + MERGE_BATCH_SIZE - 1) // MERGE_BATCH_SIZE
+    print(f"Merging {len(cluster_items)} clusters ({multi} multi-source in {calls} API call(s), {singletons} singletons skip)...")
 
+    merged_pairs = merge_clusters(cluster_items)
     output = []
-    merge_idx = 0
-    for items in cluster_items:
-        if len(items) > 1:
-            merge_idx += 1
-            sources_list = ", ".join(it["source"] for it in items)
-            print(f"  [merge {merge_idx}/{multi}] {len(items)} sources: {sources_list}")
-        try:
-            title, merged = merge_cluster(items)
-        except Exception as e:
-            print(f"  ! Merge failed ({e}); stacking the source summaries unmerged.")
-            title = items[0]["title"]
-            merged = "\n\n".join(f"({it['source']}) {it['summary']}" for it in items)
+    for items, (title, merged) in zip(cluster_items, merged_pairs):
         output.append({
             "title": title,
             "summary": merged,
@@ -605,6 +797,7 @@ def main():
         )
     else:
         print("DISCORD_WEBHOOK_URL not set in env — skipping Discord. Add it to keys/.env to enable.")
+    print(f"Gemini keys at end of run: {gemini_key_report()}")
 
 
 def _is_turkish_cluster(entry):
