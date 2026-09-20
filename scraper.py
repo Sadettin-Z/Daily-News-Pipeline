@@ -437,8 +437,9 @@ def fetch_via_reader(url):
         )
         if r.status_code == 200 and r.text:
             return r.text
-    except Exception:
-        pass
+        print(f"    reader proxy HTTP {r.status_code} for {url[:80]}: {r.text[:120]!r}")
+    except Exception as e:
+        print(f"    reader proxy error for {url[:80]}: {e}")
     return ""
 
 

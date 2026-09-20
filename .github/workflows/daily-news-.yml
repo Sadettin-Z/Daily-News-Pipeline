@@ -10,6 +10,10 @@ on:
         description: 'Only check the feeds (no Gemini calls, no Discord post)'
         type: boolean
         default: false
+      probe_urls:
+        description: 'Extra URLs to fetch and print (space-separated), e.g. a candidate feed'
+        type: string
+        default: ''
 
 jobs:
   run:
@@ -33,7 +37,9 @@ jobs:
 
       - name: Feed check only
         if: ${{ inputs.feed_check_only == true }}
-        run: python -u feed_check.py
+        run: |
+          python -u feed_check.py
+          if [ -n "${{ inputs.probe_urls }}" ]; then python -u feed_check.py probe ${{ inputs.probe_urls }}; fi
 
       - name: Run news pipeline
         if: ${{ inputs.feed_check_only != true }}

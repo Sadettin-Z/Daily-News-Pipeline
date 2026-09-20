@@ -53,5 +53,24 @@ def main(hours=24):
     print("\nSources with problems:", ", ".join(problems) or "none")
 
 
+def probe(urls):
+    """Fetch arbitrary URLs and show status, content type and the first bytes. Handy for
+    hunting a replacement feed (try /robots.txt first: it lists sitemaps)."""
+    for url in urls:
+        print(f"--- {url}")
+        try:
+            r = scraper.CHROME_SESSION.get(url, timeout=20, allow_redirects=True)
+            ctype = r.headers.get("content-type", "?")
+            print(f"  HTTP {r.status_code} {ctype} {len(r.content)} bytes final={r.url}")
+            body = r.content[:1500].decode("utf-8", "replace")
+            for line in body.splitlines()[:25]:
+                print(f"  | {line[:160]}")
+        except Exception as e:
+            print(f"  ERROR {e}")
+
+
 if __name__ == "__main__":
-    main(int(sys.argv[1]) if len(sys.argv) > 1 else 24)
+    if len(sys.argv) > 1 and sys.argv[1] == "probe":
+        probe(sys.argv[2:])
+    else:
+        main(int(sys.argv[1]) if len(sys.argv) > 1 else 24)
