@@ -5,6 +5,11 @@ on:
     # 08:00 Europe/Istanbul (UTC+3, no DST) = 05:00 UTC
     - cron: '0 5 * * *'                  # Runs daily at 5:00 UTC = 8:00 Turkey
   workflow_dispatch:                     # Lets you trigger it manually from the UI
+    inputs:
+      feed_check_only:
+        description: 'Only check the feeds (no Gemini calls, no Discord post)'
+        type: boolean
+        default: false
 
 jobs:
   run:
@@ -26,7 +31,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt   # Installs deps listed in requirements.txt
 
+      - name: Feed check only
+        if: ${{ inputs.feed_check_only == true }}
+        run: python -u feed_check.py
+
       - name: Run news pipeline
+        if: ${{ inputs.feed_check_only != true }}
         env:                             # Injects secrets as env vars for analyze.py
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
@@ -36,7 +46,7 @@ jobs:
         run: python -u analyze.py           # Actually runs the pipeline
 
       - name: Upload run outputs
-        if: always()                     # Upload even if the run failed
+        if: ${{ always() && inputs.feed_check_only != true }}   # Upload even if the run failed
         uses: actions/upload-artifact@v4
         with:
           name: news-output-${{ github.run_number }}
