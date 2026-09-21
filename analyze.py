@@ -67,12 +67,12 @@ DROP:
 """.strip()
 
 
-# Up to 4 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_4
+# Up to 5 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_5
 # Falls back to GEMINI_API_KEY if numbered keys are not set.
 # Override the model with GEMINI_MODEL if Google ships a newer Flash.
 PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
-_raw_keys = {f"GEMINI_API_KEY_{i}": os.environ.get(f"GEMINI_API_KEY_{i}") for i in range(1, 5)}
+_raw_keys = {f"GEMINI_API_KEY_{i}": os.environ.get(f"GEMINI_API_KEY_{i}") for i in range(1, 6)}
 GEMINI_KEYS = [v for v in _raw_keys.values() if v]
 if not GEMINI_KEYS:
     fallback = os.environ.get("GEMINI_API_KEY")
@@ -248,7 +248,7 @@ def gemini_generate(contents, response_schema=None):
     if the whole round fails that way, wait and try again (up to MAX_ROUNDS rounds).
     Raises QuotaExhausted when no live key is left."""
     if not GEMINI_KEYS:
-        raise RuntimeError("No Gemini API keys configured. Set GEMINI_API_KEY_1..4 or GEMINI_API_KEY.")
+        raise RuntimeError("No Gemini API keys configured. Set GEMINI_API_KEY_1..5 or GEMINI_API_KEY.")
 
     model = PRIMARY_MODEL
     config = _build_config(model, response_schema)
