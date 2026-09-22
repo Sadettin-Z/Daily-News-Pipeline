@@ -69,8 +69,12 @@ DROP:
 
 # Up to 5 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_5
 # Falls back to GEMINI_API_KEY if numbered keys are not set.
-# Override the model with GEMINI_MODEL if Google ships a newer Flash.
+# Override the models with GEMINI_MODEL / GEMINI_FALLBACK_MODEL if Google ships a newer Flash.
+# Google's free-tier daily quota is counted per model, so when every key is spent on the
+# primary model the same keys still have a full day's quota on the fallback.
 PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.7-flash")
+MODEL_CHAIN = [PRIMARY_MODEL] + ([FALLBACK_MODEL] if FALLBACK_MODEL and FALLBACK_MODEL != PRIMARY_MODEL else [])
 
 _raw_keys = {f"GEMINI_API_KEY_{i}": os.environ.get(f"GEMINI_API_KEY_{i}") for i in range(1, 6)}
 GEMINI_KEYS = [v for v in _raw_keys.values() if v]
@@ -80,7 +84,7 @@ if not GEMINI_KEYS:
         GEMINI_KEYS = [fallback]
 print(f"Loaded {len(GEMINI_KEYS)} Gemini API key(s): " +
       (", ".join(name for name, val in _raw_keys.items() if val) or "(fallback GEMINI_API_KEY)"))
-print(f"Model: {PRIMARY_MODEL}")
+print(f"Model: {PRIMARY_MODEL}" + (f" (fallback when its quota is gone: {FALLBACK_MODEL})" if len(MODEL_CHAIN) > 1 else ""))
 
 
 class GeminiError(RuntimeError):
@@ -98,14 +102,18 @@ class QuotaExhausted(GeminiError):
 
 _key_lock = threading.Lock()
 _key_counter = 0
-# key_idx (1-based) -> reason. A key lands here when it can never succeed again this run:
-# 403 API_KEY_SERVICE_BLOCKED, invalid key, or its free-tier DAILY quota is used up.
+# key_idx (1-based) -> reason. A key lands here when it can never succeed again this run on ANY
+# model: 403 API_KEY_SERVICE_BLOCKED or an invalid key.
 _dead_keys = {}
-_key_ok_calls = Counter()   # key_idx -> successful calls, for the end-of-run summary
+# (model, key_idx) -> True once that key's free-tier DAILY quota for that model is used up.
+# Quota is per model, so the key stays usable on the other model in MODEL_CHAIN.
+_quota_dead = {}
+_key_ok_calls = Counter()   # (model, key_idx) -> successful calls, for the end-of-run summary
 
 
-def _rotated_keys():
-    """Return [(key_idx_1based, key), ...] of LIVE keys, rotated so a different key starts each call."""
+def _rotated_keys(model):
+    """[(key_idx_1based, key), ...] of keys still usable on `model`, rotated so a different
+    key starts each call."""
     global _key_counter
     if not GEMINI_KEYS:
         return []
@@ -114,24 +122,58 @@ def _rotated_keys():
         _key_counter += 1
     n = len(GEMINI_KEYS)
     order = [(((start + i) % n) + 1, GEMINI_KEYS[(start + i) % n]) for i in range(n)]
-    return [(idx, key) for idx, key in order if idx not in _dead_keys]
+    return [(idx, key) for idx, key in order
+            if idx not in _dead_keys and (model, idx) not in _quota_dead]
 
 
-def _kill_key(key_idx, reason):
+def _kill_key(key_idx, reason, model=None):
+    """Retire a key: for every model (model=None: blocked/invalid key) or only for `model`
+    (its daily quota on that model is spent)."""
+    n = len(GEMINI_KEYS)
     with _key_lock:
-        if key_idx in _dead_keys:
-            return
-        _dead_keys[key_idx] = reason
-    live = len(GEMINI_KEYS) - len(_dead_keys)
-    print(f"  !! key {key_idx}/{len(GEMINI_KEYS)} retired for the rest of this run ({reason}). {live} key(s) left.")
+        if model is None:
+            if key_idx in _dead_keys:
+                return
+            _dead_keys[key_idx] = reason
+        else:
+            if (model, key_idx) in _quota_dead:
+                return
+            _quota_dead[(model, key_idx)] = True
+    if model is None:
+        live = n - len(_dead_keys)
+        print(f"  !! key {key_idx}/{n} retired for the rest of this run ({reason}). {live} key(s) left.")
+    else:
+        live = len(_rotated_keys_quiet(model))
+        print(f"  !! key {key_idx}/{n} out of daily quota on '{model}'. {live} key(s) left on this model.")
+
+
+def _rotated_keys_quiet(model):
+    """Same filter as _rotated_keys without advancing the rotation counter."""
+    return [(i + 1, k) for i, k in enumerate(GEMINI_KEYS)
+            if (i + 1) not in _dead_keys and (model, i + 1) not in _quota_dead]
+
+
+def _dead_summary(model):
+    bits = []
+    for idx in range(1, len(GEMINI_KEYS) + 1):
+        if idx in _dead_keys:
+            bits.append(f"key {idx}: {_dead_keys[idx]}")
+        elif (model, idx) in _quota_dead:
+            bits.append(f"key {idx}: daily quota used up")
+    return "; ".join(bits)
 
 
 def gemini_key_report():
     """One-line status of every key, printed at the end of the run."""
     parts = []
     for idx in range(1, len(GEMINI_KEYS) + 1):
-        state = _dead_keys.get(idx, "ok")
-        parts.append(f"key {idx}: {_key_ok_calls[idx]} calls, {state}")
+        if idx in _dead_keys:
+            state = _dead_keys[idx]
+        else:
+            spent = [m for m in MODEL_CHAIN if (m, idx) in _quota_dead]
+            state = ("quota gone on " + ", ".join(spent)) if spent else "ok"
+        calls = ", ".join(f"{_key_ok_calls[(m, idx)]} on {m}" for m in MODEL_CHAIN)
+        parts.append(f"key {idx}: {calls}, {state}")
     return "; ".join(parts) if parts else "no keys"
 
 
@@ -240,28 +282,49 @@ TRANSIENT_RETRY_WAIT = 20    # base seconds between rounds; multiplied by round 
 
 
 def gemini_generate(contents, response_schema=None):
-    """Run PRIMARY_MODEL across the live keys.
-
-    Per key: content refusals raise ContentBlocked at once (no rotation — every key would refuse).
-    A 403 / invalid key / spent daily quota retires that key for the rest of the run so later
-    calls stop wasting time on it. Per-minute 429s and 5xx errors rotate to the next key and,
-    if the whole round fails that way, wait and try again (up to MAX_ROUNDS rounds).
-    Raises QuotaExhausted when no live key is left."""
+    """Run the prompt on PRIMARY_MODEL; once every key's daily quota on it is spent, on
+    FALLBACK_MODEL (see MODEL_CHAIN). Raises QuotaExhausted only when no model has a usable key."""
     if not GEMINI_KEYS:
         raise RuntimeError("No Gemini API keys configured. Set GEMINI_API_KEY_1..5 or GEMINI_API_KEY.")
 
-    model = PRIMARY_MODEL
+    last_quota_err = None
+    for pos, model in enumerate(MODEL_CHAIN):
+        if not _rotated_keys_quiet(model):
+            # Already known to be spent — skip without spending a request.
+            last_quota_err = last_quota_err or QuotaExhausted(
+                f"No usable Gemini key left on '{model}': {_dead_summary(model)}")
+            continue
+        try:
+            return _generate_on_model(model, contents, response_schema)
+        except QuotaExhausted as e:
+            last_quota_err = e
+            if pos + 1 < len(MODEL_CHAIN):
+                print(f"  >> '{model}' quota is gone on every key; switching to fallback model "
+                      f"'{MODEL_CHAIN[pos + 1]}' for the rest of this run.")
+            continue
+
+    raise QuotaExhausted(
+        "All Gemini keys are dead or out of daily quota on every model ("
+        + ", ".join(MODEL_CHAIN) + f"). {last_quota_err}"
+    )
+
+
+def _generate_on_model(model, contents, response_schema):
+    """Run `model` across the keys still usable on it.
+
+    Per key: content refusals raise ContentBlocked at once (no rotation — every key would refuse).
+    A 403 / invalid key retires that key for every model; a spent daily quota retires it for this
+    model only. Per-minute 429s and 5xx errors rotate to the next key and, if the whole round fails
+    that way, wait and try again (up to MAX_ROUNDS rounds).
+    Raises QuotaExhausted when no key is left on this model."""
     config = _build_config(model, response_schema)
     n = len(GEMINI_KEYS)
     last_err = None
 
     for round_no in range(1, MAX_ROUNDS + 1):
-        keys = _rotated_keys()
+        keys = _rotated_keys(model)
         if not keys:
-            raise QuotaExhausted(
-                f"No usable Gemini key left on '{model}': "
-                + "; ".join(f"key {i}: {r}" for i, r in sorted(_dead_keys.items()))
-            )
+            raise QuotaExhausted(f"No usable Gemini key left on '{model}': {_dead_summary(model)}")
 
         round_retryable = 0
         rate_wait = 0.0
@@ -277,7 +340,7 @@ def gemini_generate(contents, response_schema=None):
                     config=config,
                 )
                 _check_response(response)
-                _key_ok_calls[key_idx] += 1
+                _key_ok_calls[(model, key_idx)] += 1
                 return response
             except Exception as e:
                 last_err = e
@@ -291,7 +354,7 @@ def gemini_generate(contents, response_schema=None):
                     _kill_key(key_idx, detail)
                     continue
                 if kind == "daily":
-                    _kill_key(key_idx, detail)
+                    _kill_key(key_idx, detail, model=model)
                     continue
                 if kind == "rate":
                     print(f"  {tag} per-minute rate limit, rotating (retry after ~{detail:.0f}s)")
@@ -305,7 +368,7 @@ def gemini_generate(contents, response_schema=None):
                 print(f"  {tag} non-retryable error: {detail}")
                 raise
 
-        if not _rotated_keys():
+        if not _rotated_keys_quiet(model):
             break
         if round_retryable and round_no < MAX_ROUNDS:
             wait = max(TRANSIENT_RETRY_WAIT * round_no, rate_wait)
@@ -313,11 +376,10 @@ def gemini_generate(contents, response_schema=None):
                   f"Waiting {wait:.0f}s...")
             time.sleep(wait)
 
-    if not _rotated_keys():
+    if not _rotated_keys_quiet(model):
         raise QuotaExhausted(
-            f"All Gemini keys are dead or out of daily quota on '{model}': "
-            + "; ".join(f"key {i}: {r}" for i, r in sorted(_dead_keys.items()))
-            + f". Last error: {_short_err(last_err) if last_err else '?'}"
+            f"All Gemini keys are dead or out of daily quota on '{model}': {_dead_summary(model)}. "
+            f"Last error: {_short_err(last_err) if last_err else '?'}"
         )
     raise GeminiError(
         f"'{model}' failed on every live key for {MAX_ROUNDS} rounds (Google-side errors / rate limits). "
