@@ -69,12 +69,13 @@ DROP:
 
 # Up to 5 API keys read from env: GEMINI_API_KEY_1 ... GEMINI_API_KEY_5
 # Falls back to GEMINI_API_KEY if numbered keys are not set.
-# Override the models with GEMINI_MODEL / GEMINI_FALLBACK_MODEL if Google ships a newer Flash.
-# Google's free-tier daily quota is counted per model, so when every key is spent on the
-# primary model the same keys still have a full day's quota on the fallback.
-PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
-FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.7-flash")
-MODEL_CHAIN = [PRIMARY_MODEL] + ([FALLBACK_MODEL] if FALLBACK_MODEL and FALLBACK_MODEL != PRIMARY_MODEL else [])
+# Models are tried in this order. Every call starts on the first model, rotating through the
+# keys; when EVERY key's free-tier daily quota on that model is spent, the run moves to the next
+# model. Google counts the daily quota per model, so the same keys get a fresh allowance there.
+# Override with GEMINI_MODELS="modelA,modelB,..." when Google ships a newer Flash.
+MODEL_CHAIN = [m.strip() for m in os.environ.get(
+    "GEMINI_MODELS", "gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash").split(",") if m.strip()]
+PRIMARY_MODEL = MODEL_CHAIN[0]
 
 _raw_keys = {f"GEMINI_API_KEY_{i}": os.environ.get(f"GEMINI_API_KEY_{i}") for i in range(1, 6)}
 GEMINI_KEYS = [v for v in _raw_keys.values() if v]
@@ -84,7 +85,7 @@ if not GEMINI_KEYS:
         GEMINI_KEYS = [fallback]
 print(f"Loaded {len(GEMINI_KEYS)} Gemini API key(s): " +
       (", ".join(name for name, val in _raw_keys.items() if val) or "(fallback GEMINI_API_KEY)"))
-print(f"Model: {PRIMARY_MODEL}" + (f" (fallback when its quota is gone: {FALLBACK_MODEL})" if len(MODEL_CHAIN) > 1 else ""))
+print("Models (each used until every key's daily quota on it is spent): " + " -> ".join(MODEL_CHAIN))
 
 
 class GeminiError(RuntimeError):
@@ -282,8 +283,8 @@ TRANSIENT_RETRY_WAIT = 20    # base seconds between rounds; multiplied by round 
 
 
 def gemini_generate(contents, response_schema=None):
-    """Run the prompt on PRIMARY_MODEL; once every key's daily quota on it is spent, on
-    FALLBACK_MODEL (see MODEL_CHAIN). Raises QuotaExhausted only when no model has a usable key."""
+    """Run the prompt on the first model in MODEL_CHAIN; once every key's daily quota on it is
+    spent, on the next one, and so on. Raises QuotaExhausted only when no model has a usable key."""
     if not GEMINI_KEYS:
         raise RuntimeError("No Gemini API keys configured. Set GEMINI_API_KEY_1..5 or GEMINI_API_KEY.")
 
@@ -299,7 +300,7 @@ def gemini_generate(contents, response_schema=None):
         except QuotaExhausted as e:
             last_quota_err = e
             if pos + 1 < len(MODEL_CHAIN):
-                print(f"  >> '{model}' quota is gone on every key; switching to fallback model "
+                print(f"  >> '{model}' quota is gone on every key; switching to "
                       f"'{MODEL_CHAIN[pos + 1]}' for the rest of this run.")
             continue
 
