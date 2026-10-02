@@ -14,6 +14,15 @@ on:
         description: 'Extra URLs to fetch and print (space-separated), e.g. a candidate feed'
         type: string
         default: ''
+      mode:
+        description: 'full = normal run; scrape = fetch articles only (articles.json artifact, no Gemini); post = post clusters_file to Discord (no Gemini)'
+        type: choice
+        options: [full, scrape, post]
+        default: full
+      clusters_file:
+        description: 'For mode=post: path in the repo of a ready-made news_clusters.json'
+        type: string
+        default: 'manual/news_clusters.json'
 
 jobs:
   run:
@@ -50,6 +59,8 @@ jobs:
           GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
           GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          PIPELINE_MODE: ${{ inputs.mode || 'full' }}
+          CLUSTERS_FILE: ${{ inputs.clusters_file || 'manual/news_clusters.json' }}
         run: python -u analyze.py           # Actually runs the pipeline
 
       - name: Upload run outputs
@@ -58,6 +69,7 @@ jobs:
         with:
           name: news-output-${{ github.run_number }}
           path: |
+            articles.json
             news_clusters.json
             report.md
             discord_messages.json

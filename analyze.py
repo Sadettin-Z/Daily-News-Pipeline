@@ -774,7 +774,81 @@ def filter_summaries(summaries):
     return kept
 
 
+# PIPELINE_MODE selects what this process does:
+#   full   (default) scrape -> Gemini summaries/filter/cluster/merge -> Discord
+#   scrape           scrape only; write the raw articles to ARTICLES_FILE and stop (no Gemini)
+#   post             read a ready-made CLUSTERS_FILE (same shape as news_clusters.json) and post it
+# "scrape" + "post" let the summarizing be done outside this process when Gemini is unusable.
+PIPELINE_MODE = os.environ.get("PIPELINE_MODE", "full").strip().lower() or "full"
+ARTICLES_FILE = os.environ.get("ARTICLES_FILE", "articles.json")
+CLUSTERS_FILE = os.environ.get("CLUSTERS_FILE", "news_clusters.json")
+
+
+def scrape_only():
+    """Fetch every feed and dump the article texts; Gemini is never touched."""
+    articles_by_source = collect_articles()
+    total = sum(len(v) for v in articles_by_source.values())
+    with open(ARTICLES_FILE, "w", encoding="utf-8") as f:
+        json.dump(articles_by_source, f, ensure_ascii=False, indent=1)
+    print(f"Wrote {total} articles from {len(articles_by_source)} sources to {ARTICLES_FILE}")
+
+
+def validate_clusters(output):
+    """Shape check for an externally produced news_clusters.json."""
+    if not isinstance(output, list) or not output:
+        raise ValueError("clusters file must be a non-empty JSON list")
+    for n, entry in enumerate(output):
+        for key in ("title", "summary", "sources"):
+            if not entry.get(key):
+                raise ValueError(f"cluster {n} is missing '{key}'")
+        for s in entry["sources"]:
+            for key in ("source", "title", "url"):
+                if not s.get(key):
+                    raise ValueError(f"cluster {n} has a source missing '{key}'")
+            if s["source"] not in RSS_FEEDS:
+                raise ValueError(f"cluster {n}: unknown source name '{s['source']}'")
+
+
+def post_clusters():
+    """Post a ready-made clusters file through the normal Discord path."""
+    with open(CLUSTERS_FILE, encoding="utf-8") as f:
+        output = json.load(f)
+    validate_clusters(output)
+    multi = sum(1 for e in output if len(e["sources"]) > 1)
+    print(f"Loaded {len(output)} clusters from {CLUSTERS_FILE} ({multi} multi-source)")
+    with open("news_clusters.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    publish(output)
+
+
+def publish(output):
+    messages = build_discord_messages(output)
+
+    webhook = os.environ.get("DISCORD_WEBHOOK_URL")
+    if webhook:
+        print(f"Posting {len(messages)} chunked messages to Discord webhook...")
+        send_to_discord(messages, webhook)
+        print("Pausing 10s before file upload to let Discord rate-limit window drain...")
+        time.sleep(10)
+        fname, text = build_report_file(output)
+        upload_report_to_discord(
+            fname,
+            strip_markdown(text),
+            webhook,
+            f"**Haber Kaynakları {date.today().strftime('%d %m %Y')}**",
+        )
+    else:
+        print("DISCORD_WEBHOOK_URL not set in env — skipping Discord. Add it to keys/.env to enable.")
+
+
 def main():
+    if PIPELINE_MODE == "scrape":
+        return scrape_only()
+    if PIPELINE_MODE == "post":
+        return post_clusters()
+    if PIPELINE_MODE != "full":
+        raise SystemExit(f"Unknown PIPELINE_MODE '{PIPELINE_MODE}' (use full, scrape or post)")
+
     articles_by_source = collect_articles()
 
     all_summaries = []
@@ -843,23 +917,7 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(output)} clusters to news_clusters.json")
 
-    messages = build_discord_messages(output)
-
-    webhook = os.environ.get("DISCORD_WEBHOOK_URL")
-    if webhook:
-        print(f"Posting {len(messages)} chunked messages to Discord webhook...")
-        send_to_discord(messages, webhook)
-        print("Pausing 10s before file upload to let Discord rate-limit window drain...")
-        time.sleep(10)
-        fname, text = build_report_file(output)
-        upload_report_to_discord(
-            fname,
-            strip_markdown(text),
-            webhook,
-            f"**Haber Kaynakları {date.today().strftime('%d %m %Y')}**",
-        )
-    else:
-        print("DISCORD_WEBHOOK_URL not set in env — skipping Discord. Add it to keys/.env to enable.")
+    publish(output)
     print(f"Gemini keys at end of run: {gemini_key_report()}")
 
 
