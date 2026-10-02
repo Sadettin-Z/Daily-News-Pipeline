@@ -28,6 +28,8 @@ jobs:
   run:
     runs-on: ubuntu-latest               # Uses a Linux runner (free for public repos)
     timeout-minutes: 90                 # Kills the job if it hangs past 45 min
+    permissions:
+      contents: write                    # mode=scrape commits manual/articles.json back to the repo
 
     steps:
       - name: Checkout repo
@@ -62,6 +64,17 @@ jobs:
           PIPELINE_MODE: ${{ inputs.mode || 'full' }}
           CLUSTERS_FILE: ${{ inputs.clusters_file || 'manual/news_clusters.json' }}
         run: python -u analyze.py           # Actually runs the pipeline
+
+      - name: Save scraped articles to the repo
+        if: ${{ inputs.mode == 'scrape' }}
+        run: |
+          mkdir -p manual
+          mv articles.json manual/articles.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manual/articles.json
+          git commit -m "Scraped articles $(date -u +%Y-%m-%dT%H:%MZ) (mode=scrape run ${{ github.run_number }})" || echo "nothing to commit"
+          git push origin HEAD:${{ github.ref_name }}
 
       - name: Upload run outputs
         if: ${{ always() && inputs.feed_check_only != true }}   # Upload even if the run failed
