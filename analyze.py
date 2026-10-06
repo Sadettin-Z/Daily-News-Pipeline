@@ -512,8 +512,7 @@ def _summarize_batch(source_name, articles):
         "dates, names or quotes without which the story cannot be understood. Everything else "
         "(secondary actors, background history, reaction quotes, minor figures, procedural steps) "
         "is left out.\n"
-        "  STEP 3 — Write a short briefing: the core first, then the chosen details. "
-        "Typically 2–4 sentences, about 40–80 words. Never more than 120 words.\n\n"
+        "  STEP 3 — Write a short briefing: the core first, then the chosen details.\n\n"
 
         "Constraints:\n"
         "  - Short and essential. A reader wants the gist, not a full account.\n"
@@ -627,8 +626,7 @@ def _merge_prompt_rules():
         "  - Keep ONLY the most important details: the decisive numbers, dates, names or quotes "
         "that the story cannot be understood without. Leave out secondary actors, background history, "
         "reaction quotes, minor figures and procedural steps, even if a source mentions them.\n"
-        "  - Target length: 3–6 sentences, about 60–120 words. Never more than 180 words, "
-        "however many sources the group has.\n"
+
         "  - If sources disagree on a fact, give both versions with attribution "
         "(e.g., 'Reuters reports 50 dead while AP reports 47').\n"
         "  - Open with whatever matters most in THIS story — judge per story; sometimes it is a person, "
