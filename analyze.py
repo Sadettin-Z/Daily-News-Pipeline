@@ -42,7 +42,7 @@ If you can answer with a concrete point, KEEP. If the honest answer is "nothing 
 <keep>
 A story is relevant when at least one of these holds.
 
-1. TÜRKİYE, at the national level. Government and opposition moves, parliament, court cases of national weight, investigations and scandals, the economy (lira, interest rates, inflation, markets, budget, trade, national data releases, major sectors), foreign policy, security, major regulation, large Turkish companies. Also any foreign story in which Türkiye, a Turkish company or Turkish interests are an actor.
+1. TÜRKİYE, at the national level. Government and opposition moves, parliament, court cases of national weight, investigations and scandals, the economy (lira, interest rates, inflation, markets, budget, trade, national data releases, major sectors), foreign policy, security, major regulation, large Turkish companies. Security and counter-terrorism operations against terrorist organisations (PKK, DHKP-C, ISIS and others), whatever their size. Mass-scale incidents inside Türkiye that affect thousands of people at once, such as a mass illness or a large disaster. Also any foreign story in which Türkiye, a Turkish company or Turkish interests are an actor.
 
 2. WAR AND CONFLICT, anywhere, at any scale, as long as the story is about the conflict: fighting, strikes, casualties, ceasefires, negotiations, war aims, weapons, war finance and sanctions, spies and sabotage, the fate of the people inside it, and analyses of how a war is going or could spread. Türkiye is affected by every war, so this channel is wide.
 
@@ -53,14 +53,16 @@ A story is relevant when at least one of these holds.
 5. CRACKS IN MODEL SOCIETIES: a developed, stable country showing a structural problem. Violence or abuse inside an institution or a sector, a welfare state failing a group, a trusted system found broken. These show where developed societies are heading.
 
 6. THE GLOBAL ECONOMY: oil and gas, gold, the dollar, bond markets, central banks, trade rules and quotas, sanctions, the IMF and the World Bank, AI's effect on jobs, climate milestones. Anything that moves prices or policy in Türkiye.
+
+7. EVENTS OF THE WHOLE WORLD: the few events the entire world follows at the same moment wherever they happen, such as the Nobel prizes, decisions of the UN Security Council or General Assembly, and the G7, G20 and COP summits.
 </keep>
 
 <drop>
 A story is irrelevant when it is about the event alone and nothing beyond it. Drop these even when the source is prestigious or the casualty count is high.
 
 - PERSONAL MATTERS. A famous person's health, illness, family or private life. One official's or one businessperson's misconduct, wealth, taxes or scandal when no government decision and no public money is involved. One person's release, arrest, prison story, memoir or interview about their own experience.
-- SINGLE INCIDENTS. One accident, one shipwreck, one crime, one attack, one arrest, one plot, one police incident, one school stabbing, when the story does not reach national politics. A single event inside a war zone still counts under WAR; a single event elsewhere does not.
-- LOCAL AND SMALL-COUNTRY DOMESTIC MATTERS with no shift in ideas: a draft law, a fuel-cost complaint, a sector dispute, a party's internal reshuffle, a provincial problem. This includes local incidents in Türkiye (a poisoning, a fire, a court step) that carry no national political or economic weight.
+- SINGLE INCIDENTS. One accident, one shipwreck, one crime, one attack, one arrest, one plot, one police incident, one school stabbing, when the story does not reach national politics. A single event inside a war zone still counts under WAR; a single event elsewhere does not. A counter-terrorism operation in Türkiye is not a single incident; an ordinary crime operation (loan sharks, drugs, prostitution) is.
+- LOCAL AND SMALL-COUNTRY DOMESTIC MATTERS with no shift in ideas: a draft law, a fuel-cost complaint, a sector dispute, a party's internal reshuffle, a provincial problem. This includes local incidents in Türkiye (a poisoning of a few people, a fire, a court step) that carry no national political or economic weight. When thousands of people are affected, the incident is national and is kept.
 - NATURAL DISASTERS outside the big powers. A hurricane in a mid-sized country stays that country's problem; a hurricane across the US is a big-power event.
 - ONE CANDIDATE, ONE VOICE. A single candidate's interview or campaign line, a single expert's views on a sector, a tech executive's opinions. The state of an election is relevant; one voice in it is not.
 - NO NEW EVENT. Explainers, history pieces, opinion columns about a person's character, timelines that retell known facts, daily agendas and schedules of upcoming events, market notes that only restate a price without a cause.
@@ -88,6 +90,10 @@ DROP: The Pope will have lung surgery. A famous person's health, with no politic
 KEEP: Nebraska ranchers squeezed by tariffs and diesel question their loyalty to Trump. The mood of a big power's voters.
 DROP: A Michigan Senate candidate says Democrats must win big. One candidate's line.
 KEEP: A profile of a captured Russian spy who regrets only being caught. Part of the war.
+KEEP: The Nobel economics prize goes to Robert Hall and Michael Woodford. The whole world follows the Nobel prizes.
+KEEP: A counter-terrorism operation against DHKP-C detains 18 people in six provinces. An operation against a terrorist organisation in Türkiye.
+DROP: A loan-sharking operation in İzmir catches 13 suspects. Ordinary crime, one operation.
+KEEP: About 5,000 people in Tokat seek hospital treatment for a stomach illness. A mass-scale incident in Türkiye.
 DROP: 16 people in Antalya are poisoned by botox injections. A local incident in Türkiye with no national weight.
 DROP: "Economy and politics agenda for the day". A schedule, not news.
 </calibration>
