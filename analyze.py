@@ -25,45 +25,72 @@ except ImportError:
 from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES, NON_ENGLISH_INTERNATIONAL_SOURCES, normalize_turkish_chars
 
 
-# Relevance criteria for the post-summary filter. Edit freely; the LLM reads this verbatim.
-# Bias is intentionally conservative — when unsure, the article is kept.
+# Relevance test for the post-summary filter. The LLM reads this verbatim.
+# One governing question (<decision>), six channels of relevance (<keep>), the drop
+# categories (<drop>) and real reader decisions as calibration pairs (<calibration>).
+# There is no "when unsure, keep": a story whose connection cannot be named is dropped.
 INTERESTS = """
-You are filtering news for a reader who follows world affairs and Turkish politics/economy.
-When genuinely unsure between keep and drop, KEEP.
+<reader>
+The reader lives in Türkiye and follows the news to see what can reach them: Türkiye itself, its neighbourhood, the wars of the day, the big powers whose decisions ripple across the world, and the shifts in ideas and societies that show where the world is heading. A story earns its place only through one of those connections. A famous name, a dramatic event or a high casualty count does not count by itself.
+</reader>
 
-KEEP:
-- International geopolitics, diplomacy, wars, conflicts, peace processes
-- Turkish politics, government decisions, judicial cases of national significance
-- Turkish economy, lira, central bank, major Turkish corporate news
-- Foreign policy decisions affecting Türkiye, the Middle East, or major powers
-- Major global economic developments — markets, central banks, trade policy, sanctions, large M&A
-- Significant technology / science breakthroughs with broad social, economic, or geopolitical implications
-- Major business stories with industry-wide or regulatory impact (antitrust, large bankruptcies, major investigations)
-- Investigative journalism, exposés, leaks of public interest
-- Major social/political movements, protests, civil unrest
-- Climate, energy, environment policy and major related events
-- Health policy, pandemics, treatment or vaccine breakthroughs, major medical or public-health developments — not single observational studies
-- Major attacks, large-scale violence with political dimension
-- Actions or statements by globally recognized heads of state (Trump, Netanyahu, Putin, Xi, Macron, Modi, etc.) that reveal strategy or political project
-- Country-internal stories carrying a signal beyond their borders: precedent-setting rulings on issues of broad international debate (rights, speech, antitrust, religion), institutional failures revealing capacity problems, patterns of religious/ethnic violence, direct cross-border consequences (contagion, refugee flow, conflict spread)
+<decision>
+For every item, answer this question in one sentence: "What does this story tell the reader about Türkiye, about a war, about a big power, or about where the world is heading?"
+If you can answer with a concrete point, KEEP. If the honest answer is "nothing beyond the event itself", DROP. There is no "unsure" bucket: a story whose connection you cannot name in one sentence is dropped.
+</decision>
 
-DROP:
-- Sports of any kind — football, basketball, NBA, tennis, F1, Olympics, individual athletes, match results, transfers
-- Celebrity gossip, entertainment industry, TV shows, awards, personal lives of celebrities
-- Lifestyle content — DIY tips, recipes, cleaning hacks, "amazing trick" listicles, before/after transformations
-- Hyper-local incidents — single fires, single accidents, individual crimes — unless they have broader political/policy implications
-- Minor business stories — small-company layoffs, single-store closures, small class actions, gadget releases, app updates
-- Routine product reviews, unboxings, "best of" lists
-- Weather — unless major disaster (hurricane landfall, large earthquake)
-- Clickbait — "you won't believe", "amazing", "one weird trick"
-- Routine sub-national politics — state redistricting, congressional primary endorsements, local party realignments, state-legislator behavior
-- Personnel or institutional announcements — CEO replacements, news-director appointments, board reshuffles, ambassador appointments without scandal
-- Stories centered on figures the international reader wouldn't recognize (state-level officials, mid-tier executives, sub-national party figures) unless they stand in for a larger trend
-- Quirky crime, fraud, or eccentric corruption cases — entertaining is not significant
-- Procedural court steps (filing made, motion submitted, trial begins, hearing scheduled) where nothing unusual has happened yet
-- Local commercial or environmental disputes without national or industry-wide impact
-- Single accidents (road, rail, air) without political or terror dimension, even with high casualties
-- Domestic stories with no cross-border signal, no globally recognized figure, and no precedent-setting outcome
+<keep>
+A story is relevant when at least one of these holds.
+
+1. TÜRKİYE, at the national level. Government and opposition moves, parliament, court cases of national weight, investigations and scandals, the economy (lira, interest rates, inflation, markets, budget, trade, national data releases, major sectors), foreign policy, security, major regulation, large Turkish companies. Also any foreign story in which Türkiye, a Turkish company or Turkish interests are an actor.
+
+2. WAR AND CONFLICT, anywhere, at any scale, as long as the story is about the conflict: fighting, strikes, casualties, ceasefires, negotiations, war aims, weapons, war finance and sanctions, spies and sabotage, the fate of the people inside it, and analyses of how a war is going or could spread. Türkiye is affected by every war, so this channel is wide.
+
+3. BIG POWERS: the USA, China, Russia, the EU and its large members, the UK, India, Israel, Iran, Saudi Arabia. A nationwide event or a national-level decision in one of these is relevant because it changes how that power acts: elections and the public mood behind them, the leader's conduct and use of power, major court rulings against the government, nationwide disasters, the labour market and the economy, big regulation, government crises. Features and analyses count when they read the direction of the country (its mood, its voters, its system, its surveillance), not when they profile one person.
+
+4. SHIFTS IN IDEAS AND PRECEDENTS: an event that changes what is treated as legitimate or normal, even when the actors are small. A state denying another country's legitimacy, a party declaring an ideology racist, a precedent-setting ruling on rights, speech, religion or borders, a first-of-its-kind law with wider meaning. The size of the actor does not matter; the size of the shift does.
+
+5. CRACKS IN MODEL SOCIETIES: a developed, stable country showing a structural problem. Violence or abuse inside an institution or a sector, a welfare state failing a group, a trusted system found broken. These show where developed societies are heading.
+
+6. THE GLOBAL ECONOMY: oil and gas, gold, the dollar, bond markets, central banks, trade rules and quotas, sanctions, the IMF and the World Bank, AI's effect on jobs, climate milestones. Anything that moves prices or policy in Türkiye.
+</keep>
+
+<drop>
+A story is irrelevant when it is about the event alone and nothing beyond it. Drop these even when the source is prestigious or the casualty count is high.
+
+- PERSONAL MATTERS. A famous person's health, illness, family or private life. One official's or one businessperson's misconduct, wealth, taxes or scandal when no government decision and no public money is involved. One person's release, arrest, prison story, memoir or interview about their own experience.
+- SINGLE INCIDENTS. One accident, one shipwreck, one crime, one attack, one arrest, one plot, one police incident, one school stabbing, when the story does not reach national politics. A single event inside a war zone still counts under WAR; a single event elsewhere does not.
+- LOCAL AND SMALL-COUNTRY DOMESTIC MATTERS with no shift in ideas: a draft law, a fuel-cost complaint, a sector dispute, a party's internal reshuffle, a provincial problem. This includes local incidents in Türkiye (a poisoning, a fire, a court step) that carry no national political or economic weight.
+- NATURAL DISASTERS outside the big powers. A hurricane in a mid-sized country stays that country's problem; a hurricane across the US is a big-power event.
+- ONE CANDIDATE, ONE VOICE. A single candidate's interview or campaign line, a single expert's views on a sector, a tech executive's opinions. The state of an election is relevant; one voice in it is not.
+- NO NEW EVENT. Explainers, history pieces, opinion columns about a person's character, timelines that retell known facts, daily agendas and schedules of upcoming events, market notes that only restate a price without a cause.
+- NOISE. Sports, celebrity and entertainment, lifestyle, recipes, consumer tips, product reviews, astrology, clickbait, routine personnel appointments, routine corporate filings, routine weather.
+</drop>
+
+<calibration>
+These pairs show where the line is. Each one is a real decision by the reader.
+KEEP: India's opposition and youth protest a voter-roll purge of 130 million names. A nationwide event that shows where India is going.
+DROP: A man is detained in Poland for plotting to kill the prime minister. One arrest, nothing beyond it.
+KEEP: Hurricane Isaias cuts power to 800,000 homes in Florida and Alabama. A nationwide-scale event in a big power.
+DROP: Hurricane Simon hits Mexico's Pacific coast. A disaster that stays Mexico's.
+KEEP: 72 gold miners are killed in an air strike on the Sudan-Egypt border. Part of a war.
+DROP: 139 migrants drown off Djibouti. A single shipwreck.
+KEEP: A judge halts the Trump administration's $20m taxpayer-funded TV ads. The president's conduct and public money.
+DROP: Trump weighs firing an ambassador accused of taking gifts. One official's misconduct.
+KEEP: China sanctions Paraguayan and Belizean ministers over Taiwan ties. A power denying a country's legitimacy; the actors are small, the shift is not.
+DROP: Denmark plans to let teachers restrain violent pupils. A small country's school rule with no wider shift.
+KEEP: The UK Greens declare Zionism racism and then lose a by-election. An ideological move and its setback.
+DROP: A column argues that Netanyahu uses antisemitism charges to silence critics. Opinion about one person, no event.
+KEEP: Women in French e-sports describe sexual violence across the sector. A developed society showing a structural problem.
+DROP: A freed journalist describes his 16 months in a Russian prison. One person's experience.
+KEEP: A reporter returns to China and finds a richer, more paranoid surveillance state. Reads the direction of a big power.
+DROP: The Pope will have lung surgery. A famous person's health, with no political content.
+KEEP: Nebraska ranchers squeezed by tariffs and diesel question their loyalty to Trump. The mood of a big power's voters.
+DROP: A Michigan Senate candidate says Democrats must win big. One candidate's line.
+KEEP: A profile of a captured Russian spy who regrets only being caught. Part of the war.
+DROP: 16 people in Antalya are poisoned by botox injections. A local incident in Türkiye with no national weight.
+DROP: "Economy and politics agenda for the day". A schedule, not news.
+</calibration>
 """.strip()
 
 
@@ -725,7 +752,7 @@ def merge_clusters(cluster_list):
 
 
 def filter_summaries(summaries):
-    """Drop summaries that don't match INTERESTS. Falls back to keeping all on filter failure
+    """Drop summaries that fail the INTERESTS test. Falls back to keeping all on filter failure
     so a single bad LLM response can't wipe out the report."""
     if not summaries:
         return summaries
@@ -738,26 +765,41 @@ def filter_summaries(summaries):
     schema = {
         "type": "object",
         "properties": {
-            "drop_indices": {
+            "drop": {
                 "type": "array",
-                "items": {"type": "integer"},
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "index": {"type": "integer"},
+                        "reason": {"type": "string"},
+                    },
+                    "required": ["index", "reason"],
+                },
             },
         },
-        "required": ["drop_indices"],
+        "required": ["drop"],
     }
 
     prompt = (
-        f"Items (each with index, source, title, briefing):\n\n{payload}\n\n"
+        f"<items>\n{payload}\n</items>\n\n"
         f"{INTERESTS}\n\n"
-        "Apply the criteria above to the items. Return drop_indices: the indices of items to DROP. "
-        "When genuinely unsure, KEEP (omit the index). Return only drop_indices."
+        "Apply <decision> to every item in <items>. Return drop: one entry per item you DROP, with its "
+        "index and a one-sentence reason naming the <drop> category it falls under. Items you do not "
+        "list are kept. Return only drop."
     )
 
-    print(f"Filtering {len(summaries)} summaries against interest criteria...")
+    print(f"Filtering {len(summaries)} summaries against the relevance test...")
     try:
         response = gemini_generate(prompt, response_schema=schema)
         data = parse_json_lenient(response.text)
-        drop = {i for i in data.get("drop_indices", []) if 0 <= i < len(summaries)}
+        drop = {}
+        for entry in data.get("drop", []):
+            if isinstance(entry, dict):
+                i, why = entry.get("index", -1), (entry.get("reason") or "").strip()
+            else:
+                i, why = entry, ""
+            if isinstance(i, int) and 0 <= i < len(summaries):
+                drop[i] = why
     except Exception as e:
         print(f"  Filter call failed ({e}); keeping all.")
         return summaries
@@ -767,7 +809,8 @@ def filter_summaries(summaries):
     if drop:
         print("  Dropped:")
         for i in sorted(drop):
-            print(f"    - [{summaries[i]['source']}] {summaries[i]['title']}")
+            why = f" — {drop[i]}" if drop[i] else ""
+            print(f"    - [{summaries[i]['source']}] {summaries[i]['title']}{why}")
     return kept
 
 
