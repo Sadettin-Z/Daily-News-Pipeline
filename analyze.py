@@ -26,7 +26,7 @@ from scraper import collect_articles, RSS_FEEDS, TURKISH_SOURCES, NON_ENGLISH_IN
 
 
 # Relevance test for the post-summary filter. The LLM reads this verbatim.
-# One governing question (<decision>), six channels of relevance (<keep>), the drop
+# One governing question (<decision>), seven channels of relevance (<keep>), the drop
 # categories (<drop>) and real reader decisions as calibration pairs (<calibration>).
 # There is no "when unsure, keep": a story whose connection cannot be named is dropped.
 INTERESTS = """
@@ -46,7 +46,7 @@ A story is relevant when at least one of these holds.
 
 2. WAR AND CONFLICT, anywhere, at any scale, as long as the story is about the conflict: fighting, strikes, casualties, ceasefires, negotiations, war aims, weapons, war finance and sanctions, spies and sabotage, the fate of the people inside it, and analyses of how a war is going or could spread. Türkiye is affected by every war, so this channel is wide.
 
-3. BIG POWERS: the USA, China, Russia, the EU and its large members, the UK, India, Israel, Iran, Saudi Arabia. A nationwide event or a national-level decision in one of these is relevant because it changes how that power acts: elections and the public mood behind them, the leader's conduct and use of power, major court rulings against the government, nationwide disasters, the labour market and the economy, big regulation, government crises. Features and analyses count when they read the direction of the country (its mood, its voters, its system, its surveillance), not when they profile one person.
+3. BIG POWERS: the USA, China, Russia, the EU and its large members, the UK, India, Israel, Iran, Saudi Arabia. A nationwide event or a national-level decision in one of these is relevant because it changes how that power acts: elections and the public mood behind them, the leader's conduct and use of power, major court rulings against the government, nationwide disasters, the labour market and the economy, big regulation, government crises. Reportage from the ground counts when it shows the direction of the country through concrete observations (what voters in a region say, what a returning reporter finds), not when it profiles one person. A columnist's or network's analysis that weighs what a party might do, forecasts what an election would change or restates a poll is not an event and is dropped.
 
 4. SHIFTS IN IDEAS AND PRECEDENTS: an event that changes what is treated as legitimate or normal, even when the actors are small. A state denying another country's legitimacy, a party declaring an ideology racist, a precedent-setting ruling on rights, speech, religion or borders, a first-of-its-kind law with wider meaning. The size of the actor does not matter; the size of the shift does.
 
@@ -61,11 +61,12 @@ A story is relevant when at least one of these holds.
 A story is irrelevant when it is about the event alone and nothing beyond it. Drop these even when the source is prestigious or the casualty count is high.
 
 - PERSONAL MATTERS. A famous person's health, illness, family or private life. One official's or one businessperson's misconduct, wealth, taxes or scandal when no government decision and no public money is involved. One person's release, arrest, prison story, memoir or interview about their own experience.
-- SINGLE INCIDENTS. One accident, one shipwreck, one crime, one attack, one arrest, one plot, one police incident, one school stabbing, when the story does not reach national politics. A single event inside a war zone still counts under WAR; a single event elsewhere does not. A counter-terrorism operation in Türkiye is not a single incident; an ordinary crime operation (loan sharks, drugs, prostitution) is.
+- SINGLE INCIDENTS. One accident, one shipwreck, one crime, one attack, one arrest, one plot, one police incident, one school stabbing, one court skirmish over one local project (a golf course, a building, a park), when the story does not reach national politics. This holds in a big power too: a judge's order about one golf course the president wants to renovate is a local dispute, while a judge halting the president's nationwide taxpayer-funded ads is national conduct. A single event inside a war zone still counts under WAR; a single event elsewhere does not. A counter-terrorism operation in Türkiye is not a single incident; an ordinary crime operation (loan sharks, drugs, prostitution) is.
 - LOCAL AND SMALL-COUNTRY DOMESTIC MATTERS with no shift in ideas: a draft law, a fuel-cost complaint, a sector dispute, a party's internal reshuffle, a provincial problem. This includes local incidents in Türkiye (a poisoning of a few people, a fire, a court step) that carry no national political or economic weight. When thousands of people are affected, the incident is national and is kept.
 - NATURAL DISASTERS outside the big powers. A hurricane in a mid-sized country stays that country's problem; a hurricane across the US is a big-power event.
-- ONE CANDIDATE, ONE VOICE. A single candidate's interview or campaign line, a single expert's views on a sector, a tech executive's opinions. The state of an election is relevant; one voice in it is not.
-- NO NEW EVENT. Explainers, history pieces, opinion columns about a person's character, timelines that retell known facts, daily agendas and schedules of upcoming events, market notes that only restate a price without a cause.
+- ONE CANDIDATE, ONE VOICE. A single candidate's interview or campaign line, a rumour, gaffe or smear about one candidate and its collapse, a single expert's views on a sector, a tech executive's opinions. The state of an election is relevant; one voice or one episode in it is not, even in a race that could decide a chamber.
+- NO NEW EVENT. Explainers, history pieces, timelines that retell known facts, daily agendas and schedules of upcoming events, market notes that only restate a price without a cause.
+- OPINION. A column, essay or analysis giving a writer's general view on a question ("who should get sued when AI goes rogue?", "can the Democrats fix it?"), whatever the topic and however prestigious the outlet. An opinion is news only when the person holding it has the power to act on it: a head of state or government, a minister, a central bank governor, a party leader, a court. In a big power, a bill merely introduced, a senator's proposal or a warning in a company's filing is not an event either; a law passed, a ruling made or a decision taken is. Türkiye's parliament and parties are covered by channel 1 at every stage.
 - NOISE. Sports, celebrity and entertainment, lifestyle, recipes, consumer tips, product reviews, astrology, clickbait, routine personnel appointments, routine corporate filings, routine weather.
 </drop>
 
@@ -87,7 +88,11 @@ KEEP: Women in French e-sports describe sexual violence across the sector. A dev
 DROP: A freed journalist describes his 16 months in a Russian prison. One person's experience.
 KEEP: A reporter returns to China and finds a richer, more paranoid surveillance state. Reads the direction of a big power.
 DROP: The Pope will have lung surgery. A famous person's health, with no political content.
-KEEP: Nebraska ranchers squeezed by tariffs and diesel question their loyalty to Trump. The mood of a big power's voters.
+KEEP: Nebraska ranchers squeezed by tariffs and diesel question their loyalty to Trump. The mood of a big power's voters, seen on the ground.
+DROP: "Democrats are feeling America's pain. Whether they can fix it is another question." An analysis weighing what a party might do; no event and no information.
+DROP: A rumour that Texas Senate candidate James Talarico had a mental-health episode collapses; he had the flu. One campaign episode about one candidate.
+DROP: A judge is furious after 430 trees are cut down at a golf course Trump wants to renovate. One dispute over one local project.
+DROP: "When AI goes rogue, who should get sued?" A writer's general opinion; nobody with the power to act is speaking.
 DROP: A Michigan Senate candidate says Democrats must win big. One candidate's line.
 KEEP: A profile of a captured Russian spy who regrets only being caught. Part of the war.
 KEEP: The Nobel economics prize goes to Robert Hall and Michael Woodford. The whole world follows the Nobel prizes.
