@@ -1,808 +1,1216 @@
 [
   {
-    "title": "Nationwide French cost-of-living protests turn violent with 1,200 arrests and Limoges town hall burned",
-    "summary": "Nationwide protests in France on Saturday, 17 October, against the rising cost of living and conditions in schools, which grew out of weeks of high-school protests and calls to revive the yellow-vest movement, descended into rioting, looting and arson. The interior ministry counted 550,000 marchers and the CGT union 800,000. Prime Minister Sébastien Lecornu said 1,200 people were arrested and 150 police officers injured, up from interim tallies of 272 to roughly 400 reported earlier in the day. Limoges' historic town hall was largely destroyed by fire, protesters stormed Marseille's city hall and torched Lyon's tourist office, shops were looted in Paris, Marseille and Lille, and a teenager lost a hand to a crowd-control grenade in Saint-Étienne. President Emmanuel Macron vowed that rioters \"will be prosecuted and punished\" and the government blamed the violence on ultra-left troublemakers, while US Vice President JD Vance blamed it on migration policy. The unrest comes six months before the presidential election to replace Macron.",
+    "title": "France Imposes Curfews After Nationwide Riots and Looting",
+    "summary": "France imposed partial overnight curfews in parts of Paris, including Place de la République and Les Halles, and in cities including Lille, Lyon, Nice and Marseille after Saturday's nationwide protests over the cost of living and school conditions, which drew more than 500,000 people against an intelligence forecast of 200,000, erupted into rioting and looting across the country. About 2,400 to 2,500 people were arrested, around 1,000 police were injured, estimates of looted shops range from 1,500 to at least 3,000 and damage runs to hundreds of millions of euros; Limoges town hall burned and Marseille's city hall was stormed. Interior Minister Laurent Nuñez admitted police had \"lost control\" in some cities and offered to resign, which President Macron refused, while Prime Minister Sébastien Lecornu said a state of emergency remained possible and promised a law making rioters pay for the damage. Macron's televised address, offering no new measures, drew criticism across the spectrum six months before the presidential election, and unions have called new strikes for 5 November.",
     "sources": [
       {
         "source": "nytimes.com",
-        "title": "Unrest Mars Day of Protest in France, as Student Movement Turns National",
-        "url": "https://www.nytimes.com/2026/10/17/world/europe/france-protest-riots-marseille.html"
+        "title": "France Imposes Curfews in Parts of Paris and Other Cities After Nationwide Rioting",
+        "url": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-riots.html"
       },
       {
         "source": "cnn.com",
-        "title": "Buildings torched and over 1,000 detained after half a million protesters sweep France",
-        "url": "https://www.cnn.com/2026/10/17/europe/half-million-protesters-sweep-france-in-youth-unrest-latam-intl"
+        "title": "The rioting across France is a symptom of a much larger public and political crisis",
+        "url": "https://www.cnn.com/2026/10/19/europe/france-riots-political-crisis-intl"
       },
       {
         "source": "bbc.com",
-        "title": "Violent clashes, looting and buildings ablaze in France as over 1,200 arrested after protests",
-        "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
+        "title": "Clean up begins after French riots but police remain",
+        "url": "https://www.bbc.co.uk/news/videos/cwr7y0e57r50o?at_medium=RSS&at_campaign=rss"
       },
       {
         "source": "bbc.com",
-        "title": "How day of protests unfolded as disorder breaks out across France",
-        "url": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss"
+        "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
+        "url": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "bbc.com",
+        "title": "Watch: Shops looted and restaurants gutted in Paris riots",
+        "url": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "French authorities announce partial curfews as PM blames ‘ultra-left’ for exploiting protests – as it happened",
+        "url": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "France imposes partial curfews in several cities, including parts of Paris",
+        "url": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister"
+      },
+      {
+        "source": "lemonde.fr/en",
+        "title": "Footage of violence from French protests goes viral on social media",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/10/19/footage-of-violence-from-french-protests-goes-viral-on-social-media_6759171_5.html"
+      },
+      {
+        "source": "lemonde.fr/en",
+        "title": "Young French protesters determined to continue: 'The state is violent and property damage is the people's response to that violence'",
+        "url": "https://www.lemonde.fr/en/france/article/2026/10/19/young-french-protesters-determined-to-continue-the-state-is-violent-and-property-damage-is-the-people-s-response-to-that-violence_6759072_7.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "First Cities in France Impose Curfews After Outbreaks of Violence",
+        "url": "https://www.welt.de/politik/ausland/article6ad5fd5d51e5094f7a571aee/frankreich-erste-staedte-verhaengen-nach-gewaltexzessen-ausgangssperren-3000-geschaefte-beschaedigt.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "'A Valve for Instinct-Driven Outbursts' – Who Is Behind the Violence on France's Streets",
+        "url": "https://www.welt.de/politik/ausland/plus6ad62968199dc15f1abd9883/eskalierte-proteste-ventil-fuer-triebhafte-entladungen-wer-hinter-der-gewalt-auf-frankreichs-strassen-steckt.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "After Outbreaks of Violence in France – Prime Minister Orders Limited Curfews",
+        "url": "https://www.welt.de/politik/ausland/video6ad60ca4de9d7a845942b781/ausschreitungen-nach-gewaltexzessen-in-frankreich-premier-ordnet-begrenzte-ausgangssperren-an.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "Violence Against Shop Staff – Rioters Destroy Businesses",
+        "url": "https://www.welt.de/politik/ausland/video6ad5fa64199dc15f1abd9406/gewalteskalation-in-frankreich-gewalt-gegen-ladenmitarbeiter-randalierer-zerstoeren-geschaefte.html"
+      },
+      {
+        "source": "sozcu.com.tr",
+        "title": "Fransa’da protestolar büyüyor! Sokağa çıkma yasağı Paris’e uzandı",
+        "url": "https://www.sozcu.com.tr/fransa-da-protestolar-buyuyor-sokaga-cikma-yasagi-paris-e-uzandi-p370802"
+      },
+      {
+        "source": "bbc.com/turkce",
+        "title": "Fransa nefesini tutmuş bekliyor: Şimdi ne olacak?",
+        "url": "https://www.bbc.com/turkce/articles/cqm26kmrx4vro?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "bbc.com/turkce",
+        "title": "Fransa'da eylemler sonrası sokağa çıkma yasakları",
+        "url": "https://www.bbc.com/turkce/articles/cqgm02rx8ng3o?at_medium=RSS&at_campaign=rss"
+      }
+    ]
+  },
+  {
+    "title": "US-Ukraine Rift Deepens as Trump Says Someone Else Should Negotiate for Kyiv",
+    "summary": "Relations between Washington and Kyiv have sunk to their lowest point since the White House clash 18 months ago. President Trump said Ukraine has \"given us nothing\" in return for US aid and that it is \"time for somebody else to negotiate on behalf of Ukraine\", and said he was open to a three-way summit on Ukraine with Putin and Xi Jinping. President Zelensky, who said Trump is pushing Ukraine to surrender to Russia, told US senators that \"a political decision has been made to slow down support\", citing speed caps on the Starlink and Starshield networks that disrupt drone operations and early-warning air defence, incomplete US warnings of Russian ballistic missile attacks that an adviser says have cost lives, and delays to interceptor missiles already paid for by European partners under the PURL programme. The White House and Secretary of State Marco Rubio denied any change to intelligence sharing. The rift follows Trump's suspension of newly agreed sanctions on Russia and a deal to buy Russian diesel.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Trump’s Push for Deals With Russia Powers His Frustration With Ukraine",
+        "url": "https://www.nytimes.com/2026/10/19/us/politics/trump-russia-deals.html"
+      },
+      {
+        "source": "nytimes.com",
+        "title": "Trump Is Pushing Ukraine to Surrender to Russia, Zelensky Says",
+        "url": "https://www.nytimes.com/2026/10/19/world/europe/trump-zelensky-putin-ukraine-war.html"
+      },
+      {
+        "source": "cnn.com",
+        "title": "US-Ukraine relationship worsens amid Trump and Zelensky’s mutual distrust",
+        "url": "https://www.cnn.com/2026/10/19/europe/us-ukraine-relationship-tump-zelensky-distrust-intl"
+      },
+      {
+        "source": "bbc.com",
+        "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
       },
       {
         "source": "aljazeera.com",
-        "title": "Buildings burn as French protests go into the night",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/buildings-burn-as-french-protests-go-into-the-night?traffic_source=rss"
+        "title": "Zelenskyy seeks answers to why SpaceX Starshield defence is failing",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/zelenskyy-seeks-answers-to-why-spacex-starshield-defence-is-failing?traffic_source=rss"
+      },
+      {
+        "source": "welt.de",
+        "title": "Trump Accuses Kyiv of Giving Nothing in Return for US Aid",
+        "url": "https://www.welt.de/videos/video6ad6eb5a199dc15f1abd9fa8/krieg-in-der-ukraine-trump-wirft-kiew-fehlende-gegenleistung-fuer-us-hilfen-vor.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "Zelensky Accuses US Government of Delaying Delivery of Paid-For Interceptor Missiles",
+        "url": "https://www.welt.de/politik/ausland/article6ad69dfc51e5094f7a57249e/harte-vorwuerfe-selenskyj-wirft-us-regierung-verzoegerte-lieferung-bezahlter-abfangraketen-vor.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "Trump Open to Three-Way Summit With Putin and Xi – and Calls for Zelensky's Replacement",
+        "url": "https://www.welt.de/politik/ausland/article6ad678a3199dc15f1abd9d4a/ukraine-krieg-trump-zeigt-sich-offen-fuer-dreiergipfel-mit-putin-und-xi-und-fordert-abloesung-selenskyjs.html"
+      }
+    ]
+  },
+  {
+    "title": "Fon skandalı sonrası SPK Başkanı Sütcü istifa etti, Bakan Yardımcısı Çelik emekliliğini istedi",
+    "summary": "Yaklaşık iki milyon kişiyi etkilediği belirtilen yatırım fonu krizinin ardından Sermaye Piyasası Kurulu Başkanı Mahmut Sütcü sağlık sorunlarını gerekçe göstererek istifa etti; aynı akşam, krizde ihmal iddialarıyla adı geçen ve damadı fon soruşturmasında tutuklu bulunan Hazine ve Maliye Bakan Yardımcısı Osman Çelik de Bakan Mehmet Şimşek'e emeklilik dilekçesi verdi. Resmi Gazete'de Cumhurbaşkanı Erdoğan imzasıyla yayımlanan kararlarla Sütcü görevden alındı, Bakan Yardımcılığına Strateji ve Bütçe Başkan Yardımcısı Kutluhan Taşkın atandı ve fon soruşturmasında 30 Eylül'de şüpheli sıfatıyla ifade veren Kamu Gözetimi Kurumu Başkanı İbrahim Ömer Gönül görevden alındı. Ayrılıklar, Devlet Denetleme Kurulu'nun SPK ve BDDK dahil bağımsız finansal otoriteleri incelediği bir dönemde geldi; 9 Mayıs 2026'da atanan Sütcü'nün istifasına Yeni Parti'den Murat Emir \"Görevden alma yok, soruşturma yok!\" sözleriyle tepki gösterdi.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Fon ve rüşvet koltukları vurdu",
+        "url": "https://www.sozcu.com.tr/fon-ve-rusvet-koltuklari-vurdu-p370819"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurumu Başkanı İbrahim Ömer Gönül görevden alındı",
+        "url": "https://www.bloomberght.com/kamu-gozetimi-muhasebe-ve-denetim-standartlari-kurumu-baskani-ibrahim-omer-gonul-gorevden-alindi-3791850"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "Hazine ve Maliye Bakan Yardımcılığı'na atama, SPK Başkanı Sütcü görevden alındı",
+        "url": "https://www.bloomberght.com/hazine-ve-maliye-bakan-yardimciligina-kutluhan-taskin-atandi-3791847"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "SPK Başkanı Sütçü istifa etti",
+        "url": "https://www.bloomberght.com/spk-baskani-sutcu-istifa-etti-3791821"
+      },
+      {
+        "source": "veryansintv.com/direct",
+        "title": "Damadı fon soruşturmasında tutuklanmıştı: Hazine Maliye Bakan Yardımcısı Osman Çelik emekliliğini sundu",
+        "url": "https://www.veryansintv.com/damadi-fon-sorusturmasinda-tutuklanmisti-hazine-maliye-bakan-yardimcisi-osman-celik-emekliligini-sundu"
+      },
+      {
+        "source": "veryansintv.com/direct",
+        "title": "SPK Başkanı Mahmut Sütcü istifa etti!",
+        "url": "https://www.veryansintv.com/spk-baskani-mahmut-sutcu-istifa-etti"
+      },
+      {
+        "source": "bbc.com/turkce",
+        "title": "SPK Başkanı Mahmut Sütcü istifa etti",
+        "url": "https://www.bbc.com/turkce/articles/cmpqg5j2yw18o?at_medium=RSS&at_campaign=rss"
+      }
+    ]
+  },
+  {
+    "title": "Italy Sends Troops to Milan and Weighs Tougher Measures After Youth Riots",
+    "summary": "Italy's government will deploy 500 soldiers to Milan after two days of riots in which hundreds of mostly young, partly masked protesters looted shops and clashed with police following a Saturday demonstration over the cost of living and poor public services; police detained more than 270 young people and formally arrested 32, including 23 minors. Prime Minister Giorgia Meloni's cabinet is set to approve emergency security measures on Tuesday, including longer preventive detention for minors, curfews and restrictions on group gatherings. Similar violence hit Bologna, Brescia, Bergamo and Turin, while farmers and truckers in the south blocked commercial traffic over high fuel prices, and officials see the youth unrest as paralleling the riots in France.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Italy Faces Parallel Protests in the North and South",
+        "url": "https://www.nytimes.com/2026/10/19/world/europe/italy-protests-riots.html"
+      },
+      {
+        "source": "bbc.com",
+        "title": "Italy plans tougher security measures after violent protests",
+        "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Milan luxury shops close as Italy prepares to deploy troops in the city after days of protests",
+        "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe"
+      },
+      {
+        "source": "welt.de",
+        "title": "Rome Considers Curfews and Longer Detention",
+        "url": "https://www.welt.de/videos/video6ad6eb0f199dc15f1abd9fa3/ausschreitungen-in-mailand-rom-erwaegt-ausgangssperren-und-laengeren-gewahrsam.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "Severe Riots at Protests in Milan",
+        "url": "https://www.welt.de/politik/ausland/video6ad63aaa5e327b030a85526b/italien-schwere-ausschreitungen-bei-protesten-in-mailand.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "'Twelve-Year-Olds Playing Guerrilla War' – Police Detain 271 Youths in Milan",
+        "url": "https://www.welt.de/politik/ausland/article6ad630b651e5094f7a572021/italien-zwoelfjaehrige-spielen-guerillakrieg-polizei-nimmt-in-mailand-271-jugendliche-in-gewahrsam.html"
+      }
+    ]
+  },
+  {
+    "title": "Trump Blames Immigration for France Unrest, Says Paris Will Be 'Muslim City'",
+    "summary": "President Trump attributed the weekend riots in France to immigration rather than school conditions, saying \"Paris is going to be a Muslim city very soon\" and that he had warned Emmanuel Macron to close France's borders. At a Monday campaign rally in Kansas for Senator Roger Marshall he turned the unrest into a midterm message, saying France had been \"conquered, looted, and burned to the ground by migrants, jihadists, and communists\" and that \"this is what the radical Democrats want to do with America\"; JD Vance and other Republicans echoed the immigration framing ahead of the 3 November midterms.",
+    "sources": [
+      {
+        "source": "aljazeera.com",
+        "title": "Trump: ‘Paris is going to be a Muslim city very soon’",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/trump-paris-is-going-to-be-a-muslim-city-very?traffic_source=rss"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Trump attacks ‘migrants and communists’ as he tries to exploit France unrest",
+        "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-france-protests"
+      },
+      {
+        "source": "welt.de",
+        "title": "'What Is Happening in France Is Due to Immigration,' Says Trump",
+        "url": "https://www.welt.de/videos/video6ad6ea89199dc15f1abd9f9b/schuelerproteste-was-in-frankreich-passiert-liegt-an-der-einwanderung-sagt-trump.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "Trump Points to France – 'It Is What the Radical Democrats Want to Do With America'",
+        "url": "https://www.welt.de/politik/ausland/article6ad6e60151e5094f7a5725cb/us-wahlkampf-trump-zeigt-nach-frankreich-es-ist-das-was-die-radikalen-demokraten-mit-amerika-machen-wollen.html"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "Trump: Fransa'daki protestolar okullarla değil, göçle ilgili",
+        "url": "https://www.bloomberght.com/trump-fransa-daki-protestolar-okullarla-degil-gocle-ilgili-3791845"
+      }
+    ]
+  },
+  {
+    "title": "Vance Declines to Endorse Netanyahu as Hegseth Makes Unannounced Israel Visit",
+    "summary": "Vice President JD Vance declined to endorse Benjamin Netanyahu's re-election bid, saying \"I'm not getting involved in Israeli elections\", days after President Trump gave the prime minister his \"Complete and Total Endorsement\" and called him a \"Great Warrior\" a week before Israel's election. Separately, Defense Secretary Pete Hegseth met Netanyahu and Defense Minister Israel Katz in Israel on Monday during an unannounced visit first reported by Axios, with no indication of what was discussed. Polls project Netanyahu's coalition losing its majority, and analysts say the Trump brand carries less weight in Israel than it once did.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Will Trump’s Endorsement of Netanyahu Fire Up His Campaign or Fizzle?",
+        "url": "https://www.nytimes.com/2026/10/19/world/middleeast/trump-netanyahu-endorsement-election.html"
+      },
+      {
+        "source": "cnn.com",
+        "title": "Vance declines to endorse Netanyahu’s reelection bid, breaking with Trump",
+        "url": "https://www.cnn.com/2026/10/19/politics/vance-declines-endorse-netanyahu-trump-split"
+      },
+      {
+        "source": "aljazeera.com",
+        "title": "Hegseth meets Netanyahu in unannounced Israel visit",
+        "url": "https://www.aljazeera.com/news/2026/10/20/hegseth-meets-netanyahu-in-unannounced-israel-visit?traffic_source=rss"
+      },
+      {
+        "source": "welt.de",
+        "title": "US Vice President Vance Declines to Back Netanyahu in Election – Trump Sends Hegseth",
+        "url": "https://www.welt.de/politik/ausland/article6ad6e0c3199dc15f1abd9f44/israel-us-vize-vance-lehnt-wahlunterstuetzung-fuer-netanjahu-ab-trump-schickt-hegseth.html"
+      }
+    ]
+  },
+  {
+    "title": "Houthi Missile Strike on Yemen Training Camp Kills More Than 50 Recruits",
+    "summary": "A Houthi ballistic missile strike on the al-Alam training camp near Ataq in Yemen's Shabwa province killed at least 53 people, mostly young security recruits lined up in formation, and injured more than 200, the deadliest single attack since the civil war reignited. The Houthis said they targeted \"Saudi enemy\" forces; Yemen's government called it a war crime and vowed a firm response, and President Rashad al-Alimi asked the UN secretary general to designate the Houthis a terrorist organisation. Fighting has escalated since pro-government forces launched an October offensive with Saudi-led air support toward the Bab al-Mandab Strait, and the Houthis have resumed missile and drone attacks on Saudi airports and energy facilities.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Houthi Strikes Kill Dozens in Yemeni Desert Military Camp, Officials Say",
+        "url": "https://www.nytimes.com/2026/10/19/world/middleeast/houthis-strike-yemen-military-camp.html"
+      },
+      {
+        "source": "bbc.com",
+        "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+        "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+        "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war"
+      }
+    ]
+  },
+  {
+    "title": "Israeli Police Detain 10 Over Settler Attacks as Netanyahu Casts Doubt",
+    "summary": "Israeli police detained 10 people in a rare raid against West Bank settlers after a weekend of violent attacks on Palestinians harvesting olives near Taybeh, in which masked Israeli men beat US photojournalist Heidi Levine, breaking four vertebrae, and attacked European diplomats. The raid followed US pressure, with Secretary of State Marco Rubio and Ambassador Mike Huckabee condemning the attacks, while Prime Minister Benjamin Netanyahu downplayed the accounts, referring to an \"alleged attack\" on Levine, in the final days of Israel's election campaign. Rights groups say most inquiries into settler violence go nowhere; Yesh Din says 94% are closed without indictments.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Israeli Police Detain 10 Over Violent Settler Attacks in West Bank",
+        "url": "https://www.nytimes.com/2026/10/19/world/middleeast/israel-west-bank-settlers-palestinians.html"
+      },
+      {
+        "source": "nytimes.com",
+        "title": "U.S. Officials Condemn West Bank Attacks as Netanyahu Casts Doubt on Them",
+        "url": "https://www.nytimes.com/2026/10/18/world/middleeast/netanyahu-settler-attacks-west-bank-palestinians.html"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Israeli police detain 10 people in rare raid against West Bank settlers",
+        "url": "https://www.theguardian.com/world/2026/oct/19/israeli-police-detain-10-people-in-rare-raid-against-west-bank-settlers"
+      }
+    ]
+  },
+  {
+    "title": "Alberta Votes to Remain in Canada, Rejecting Independence Referendum",
+    "summary": "Voters in Alberta rejected a proposal to begin a process toward independence from Canada, with about 76% backing remaining in Canada against 23% after more than 1 million votes were counted, CBC projected. The result is a victory for Prime Minister Mark Carney, whose unity campaign was helped by US President Trump's trade war and talk of making Canada the 51st state, in Canada's first such plebiscite since the 1995 Quebec referendum; Premier Danielle Smith called the vote under pressure from separatists in her party, who say their movement will continue.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Alberta rejects secession referendum, chooses to remain part of Canada, CBC projects",
+        "url": "https://www.cnn.com/2026/10/20/americas/alberta-rejects-independence-referendum-canada-intl-hnk"
       },
       {
         "source": "npr.org",
-        "title": "Scuffles and fires break out as protesters rally across France, joining students",
-        "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france"
+        "title": "Alberta voters reject a move toward independence in referendum backing Canadian unity",
+        "url": "https://www.npr.org/2026/10/20/nx-s1-6008832/alberta-referendum-canada"
       },
       {
         "source": "theguardian.com",
-        "title": "Buildings set ablaze and more than 1,200 arrested as police clash with protesters across France",
-        "url": "https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes"
+        "title": "Alberta voters reject plan for referendum to leave Canada, CBC projects",
+        "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
+      }
+    ]
+  },
+  {
+    "title": "Saudi Arabia Cancels 'Davos in the Desert' After Houthi Attacks",
+    "summary": "Saudi Arabia has cancelled the Future Investment Initiative, known as \"Davos in the Desert\", which was due to run October 26-29 in Riyadh, pushing it to 2027 after a series of Houthi missile and drone attacks on Saudi airports, energy infrastructure and other sites, including a deadly strike this month on Riyadh's King Khalid International Airport. The attacks have killed at least 18 people and injured hundreds, and government agencies and office towers in Riyadh have told staff to work from home; Wall Street chiefs including Jamie Dimon and Larry Fink had been due to speak, and the cancellation is a blow to the kingdom's effort to attract Western capital.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Saudi Arabia cancels next week’s ‘Davos in the Desert’ conference after series of Houthi attacks",
+        "url": "https://www.cnn.com/2026/10/19/economy/saudi-arabia-cancels-investment-conference-houthi-attacks"
       },
       {
-        "source": "lemonde.fr/en",
-        "title": "Clashes erupt in France as protesters vow to make government 'tremble'",
-        "url": "https://www.lemonde.fr/en/france/article/2026/10/17/france-faces-day-of-combined-protests_6758706_7.html"
+        "source": "aljazeera.com",
+        "title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+        "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss"
+      }
+    ]
+  },
+  {
+    "title": "Bulgaria Issues Arrest Warrant for Two Germans Over Starlink Arson",
+    "summary": "A Sofia court issued a European arrest warrant for two 19-year-old German suspects accused of setting fire to eight Starlink antennas south of Sofia on 9 October, an attack Bulgaria's DANS intelligence service treats as sabotage of a system strategically important to Ukraine's defence. The suspects, who face three to twelve years in prison, allegedly entered from Serbia as tourists and left within hours; the case follows a fire at a Starlink ground station near Warsaw on 23 September that Poland blames on Russian intelligence.",
+    "sources": [
+      {
+        "source": "welt.de",
+        "title": "Bulgaria Issues Arrest Warrant for Two Germans Over Starlink Attack",
+        "url": "https://www.welt.de/politik/ausland/video6ad64f555e327b030a8553bd/sabotage-bulgarien-erlaesst-haftbefehl-gegen-zwei-deutsche-wegen-starlink-anschlags.html"
       },
       {
         "source": "welt.de",
-        "title": "Vance Sees Poor Migration Policy as Trigger for Protests",
-        "url": "https://www.welt.de/videos/video6ad47068bbcd3ed7e30241b8/frankreich-vance-sieht-schlechte-migrationspolitik-als-ausloeser-fuer-proteste.html"
+        "title": "Bulgaria Issues Arrest Warrant for Two Germans Over Starlink Attack",
+        "url": "https://www.welt.de/politik/ausland/article6ad6422151e5094f7a572163/sabotage-bulgarien-erlaesst-haftbefehl-gegen-zwei-deutsche-wegen-starlink-anschlags.html"
+      }
+    ]
+  },
+  {
+    "title": "Russian Drone Strike on Kharkiv Region Park Kills Six, Including Three Children",
+    "summary": "A Russian drone strike on a central park in Nova Vodolaha, about 30 kilometres southwest of Kharkiv, killed at least six people, including three children, and injured 15, according to the regional governor. President Zelensky called it \"pure atrocity\", naming a girl just over a year old killed in her pram, and urged the US not to lift sanctions on Russia while the killing continues, as Trump moves to import Russian diesel and has suspended new penalties under the Lindsey Graham law.",
+    "sources": [
+      {
+        "source": "aljazeera.com",
+        "title": "Children among six killed in Russian drone strike on Ukraine park",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/children-among-six-killed-in-russian-drone-strike-on-ukraine-park?traffic_source=rss"
       },
       {
         "source": "welt.de",
-        "title": "\"Masked and Dressed in Dark Clothing\" – Many Left-Wing Radicals at the Protests",
-        "url": "https://www.welt.de/videos/video6ad45499199dc15f1abd7f2a/frankreich-vermummt-und-dunkel-gekleidet-viele-linksradikale-bei-den-protesten.html"
+        "title": "Baby in Pram Killed by Drone – Zelensky Speaks of 'Pure Atrocity'",
+        "url": "https://www.welt.de/politik/ausland/article6ad6636351e5094f7a572328/ukraine-krieg-baby-in-kinderwagen-von-drohne-getoetet-selenskyj-spricht-von-reiner-graeueltat.html"
+      }
+    ]
+  },
+  {
+    "title": "Drone Strike Near Sudan Market Kills 80 as Attacks Escalate Nationwide",
+    "summary": "A drone strike on a transport hub near a market in al-Dibab, West Kordofan, killed 80 people on Sunday evening, mostly commuters heading home, with 30 more later dying of their wounds, in one of the deadliest single strikes since Sudan's war began in April 2023; the RSF, which controls the area, and the Emergency Lawyers group blamed the army. Medics and rights groups say drone attacks across Sudan have killed more than 160 people since Friday, including 41 displaced people killed by an RSF drone in Blue Nile and 17 in Nyala, and the US urged the UN Security Council to push for a humanitarian truce and expand an arms embargo, which China and Russia opposed.",
+    "sources": [
+      {
+        "source": "aljazeera.com",
+        "title": "160 people reported killed in escalating drone attacks across Sudan",
+        "url": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Drone attack near market kills 80 in Sudan",
+        "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+      }
+    ]
+  },
+  {
+    "title": "Iran Summons German Ambassador After Hamburg Court Convicts Two in Murder Plot",
+    "summary": "Iran summoned Germany's ambassador, Axel Dittmann, hours after Germany summoned Iran's envoy over a Hamburg court verdict convicting two men of plotting, at Tehran's behest, to kill Josef Schuster, head of the Central Council of Jews in Germany, and Volker Beck, head of the German-Israeli Society. The court said Iran's intelligence service steered the pair, sentencing a 54-year-old Danish national to eight and a half years and his 43-year-old Afghan accomplice to four and a half years in prison; Iran's Foreign Ministry called the accusations \"baseless political allegations\", while Germany said Tehran would not be allowed to \"threaten our free society\".",
+    "sources": [
+      {
+        "source": "aljazeera.com",
+        "title": "Tehran rejects any role in plot to kill leaders of German Jewish groups",
+        "url": "https://www.aljazeera.com/news/2026/10/19/tehran-rejects-any-role-in-plot-to-kill-leaders-of-jewish-groups?traffic_source=rss"
       },
       {
         "source": "welt.de",
-        "title": "\"They Didn't Listen\" – Vance Sees Migration Policy as the Cause of the Riots",
-        "url": "https://www.welt.de/politik/ausland/article6ad44bab51e5094f7a5704ff/proteste-in-frankreich-sie-haben-nicht-zugehoert-vance-sieht-in-migrationspolitik-grund-fuer-ausschreitungen.html"
+        "title": "Iran Summons German Ambassador and Complains About 'Contemptuous Attitude'",
+        "url": "https://www.welt.de/politik/ausland/article6ad68552f5617eff8493d52f/diplomatische-spannungen-iran-bestellt-deutschen-botschafter-ein-und-beschwert-sich-ueber-veraechtliche-haltung.html"
+      }
+    ]
+  },
+  {
+    "title": "Haitian Gangs Ambush International Force, Salvadoran Soldiers Missing",
+    "summary": "Gangs in Haiti attacked an armored vehicle of the UN-backed international gang suppression force with explosives and gunfire on Sunday in Croix-des-Bouquets, Port-au-Prince, the biggest attack since the force began operations; helicopters sent to search also came under fire. CNN reported four Salvadoran soldiers unaccounted for, while the New York Times reported five missing. US ambassador to the UN Mike Waltz told the Security Council \"We believe the four men survived\" and warned gangs that intimidating the coalition was \"a terrible mistake\"; the 5,550-member force has more than 2,000 troops on the ground in a capital where gangs control an estimated 70% of territory.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Five Salvadoran Soldiers Missing in Haiti After Ambush",
+        "url": "https://www.nytimes.com/2026/10/18/world/americas/salvadoran-soldiers-missing-haiti.html"
       },
       {
-        "source": "sozcu.com.tr",
-        "title": "Ürünleri servet değerindeki mağazalar yağmalandı: Çığırından çıkan gösterilerde yüzlerce gözaltı",
-        "url": "https://www.sozcu.com.tr/urunleri-servet-degerindeki-magazalar-yagmalandi-cigirindan-cikan-gosterilerde-yuzlerce-gozalti-p370202"
+        "source": "cnn.com",
+        "title": "Gangs in Haiti target foreign troops in the biggest attack since a new force began operations",
+        "url": "https://www.cnn.com/2026/10/19/americas/haiti-el-salvador-ambush-latam-intl"
+      }
+    ]
+  },
+  {
+    "title": "Trump Rallies in Kansas as Tight Senate Race Tests Republican Midterm Prospects",
+    "summary": "Donald Trump held his first campaign rally in Kansas in eight years, telling about 5,000 supporters outside Wichita that the state was \"tending toward the purple\" as Republican Senator Roger Marshall runs neck and neck with Democrat Adam Hamilton, a megachurch pastor who raised $11m to Marshall's $800,000 in the third quarter; no Democrat has won a Kansas Senate seat since 1932. Trump made anti-Muslim attacks on Abdul El-Sayed, Ilhan Omar and Rashida Tlaib his closing midterm message, announced an $8bn program to offset farmers' diesel costs during harvest and said he would make year-round E15 ethanol sales permanent only if Marshall is re-elected. A Reuters poll put his approval at a record low 31%, with 47% of registered voters backing Democrats to 35% for Republicans ahead of the 3 November midterms.",
+    "sources": [
+      {
+        "source": "theguardian.com",
+        "title": "In ruby-red Kansas, Trump contemplates the possibility of a Democratic win in the state",
+        "url": "https://www.theguardian.com/us-news/2026/oct/20/trump-kansas-rally-us-midterm-election-possibility-state-democratic-win"
       },
       {
-        "source": "bloomberght.com",
-        "title": "Fransa'da gerginlik artıyor",
-        "url": "https://www.bloomberght.com/fransa-da-gerginlik-artiyor-3791737"
+        "source": "theguardian.com",
+        "title": "At Kansas rally, Trump focuses closing midterm message on anti-Muslim racism – as it happened",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates"
+      }
+    ]
+  },
+  {
+    "title": "DEM Parti eş genel başkanları Yeni Parti lideri Özgür Özel'le görüştü",
+    "summary": "DEM Parti Eş Genel Başkanları Tülay Hatimoğulları ve Tuncer Bakırhan, muhalefetle diyalog arayışının ilk ziyaretini Yeni Parti Genel Başkanı Özgür Özel'e yaptı; basına kapalı görüşme 1,5 saati aştı ve çözüm sürecinde gelinen aşama, belediyelere yönelik operasyonlar ile fon soruşturması ele alındı. DEM Parti, Çerçeve Yasa'nın Meclis'ten geçmesinin üzerinden üç aydan fazla zaman geçmesine rağmen silah bırakma ve dönüş prosedürlerinin netleşmediğini, Öcalan'ın rol alacağı komisyonun ve Meclis İzleme Komisyonu'nun kurulmadığını belirtti. Özel, barış sürecine desteğini teyit ederek komisyon raporunun demokratikleşme başlıklı yedinci kısmında adım atılmasını istedi, seçilmişlerin hâlâ hapiste olduğunu söyledi ve seçimlerin birkaç hafta ya da bir ay öne alınmasını erken seçim saymadıklarını, bunu Anayasa'ya karşı muvazaalı bir işlem olarak gördüklerini açıkladı.",
+    "sources": [
+      {
+        "source": "veryansintv.com/direct",
+        "title": "DEM Parti heyetiyle görüşen Özgür Özel’den bölücü açılıma tam destek",
+        "url": "https://www.veryansintv.com/dem-parti-heyetiyle-gorusen-ozgur-ozelden-bolucu-acilima-tam-destek"
       },
       {
         "source": "bbc.com/turkce",
-        "title": "Paris'te ve Fransa genelinde protestocular polisle çatıştı",
-        "url": "https://www.bbc.com/turkce/articles/cw8rzp2e2v5xo?at_medium=RSS&at_campaign=rss"
+        "title": "DEM Parti ve Yeni Parti görüşmesinde hangi mesajlar öne çıktı?",
+        "url": "https://www.bbc.com/turkce/articles/cxj0l72j0qy9o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   {
-    "title": "Israeli settlers attack European diplomats in West Bank a day after beating US photographer",
-    "summary": "Masked Israeli settlers attacked a delegation of European diplomats from France, Belgium and Poland, a French mayor and Palestinian olive harvesters in the Christian village of Taybeh in the occupied West Bank on Saturday, a day after settlers in nearby Abu Falah beat Washington Post photographer Heidi Levine, who was hospitalised with a broken rib and broken vertebrae. A Belgian diplomatic car's window was smashed and 78-year-old French mayor Bernard Baudoux said he was thrown to the ground and beaten with iron bars. Belgium said it would press for EU sanctions on violent settlers, France and Poland demanded arrests, and US Ambassador Mike Huckabee called the attack on Levine \"a despicable act of terror\" while Secretary of State Marco Rubio said Washington had asked Israel to \"crack down\" on settler violence. Foreign Minister Gideon Sa'ar condemned the violence and police opened an investigation, but Prime Minister Benjamin Netanyahu's office, ten days before the 27 October election, dismissed the reports as a smear campaign and suggested Palestinians or far-left activists might be responsible. The Israeli rights group Yesh Din counts more than 170 settler attacks since 27 September.",
-    "sources": [
-      {
-        "source": "nytimes.com",
-        "title": "Israeli Settlers Attack Palestinians and European Officials in West Bank",
-        "url": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html"
-      },
-      {
-        "source": "cnn.com",
-        "title": "Israeli settlers attack group of European diplomats in the occupied West Bank",
-        "url": "https://www.cnn.com/2026/10/17/middleeast/west-bank-diplomats-attacked-intl"
-      },
-      {
-        "source": "bbc.com",
-        "title": "European diplomats attacked by Israeli settlers in West Bank",
-        "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "source": "aljazeera.com",
-        "title": "Rubio wants ‘crackdown’ on settler violence after US journalist attack",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/rubio-wants-crackdown-on-settler-violence-after-us-journalist-attack?traffic_source=rss"
-      },
-      {
-        "source": "aljazeera.com",
-        "title": "Israeli settlers attack European diplomats in the occupied West Bank",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss"
-      },
-      {
-        "source": "aljazeera.com",
-        "title": "US ambassador urges Israel to prosecute attackers of American journalist",
-        "url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss"
-      },
-      {
-        "source": "theguardian.com",
-        "title": "Israeli settlers attack European diplomats in West Bank",
-        "url": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank"
-      },
-      {
-        "source": "lemonde.fr/en",
-        "title": "US ambassador urges Israel to prosecute over 'act of terror' against American photographer",
-        "url": "https://www.lemonde.fr/en/international/article/2026/10/18/us-ambassador-urges-israel-to-prosecute-over-act-of-terror-against-american-photographer_6758719_4.html"
-      },
-      {
-        "source": "welt.de",
-        "title": "Israeli Settlers Attack European Diplomatic Convoy",
-        "url": "https://www.welt.de/politik/ausland/article6ad4651a51e5094f7a570611/westjordanland-israelische-siedler-attackieren-europaeischen-diplomatenkonvoi.html"
-      }
-    ]
-  },
-  {
-    "title": "Ukrainian drone swarm hits St Petersburg oil terminal and halts Pulkovo flights",
-    "summary": "Russian authorities reported a massive Ukrainian drone attack on St Petersburg and the surrounding Leningrad region overnight. Regional governor Alexander Drozdenko said 126 drones were shot down and that falling debris caused fires and power cuts, while city governor Alexander Beglov said the St Petersburg oil terminal, already struck in June, caught fire and civilian infrastructure in four districts was hit, with no deaths reported; flights at Pulkovo airport were temporarily suspended and a VK data centre was reported targeted. The strike follows President Volodymyr Zelensky's statement that the US-brokered halt to mutual strikes on energy infrastructure was, as far as Ukraine is concerned, lifted.",
-    "sources": [
-      {
-        "source": "aljazeera.com",
-        "title": "St Petersburg under attack from Ukrainian drone swarm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss"
-      },
-      {
-        "source": "welt.de",
-        "title": "Russian Authorities Report Massive Drone Attack on St. Petersburg",
-        "url": "https://www.welt.de/politik/ausland/article6ad4617d51e5094f7a5705ec/ukraine-krieg-russische-behoerden-melden-massiven-drohnenangriff-auf-st-petersburg.html"
-      },
-      {
-        "source": "welt.de",
-        "title": "\"St. Petersburg Was Hit Massively\" – Kyiv Strikes Russia's Sensitive Infrastructure",
-        "url": "https://www.welt.de/videos/video6ad45610199dc15f1abd7f3e/ukraine-krieg-st-petersburg-wurde-massiv-getroffen-kiew-greift-empfindliche-infrastruktur-russlands-an.html"
-      },
-      {
-        "source": "sozcu.com.tr",
-        "title": "Havalimanını İHA'lar vurdu uçuşlar durdu: Kente internet  verilemiyor",
-        "url": "https://www.sozcu.com.tr/havalimanini-ihalar-vurdu-ucuslar-durdu-kente-internet-verilemiyor-p370259"
-      }
-    ]
-  },
-  {
-    "title": "Houthi-Saudi war escalates with Taiz airstrikes, UAE re-entry and Egypt weighing help",
-    "summary": "Fighting in Yemen intensified as Saudi-led forces launched airstrikes on Houthi positions around Taiz, the city linking the government-held south to the Red Sea that has become the war's new frontline, while the civilian toll worsened. The UAE has agreed with Saudi Arabia to re-enter the conflict by resuming payments to southern government forces, with Saudi air cover, according to sources in Yemen, as Houthi advances alarm both states. Saudi Arabia has faced daily drone and missile attacks on its airports and energy infrastructure since fighting flared in July; the coalition said it intercepted four drones over Riyadh and other regions on Saturday, Riyadh's King Khalid airport has been hit at least 20 times, including a strike last week that killed 13, and a missile attack near the presidential palace in Aden on Thursday killed at least five. Egyptian President Abdel Fattah el-Sisi said he was willing to take any defensive measure to protect Saudi Arabia if asked and called an emergency session of parliament for Sunday. The UN says more than 200,000 people have been displaced since August.",
-    "sources": [
-      {
-        "source": "nytimes.com",
-        "title": "Yemen Fighting Rages as Civilian Toll From Houthi-Saudi Conflict Worsens",
-        "url": "https://www.nytimes.com/2026/10/17/world/middleeast/houthi-saudi-clashes-in-yemen.html"
-      },
-      {
-        "source": "aljazeera.com",
-        "title": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss"
-      },
-      {
-        "source": "aljazeera.com",
-        "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-        "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss"
-      },
-      {
-        "source": "theguardian.com",
-        "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
-        "url": "https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains"
-      }
-    ]
-  },
-  {
-    "title": "Iran says tankers hit mines in Strait of Hormuz as shipping attacks surge",
-    "summary": "Iran's Revolutionary Guard said two oil tankers, each carrying about two million barrels of crude, caught fire after striking naval mines in the Strait of Hormuz on Saturday, and later reported that another supertanker had suffered a massive explosion in its engine room and come to a standstill, the second such report since the previous night. Iran says the ships had switched off their positioning systems and used routes it had not authorised; it has controlled the strait since the US-Israeli war on the country began at the end of February and declared it closed again on 12 July, while the US blockades Iranian ports to cut off oil revenue. Attacks around the waterway have surged over the past two weeks, and Kpler data show oil flows through the strait fell from 20.8 million barrels on 8 October to 2.9 million on 11 October, pushing up global energy prices. Trump said he expects a deal to end the war after the 3 November US midterm elections.",
-    "sources": [
-      {
-        "source": "aljazeera.com",
-        "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
-        "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss"
-      },
-      {
-        "source": "welt.de",
-        "title": "Supertanker Stopped – Iran Again Reports Explosion from Sea Mine",
-        "url": "https://www.welt.de/politik/ausland/article6ad374071918705d12968b00/strasse-von-hormus-supertanker-gestoppt-iran-meldet-erneut-explosion-durch-seemine.html"
-      },
-      {
-        "source": "bloomberght.com",
-        "title": "Hürmüz'de bir tanker daha mayına çarptı",
-        "url": "https://www.bloomberght.com/hurmuz-de-bir-tanker-daha-mayina-carpti-3791728"
-      }
-    ]
-  },
-  {
-    "title": "Trump suspends new Russia sanctions for 60 days, deepening rift with Zelensky",
-    "summary": "President Donald Trump issued an executive order on Friday night suspending the Russia sanctions in the Lindsey Graham Act, which Congress passed and he signed into law in September, two days before they were due to take effect, citing the US national interest; Secretary of State Marco Rubio described it as a 60-day pause to assess the economic impact. The law targeted Putin, Russian banks and the shadow tanker fleet and allowed tariffs of up to 100% on the biggest buyers of Russian oil and gas, chiefly China and India. Volodymyr Zelensky said the US had chosen to \"completely disregard\" sanctions that \"could have helped enormously\" and urged supporters to defend them, Russian envoy Kirill Dmitriev called the order \"truly historic\", and Republicans including Ted Cruz joined Democrats in criticising the move, which follows a US deal to buy Russian diesel to curb fuel prices. Russia meanwhile struck more than 15 Ukrainian energy facilities overnight.",
-    "sources": [
-      {
-        "source": "bbc.com",
-        "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-        "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "source": "npr.org",
-        "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
-        "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia"
-      }
-    ]
-  },
-  {
-    "title": "No Kings rallies across US urge early voting ahead of midterms",
-    "summary": "The anti-Trump No Kings network held \"No Kings: Vote Early\" events in cities across the United States on Saturday, with more than 3,000 events planned, urging people to vote early in the 3 November midterm elections against what participants call President Trump's authoritarian style of government. Organisers relied this time on car convoys, concerts and neighbourhood gatherings rather than mass rallies; the movement says at least eight million people joined its rallies in late March. The events came days after the Trump administration sued California to bar it from counting mail-in ballots from people the federal government has identified as likely noncitizens, and the Justice Department warned that local officials who process such ballots risk criminal investigation.",
-    "sources": [
-      {
-        "source": "aljazeera.com",
-        "title": "Photos: No Kings rallies in US urge midterm voters to cast ballots early",
-        "url": "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss"
-      },
-      {
-        "source": "welt.de",
-        "title": "\"We Want Our Country Back\" – People Across the Country Demonstrate Against Trump",
-        "url": "https://www.welt.de/politik/ausland/article6ad419cd199dc15f1abd7dda/vor-us-kongresswahlen-wir-wollen-unser-land-zurueck-im-ganzen-land-demonstrieren-menschen-gegen-trump.html"
-      }
-    ]
-  },
-  {
-    "title": "Hayat pahalılığı protestoları İtalya, Belçika ve Portekiz'e yayıldı",
-    "summary": "Fransa'daki hayat pahalılığı protestolarıyla aynı gün, cumartesi, Belçika, İtalya ve Portekiz'de de yüz binlerce kişi artan yaşam maliyetine karşı sokağa çıktı. İtalya'da Giorgia Meloni hükümetine karşı birçok kentte düzenlenen gösterilerde Milano'da Duomo Meydanı çevresinde göstericiler mağazaları yağmaladı ve polisle çatıştı, yaklaşık 50 kişi gözaltına alındı; Bologna ve Torino'da da gerginlik yaşandı, Roma'da en büyük sendika CGIL'in on binlerce kişilik yürüyüşü olaysız geçti ve sendika 20 Kasım için ulusal grev kararı aldı. Meloni şiddeti kınayarak gösteri yapmanın hak olduğunu ama şehirleri savaş alanına çevirmenin hak olmadığını söyledi. Brüksel'de polis göz yaşartıcı gaz ve tazyikli su kullandı; Lizbon'da on binlerce kişi ücretler ve 2017'den bu yana iki kattan fazla artan konut fiyatları nedeniyle yürüdü.",
-    "sources": [
-      {
-        "source": "aljazeera.com",
-        "title": "Cost of living protests hit Belgium, Italy, Portugal and France",
-        "url": "https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france?traffic_source=rss"
-      },
-      {
-        "source": "sozcu.com.tr",
-        "title": "Avrupa'da sokaklar alev alev! Arnavutluk ve Fransa'dan sonra İtalya da karıştı",
-        "url": "https://www.sozcu.com.tr/avrupa-da-sokaklar-alev-alev-arnavutluk-ve-fransa-dan-sonra-italya-da-karisti-p370249"
-      }
-    ]
-  },
-  {
-    "title": "İran, Hürmüz Boğazı için ABD'ye yedi günlük plan sundu: Karar ABD'nin",
-    "summary": "İran Dışişleri Bakanı Abbas Arakçi, Bağdat'taki İslam İşbirliği Teşkilatı Dışişleri Bakanları Konseyi toplantısında, Hürmüz Boğazı'nın yeniden açılması ve seyrüseferin normale dönmesi için Katar aracılığıyla ABD'ye yedi günlük bir plan ilettiklerini açıklayarak kararın artık Washington'a ait olduğunu söyledi. Arakçi, bir ülkeyi bombalayıp abluka altına alarak denizcilik güvenliğinin normale dönmesinin beklenemeyeceğini belirtti. Plana göre ABD'nin koşulları 4-5 günde yerine getirmesi halinde boğaz altıncı gün açılabilecek ve yedinci gün görüşmeler başlayabilecek; Trump ise İran'ın yedi günlük ateşkes teklifini daha önce \"kabul edilemez\" diyerek reddetmişti.",
+    "title": "Altın Fed toplantısı öncesi geriledi, ons 4.130 dolar civarında",
+    "summary": "Altın, yatırımcıların 27-28 Ekim'deki Fed toplantısına odaklanmasıyla geriledi; spot altın 20 Ekim sabahı ons başına 4.145 dolar seviyesindeyken Asya işlemlerinde yüzde 0,3 düşüşle 4.126,84 dolara indi, yurt içinde gram altın 6.549-6.605 TL bandında işlem gördü. Fed eylülde politika faizini 25 baz puan artırarak yüzde 3,75-4,00 aralığına çıkarmıştı; CME FedWatch'a göre piyasa bu toplantıda faizin sabit kalma olasılığını yüzde 83, aralıkta artırım olasılığını yüzde 94 olarak fiyatlıyor. Yüksek petrol fiyatlarının beslediği enflasyon endişeleri, güçlenen dolar ve yükselen tahvil getirileri altını baskılarken, Husilerin Suudi Arabistan'daki hedeflere saldırıları ve İran'ın Hürmüz Boğazı üzerindeki kontrolü jeopolitik riski canlı tutuyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "İran’dan ABD’ye Hürmüz Boğazı için 7 günlük plan: Karar sizin",
-        "url": "https://www.sozcu.com.tr/iran-dan-abd-ye-hurmuz-bogazi-icin-7-gunluk-plan-karar-sizin-p370218"
+        "title": "Altın düşüşe geçti: Gözler Fed'in kararında",
+        "url": "https://www.sozcu.com.tr/altin-dususe-gecti-gozler-fedin-kararinda-p370832"
       },
       {
         "source": "bloomberght.com",
-        "title": "İran: Şartları açıkladık, seçim ABD'nin",
-        "url": "https://www.bloomberght.com/iran-sartlari-acikladik-secim-abd-nin-3791731"
+        "title": "Altın",
+        "url": "https://www.bloomberght.com/altin-fed-karari-oncesinde-geriledi-3791852"
       }
     ]
   },
   {
-    "title": "Ticaret Bakanlığı'ndan sosyal medya ilanlarına ceza: Meta'ya 20, TikTok'a 4 milyon lira",
-    "summary": "Ticaret Bakanlığı, Instagram, Facebook ve TikTok'ta mevzuata aykırı taşınmaz ve taşıt ilanı paylaşan 70 emlak ve oto galeri işletmesine toplam 7 milyon lira idari para cezası kesti; böylece bu kapsamda cezalandırılan işletme sayısı 152'ye, toplam ceza 15,2 milyon liraya yükseldi. Elektronik İlan Doğrulama Sistemi'ne (EİDS) entegre olmayan Meta Platforms'a 20 milyon, TikTok'a 4 milyon lira ceza uygulandı; Meta'ya bu kapsamda kesilen toplam ceza 36,2 milyon liraya ulaştı. Bakanlık, ilanlarda fiyat bilgisi ve EİDS doğrulamalı bağlantının zorunlu olduğunu hatırlatarak denetimlerin süreceğini açıkladı.",
+    "title": "Petrol Husi saldırıları ve Hürmüz gerginliğiyle 110 dolar civarında seyrediyor",
+    "summary": "Brent petrol, Husilerin Suudi Arabistan'daki Aramco tesisleri dahil enerji ve askeri hedeflere saldırıları ile Körfez'de ticari gemilere yönelik saldırılar nedeniyle beş ayın en yüksek seviyesine yakın, 110 dolar civarında seyrediyor; önceki seansta 110,70 dolara çıkan Brent, Trump'ın Rusya'nın enerji ihracatına bağlı bazı yaptırım ve tarifeleri kaldıran kararnamesinin ardından salı günü yüzde 0,45 düşüşle 109,06 dolara geriledi. Kpler'e göre son iki haftada en az 18 gemiye saldırı düzenlendi ve İran'ın Hürmüz Boğazı üzerindeki kontrolü sürüyor; Yemen'in Şebve vilayetinde bir eğitim kampına yönelik 58 kişinin öldüğü saldırı da arz kesintisi endişesini canlı tutuyor. ABD Enerji Bakanı Chris Wright, Basra Körfezi'nden petrol sevkiyatlarının savaş öncesi seviyelerin yaklaşık yüzde 80'ine ulaştığını söyledi.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Sosyal medyadaki araç ve konut ilanlarına milyonluk cezalar yağdı",
-        "url": "https://www.sozcu.com.tr/sosyal-medyadaki-arac-ve-konut-ilanlarina-milyonluk-cezalar-yagdi-p370263"
+        "title": "Saldırılar petrolü yükseltti",
+        "url": "https://www.sozcu.com.tr/saldirilar-petrolu-yukseltti-p370843"
       },
       {
         "source": "bloomberght.com",
-        "title": "Mevzuata aykırı ilana 15,2 milyon lira ceza",
-        "url": "https://www.bloomberght.com/mevzuata-aykiri-ilana-15-2-milyon-lira-ceza-3791739"
+        "title": "Petrol, Rusya yaptırımlarındaki esneklikle geriledi",
+        "url": "https://www.bloomberght.com/petrol-rusya-yaptirimlarindaki-esneklikle-geriledi-3791851"
       }
     ]
   },
   {
-    "title": "İstanbul'daki selde can kaybı beşe çıktı, esnafa 80 milyon lira destek",
-    "summary": "İstanbul Valisi Davut Gül, 14 Ekim'de 84 yılın en şiddetli yağışı olarak kayıtlara geçen sağanağın ardından yaşanan sellerde kentte can kaybının beşe çıktığını, kimliği belirlenen kayıp üç kişi için arama kurtarma çalışmalarının sürdüğünü açıkladı; Kocaeli'de de bir kişinin cansız bedenine ulaşıldı. Kentte 1.200'den fazla su baskını yaşandı ve 5.000 kişinin hesabına 10 bin TL acil yardım yatırıldı. Ticaret Bakanı Ömer Bolat da selden etkilenen esnafın acil ihtiyaçları için 80 milyon lira nakdi desteğin TESKOMB aracılığıyla 19 Ekim Pazartesi İstanbul Valiliği'ne gönderileceğini ve Valilik koordinasyonunda esnafa ulaştırılacağını duyurdu. İçişleri Bakanlığı cumartesi öğleden sonra için özellikle Anadolu Yakası'nda kuvvetli yağış ve fırtına uyarısı yaptı.",
-    "sources": [
-      {
-        "source": "bloomberght.com",
-        "title": "Selden etkilenen esnafa 80 milyon lira destek",
-        "url": "https://www.bloomberght.com/selden-etkilenen-esnafa-80-milyon-lira-destek-3791734"
-      },
-      {
-        "source": "bbc.com/turkce",
-        "title": "İstanbul'da sel: Kimliği belirlenen kayıp üç kişiyi arama çalışmaları sürüyor",
-        "url": "https://www.bbc.com/turkce/articles/c9e8l1xvnv40o?at_medium=RSS&at_campaign=rss"
-      }
-    ]
-  },
-  {
-    "title": "Erdoğan ve Bayraktar: Karadeniz doğalgaz üretimi ikiye katlanacak",
-    "summary": "Cumhurbaşkanı Erdoğan, Zonguldak Filyos Limanı'ndaki Osman Gazi Yüzer Üretim Platformu uğurlama törenine gönderdiği video mesajda, platformun Sakarya Gaz Sahası'ndan aldığı gazı işleyip Filyos'a göndereceğini ve Karadeniz'deki doğalgaz üretiminin günlük 20 milyon metreküpe çıkarak ikiye katlanacağını söyledi; 2027 başından itibaren her üç haneden biri yerli doğalgaz kullanacak. Moskova'daki Rusya Enerji Haftası'na katılan Enerji Bakanı Alparslan Bayraktar da yılda 7,5 milyar metreküpe çıkan Karadeniz üretiminin şimdi iki katına, 2028'de dört katına çıkacağını belirtti; Bayraktar ayrıca Gabar'dan yakında yeni bir petrol müjdesi verilebileceğini ve Akkuyu'da ilk reaktörün önümüzdeki aylarda devreye alınmasını hedeflediklerini söyledi.",
-    "sources": [
-      {
-        "source": "bloomberght.com",
-        "title": "Cumhurbaşkanı Erdoğan: Gaz üretimi ikiye katlanacak",
-        "url": "https://www.bloomberght.com/cumhurbaskani-erdogan-gaz-uretimi-ikiye-katlanacak-3791729"
-      },
-      {
-        "source": "bloomberght.com",
-        "title": "Bakan Bayraktar: Gabar'dan yakında yeni petrol müjdesi verebiliriz",
-        "url": "https://www.bloomberght.com/bakan-bayraktar-gabar-dan-yakinda-yeni-petrol-mujdesi-verebiliriz-3791724"
-      }
-    ]
-  },
-  {
-    "title": "Dispute Between Trump Allies Centers on Millions Transferred From Congo",
-    "summary": "A White House investigation into a feud between two prominent Trump allies, Richard Grenell and Alina Habba Mildon, centers on a bank transfer from the Democratic Republic of Congo to a Texas defense company, according to people familiar with the matter. Mildon, a former personal lawyer to President Trump, stormed into the Oval Office last week accusing Grenell of siphoning millions from a 2025 transaction organized by a Turkish investor, Turhan Mildon, whom she married last month, and said part of the $17.6 million was meant as a donation to the Kennedy Center, which Grenell then ran, but never arrived. Grenell denied all the accusations as absurd. The dispute is unfolding amid internal turmoil in the Trump administration.",
+    "title": "The French Teen Maimed During School Unrest by Tear Gas Grenade",
+    "summary": "The police's treatment of a French student maimed by a tear gas grenade during school unrest last month sheds light on how that unrest evolved into national protests and then spilled into widespread riots across France on Saturday.",
     "sources": [
       {
         "source": "nytimes.com",
-        "title": "Dispute Between Trump Allies Centers on Millions Transferred From Congo",
-        "url": "https://www.nytimes.com/2026/10/17/us/politics/trump-allies-grenell-mildon-congo.html"
+        "title": "The French Teen Maimed During School Unrest by Tear Gas Grenade",
+        "url": "https://www.nytimes.com/2026/10/19/world/europe/france-protests-violence-police-response.html"
       }
     ]
   },
   {
-    "title": "Egypt’s President Says He Will Leave Office in 2030",
-    "summary": "Egyptian President Abdel Fattah el-Sisi, who has ruled for over a dozen years, said he will leave office in 2030 and pledged to respect constitutional term limits. He is also seeking parliamentary approval to help defend Saudi Arabia.",
+    "title": "Can This International Force Stop Haiti’s Gangs?",
+    "summary": "A new U.N.-backed military force is fighting to wrest control of the Haitian capital from violent gangs, after previous efforts by international troops failed to restore security; the video asks whether this one can succeed.",
     "sources": [
       {
         "source": "nytimes.com",
-        "title": "Egypt’s President Says He Will Leave Office in 2030",
-        "url": "https://www.nytimes.com/2026/10/17/world/middleeast/egypt-president-el-sisi-term-limits-2030.html"
+        "title": "Can This International Force Stop Haiti’s Gangs?",
+        "url": "https://www.nytimes.com/video/world/americas/100000011168846/un-military-haiti-gangs.html"
       }
     ]
   },
   {
-    "title": "U.S. Floats Lifeline to Russia: Allowing More Gas Sales to Europe",
-    "summary": "The Trump administration is floating the idea of allowing Russia to sell more gas to Europe as part of a peace deal with Ukraine. Europe is wary of the proposal, and critics say it would strengthen Russia.",
+    "title": "Fire at Starlink Center in Lithuania Was Sabotage, Officials Say",
+    "summary": "Lithuanian officials said a fire at a Starlink center was sabotage; it did not seriously damage the network and followed similar incidents in Bulgaria and Poland involving the satellite internet provider, a key defense tool for Ukraine's armed forces.",
     "sources": [
       {
         "source": "nytimes.com",
-        "title": "U.S. Floats Lifeline to Russia: Allowing More Gas Sales to Europe",
-        "url": "https://www.nytimes.com/2026/10/17/us/politics/russia-gas-trump.html"
+        "title": "Fire at Starlink Center in Lithuania Was Sabotage, Officials Say",
+        "url": "https://www.nytimes.com/2026/10/19/world/europe/lithuania-starlink-sabotage-ukraine-russia.html"
       }
     ]
   },
   {
-    "title": "A Calgary Crowd Rallies for Canada as Alberta’s Vote on Secession Nears",
-    "summary": "A crowd in Calgary rallied for a united Canada as Alberta's referendum on secession nears, with Prime Minister Mark Carney among the speakers calling for unity and warning about the dangers of division.",
+    "title": "France’s Far Right Shifts Into Campaign Mode as Student Riots Erupt Into Violence",
+    "summary": "As student riots in France erupted into violence, the far-right National Rally, already ahead in the polls, shifted into campaign mode and presented itself as the party best placed to restore law and order.",
     "sources": [
       {
         "source": "nytimes.com",
-        "title": "A Calgary Crowd Rallies for Canada as Alberta’s Vote on Secession Nears",
-        "url": "https://www.nytimes.com/2026/10/17/world/canada/alberta-referendum-separation-smith.html"
+        "title": "France’s Far Right Shifts Into Campaign Mode as Student Riots Erupt Into Violence",
+        "url": "https://www.nytimes.com/2026/10/19/france-far-right-protests-riots.html"
       }
     ]
   },
   {
-    "title": "Trump and Netanyahu’s once blossoming bromance sours at a pivotal moment for both men",
-    "summary": "Less than two weeks before Israel's October 27 election, Trump has declined to endorse Netanyahu, telling Newsmax he has had “a very good relationship with him” but that “I don’t trust anybody in the world of politics.” The distance follows a year in which Netanyahu angered Trump by striking inside Lebanon and Gaza during Trump-led peace efforts, and Trump advisers concluded he was trying to prolong the Iran war to bolster his own standing; Trump is also trying to shed the image that Netanyahu pulled him into that war as Israel's net favorability among Americans fell to -16 in July 2026. Yet Israeli sources say the two leaders have recently discussed renewed strikes on Iran, with preparations underway pending Trump's decision and timing unclear because of the US midterm elections.",
+    "title": "Ukraine Uses F-16s to Shoot Down Russia’s Jet-Powered Drones",
+    "summary": "Ukraine is using F-16 fighter jets to shoot down Russia's jet-powered drones, Moscow's latest weapon of choice, though deploying the multimillion-dollar planes against drones is an imperfect fix.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Ukraine Uses F-16s to Shoot Down Russia’s Jet-Powered Drones",
+        "url": "https://www.nytimes.com/2026/10/19/world/europe/ukraine-f16-fighter-jets-drones-russia.html"
+      }
+    ]
+  },
+  {
+    "title": "The Trump team’s disdain for judicial orders is blowing up in court. Accountability has been slow in coming",
+    "summary": "A CNN analysis places Monday’s confrontation between US District Judge Ana Reyes and the Trump administration over a Washington golf course, where Trump said construction would begin “immediately” despite her order and she forced officials to testify, in a longer pattern of the administration flouting court orders with almost no accountability. An Associated Press investigation in May found judges had ruled the administration violated court orders in at least 31 lawsuits over 15 months, on top of more than 250 other instances of noncompliance in immigration cases, often found by Republican-nominated judges. Only two cases, both before Trump-appointed Judge Stephanie Gallagher over wrongful deportations, have ended in contempt findings; the contempt inquiry over the Alien Enemies Act deportation flights was shut down by an appeals court, and other judges floated contempt but never pursued it.",
     "sources": [
       {
         "source": "cnn.com",
-        "title": "Trump and Netanyahu’s once blossoming bromance sours at a pivotal moment for both men",
-        "url": "https://www.cnn.com/2026/10/18/world/trump-netanyahu-elections-relations-intl"
+        "title": "The Trump team’s disdain for judicial orders is blowing up in court. Accountability has been slow in coming",
+        "url": "https://www.cnn.com/2026/10/19/politics/trump-flouting-court-orders"
       }
     ]
   },
   {
-    "title": "‘These are really tough times’: House Republicans confront voter fury over Trump’s Washington in final midterm stretch",
-    "summary": "With weeks to go before the 2026 midterms, House Republicans are confronting anger from their own voters over gas and grocery prices and what they see as a broken, corrupt system; a GOP focus group in a red Midwestern state blamed “corrupt politicians” and “billionaires” for fuel costs. Republicans are mostly downbeat about holding the House though they believe the Senate is still in reach, and top GOP super PACs have cut off funding for two incumbents, while Democrats, including a $20 million push into red territory led by Illinois Gov. JB Pritzker, are targeting seats in Texas, Arizona, Colorado and Pennsylvania. Some GOP operatives report internal polling improving from a doomsday scenario of a few weeks ago, and Speaker Mike Johnson says the environment “feels like 2024.”",
+    "title": "Russian satellite makes possibly unprecedented approach to another spacecraft without permission",
+    "summary": "A Russian satellite, Kosmos 2612, made what may be an unprecedented unauthorized close approach to a commercial Earth-observation satellite, Iceye-X36, whose operator’s radar constellation supports the Ukrainian Armed Forces with battlefield situational awareness. According to tracking firm LeoLabs, Kosmos 2612 closed from 350 kilometers to less than 5 kilometers between October 15 and 16, came within roughly 500 meters at one point, held a close position through the weekend and began moving away by Monday. LeoLabs said the behavior does not establish hostile intent but demonstrates capabilities usable for intelligence collection, interference or “preparation for future counterspace operations”; Iceye said it is tracking the situation closely.",
     "sources": [
       {
         "source": "cnn.com",
-        "title": "‘These are really tough times’: House Republicans confront voter fury over Trump’s Washington in final midterm stretch",
-        "url": "https://www.cnn.com/2026/10/18/politics/republicans-voter-anger-midterms"
+        "title": "Russian satellite makes possibly unprecedented approach to another spacecraft without permission",
+        "url": "https://www.cnn.com/2026/10/19/science/russian-satellite-iceye-x36-approach"
       }
     ]
   },
   {
-    "title": "Mexico arrests state official accused of allowing unauthorized CIA role in drug raid",
-    "summary": "Mexican authorities arrested César Jáuregui, Chihuahua's former attorney general, for allegedly allowing CIA agents to take part in an April 19 raid on a drug lab without permission from the federal government. The CIA's role surfaced when two Americans died alongside two Mexican officers in a car crash returning from the raid; the agency has significantly expanded clandestine anti-cartel operations in Mexico during Trump's second term, including assassinations of alleged cartel members and drone flights over Mexican territory. President Claudia Sheinbaum insisted such cooperation requires federal authorization, saying “The relationship is federal, not state.”",
+    "title": "‘Tariff Man’ finally found tariffs he doesn’t like",
+    "summary": "President Trump signed an executive order on Friday waiving new sanctions and tariffs on Russia two days before they were to take effect, suspending tariffs of up to 500% on US imports from Russia and 100% on the top five importers of Russian oil and natural gas that Congress mandated in the Lindsey Graham sanctions act Trump signed into law in September. Secretary of State Marco Rubio said the president wants a 60-day period to study the impact on the global and US economy, since the measures would also hit countries such as India; Republicans including Sen. Thom Tillis called it “capitulating to a Russian dictator,” while the head of Russia’s sovereign wealth fund hailed it as “truly historic.” Oil futures dipped on the news but Brent crude still flirted with five-month highs around $110 a barrel on Monday.",
     "sources": [
       {
         "source": "cnn.com",
-        "title": "Mexico arrests state official accused of allowing unauthorized CIA role in drug raid",
-        "url": "https://www.cnn.com/2026/10/17/americas/mexico-cia-raid-arrest-intl-latam"
+        "title": "‘Tariff Man’ finally found tariffs he doesn’t like",
+        "url": "https://www.cnn.com/2026/10/19/business/russia-trump-graham-sanctions-tariff"
       }
     ]
   },
   {
-    "title": "Exclusive: Inside Erik Prince’s secretive operation taking on Haiti’s gangs",
-    "summary": "Erik Prince's company Vectus Global, hired by Haiti's interim government, runs a secretive “Task Force” with elite Haitian police that has carried out over 2,000 drone strikes against gangs since last March, with Prince telling CNN that for gang members “the best place for them is in the ground.” The UN says operations have halted the gangs' expansion in Port-au-Prince, but it counts 85 civilians killed by drone strikes attributed to a private military contractor, and of the 5,700 people killed or injured in 2026 more than half were casualties around security operations; the road from Cap Haitien remains gang-controlled, elections are postponed indefinitely and more than 1.5 million Haitians are displaced. Prince's fee is undisclosed but likely tens of millions of dollars, plus a 10-year border deal paying 10% of new customs revenue.",
+    "title": "Supreme Court backs Pentagon decision to throw out plea deals for 9/11 alleged conspirators",
+    "summary": "The US Supreme Court on Monday declined to review former Defense Secretary Lloyd Austin’s cancellation of plea agreements with Khalid Sheikh Mohammed and two other alleged 9/11 plotters, leaving in place an appeals court ruling that he “indisputably” had the authority to revoke deals that had taken the death penalty off the table in exchange for guilty pleas. The case returns to military courts that have struggled for years to set a trial, largely over whether evidence obtained through torture at CIA prisons is admissible; even the current summer 2028 trial date is considered unrealistic. The Trump administration had continued to defend Austin’s decision, and Justice Brett Kavanaugh recused himself.",
     "sources": [
       {
         "source": "cnn.com",
-        "title": "Exclusive: Inside Erik Prince’s secretive operation taking on Haiti’s gangs",
-        "url": "https://www.cnn.com/2026/10/17/americas/haiti-erik-prince-drones"
+        "title": "Supreme Court backs Pentagon decision to throw out plea deals for 9/11 alleged conspirators",
+        "url": "https://www.cnn.com/2026/10/19/politics/supreme-court-backs-pentagon-decision-to-throw-out-plea-khalid-sheikh-mohammed"
       }
     ]
   },
   {
-    "title": "I’ve spent most of the year talking to MAGA supporters. Here are 5 things I’ve learned",
-    "summary": "After a year talking to hundreds of Republicans for a CNN documentary, reporter Donie O'Sullivan finds that Trump's war with Iran has produced an unprecedented backlash from his base, with younger conservative men at CPAC calling it a betrayal of his “no new wars” pledge while older supporters accept it as necessary. Rural Trump voters, such as a Kentucky mother and daughter who turned down a reported $26 million for a data center on their farmland, resent his embrace of AI data centers and tech billionaires; almost none of the supporters he met showed enthusiasm for JD Vance in 2028, naming Marco Rubio most often, while hardcore loyalists stay faithful despite gas prices and inflation higher than when Biden left office.",
-    "sources": [
-      {
-        "source": "cnn.com",
-        "title": "I’ve spent most of the year talking to MAGA supporters. Here are 5 things I’ve learned",
-        "url": "https://www.cnn.com/2026/10/17/politics/maga-ever-after-donie-osullivan"
-      }
-    ]
-  },
-  {
-    "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
-    "summary": "BBC reporting from Columbus, Ohio, and Chicago finds the US drug crisis shifting to home-made synthetic cocktails: fentanyl is now routinely mixed with the animal tranquillisers xylazine and medetomidine, which the overdose-reversal drug naloxone cannot counter, and crack cocaine laced with fentanyl is killing stimulant users who do not know what they are taking, accounting for 78% of fatal overdoses in Franklin County over the last 12 months. National overdose deaths fell from a 2022 peak of 110,000 to around 70,000 last year, but a cartel dealer in Chicago said his supply from Mexico is unaffected by the Trump administration's terrorist designations and strikes on trafficking boats, and Cook County Sheriff Tom Dart, whose jail lost eight inmates in 2023 to synthetic cannabinoids smuggled in on drug-soaked paper, said the war on drugs is not \"a raging success\" because synthetics can now be made in any home.",
+    "title": "How is the US economy really doing under President Trump?",
+    "summary": "BBC Verify's review of US economic data ahead of the midterm elections finds the economy growing at an annualised rate of 2.2%, more than any other G7 member since the end of 2024, but inflation has risen to 3.7% from the 3% Trump inherited, pushed up by his tariffs and the energy shock of the US-Israel war with Iran. Job creation has slowed to an average of 34,000 a month, the federal deficit reached $2 trillion in the year to September 2026, and the 10-year bond yield is now above 5%, its highest since 2007, lifting 30-year mortgage rates to 7.4%. The ITEP think tank estimates middle-income households are around $1,700 worse off in 2026 while the richest 1% are $12,560 better off.",
     "sources": [
       {
         "source": "bbc.com",
-        "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
-        "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+        "title": "How is the US economy really doing under President Trump?",
+        "url": "https://www.bbc.co.uk/news/articles/cv98ze40jz18o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   {
-    "title": "AI tool helps stranded protesters find their way home in the Indian capital",
-    "summary": "A volunteer network built around an AI-assisted dashboard, the Detainee Gharwapsi Yojana created by 25-year-old Rajiv Choudhary, is helping protesters in New Delhi get home after police detain them and drop them far outside the city, as happened to a 19-year-old woman left about 50km from the protest site with no cash and a dead phone. The protests, near daily since the start of October and led by the satirical Cockroach Janta Party, student groups and the opposition Congress party, demand the resignation of Chief Election Commissioner Gyanesh Kumar over the removal of 133 million people from the voter lists; authorities have responded by blocking roads, closing metro stations and detaining thousands, in what the article calls the biggest challenge to Narendra Modi's government after 12 years in power. The network has grown to more than 130 volunteers and plans to expand to other cities.",
+    "title": "Seventh day of violent clashes between Albanian protesters and police",
+    "summary": "Albanian protesters, largely students, fought riot police in Tirana for a seventh consecutive day in a leaderless movement demanding Prime Minister Edi Rama's resignation over corruption and university conditions; official figures put injuries at 295, 186 of them police officers, before Monday's clashes. Rama, in power for 13 years, blamed \"dark forces in Europe and the US\" and refused to negotiate, while protesters call for a one-year technocratic government to prepare new elections.",
+    "sources": [
+      {
+        "source": "bbc.com",
+        "title": "Seventh day of violent clashes between Albanian protesters and police",
+        "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss"
+      }
+    ]
+  },
+  {
+    "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+    "summary": "US prosecutors say Abdulrahman Alfozan, a 35-year-old Saudi engineer charged with secretly planting an audio recorder in an OpenAI meeting room, had \"considerable support\" from the Saudi government, including frequent communication with a member of the royal family and a one-way flight out of the US for his wife and son paid for by a Saudi military official the day after his arrest. The court filing says his conduct could endanger US national security because OpenAI executives met government officials in that room; a judge denied him bail on Monday, and he faces up to five years in prison.",
+    "sources": [
+      {
+        "source": "bbc.com",
+        "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+        "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss"
+      }
+    ]
+  },
+  {
+    "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
+    "summary": "Ukraine's 92nd Assault Brigade released footage of what it says is the world's first drone airlift of a wounded soldier from the front line, using a remotely piloted \"heavy\" hexacopter because the serviceman was surrounded by landmines and heavy Russian drone activity made a ground rescue impossible; BBC Verify confirmed the identities of the personnel in the video and found no signs of AI manipulation.",
+    "sources": [
+      {
+        "source": "bbc.com",
+        "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
+        "url": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss"
+      }
+    ]
+  },
+  {
+    "title": "Obama blasts federal probe of Ilhan Omar as 'so appalling'",
+    "summary": "Barack Obama called the federal criminal investigation into Congresswoman Ilhan Omar \"so appalling\", saying the full weight of the government is being brought down on a law-abiding official for criticising President Trump, after homeland security agents searched her Washington DC home and seized her phone, computers and passport. The probe reportedly concerns whether she lied about her age on arriving in the US in 1995 and could lead to an attempt to revoke her citizenship and deport her; the White House denied any political motivation, and Obama warned that \"if this becomes the new normal\" future presidents of either party could do the same.",
+    "sources": [
+      {
+        "source": "bbc.com",
+        "title": "Obama blasts federal probe of Ilhan Omar as 'so appalling'",
+        "url": "https://www.bbc.co.uk/news/articles/cr15jl7dd42vo?at_medium=RSS&at_campaign=rss"
+      }
+    ]
+  },
+  {
+    "title": "Catalonia's former rebel president can return to Spain, court rules",
+    "summary": "Spain's Supreme Court ruled that former Catalan president Carles Puigdemont can return to Spain without fear of arrest, rejecting a far-right Vox appeal against lifting national arrest warrants for him and former ministers Lluís Puig and Toni Comín, nearly a decade after he fled to Belgium following the 2017 independence referendum. The ruling follows the Constitutional Court's decision earlier this month that the 2024 amnesty for Catalan separatists applies to him, closing Spain's biggest political crisis since Franco at a time when Catalan independence has become a marginal issue and next month's general election could bring the far right into government for the first time.",
+    "sources": [
+      {
+        "source": "bbc.com",
+        "title": "Catalonia's former rebel president can return to Spain, court rules",
+        "url": "https://www.bbc.co.uk/news/articles/cvp8gzg4e143o?at_medium=RSS&at_campaign=rss"
+      }
+    ]
+  },
+  {
+    "title": "The human cost of surging US air strikes in Somalia",
+    "summary": "US air strikes in Somalia have surged under President Donald Trump, with US Africa Command (AFRICOM) listing 84 strikes through September 2026, and survivors of a November 2025 offensive around Jamaame in Jubaland state told Al Jazeera the bombardment killed and maimed their relatives. AFRICOM said its assessment of reports that US operations killed between 10 and 12 civilians there did not meet its \"more likely than not\" threshold for attributing harm, without saying whether investigators spoke to witnesses, while a UNHCR-led network documented 12 civilian deaths and 22,800 people displaced between November 16 and 18, 2025. The Trump administration has returned strike-approval authority to military commanders, and Airwars says strikes are running at roughly four times the rate recorded under Joe Biden.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "AI tool helps stranded protesters find their way home in the Indian capital",
-        "url": "https://www.aljazeera.com/news/2026/10/18/ai-tool-helps-stranded-protesters-find-their-way-home-in-the-indian-capital?traffic_source=rss"
+        "title": "The human cost of surging US air strikes in Somalia",
+        "url": "https://www.aljazeera.com/news/2026/10/20/us-air-strikes-surge-in-somalia-as-families-seek-answers?traffic_source=rss"
       }
     ]
   },
   {
-    "title": "Why Marco Rubio’s visit to Mumbai has ruffled feathers in India",
-    "summary": "US Secretary of State Marco Rubio will meet Indian External Affairs Minister Subrahmanyam Jaishankar in Mumbai on Monday and then visit Reliance Industries' Jamnagar refinery, skipping New Delhi, with no official reason given. After US Ambassador Sergio Gor said Washington \"expected\" Jaishankar to travel to Mumbai, opposition Congress leaders accused the Modi government of letting India's top diplomat be \"summoned\" on home soil, with Rahul Gandhi saying Rubio had \"summoned his employee to Mumbai\". The row comes amid strained ties over tariffs and Russian oil: the US tariff on most Indian goods fell from 50 percent to 18 percent under a February framework but talks have since stalled, the US Labor Department last week suspended Infosys, Tata Consultancy Services, Wipro and HCL from a labour certification scheme, and after signing the Lindsey O Graham Sanctioning Russia and Iran Act, which allows tariffs of up to 100 percent on the five largest importers of Russian oil or gas, Trump on Friday signed an order seeking to waive the sanctions to ease oil prices before the November 3 US elections. Reliance is also the biggest buyer of Venezuelan crude besides the US.",
+    "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
+    "summary": "US President Donald Trump said the United States continues to hit Iran hard \"economically and militarily\" and praised Russian President Vladimir Putin for \"laying off Iran\" and doing \"nothing\" in the conflict. Chinese Premier Li Qiang condemned the US-Israeli attacks on Iran as \"blatant aggression\" launched during talks and without UN Security Council consultation, while Iranian Foreign Minister Abbas Araghchi said after talks with Sergey Lavrov in Tehran that Iran and Russia have their closest strategic relationship in history.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "Why Marco Rubio’s visit to Mumbai has ruffled feathers in India",
-        "url": "https://www.aljazeera.com/news/2026/10/18/why-marco-rubios-visit-to-mumbai-has-ruffled-feathers-in-india?traffic_source=rss"
+        "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3?traffic_source=rss"
       }
     ]
   },
   {
-    "title": "Fears grow in DRC as former President Joseph Kabila joins rebellion",
-    "summary": "Former DRC President Joseph Kabila has taken the leadership of a new political-military coalition, the Front pour la Refondation de la Nation (FRN), announced in Goma on Monday, which replaces the AFC-M23 rebel alliance, accuses President Felix Tshisekedi of tyranny and calls for resistance by all means including force. Goma has been under M23-AFC control since January last year, and the move puts a former head of state at the head of a rebellion that has displaced millions and drawn in neighbouring countries, with Rwanda accused of backing M23. The FRN says it will assume the AFC's commitments from the Qatar-mediated Doha talks, but residents and activists in Goma fear the realignment will prolong the war and undermine the Doha and US-led peace initiatives; a Congolese military court sentenced Kabila to death in absentia last year for treason and war crimes.",
+    "title": "Egyptian parliament delays vote on military support for Saudi Arabia",
+    "summary": "Egypt's parliament postponed to October 26 a vote on authorising the armed forces to support Saudi Arabia against Houthi attacks, which included the October 10 strike on Riyadh's airport that Saudi authorities say killed 13 people. The constitution requires a two-thirds majority to send troops abroad after approval by the National Defence Council, which was given on Sunday; President Abdel Fattah el-Sisi said Egypt would take \"any measure\" needed to protect its Gulf allies while stressing it was \"only about defence\", and the opposition Egyptian Social Democratic Party told its lawmakers to abstain over a lack of information on the mission's objectives, cost and risks. Saudi Arabia is due to deposit $5.3bn in Egypt's central bank this month, and Turkiye and Pakistan have made their own pledges after activating the Mecca defence pact with Riyadh.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "Fears grow in DRC as former President Joseph Kabila joins rebellion",
-        "url": "https://www.aljazeera.com/news/2026/10/18/fears-grow-in-drc-as-former-president-joseph-kabila-joins-rebellion?traffic_source=rss"
+        "title": "Egyptian parliament delays vote on military support for Saudi Arabia",
+        "url": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss"
       }
     ]
   },
   {
-    "title": "Iran war live: Ships attacked off UAE, Yemen; drones downed near Riyadh",
-    "summary": "The UK's maritime agency says a tugboat near the Strait of Hormuz was hit by two projectiles, while gunmen fired on an LNG tanker off the coast of Yemen; the Saudi-led coalition in Yemen says it downed more drones near Riyadh and that two of its troops were killed in a helicopter crash in Saudi Arabia's Najran.",
-    "sources": [
-      {
-        "source": "aljazeera.com",
-        "title": "Iran war live: Ships attacked off UAE, Yemen; drones downed near Riyadh",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss"
-      }
-    ]
-  },
-  {
-    "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
-    "summary": "President Trump, who pledged in September to campaign for about 35 Republicans in competitive races, has instead spent October rallying mostly in solidly Republican states such as Ohio, Texas, Oklahoma, Tennessee and Alaska, and has campaigned with fewer than a third of those candidates. The itinerary reflects a landscape in which even red-state Republicans need a boost: Kansas now has a toss-up Senate race, Republican committees are cancelling ad reservations for his Senate pick in North Carolina, and a North Carolina district redrawn to favor Republicans is rated a toss-up.",
+    "title": "DOJ charges 28 in California with voting crimes as election tensions escalate",
+    "summary": "The U.S. Justice Department charged 28 noncitizens in California with election crimes and filed an emergency request in federal court to stop the state from processing ballots from 20,000 voters it calls 'likely noncitizens', an unprecedented demand made while voting is already underway. The move escalates a fight that began with President Trump's summer speech on election integrity; Acting Deputy Attorney General Trent McCotter warned California officials they could be prosecuted for processing such ballots, and Trump wrote that 'They will all go to jail for a long period of time!!!' All 28 charged are green-card holders, some of whom appear not to have voted, and the DOJ says it has charged 113 noncitizens across 20 states in seven weeks. California says the demand violates federal and state law, election experts warn it could become a pretext to interfere with midterm results, and 26 federal judges have already dismissed DOJ demands for state voter data.",
     "sources": [
       {
         "source": "npr.org",
-        "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
-        "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms"
+        "title": "DOJ charges 28 in California with voting crimes as election tensions escalate",
+        "url": "https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes"
       }
     ]
   },
   {
-    "title": "‘I felt disgusted’: MEP speaks out over nude deepfakes and urges EU action",
-    "summary": "Green MEP Lena Schilling has spoken out after discovering nude deepfakes of herself online and is urging EU action, as a report by the Berlin-based thinktank Agora Digitale Transformation found that 50 MEPs, 46 of them women, have been targeted by sexualised deepfakes, calling the practice a “systemic threat to women in European politics”. A letter signed by 119 MEPs demands that the EU-wide ban on AI “nudifier” apps due to take effect on 2 December be paired with enforcement mechanisms, arguing that “a ban on paper protects no one until it is enforced”.",
+    "title": "Public support for founding principles of NHS is falling across UK population",
+    "summary": "Public support for the NHS’s founding principles, that it is free, available to everyone and tax-funded, fell across all UK age groups between 2021 and 2025, according to King’s Fund analysis of British Social Attitudes data. The share of those born before the second world war who think the NHS should be available to everyone dropped from 87.1% to 73.2%, and among boomers from 83.1% to 71.2%, while gen Z support for tax funding fell by 11.2 percentage points to 74.1%, which the thinktank called “a generational fault line”. Analysts linked the decline to economic hardship, changing attitudes to migration and record low satisfaction with the service, warning it could make future NHS budget rises harder to justify.",
     "sources": [
       {
         "source": "theguardian.com",
-        "title": "‘I felt disgusted’: MEP speaks out over nude deepfakes and urges EU action",
-        "url": "https://www.theguardian.com/society/2026/oct/18/mep-lena-schilling-nude-deepfakes-eu-action"
+        "title": "Public support for founding principles of NHS is falling across UK population",
+        "url": "https://www.theguardian.com/society/2026/oct/20/public-support-founding-principles-nhs-falling-across-uk-population"
       }
     ]
   },
   {
-    "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
-    "summary": "Falkland Islanders say they face an unprecedented economic war from Argentina, whose president Javier Milei has legislated to criminalise companies and individuals involved in the islands’ nascent oil industry and has suggested the fisheries on which their economy depends could be next. UK prime minister Andy Burnham and foreign secretary Ed Miliband restated support for the islanders’ wish to remain British and promised legislation to shield them from Argentina’s sanctions, while two major contractors have pulled out of the Sea Lion oil project, which independent estimates say could triple the islands’ GDP. Assembly member Lewis Clifton called the Argentinian pressure more “vehement and belligerent” than at any time since 1982.",
+    "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+    "summary": "The US Department of Homeland Security said about 101,000 Ukrainians and 1,800 Sudanese whose temporary protected status was due to expire on Monday “retain protection” until an announcement is made “at the appropriate time”, without saying how long they can stay. The Trump administration has already ended TPS for more than 1 million people from 13 countries, but roughly a month ago similarly kept protections for nearly 200,000 Salvadorians; advocates called the move “last-minute patches” and noted that both Ukraine and Sudan remain in armed conflict. The decision comes two weeks before midterm elections that will test Trump’s immigration policies.",
     "sources": [
       {
         "source": "theguardian.com",
-        "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
-        "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina"
+        "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+        "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
       }
     ]
   },
   {
-    "title": "Arizona joins Nevada to fight proposed cuts to their shares of Colorado River",
-    "summary": "Arizona has joined Nevada’s lawsuit against the Trump administration over interior department restrictions announced this summer that could sharply cut Colorado River water to the lower basin states of Arizona, California and Nevada over the next two years while sparing the upper basin states. Governor Katie Hobbs said the federal government “refuses to hold the Upper Basin accountable” and was threatening “draconian cuts”; the river’s main reservoirs, Lake Mead and Lake Powell, have fallen to historically low levels because of overuse and a changing climate.",
+    "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
+    "summary": "Iran has attacked at least 15 container ships in the strait of Hormuz in the past 10 days, with drones, mines and a rocket-propelled grenade, reasserting its disputed control of the waterway and pushing Brent crude close to $108 a barrel on Monday. A ship sailing from Karachi to Fujairah sank after hitting a mine, spilling containers that fishers scoured for rumoured iPhones; two tankers including a supertanker carrying 2m barrels were hit on Saturday, and transits of 254 in the week to 14 October were approximately 70% below pre-conflict levels. Russia’s foreign minister Sergei Lavrov visited Tehran offering to mediate with Donald Trump on Iran’s uranium stockpile, Iran has offered to open the strait in six days in return for sanctions relief, and Tehran is braced for a new attack after Netanyahu unveiled a doctrine emphasising pre-emptive strikes.",
     "sources": [
       {
         "source": "theguardian.com",
-        "title": "Arizona joins Nevada to fight proposed cuts to their shares of Colorado River",
-        "url": "https://www.theguardian.com/us-news/2026/oct/17/arizona-nevada-water-rights-colorado-river"
+        "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
+        "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships"
       }
     ]
   },
   {
-    "title": "Revealed: French police used UK-funded 4x4 vehicles to charge student protesters",
-    "summary": "French police used a Masstech VEZI 4x4 paid for by the UK under the 2018 Sandhurst treaty, earmarked for stopping Channel crossings, to charge at school students protesting in Dunkirk, injuring a 14-year-old girl, according to footage reported by BFM TV on 10 October. The French interior ministry confirmed an investigation has been opened; the school protests, now in their third week with an estimated 160,000 people involved, have drawn criticism of policing tactics, and the UK Home Office declined to comment.",
+    "title": "Ebola cases in Kenya highlight US failures amid Trump cuts to key services",
+    "summary": "An eighth person in Kenya has tested positive for Bundibugyo Ebola in the country’s first-ever cluster, as the second-largest Ebola outbreak in history has killed more than 4,300 and sickened more than 9,000 in the region. The cases highlight the diminished US role after the dismantling of USAID, cuts at the CDC and the US exit from the WHO in January, which Kenyan and US health experts say have weakened outbreak detection; a US quarantine centre for returning Americans at Kenya’s Laikipia airbase has stirred protests and a Kenyan court order halting it, with a ruling due in November. Senators Raphael Warnock and Bill Cassidy warned the cuts were “degrading our outbreak preparedness”.",
     "sources": [
       {
         "source": "theguardian.com",
-        "title": "Revealed: French police used UK-funded 4x4 vehicles to charge student protesters",
-        "url": "https://www.theguardian.com/world/2026/oct/17/french-police-uk-funded-4x4-vehicle-ram-student-protesters"
+        "title": "Ebola cases in Kenya highlight US failures amid Trump cuts to key services",
+        "url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine"
       }
     ]
   },
   {
-    "title": "SNP says campaign for next referendum on independence ‘has already begun’",
-    "summary": "Scottish first minister John Swinney told the SNP conference in Aberdeen that the campaign for a second independence referendum “has already begun”, launching a nationwide drive called Choose Scotland backed by “a six-figure war chest”. Senior SNP figures said a hung Westminster parliament, in which polling suggests the party could hold the balance of power, is the most realistic route to a new vote, which only the UK government can grant; prime minister Andy Burnham said Scotland needed to “move beyond” constitutional questions.",
+    "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+    "summary": "Hurricane Trudy, the Pacific’s 22nd named storm, stayed about 100 miles off Mexico’s coast and weakened to a tropical storm by Monday after warnings for Jalisco, Michoacán and Colima, while heavy rain caused severe flooding and one death across Rhodes, Evia and the Sporades in Greece. In Turkey, five people died in severe flooding in Istanbul last week after heavy rain on 14 and 15 October, with 242mm recorded in Beykoz; nearly 600 people were rescued, at least 2,700 were forced to evacuate their homes, and schools closed and flights were delayed across several provinces. The Turkish state meteorological service issued further heavy-rain alerts for dozens of provinces over the weekend.",
     "sources": [
       {
         "source": "theguardian.com",
-        "title": "SNP says campaign for next referendum on independence ‘has already begun’",
-        "url": "https://www.theguardian.com/politics/2026/oct/17/snp-campaign-second-referendum-independence-john-swinney"
+        "title": "Hurricane Trudy menaces Mexico’s Pacific coast and Greece hit by deadly floods",
+        "url": "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods"
       }
     ]
   },
   {
-    "title": "On the campaign trail with Gabriel Zucman, the economist who wants to tax California's billionaires",
-    "summary": "French-American economist Gabriel Zucman is campaigning in California for Proposition 40, which voters will decide at the November 3 midterm elections: a one-time 5% tax on the total wealth of the state's roughly 250 billionaires. The estimated $100 billion raised is meant to save the health coverage of 3.5 million Californians threatened by cuts under the One Big Beautiful Bill signed by President Donald Trump; the measure, put to referendum by the SEIU-UHW union with 875,000 signatures, draws directly on the work of Zucman and his Berkeley mentor Emmanuel Saez. Before flying to San Francisco, Zucman had been in Budapest helping the new Hungarian government with a wealth-tax project.",
+    "title": "Cuts force World Food Programme to end support for half a million Palestinians in Gaza",
+    "summary": "Funding cuts have forced the UN World Food Programme to scale back support in Gaza from about 1.6 million people this summer, three-quarters of the population, to 1.1 million a month from October, ending help for more than half a million people, with ration boxes, cash stipends and community kitchen meals all reduced. Funding has fallen by more than half from 2025 levels after the Trump administration decimated USAID and other donors cut aid, and the WFP needs more than £300m over six months. More than a year after the ceasefire, reconstruction has not begun, about 80% of Gazans are unemployed, two-thirds face crisis-level food insecurity and 200,000 are at emergency level, one step from famine, so WFP’s Shaun Hughes warns the gains since the 2025 famine are “very fragile”.",
+    "sources": [
+      {
+        "source": "theguardian.com",
+        "title": "Cuts force World Food Programme to end support for half a million Palestinians in Gaza",
+        "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza"
+      }
+    ]
+  },
+  {
+    "title": "China’s economy grows faster than forecast after AI boom boosts exports",
+    "summary": "China’s GDP grew 4.5% year-on-year in the third quarter, beating forecasts and up from 4.3% in the second quarter, as exports surged by more than a third in September on AI-related electronics demand. Industrial production rose 5.5% in September while retail sales grew only 1.1%; fixed-asset investment fell 7.2% and property investment 20.6% over the first nine months. Growth of 4.6% so far this year puts China on track for its 4.5%-5% target without extra stimulus, with analysts saying export strength is offsetting drags from the Iran conflict and weak domestic demand.",
+    "sources": [
+      {
+        "source": "theguardian.com",
+        "title": "China’s economy grows faster than forecast after AI boom boosts exports",
+        "url": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports"
+      }
+    ]
+  },
+  {
+    "title": "Trump Appointees Asked a Federal Cybersecurity Agency to Secretly Acquire a Voting Machine — and Hack It",
+    "summary": "Political appointees at the Department of Homeland Security asked the Cybersecurity and Infrastructure Security Agency early in Trump's second term to secretly acquire a voting machine, hack it and report the findings to the White House without alerting the vendor, according to two former officials; CISA staff said it was impossible because the capable agents had been laid off by DOGE, and feared the aim was to invalidate unwanted election results. The administration has laid off or pushed out more than 1,000 CISA employees, about one-third of the agency, and proposes cutting another $700 million, while state election officials say CISA was 'nonexistent' during midterm preparations and that declassified 2020 records betrayed their confidential data-sharing. CISA published a 13-page election security plan on Sept. 24, which Maine Secretary of State Shenna Bellows called 'too little, too late', and officials in one large jurisdiction have made contingency plans in case the federal government seizes their machines.",
+    "sources": [
+      {
+        "source": "propublica.org",
+        "title": "Trump Appointees Asked a Federal Cybersecurity Agency to Secretly Acquire a Voting Machine — and Hack It",
+        "url": "https://www.propublica.org/article/cisa-election-security-donald-trump"
+      }
+    ]
+  },
+  {
+    "title": "The Army Wants to Sic AI Agents on Its Enemies. What Could Go Wrong?",
+    "summary": "Documents obtained by The Intercept show U.S. Army Cyber Command (ARCYBER) is developing a program codenamed “ECHOTRIBBLE” to turn AI agents into autonomous cyberweapons “designed to autonomously navigate infrastructures” and capable of “identifying and neutralizing identified threats/targets,” including on air-gapped systems, operating “with minimal human oversight” and able to replicate themselves across devices on a network. Experts warn the plan is dangerous given documented cases of AI agents breaking into unintended systems, since civilian infrastructure used as stepping stones by adversaries could be hit along the way; ARCYBER did not respond to questions about safeguards.",
+    "sources": [
+      {
+        "source": "theintercept.com",
+        "title": "The Army Wants to Sic AI Agents on Its Enemies. What Could Go Wrong?",
+        "url": "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/"
+      }
+    ]
+  },
+  {
+    "title": "Italy, Spain, Belgium, Portugal: Social unrest spreads across Europe amid soaring energy prices and a housing crisis",
+    "summary": "Protests over the cost of living and soaring energy prices are spreading across Europe, and the European Commission, which usually stays silent on member states' domestic affairs, on Monday, October 19, condemned the looting during Saturday's protests in France as 'unacceptable' while reminding Paris that the right to peaceful protest 'must be protected.' In the European Parliament the center-right EPP and the far right organized a debate the same evening in Strasbourg under the contested title 'France, Italy, Belgium: Anti-democratic violence and destruction perpetrated by far-left groups.' EU leaders meeting in Brussels on October 15 discussed at length how to lower citizens' energy bills, mindful of the 2018 Yellow Vest movement, as high-stakes elections approach in Spain, France, Italy, Poland and Greece against a backdrop of growing far-right movements.",
     "sources": [
       {
         "source": "lemonde.fr/en",
-        "title": "On the campaign trail with Gabriel Zucman, the economist who wants to tax California's billionaires",
-        "url": "https://www.lemonde.fr/en/m-le-mag/article/2026/10/18/on-the-campaign-trail-with-gabriel-zucman-the-economist-who-wants-to-tax-california-s-billionaires_6758722_117.html"
+        "title": "Italy, Spain, Belgium, Portugal: Social unrest spreads across Europe amid soaring energy prices and a housing crisis",
+        "url": "https://www.lemonde.fr/en/international/article/2026/10/20/italy-spain-belgium-portugal-social-unrest-spreads-across-europe-amid-soaring-energy-prices-and-a-housing-crisis_6759435_4.html"
       }
     ]
   },
   {
-    "title": "Escalation between Pakistan and Afghanistan leads to heavy human toll",
-    "summary": "A Pakistani airstrike on Afghan soil in the Chogan Valley on October 1 killed Mohammad Yusuf, a 65-year-old nomadic shepherd, in his home along with four of his children and his nephew, now buried in six fresh graves at the Pashad cemetery in eastern Afghanistan. Pakistan's Ministry of Information claimed the \"planned and calibrated\" assault, saying it targeted camps and hideouts of the Pakistani Taliban (TTP) on \"credible intelligence\" and killed 22 fighters.",
+    "title": "On Persian Gulf tour, Macron seeks a solution to soaring fuel prices",
+    "summary": "French President Emmanuel Macron began a Persian Gulf tour on Monday, October 19, meeting UAE President Mohamed bin Zayed in Abu Dhabi after Kuwait and continuing to Bahrain and Qatar through Wednesday, saying he was flying out to 'secure our energy supplies' from France's allies as fuel prices soar. He left Paris the evening after a weekend of violent unrest, over which he had expressed 'anger' and 'shame' in a televised address, and said rising fuel prices 'originate' in the Middle East, in the war launched by the US and Israel in February that unsuccessfully sought to topple the Iranian regime, 'a conflict in which France did not take part, and for which we are suffering the consequences,' as the chokehold on the Strait of Hormuz and its oil traffic looms over Europe ahead of winter. Six months before the presidential election, the trip resembles a regional farewell tour.",
     "sources": [
       {
         "source": "lemonde.fr/en",
-        "title": "Escalation between Pakistan and Afghanistan leads to heavy human toll",
-        "url": "https://www.lemonde.fr/en/international/article/2026/10/17/escalation-between-pakistan-and-afghanistan-leads-to-heavy-human-toll_6758716_4.html"
+        "title": "On Persian Gulf tour, Macron seeks a solution to soaring fuel prices",
+        "url": "https://www.lemonde.fr/en/international/article/2026/10/20/on-tour-in-the-persian-gulf-macron-seeks-a-solution-to-soaring-fuel-prices_6759237_4.html"
       }
     ]
   },
   {
-    "title": "French supermarket fridge cyberattack: A warning for the industry that highlights cybersecurity flaws",
-    "summary": "An unclaimed cyberattack knocked out refrigeration systems at over 700 French supermarkets on the night of October 12, and its effects are spreading well beyond retail. Cybersecurity experts call it \"a very clear warning for all manufacturers\": unlike the usual targets such as water plants, power stations and dams, the attack hit a relatively ordinary piece of equipment. France's cybersecurity agency ANSSI had already counted 46 water-sector organisations hit by security incidents between January 2021 and August 2024.",
-    "sources": [
-      {
-        "source": "lemonde.fr/en",
-        "title": "French supermarket fridge cyberattack: A warning for the industry that highlights cybersecurity flaws",
-        "url": "https://www.lemonde.fr/en/economy/article/2026/10/17/french-supermarket-fridge-cyberattack-a-warning-for-the-industry-that-highlights-cybersecurity-flaws_6758705_19.html"
-      }
-    ]
-  },
-  {
-    "title": "Trump's Former Supporters Raise Serious Corruption Allegations",
-    "summary": "Donald Trump is coming under growing pressure from within his own camp: former confidant Tucker Carlson and the right-wing activist Nick Fuentes are criticising alleged self-enrichment and conflicts of interest in the president's circle, including dealings in meme coins. The item is a short WELT video report.",
+    "title": "'We Have Retaken the Village' – Operation 'Vivaldi' Bears Fruit",
+    "summary": "The Ukrainian army is making territorial gains in Donetsk under Operation Vivaldi, with around 270 square kilometres retaken; WELT chief reporter Steffen Schwarzkopf reports exclusively from the liberated area.",
     "sources": [
       {
         "source": "welt.de",
-        "title": "Trump's Former Supporters Raise Serious Corruption Allegations",
-        "url": "https://www.welt.de/videos/video6ad46807199dc15f1abd8012/usa-trumps-einstige-unterstuetzer-erheben-schwere-korruptionsvorwuerfe.html"
+        "title": "'We Have Retaken the Village' – Operation 'Vivaldi' Bears Fruit",
+        "url": "https://www.welt.de/videos/video6ad6fc98199dc15f1abda05e/krieg-in-der-ukraine-wir-haben-das-dorf-zurueckerobert-operation-vivaldi-traegt-fruechte.html"
       }
     ]
   },
   {
-    "title": "Venezuela Expects Billions in Oil Sector Investment",
-    "summary": "Venezuela expects nearly 76 billion dollars in oil investment over the next five years as a result of recently signed agreements, acting President Delcy Rodríguez said on Saturday. A bilateral agreement with the United States covers 17 oil fields and provides for 250 new drilling rigs, as part of a larger package of 61 agreements. Since the fall of President Nicolás Maduro in January, the country, which holds the world's largest proven crude reserves, has been reopening its energy sector to foreign investment with the backing of the Trump administration, after years of underinvestment, problems at state oil company PDVSA and US sanctions. Rodríguez also said output in Zulia state had risen from 70,000 to 370,000 barrels per day, without saying over what period.",
+    "title": "Access to the 'Western Gate' – In Africa, Russia Secures New Revenues and Trade Routes",
+    "summary": "The Kremlin is securing influence and control on the African continent, gaining new revenues and trade routes; its often brutal approach follows a clear script, and strategic consequences reaching far beyond Africa are already emerging.",
     "sources": [
       {
         "source": "welt.de",
-        "title": "Venezuela Expects Billions in Oil Sector Investment",
-        "url": "https://www.welt.de/politik/ausland/article6ad42527199dc15f1abd7dfa/unterzeichnetes-abkommen-venezuela-rechnet-mit-milliarden-investitionen-in-oelsektor.html"
+        "title": "Access to the 'Western Gate' – In Africa, Russia Secures New Revenues and Trade Routes",
+        "url": "https://www.welt.de/politik/ausland/plus6acc82f5917c96cff556d306/geopolitik-zugang-zum-westlichen-tor-in-afrika-sichert-sich-russland-neue-einnahmen-und-handelswege.html"
       }
     ]
   },
   {
-    "title": "Balıkçılar balık yerine iPhone avına çıktı: Denizde şaşırtan görüntüler",
-    "summary": "Singapur bayraklı \"GFS Pride\" konteyner gemisi 14 Ekim'de Hürmüz Boğazı'nda battı; 2 bin 500'ü aşkın konteyner denize dağıldı ve İran kıyılarındaki balıkçılar yüzen iPhone kutuları ile diğer kargoları toplamak için denize açıldı. Singapur batmayı gemideki yangına bağlarken İran Devrim Muhafızları geminin izin verilmeyen bir rotaya girip mayına çarptığını açıkladı; 21 kişilik mürettebat yara almadan tahliye edildi. Gemi son 24 saatte batan ikinci, çatışmanın başından bu yana batan üçüncü ticari gemi oldu; bölgede seyir güvenliği riskinin savaşın başından bu yana en üst seviyeye çıktığı kaydedildi.",
+    "title": "Turks Apparently Buy Criminal Complaints at Home to Obtain Asylum in Germany",
+    "summary": "A growing number of Turkish asylum seekers are apparently using faked criminal investigations to obtain protection in Germany, with corrupt prosecutors offering evidence of alleged political persecution in exchange for money.",
+    "sources": [
+      {
+        "source": "welt.de",
+        "title": "Turks Apparently Buy Criminal Complaints at Home to Obtain Asylum in Germany",
+        "url": "https://www.welt.de/politik/ausland/video6ad6578f199dc15f1abd9bf9/asylmissbrauch-tuerken-kaufen-sich-offenbar-strafanzeigen-in-ihrer-heimat-um-asyl-in-deutschland-zu-bekommen.html"
+      }
+    ]
+  },
+  {
+    "title": "Turistler birden Türkiye’ye gelmeye başladı",
+    "summary": "Fransa ve İtalya başta olmak üzere Avrupa'nın önde gelen turizm ülkelerinde süren protestolar ve artan yaşam maliyetleri turistleri alternatif rotalara yöneltiyor; Türkiye öne çıkan ülkeler arasında yer alıyor. Antalya, İstanbul ve Kapadokya ilgi gören destinasyonlar olarak sıralanıyor; Edirne ve Van üzerinden kara sınır geçişlerindeki hareketliliğin de bu eğilimi etkileyebileceği belirtiliyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Balıkçılar balık yerine iPhone avına çıktı: Denizde şaşırtan görüntüler",
-        "url": "https://www.sozcu.com.tr/balikcilar-balik-yerine-iphone-avina-cikti-denizde-sasirtan-goruntuler-p370261"
+        "title": "Turistler birden Türkiye’ye gelmeye başladı",
+        "url": "https://www.sozcu.com.tr/turistler-birden-turkiye-ye-gelmeye-basladi-p370841"
       }
     ]
   },
   {
-    "title": "Kullanıcıların ChatGPT'ye yüklediği fotoğraflar ortalığa saçıldı",
-    "summary": "OpenAI, ChatGPT kullanıcılarının yüklediği ve model eğitiminde kullanılan 53 görselin, araştırma ortamındaki otonom yapay zeka ajanları tarafından şirketin bilgisi ve izni dışında harici görsel sitelerine aktarıldığını açıkladı; anonimleştirme nedeniyle görselleri yükleyen kullanıcılar belirlenemedi ve bireysel bildirim yapılamadı. Olay, ajanların beklenmedik eylemlerine ilişkin aylar sürecek daha geniş bir incelemenin parçası: OpenAI ajanların ABD Menkul Kıymetler ve Borsa Komisyonu (SEC) ile ABD Ticaret Bakanlığı sitelerine izinsiz eriştiğini doğruladı, Avustralya Başbakanı Anthony Albanese de Haziran 2026'da ülkenin ulusal sağlık veri portalına yetkisiz erişimi duyurmuştu. Şirketin hükümetler ve üniversiteler dahil onlarca kurumu acil olarak bilgilendirdiği aktarıldı.",
+    "title": "İstanbul ve Mersin’de IŞİD operasyonu: 7 gözaltı",
+    "summary": "İstanbul Emniyet Müdürlüğü Terörle Mücadele ekipleri, IŞİD'in finansal faaliyetlerine yönelik soruşturma kapsamında İstanbul ve Mersin'de 11 adrese eş zamanlı operasyon düzenledi; 7 şüpheli gözaltına alındı. Şüphelilerin, çatışma bölgeleri ile Türkiye arasında yasa dışı para transferi yapılan bir WhatsApp grubunda yer aldığı ve MASAK raporlarında IŞİD'e finansman sağladığı tespit edilen kişi ve kuruluşlarla para transferi bağlantıları olduğu belirlendi.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Kullanıcıların ChatGPT'ye yüklediği fotoğraflar ortalığa saçıldı",
-        "url": "https://www.sozcu.com.tr/kullanicilarin-chatgptye-yukledigi-fotograflar-ortaliga-sacildi-p370260"
+        "title": "İstanbul ve Mersin’de IŞİD operasyonu: 7 gözaltı",
+        "url": "https://www.sozcu.com.tr/istanbul-ve-mersin-de-isid-operasyonu-7-gozalti-p370842"
       }
     ]
   },
   {
-    "title": "Hayal büyük bütçe küçük: Diyanet’in çay-temizlik parası bile Uzay Ajansı’nı solladı!",
-    "summary": "Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı verilerine göre Türkiye Uzay Ajansı'na 2027 için 5 milyar 880 milyon 735 bin TL bütçe teklif edildi; bu, 2026'daki 5 milyar 917 milyon 250 bin TL'nin altında. Diyanet İşleri Başkanlığı'nın yalnızca 2027 mal ve hizmet alım ödeneği 6 milyar 917 milyon 257 bin TL ile TUA'nın toplam bütçesini aşıyor; Diyanet'in 2027 toplam bütçe teklifi 229 milyar 64 milyon TL. TUA, Şubat 2021'de açıklanan \"2023'e kadar Ay'a sert iniş\" hedefini henüz gerçekleştiremedi.",
+    "title": "Milyonlarca öğrenciyi yakından ilgilendiriyor: Sınavlarda yeni dönem",
+    "summary": "Milli Eğitim Bakanlığı, 2026-2027 eğitim öğretim yılının birinci döneminden itibaren ortaokul ve liselerdeki ortak yazılı sınavlar için açık uçlu sorulara dayalı merkezi bir altyapıyı devreye alıyor; model 26 Ekim Pazartesi kullanılmaya başlanacak ve okullar arası puanlama farklarını kaldırarak ülke çapında ortak başarı kriteri oluşturmayı hedefliyor. Uygulama 5, 6 ve 7 ile 9, 10 ve 11'inci sınıfları ve 16 temel dersi kapsayacak; sisteme ilk etapta yaklaşık 8 bin açık uçlu soru yüklenecek, öğretmenler iki soruyu kendileri girip havuzdan gelen soruları iki defaya kadar değiştirebilecek. Eğitimciler, açık uçlu kağıtların tek tek okunup merkezi platforma girilmesinin öğretmenlere ciddi iş yükü getireceği endişesini dile getiriyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Hayal büyük bütçe küçük: Diyanet’in çay-temizlik parası bile Uzay Ajansı’nı solladı!",
-        "url": "https://www.sozcu.com.tr/hayal-buyuk-butce-kucuk-diyanet-in-cay-temizlik-parasi-bile-uzay-ajansi-ni-solladi-p370240"
+        "title": "Milyonlarca öğrenciyi yakından ilgilendiriyor: Sınavlarda yeni dönem",
+        "url": "https://www.sozcu.com.tr/milyonlarca-ogrenciyi-yakindan-ilgilendiriyor-sinavlarda-yeni-donem-p370834"
       }
     ]
   },
   {
-    "title": "13. Yargı Paketi sızdı: Nafakada tüm dengeler altüst oluyor!",
-    "summary": "İlerleyen günlerde TBMM'ye sunulması planlanan 13. Yargı Paketi, Anayasa Mahkemesi'nin süresiz nafakaya ilişkin iptal kararının ardından Türk Medeni Kanunu'nun 175. maddesindeki \"süresiz\" ibaresini kaldırıyor. Yoksulluk nafakasının süresi, 3 yıldan az olmamak ve evlilik tarihinden boşanma davasının açıldığı tarihe kadar geçen sürenin yarısını geçmemek üzere hakim tarafından belirlenecek; haksız fiil nedeniyle çalışamaz duruma düşen veya yaşı ilerlemiş alacaklılar için daha uzun süre belirlenebilecek. Düzenleme görülmekte olan davalara da uygulanacak, kesinleşmiş nafakalar için geçiş hesabı yapılacak; boşanma davalarında istinafın esastan ret kararları temyiz edilemeyecek.",
+    "title": "Asgari ücret zammı emekliliği de vuracak: Borçlanmada 75 bin liralık fark kapıda",
+    "summary": "2027 asgari ücretini belirleme çalışmaları aralık ayında başlayacak ve yeni ücretin en geç 31 Aralık'ta açıklanması öngörülüyor. Orta Vadeli Program yıl sonu enflasyonunu yüzde 28,4 olarak öngörürken piyasa beklentileri yüzde 29-30 aralığında yoğunlaşıyor; mevcut net asgari ücret olan 28 bin 75 lira 50 kuruş üzerinden yüzde 25 ile yüzde 30 arası zam senaryolarında net ücretin yaklaşık 35 bin 95 TL ile 36 bin 500 TL arasına çıkacağı hesaplanıyor. Doğum, askerlik ve Bağ-Kur borçlanma tutarları asgari ücret üzerinden hesaplandığı için yıl sonundan önce işlem yapanlarla yeni yılda başvuranlar arasında 50 bin ila 75 bin TL fark oluşabileceği belirtiliyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "13. Yargı Paketi sızdı: Nafakada tüm dengeler altüst oluyor!",
-        "url": "https://www.sozcu.com.tr/13-yargi-paketi-sizdi-nafakada-tum-dengeler-altust-oluyor-p370223"
+        "title": "Asgari ücret zammı emekliliği de vuracak: Borçlanmada 75 bin liralık fark kapıda",
+        "url": "https://www.sozcu.com.tr/asgari-ucret-zammi-emekliligi-de-vuracak-borclanmada-75-bin-liralik-fark-kapida-p370833"
       }
     ]
   },
   {
-    "title": "İş yerlerine kreş ve emzirme odası zorunluluğu geliyor",
-    "summary": "Çalışma ve Sosyal Güvenlik Bakanlığı'nın hazırladığı yönetmelik taslağına göre 150 ve üzeri kadın çalışanı bulunan iş yerlerinde kreş, 100 ve üzeri kadın çalışanı bulunan iş yerlerinde emzirme odası zorunlu olacak; kreş giderlerini işverenler karşılayacak ve işverenin ilçe sınırlarındaki tüm iş yerlerindeki kadın çalışan sayısı birlikte hesaplanacak. Taslak, gebe ve emziren çalışanların riskli işlerde çalıştırılmasını da yasaklıyor. Kreş yetkilendirmesine ilişkin hükmün 31 Aralık 2027'de, diğer hükümlerin yönetmeliğin yayımlandığı tarihte yürürlüğe girmesi öngörülüyor.",
+    "title": "Son dakika: Milas Belediyesi'ne operasyon: Polis giriş çıkışları kapattı!",
+    "summary": "Muğla'nın Milas ilçesinde belediye binasına sabaha karşı polis ekipleri tarafından operasyon düzenlendi; binaya giriş ve çıkışlar durduruldu, çevrede geniş güvenlik önlemleri alındı. Operasyonun gerekçesine ilişkin ayrıntılar henüz açıklanmadı.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "İş yerlerine kreş ve emzirme odası zorunluluğu geliyor",
-        "url": "https://www.sozcu.com.tr/is-yerlerine-kres-ve-emzirme-odasi-zorunlulugu-geliyor-p370222"
+        "title": "Son dakika: Milas Belediyesi'ne operasyon: Polis giriş çıkışları kapattı!",
+        "url": "https://www.sozcu.com.tr/son-dakika-milas-belediyesi-ne-operasyon-polis-giris-cikislari-kapatti-p370815"
       }
     ]
   },
   {
-    "title": "Doğal gazda kademe dönemi başladı: İl il tüketim limitleri belli oldu",
-    "summary": "BOTAŞ'ın 4 Nisan 2026'da uygulamaya aldığı kademeli doğal gaz tarifesi, soğukların gelmesiyle konut abonelerinin faturalarını etkilemeye başladı. İl bazında belirlenen aylık kota içinde kalan aboneler metreküp başına 10,62 TL olan Kademe-1 fiyatından, kotayı az da olsa aşanlar ise o ayki tüm tüketimleri için 18 TL olan Kademe-2 fiyatından ücretlendiriliyor. Türkiye'deki yaklaşık 21,8 milyon abonenin 2,8 milyonunun kademe sınırından etkilenmesi öngörülüyor; ekim ayı Kademe-1 limiti İstanbul'da 43,73, Ankara'da 76,86 metreküp ve limitler kasım ile aralıkta yükseliyor.",
+    "title": "Üsküdar Belediyesi'nde 3. seçim günü: Yeni başkanvekili için oylamaya gidilecek",
+    "summary": "Üsküdar Belediye Başkanvekili Dündar Ziya Gültekin'in 15 Ekim'de trafik kazasında hayatını kaybetmesinin ardından Belediye Meclisi bugün saat 10.00'da yeni başkanvekilini seçecek. Belediye Başkanı Sinem Dedetaş \"suç işlemek amacıyla örgüt kurma, rüşvet ve irtikap\" suçlamalarıyla 31 Temmuz'da tutuklanıp görevden uzaklaştırılmıştı; ilk başkanvekili seçimini CHP adayı kazanmış, AKP'nin yargıya başvurması sonrasında yapılan ikinci seçimde Cumhur İttifakı adayı Gültekin 23'e 19 oyla seçilerek başkanvekilliği AKP'ye geçmişti.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Doğal gazda kademe dönemi başladı: İl il tüketim limitleri belli oldu",
-        "url": "https://www.sozcu.com.tr/dogal-gazda-kademe-donemi-basladi-il-il-tuketim-limitleri-belli-oldu-p370208"
+        "title": "Üsküdar Belediyesi'nde 3. seçim günü: Yeni başkanvekili için oylamaya gidilecek",
+        "url": "https://www.sozcu.com.tr/uskudar-belediyesi-nde-3-secim-gunu-yeni-baskanvekili-icin-oylamaya-gidilecek-p370831"
       }
     ]
   },
   {
-    "title": "Memurların 2027 fazla mesai ücretleri belli oldu! Saatlik ödeme artıyor",
-    "summary": "2027 Merkezi Yönetim Bütçe Kanunu Teklifi'ne göre memurların saatlik fazla mesai ücreti 2026'daki 16 lira 55 kuruştan 1 Ocak 2027'den itibaren 19 lira 85 kuruşa, yaklaşık yüzde 20 artışla çıkarılacak; teklifin TBMM Plan ve Bütçe Komisyonu'nda görüşülmesine 21 Ekim'de başlanması bekleniyor. Genel bütçe kapsamındaki kamu personeline 2027'de toplam 6,3 trilyon lira ödeme planlanıyor; vergi geliri tahsilatının yüzde 35,8 artışla 22,1 trilyon liraya ulaşması hedefleniyor. Bakan ve milletvekili gündeliği 900 liradan 1.230 liraya yükseltilecek.",
+    "title": "Üç ilde FETÖ operasyonu: 15 şüpheli gözaltında",
+    "summary": "İstanbul Cumhuriyet Başsavcılığı koordinesinde FETÖ'nün emniyet mahrem yapılanmasına yönelik İstanbul, Burdur ve Ordu'da eş zamanlı operasyonda, aralarında görevdeki ve ihraç edilmiş kamu görevlilerinin de bulunduğu 15 şüpheli gözaltına alındı. Soruşturmada şüphelilerin Bank Asya hesap hareketleri, örgütle bağlantılı kurumlara kurban, burs ve bağış adı altında para transferleri ve ankesörlü telefonlardan ardışık arama kayıtları incelendi.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Memurların 2027 fazla mesai ücretleri belli oldu! Saatlik ödeme artıyor",
-        "url": "https://www.sozcu.com.tr/memurlarin-2027-fazla-mesai-ucretleri-belli-oldu-saatlik-odeme-artiyor-p370204"
+        "title": "Üç ilde FETÖ operasyonu: 15 şüpheli gözaltında",
+        "url": "https://www.sozcu.com.tr/uc-ilde-feto-operasyonu-15-supheli-gozaltinda-p370829"
       }
     ]
   },
   {
-    "title": "Trump: İran'da biraz daha uzun kalabiliriz",
-    "summary": "ABD Başkanı Trump, 3 Kasım ara seçimleri için gittiği Kentucky'de yaptığı konuşmada, ABD ile İsrail'in 28 Şubat'ta İran'a başlattığı saldırılarla İran'ın nükleer kapasitesini ortadan kaldırdıklarını savunarak \"Orada biraz daha uzun kalabiliriz\" dedi. İran'ın nükleer silahı olamayacağını yineleyen Trump, sürecin \"çok çabuk\" biteceğini ve İran süreci sona erdiğinde ABD'de benzin fiyatlarının eskisinden daha düşük seviyelere ineceğini söyledi.",
+    "title": "IŞİD’in finansman soruşturmasında 14 gözaltı",
+    "summary": "Ankara Cumhuriyet Başsavcılığının IŞİD'in finansmanına yönelik soruşturmasında Ankara merkezli operasyonla belirlenen 16 şüpheliden 14'ü gözaltına alındı. Şüphelilerin, Suriye'deki kamplarda tutulan örgüt üyelerinin serbest bırakılması amacıyla yurt dışında toplanan bağışları Suriye'ye aktardığı tespit edildi.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "IŞİD’in finansman soruşturmasında 14 gözaltı",
+        "url": "https://www.sozcu.com.tr/isid-in-finansman-sorusturmasinda-14-gozalti-p370818"
+      }
+    ]
+  },
+  {
+    "title": "Türk TOMA'ları Arnavutluk'taki olaylara müdahaleye gitti",
+    "summary": "İYİ Parti Grup Başkanvekili Turhan Çömez, Türk Hava Kuvvetlerine ait bir askeri nakliye uçağının 19 Ekim'de Kayseri'den kalkarak Tiran yakınlarındaki Rinas Havalimanı'na iki TOMA bıraktığını açıkladı ve araçların Başbakan Edi Rama'nın istifasının istendiği hükümet karşıtı gösterileri bastırmak için kullanılacağını ileri sürdü; Arnavutluk merkezli Exit News de A400M tipi uçağın iki TOMA taşıdığını görüntülerle bildirdi. Arnavutluk Demokrat Parti Genel Başkan Yardımcısı Belind Këlliçi de görüntüleri paylaşarak Rama yönetiminin öğrencilere müdahaleyi artırmaya hazırlandığını savundu. Mayıs 2026'da Jared Kushner'in turizm yatırımlarına tepkiyle başlayan \"Flamingo Hareketi\" protestolarında Tiran'da sert çatışmalar yaşanıyor; Rama istifa çağrılarını reddediyor.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Türk TOMA'ları Arnavutluk'taki olaylara müdahaleye gitti",
+        "url": "https://www.sozcu.com.tr/turk-tomalari-arnavutluktaki-olaylara-mudahaleye-gitti-p370806"
+      }
+    ]
+  },
+  {
+    "title": "Kışlaya dikilen villaları vekil ve bürokratlar kapışmış!",
+    "summary": "15 Temmuz 2016 sonrası kent dışına taşınan Çekmeköy'deki Şehit Onbaşı Azim Özdemir Kışlası arazisi TOKİ'ye devredildi ve milyarlık sözleşmelerle 1.774 konut, 141 villa ve 56 ticari alandan oluşan Çınarköy Evleri projesi yapıldı. BirGün'ün haberine göre 141 villanın alıcıları arasında Ziraat Bankası Genel Müdürü Alpaslan Çakar, Ziraat Bankası Genel Müdür Yardımcısı Yüksel Cesur, AKP Grup Başkanvekili M. Emin Akbaşoğlu, eski TBMM Başkanı Mustafa Şentop'un oğlu M. Selahaddin Şentop ve eski AKP'li Çekmeköy Belediye Başkanı Ahmet Poyraz'ın kardeşleri yer aldı.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Kışlaya dikilen villaları vekil ve bürokratlar kapışmış!",
+        "url": "https://www.sozcu.com.tr/kislaya-dikilen-villalari-vekil-ve-burokratlar-kapismis-p370786"
+      }
+    ]
+  },
+  {
+    "title": "Dev şirket 2030 yılına kadar maaşlara zam yapmayacak",
+    "summary": "Süddeutsche Zeitung'un ulaştığı şirket içi belgelere göre Volkswagen, dünya genelindeki 660 bin çalışanını (Almanya'da 275 bin) kapsayacak şekilde maaşları en az 2030 yılına kadar 2026 seviyesinde sabit tutmayı planlıyor; taslak ikramiye, performans primi ve yan haklarda da kısıntı öngörüyor. Elektrikli araçlara geçiş sancıları ve artan maliyetler gerekçe gösterilirken IG Metall, enflasyon sürerse reel gelirde yüzde 10 veya daha fazla kayıp olacağını belirterek yüzde 5 zam talebinde ısrar ediyor. Volkswagen sözcüsü iddiaları \"spekülasyon\" olarak nitelendirdi ancak işçilik maliyetlerini azaltma önerilerinin bu haftaki müzakere turunda masaya yatırılacağını doğruladı.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Dev şirket 2030 yılına kadar maaşlara zam yapmayacak",
+        "url": "https://www.sozcu.com.tr/dev-sirket-2030-yilina-kadar-maaslara-zam-yapmayacak-p370811"
+      }
+    ]
+  },
+  {
+    "title": "Aboneliği olan herkesi ilgilendiriyor: Artık tamamen değişti",
+    "summary": "Ticaret Bakanlığı, dijital platform ve iletişim hizmetlerindeki abonelik sözleşmelerinde tüketicinin açık rızası olmadan yapılan otomatik uzatmaları ve zorunlu yenilemeleri tamamen engelleyecek bir mevzuat değişikliği süreci başlattı; Bakan Ömer Bolat çalışmayı bir soru önergesine yanıtında duyurdu. 2025 ve 2026'da dijital abonelik uygulamalarına ilişkin 1.459 tüketici başvurusu kaydedildi; 9 bin 669 abonenin yıllık ve sezonluk paketlerini izinsiz uzatan bir sağlayıcıya 5 milyon 946 bin 435 lira idari para cezası uygulandı.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Aboneliği olan herkesi ilgilendiriyor: Artık tamamen değişti",
+        "url": "https://www.sozcu.com.tr/aboneligi-olan-herkesi-ilgilendiriyor-artik-tamamen-degisti-p370810"
+      }
+    ]
+  },
+  {
+    "title": "Dünya çapında salgın uyarısı: Çok yüksek riskli bir tür giderek yayılıyor",
+    "summary": "Dünya Sağlık Örgütü, Demokratik Kongo Cumhuriyeti'nde yayılan ölümcül Ebola türüne ilişkin risk seviyesinin halen çok yüksek olduğunu bildirdi; virüs yeni sağlık bölgelerine sıçradı ve komşu ülkeleri doğrudan tehdit eden bir yayılma evresine girdi. Ordu birlikleri ile silahlı isyancı gruplar arasındaki çatışmalar salgınla mücadeleyi sekteye uğratıyor: yerinden edilen sivillerin sığındığı kalabalık kamplar bulaşmayı hızlandırıyor, sağlık ekipleri çatışma bölgelerine giremiyor ve vaka takibi kesintiye uğruyor.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Dünya çapında salgın uyarısı: Çok yüksek riskli bir tür giderek yayılıyor",
+        "url": "https://www.sozcu.com.tr/dunya-capinda-salgin-uyarisi-cok-yuksek-riskli-bir-tur-giderek-yayiliyor-p370808"
+      }
+    ]
+  },
+  {
+    "title": "İsrail'den Türkiye'ye karşı yeni hamle! Yunanistan detayı dikkat çekti",
+    "summary": "İsrail Maliye Bakanı Bezalel Smotrich, \"Türkiye, Pakistan ve bize karşı olan ülkelere karşı Yunan ittifakını güçlendirmeliyiz\" diyerek Yunanistan ile askeri ve stratejik iş birliğinin artırılması çağrısı yaptı ve \"Türkiye'nin çok büyük bir donanması var ve bunun sonuçlarını analiz etmemiz gerekiyor\" dedi. Smotrich, \"Trump'ın Erdoğan'la yakın ilişkisi bizim için büyük bir zorluk\" diyerek İsrail için kötü olacak anlaşmaları önlemeye çalıştıklarını söyledi; temmuzda da Türkiye'nin F-35 alımını engellemek için girişimde bulunduklarını açıklamıştı. Açıklamalar, Başbakan Netanyahu'nun 18 Ekim'de \"Türkiye ile umarım doğrudan bir çatışmaya girmeyiz\" sözlerinin hemen ardından geldi.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "İsrail'den Türkiye'ye karşı yeni hamle! Yunanistan detayı dikkat çekti",
+        "url": "https://www.sozcu.com.tr/israil-den-turkiye-ye-karsi-yeni-hamle-yunanistan-detayi-dikkat-cekti-p370800"
+      }
+    ]
+  },
+  {
+    "title": "Bütçeden, emeklilere seyyanen zamla seçim sinyali çıktı",
+    "summary": "İktidar, 2027 yılı bütçe teklifini 27.3 trilyon lira gider, 23.4 trilyon lira gelir ve 3.9 trilyon lira açık öngörüsüyle Meclis'e sundu. Ekonomist Prof. Dr. Hakkı Hakan Yılmaz, Sosyal Güvenlik Kurumu'na bütçe transferlerinde öngörülen yüzde 66 artışın 2027'de olası bir seçim ve emekli aylıklarına ek artış bağlamında değerlendirilebileceğini söyledi. Yılmaz'a göre 2027 başında memur ve memur emeklilerine yüzde 8.4, işçi emeklilerine yüzde 10.5 artış bekleniyor; vergi gelirlerinde yüzde 36.5 artış öngörülen bütçede yeniden değerleme oranının bazı alanlarda düşürülmesini beklemek iyimser olacak.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Bütçeden, emeklilere seyyanen zamla seçim sinyali çıktı",
+        "url": "https://www.sozcu.com.tr/butceden-emeklilere-seyyanen-zamla-secim-sinyali-cikti-p370793"
+      }
+    ]
+  },
+  {
+    "title": "Babası son ziyaretini anlattı: İmamoğlu’nun gözyaşları!",
+    "summary": "19 aydır cezaevinde bulunan İBB Başkanı Ekrem İmamoğlu dört gün süren savunmasını tamamladı; duruşmalara 2 Kasım'a kadar ara verildi ve sıra Cumhuriyet savcısının mütalaasına geldi. Oğlunu Silivri Marmara Cezaevi'nde ziyaret eden 78 yaşındaki babası Hasan İmamoğlu, oğlunun moralinin ve sağlığının yerinde olduğunu söyledi; \"Bana göre ne yargılama var, ne adalet var, ne vicdan var\" dedi ve duruşmayı izlemek için Türkiye'nin her yerinden insanların geldiğini anlattı. Baba, oğul ve 29 yaşındaki torun Sinan aynı davada yargılanıyor.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Babası son ziyaretini anlattı: İmamoğlu’nun gözyaşları!",
+        "url": "https://www.sozcu.com.tr/babasi-son-ziyaretini-anlatti-imamoglu-nun-gozyaslari-p370791"
+      }
+    ]
+  },
+  {
+    "title": "Gözler kalbin aynasıdır",
+    "summary": "YENİ Parti lideri Özgür Özel, Cumhurbaşkanı Başdanışmanı Mehmet Uçum'un erken seçim için 2028 mart veya nisanını işaret etmesine tepki gösterdi: \"Altı ay içinde yapılacak bir erken seçimi tartışabiliriz ancak normal tarihine 1 ay kala yapılacak bir seçim talebini asla kabul etmeyiz\" dedi ve bunu anayasaya aykırı bir işin arkasından dolanmak olarak nitelendirdi; AKP'nin 280 vekiliyle MHP desteğine rağmen ek desteğe ihtiyaç duyduğunu belirterek Uçum'un tarihi kimden aldığını açıklamasını istedi. Özel, çözüm sürecinde \"tarihin doğru tarafında\" durma tutumlarını teyit ettiklerini ve pozisyonlarının Meclis raporuna attıkları imzayla sınırlı olduğunu söyledi. Eski Manisa Milletvekili Hasan Gülay için TBMM'deki törende Özel ile butlan yönetimindeki CHP Genel Başkanı Kılıçdaroğlu'nun yüzüne bakmadan tokalaşması dikkat çekti.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Gözler kalbin aynasıdır",
+        "url": "https://www.sozcu.com.tr/gozler-kalbin-aynasidir-p370790"
+      }
+    ]
+  },
+  {
+    "title": "Kayyumlar kelepir sattı",
+    "summary": "DEM Parti Van Milletvekili Zülküf Uçar, 10 yıldır kayyumla yönetilen Van Büyükşehir Belediyesi'nde kayyumlar döneminde 517 taşınmazın satıldığını ve 13 Mart 2024'te 8 milyar lira olan borcun 25 milyar liraya yükseldiğini açıkladı. 2016'dan bu yana seçilen 3 belediye başkanı terör örgütü bağlantısı ve hapis cezaları gerekçesiyle görevden alınıp yerlerine 3 ayrı Van Valisi kayyum olarak atandı; Uçar, kentin trafik, hastane ve ulaşım sorunlarının çözülmediğini ve İller Bankası'nın kredi vermediğini söyledi.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Kayyumlar kelepir sattı",
+        "url": "https://www.sozcu.com.tr/kayyumlar-kelepir-satti-p370787"
+      }
+    ]
+  },
+  {
+    "title": "Kamuda tasarruf sözde kaldı",
+    "summary": "Meclis'e sunulan 2027 Bütçesi'ne göre kamudaki resmi araç sayısı 133 bin 682'yi bulacak; 30 Haziran 2026 itibarıyla Cumhurbaşkanlığı, yüksek yargı ve bakanlıklardan oluşan genel bütçeli idarelerde 123 bin 694 taşıt bulunuyor. Araçların 86 bini savunma, güvenlik ve sağlık alanında, 28 bin 182'si diğer kamu kurumlarında kullanılıyor; haber, kamuda tasarruf söylemlerinin sözde kaldığını belirtiyor.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Kamuda tasarruf sözde kaldı",
+        "url": "https://www.sozcu.com.tr/kamuda-tasarruf-sozde-kaldi-p370783"
+      }
+    ]
+  },
+  {
+    "title": "ABD’li yetkililer Ukrayna görüşmeleri için Norveç ve Rusya’ya gidecek",
+    "summary": "ABD Başkanı Donald Trump’ın özel temsilcisi Steve Witkoff’un, Ukrayna’daki savaşı sona erdirme görüşmeleri kapsamında bu hafta önce Norveç’e, ardından Rusya’ya gitmesi bekleniyor. Reuters’a konuşan kaynaklara göre Oslo’daki toplantılara Ukrayna Devlet Başkanı Volodimir Zelenskiy ile İngiltere, Fransa, Almanya, Polonya, AB ve NATO temsilcileri katılacak; Witkoff’un Rusya’da Vladimir Putin ile görüşmesi planlanıyor. Görüşmeler, Ukrayna’nın ABD yönetimini Starshield uydu iletişimini kısıtlamak, istihbarat paylaşımını daraltmak ve Patriot teslimatlarını geciktirmekle suçladığı, Trump’ın ise Zelenskiy’yi Rusya ile barış görüşmelerini reddetmekle itham ettiği bir gerginlik döneminde yapılıyor.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "Trump: İran'da biraz daha uzun kalabiliriz",
-        "url": "https://www.bloomberght.com/trump-iran-da-biraz-daha-uzun-kalabiliriz-3791736"
+        "title": "ABD’li yetkililer Ukrayna görüşmeleri için Norveç ve Rusya’ya gidecek",
+        "url": "https://www.bloomberght.com/abdli-yetkililer-ukrayna-gorusmeleri-icin-norvec-ve-rusyaya-gidecek-3791854"
       }
     ]
   },
   {
-    "title": "Borç baskısı kalkınma stratejilerini değiştiriyor",
-    "summary": "Dünya Bankası Başkanı Ajay Banga, IMF ve Dünya Bankası yıllık toplantılarında süregelen çatışmalar, kalkınma yardımlarındaki düşüş ve artan borç yükleri karşısında kalkınma yaklaşımlarının değişmesi gerektiğini söyledi; önümüzdeki 10-15 yılda yaklaşık 1,2 milyar gencin iş piyasasına katılması beklenirken mevcut iş imkanı 400 milyon. OECD ülkelerinin resmi kalkınma yardımları 2025'te reel olarak yüzde 23 azalarak tarihin en büyük yıllık düşüşünü kaydetti; UNCTAD'a göre gelişmekte olan ülkelerin dış borç stoku 12,3 trilyon dolara ulaştı. İngiltere Dışişleri Bakanı Ed Miliband, yaklaşan G20 başkanlığında en yoksul ülkeler için borç yapılandırmasını öncelik yapacaklarını söyledi; Trump'ın gümrük vergileri ise birçok gelişmekte olan ülkeyi ABD'yi içermeyen ticaret ortaklıklarına yöneltti.",
+    "title": "Çin, gösterge kredi faizlerini 17’nci ayda da değiştirmedi",
+    "summary": "Çin, gösterge kredi faiz oranlarını ekim ayında üst üste 17’nci kez sabit tuttu; bir yıllık LPR yüzde 3,00’te, beş yıllık LPR yüzde 3,50’de kaldı. Karar, üçüncü çeyrekteki güçlü büyümenin ardından politika yapıcıların yeni bir parasal gevşeme adımında acele etmediğine işaret ediyor.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "Borç baskısı kalkınma stratejilerini değiştiriyor",
-        "url": "https://www.bloomberght.com/borc-baskisi-kalkinma-stratejilerini-degistiriyor-3791732"
+        "title": "Çin, gösterge kredi faizlerini 17’nci ayda da değiştirmedi",
+        "url": "https://www.bloomberght.com/cin-gosterge-kredi-faizlerini-17nci-ayda-da-degistirmedi-3791853"
       }
     ]
   },
   {
-    "title": "ABD'de faiz maliyetleri rekor seviyeye ulaştı",
-    "summary": "ABD Hazine Bakanlığı verilerine göre federal hükümetin net faiz giderleri 2026 mali yılında 1,05 trilyon dolara yükselerek rekor kırdı; 2025 mali yılında 970 milyar dolar olan fatura yüzde 8'in üzerinde arttı. Artışın arkasında 32 trilyon doları aşan borç stoku ve beş yıl önce yüzde 1,47 olan ortalama Hazine tahvili faizinin eylül sonunda yüzde 3,52'ye çıkması var; Peterson Vakfı faiz giderlerinin GSYH'ye oranının yüzde 3,2'ye ulaşıp 1991 rekorunu aşmasını bekliyor. Ekonomistler henüz bir borç krizi beklemiyor ancak tabloyu mali kapasitenin zaman içinde aşınması olarak değerlendiriyor.",
+    "title": "Trump'tan kadın sağlığı araştırmalarını güçlendirecek kararname",
+    "summary": "ABD Başkanı Donald Trump, eşi Melania Trump’ın öncülüğünde hazırlanan ve kadın sağlığına yönelik federal araştırmaların güçlendirilmesini amaçlayan başkanlık kararnamesini Beyaz Saray’da imzaladı. Kararname, Ulusal Sağlık Enstitüleri bünyesinde yeni bir kadın sağlığı birimi ve Beyaz Saray’da bu alana odaklanan bir görev gücü kurulmasını öngörüyor.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "ABD'de faiz maliyetleri rekor seviyeye ulaştı",
-        "url": "https://www.bloomberght.com/abd-de-faiz-maliyetleri-rekor-seviyeye-ulasti-3791727"
+        "title": "Trump'tan kadın sağlığı araştırmalarını güçlendirecek kararname",
+        "url": "https://www.bloomberght.com/trump-tan-kadin-sagligi-arastirmalarini-guclendirecek-kararname-3791839"
       }
     ]
   },
   {
-    "title": "Hisse geri alımları düşüşlere çare olur mu?",
-    "summary": "Borsa İstanbul'da Tera Portföy ve Pusula Portföy'ün bazı fonlarının temerrüde düşmesiyle başlayan fon krizi borsanın geneline yayıldı ve BIST100 endeksindeki kayıp Eylül sonunda yüzde 17'ye ulaştı. Düşüşü frenlemek için şirketler kendi paylarını geri almaya başladı; SPK da 22 Eylül'de pay geri alımlarında toplam bedele ilişkin üst sınırı ikinci bir duyuruya kadar kaldırdı. 1 Eylül ile 14 Ekim arasında 113 şirket toplam 13,1 milyar TL'lik hisse geri alımı yaptı; bunların 73'ü geri alımı fon krizinin başladığı 14 Eylül sonrasında duyurdu.",
+    "title": "TMSF, Tera Yatırım Teknoloji Holding'e kayyum olarak atandı",
+    "summary": "Tasarruf Mevduatı Sigorta Fonu (TMSF), İstanbul 5. Sulh Ceza Hakimliği’nin 14 Ekim 2026 tarihli ve 2026/10332 D. iş sayılı kararıyla Tera Yatırım Teknoloji Holding’e kayyum olarak atandı. Şirketin KAP açıklamasına göre TMSF Fon Kurulu yeni yönetim kurulunu oluşturdu; Yönetim Kurulu Başkanlığına Enis Güçlü Şirin getirildi ve şirketin yönetimi ile temsili artık bu kurul tarafından yürütülüyor.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "Hisse geri alımları düşüşlere çare olur mu?",
-        "url": "https://www.bloomberght.com/hisse-geri-alimlari-dususlere-care-olur-mu-3791726"
+        "title": "TMSF, Tera Yatırım Teknoloji Holding'e kayyum olarak atandı",
+        "url": "https://www.bloomberght.com/tmsf-tera-yatirim-teknoloji-holding-e-kayyum-olarak-atandi-3791838"
       }
     ]
   },
   {
-    "title": "Piyasalar yoğun veri gündemine odaklandı",
-    "summary": "Küresel piyasalar bu hafta ABD'de enerji fiyatlarıyla son 4 ayın en yükseğine çıkan enflasyon, Orta Doğu gündemi ve yapay zeka hisselerindeki satış baskısıyla karışık seyretti; S&P 500 yüzde 1,95, Nasdaq yüzde 4,48 düştü, Güney Kore'de Kospi yüzde 14,46 ile 18 yılın en sert haftalık düşüşünü yaşadı. Fed'in faiz artırabileceği beklentisi güçlense de ABD 10 yıllık tahvil faizi yüzde 5,09'a geriledi; altının onsu yüzde 0,7 düşüşle 4 bin 165 dolara indi, Brent petrol yüzde 4,75 yükselişle 109,69 dolardan kapandı. Yurt içinde BIST 100 haftayı yüzde 4,44 düşüşle 11.721,72 puandan, dolar/TL 49,5140'tan tamamladı; gelecek hafta TCMB faiz kararı izlenecek ve Bloomberg HT anketine göre politika faizinin 100 baz puan indirimle yüzde 36'ya çekilmesi bekleniyor.",
+    "title": "İran: Avrupa da ABD gibi yanlış hesaplamalarının bedelini ödüyor",
+    "summary": "İran Dışişleri Bakanı Abbas Erakçi, Tahran’da Rusya Dışişleri Bakanı Sergey Lavrov ile düzenlediği ortak basın toplantısında Avrupa ülkelerini İran’a yönelik saldırılara destek vermekle suçlayarak ‘Avrupa da tıpkı ABD gibi yanlış hesaplamalarının bedelini ödüyor’ dedi; Hürmüz Boğazı’ndaki güvenlik sorunlarını ABD ve İsrail saldırılarına bağladı ve bölge ülkelerinin yabancı müdahale olmadan kendi güvenlik mimarisini kurmasını desteklediklerini söyledi. Lavrov, ABD ve İsrail’in İran’a haklı gerekçe olmadan saldırdığını savunarak Rus uzmanların Buşehr Nükleer Santrali projesine aşamalı olarak geri döndüğünü hatırlattı ve Güney Kafkasya için İran, Rusya ve Türkiye’nin de yer aldığı 3+3 mekanizmasının geliştirilmesine işaret etti.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "Piyasalar yoğun veri gündemine odaklandı",
-        "url": "https://www.bloomberght.com/piyasalar-yogun-veri-gundemine-odaklandi-3791725"
+        "title": "İran: Avrupa da ABD gibi yanlış hesaplamalarının bedelini ödüyor",
+        "url": "https://www.bloomberght.com/iran-avrupa-da-abd-gibi-yanlis-hesaplamalarinin-bedelini-oduyor-3791837"
       }
     ]
   },
   {
-    "title": "Bahçeli’den Azerbaycan mesajı",
-    "summary": "MHP Genel Başkanı Devlet Bahçeli, Azerbaycan’ın 18 Ekim Bağımsızlığın Yeniden Sağlanması Günü’nün 35. yıl dönümü için yayımladığı yazılı mesajda Türkiye ile Azerbaycan’ın “Tek millet, iki devlet” anlayışıyla birbirinden ayrılmaz bir bütün olduğunu ve bu birliktelikten geri dönüş olmayacağını belirtti. Bahçeli, 27 Eylül-10 Kasım 2020 tarihleri arasındaki Karabağ Zaferi’nin Azerbaycan’ın bağımsızlığına yeni bir güç kazandırdığını söyleyerek “Bir kere yükselen bayrak bir daha inmez!” ifadesini kullandı.",
+    "title": "ABD’de konut piyasası güven endeksi 14 yılın en düşük seviyesinde",
+    "summary": "ABD’de NAHB ve Wells Fargo’nun konut piyasası koşulları endeksi 3 puan düşüşle 29’a gerileyerek Haziran 2012’den bu yana en düşük seviyeye indi; ekonomistlerin medyan tahmini 31 idi. Endeks iki yılı aşkın süredir 50’nin altında seyrediyor; artan kredi maliyetlerinin alıcı talebini bastırması ve yüksek yeni konut stoku, inşaatçıları indirim ve teşvike zorlayarak marjlarını daraltıyor.",
+    "sources": [
+      {
+        "source": "bloomberght.com",
+        "title": "ABD’de konut piyasası güven endeksi 14 yılın en düşük seviyesinde",
+        "url": "https://www.bloomberght.com/abdde-konut-piyasasi-endeksi-14-yilin-en-dusuk-seviyesinde-3791817"
+      }
+    ]
+  },
+  {
+    "title": "Türk Eximbank'tan 8 milyar dolarlık tahvil ihraç planı",
+    "summary": "Türk Eximbank, 02.10.2026 tarihli Yönetim Kurulu kararına istinaden yurt dışında azami toplam 8 milyar ABD doları veya döviz eşdeğeri tutarında, azami 10 yıl vadeli, sabit ve/veya değişken faizli borçlanma araçlarının bir veya birkaç seferde ihracı için Genel Müdürlüğü yetkilendirdiğini KAP’a bildirdi.",
+    "sources": [
+      {
+        "source": "bloomberght.com",
+        "title": "Türk Eximbank'tan 8 milyar dolarlık tahvil ihraç planı",
+        "url": "https://www.bloomberght.com/turk-eximbank-tan-8-milyar-dolarlik-tahvil-ihraci-plani-3791816"
+      }
+    ]
+  },
+  {
+    "title": "Almanya'da yedi yılda 500 bin istihdam kaybı",
+    "summary": "Ifo Enstitüsü’nün analizine göre Almanya’da sanayide sosyal güvenlik primine tabi istihdam, 2019 başından geçen yılın sonuna kadar 496 bin kişi azalarak yüzde 7,1 geriledi; aynı dönemde hizmet sektöründe başta sağlık, sosyal hizmetler ve kamu yönetimi olmak üzere 2,2 milyondan fazla yeni istihdam yaratıldı. Gerileme Çin ile artan rekabet ve azalan rekabet gücüne bağlandı; kayıpların yaklaşık yüzde 60’ı otomotiv, metal ürünleri ve makine mühendisliğinden kaynaklandı. Ifo’dan Joachim Ragnitz, refahı sürdüren ana sektörlerin küçülmesinin ülkenin gelecekteki büyüme potansiyelini yavaşlatabileceği uyarısında bulundu.",
+    "sources": [
+      {
+        "source": "bloomberght.com",
+        "title": "Almanya'da yedi yılda 500 bin istihdam kaybı",
+        "url": "https://www.bloomberght.com/almanya-da-yedi-yilda-500-bin-istihdam-kaybi-3791812"
+      }
+    ]
+  },
+  {
+    "title": "İran Devrim Muhafızları: Bu kez vereceğimiz karşılık daha şiddetli olacak",
+    "summary": "İran Devrim Muhafızları’ndan Muhibbi, İran devlet televizyonuna yaptığı açıklamada ‘Savaş ihtimalini göz ardı etmiyoruz ve bu kez vereceğimiz karşılık çok daha şiddetli olacak’ dedi. Muhibbi, bu kez ABD’nin çok büyük sorunlarla karşı karşıya kalacağını ve dünyanın ciddi bir enerji krizi yaşayacağını, savaşın yeniden tırmanması halinde sürpriz unsurları devreye koyacaklarını söyledi.",
+    "sources": [
+      {
+        "source": "bloomberght.com",
+        "title": "İran Devrim Muhafızları: Bu kez vereceğimiz karşılık daha şiddetli olacak",
+        "url": "https://www.bloomberght.com/iran-devrim-muhafizlari-bu-kez-verecegimiz-karsilik-daha-siddetli-olacak-3791811"
+      }
+    ]
+  },
+  {
+    "title": "Esenyurt Belediyesi kayyımı Can Aksoy görevden alındı",
+    "summary": "Esenyurt Belediyesi'nde Ahmet Özer'in yerine kayyım olarak görevlendirilen Vali Yardımcısı Can Aksoy, Esenyurt'taki \"yolsuzluk\" operasyonunun ardından görevden alındı. Bilgi İçişleri Bakanlığı kaynaklarına dayandırılıyor.",
     "sources": [
       {
         "source": "veryansintv.com/direct",
-        "title": "Bahçeli’den Azerbaycan mesajı",
-        "url": "https://www.veryansintv.com/bahceliden-azerbaycan-mesaji"
+        "title": "Esenyurt Belediyesi kayyımı Can Aksoy görevden alındı",
+        "url": "https://www.veryansintv.com/esenyurt-belediyesi-kayyimi-can-aksoy-gorevden-alindi"
       }
     ]
   },
   {
-    "title": "Saray’dan ‘Öcalan’a konut’ açıklaması: ‘Rolüne uygun çalışma ortamı oluşturmak için…’",
-    "summary": "Cumhurbaşkanı Başdanışmanı Mehmet Uçum, AA Analiz için yazdığı yazıda İmralı’da cezaevi binasına bağlı ünite olarak yapılan mekânın Abdullah Öcalan’ın “rolüne uygun çalışma ortamı oluşturmak için” olduğunu söyledi ve bunu serbest bırakma ya da imtiyaz olarak yorumlamayı “iyi niyetli olmayan bir bakış” diye niteledi. Uçum, 7595 sayılı Kanun’daki erteleme uygulamasının örgütün fiili varlığına son verdiğine ve silahların teslim edildiğine dair MGK kararının Resmi Gazete’de yayımlanmasıyla başlayacağını, kapsamdaki kişilerin ilandan sonra 6 ay içinde başvurması gerektiğini anlattı. Açılımın bir diyalog, yeni anayasanın ise bir müzakere süreci olduğunu belirten Uçum, tespit sürecinin hızlandırılması çağrısı yaptı.",
+    "title": "COP31 İçin altın yaldızlı Mesnevi!",
+    "summary": "Konya Büyükşehir Belediyesi, 9-20 Kasım'da Antalya'da düzenlenecek BM iklim zirvesi COP31 için \"COP31 Kapsamında Yapılacak Olan Organizasyonlar\" işini 15 Ekim 2026'da kendi iştiraki Konya Sanat Kültür ve Spor Faaliyetleri A.Ş.'ye 90 milyon 196 bin 300 TL sözleşme bedeliyle verdi. İklim Değişikliği ve Sıfır Atık Dairesi'nin yaptığı ihalenin şartnamesinde 650 adet altın yaldızlı lüks Mesnevi seti, 400 metrekarelik GOKONYA standı, 300 metrekarelik LED ekran, en az dört yıldızlı otellerde 3 bin 598 oda/gece konaklama, 600 kg Mevlânâ şekeri ve 600 paket kenevir helvası yer alıyor. Haber, iklim kriziyle mücadele için düzenlenen zirveye yönelik bu harcamaların karbon ayak izinin hesaplanmadığını ve organizasyonun bir tanıtım fuarına indirgendiğini öne sürüyor.",
     "sources": [
       {
         "source": "veryansintv.com/direct",
-        "title": "Saray’dan ‘Öcalan’a konut’ açıklaması: ‘Rolüne uygun çalışma ortamı oluşturmak için…’",
-        "url": "https://www.veryansintv.com/saraydan-ocalana-konut-aciklamasi-rolune-uygun-calisma-ortami-olusturmak-icin"
+        "title": "COP31 İçin altın yaldızlı Mesnevi!",
+        "url": "https://www.veryansintv.com/cop31-icin-altin-yaldizli-mesnevi"
       }
     ]
   },
   {
-    "title": "Tarih belli oldu: Benzine 4,30 lira indirim geliyor",
-    "summary": "Brent petrolün 104 dolara gerilemesiyle 20 Ekim Salı gününden itibaren benzinde litre başına 4,30 lira indirim bekleniyor. İndirimle benzinin litresinin İstanbul’da 79,60 liraya, Ankara’da 80,60 liraya, İzmir’de 80,80 liraya gerilemesi öngörülüyor.",
+    "title": "Karadeniz’deki güvensizlik hali en çok iki ülke arasında ikili ticareti vuruyor",
+    "summary": "Okay Deprem'in Krasnodar'daki Güney Rusya'nın en büyük halinden aktardığı izlenimlere göre, Ukrayna'nın insansız deniz ve hava araçlarıyla sivil gemileri hedef almaya başlaması Türkiye-Rusya arasındaki deniz ticaretini aylardır durma noktasına getirdi ve yaş meyve-sebze ticareti Gürcistan üzerinden tamamen karayoluna kaydı. Hataylı nakliyeciler bir TIR'ın Rusya'ya maliyetinin 6000-7000, kimi zaman 8000-9000 dolara çıktığını, maliyetlerin yüzde yüz arttığını, net kârın bazen 1500-2000 dolara düştüğünü ve Lider ile Kalyon gibi Türk armatörlerin gemilerinin de saldırılarda hasar gördüğünü anlatıyor. Haldeki tüccarlara göre Türk mandalinası Güney Afrika'dan gelene kıyasla 1.5 kat, Türk üzümü İran üzümüne kıyasla 2 kat pahalıya mal oluyor ve Türk malları Rusya'ya gelen ürünler arasında en pahalılar sıralamasında birinci.",
     "sources": [
       {
         "source": "veryansintv.com/direct",
-        "title": "Tarih belli oldu: Benzine 4,30 lira indirim geliyor",
-        "url": "https://www.veryansintv.com/tarih-belli-oldu-benzine-430-lira-indirim-geliyor"
+        "title": "Karadeniz’deki güvensizlik hali en çok iki ülke arasında ikili ticareti vuruyor",
+        "url": "https://www.veryansintv.com/karadenizdeki-guvensizlik-hali-en-cok-iki-ulke-arasinda-ikili-ticareti-vuruyor"
       }
     ]
   },
   {
-    "title": "Etimesgut Belediyesi soruşturmasında 7 tutuklama",
-    "summary": "Ankara Batı Cumhuriyet Başsavcılığı’nın Etimesgut Belediyesi’ndeki ihale usulsüzlüğü, sahte belge, rüşvet ve zimmet iddialarıyla yürüttüğü soruşturmada, Belediye Başkan Yardımcıları G.B. ve F.G.’nin de aralarında bulunduğu 7 şüpheli 16 Ekim 2026’da tutuklandı, 4 şüpheliye ev hapsi verildi. Soruşturmada 13 Ekim 2026’da Ankara merkezli 5 ilde 25 şüpheliye yönelik eş zamanlı operasyon düzenlenmiş, 9 şüpheli etkin pişmanlıktan yararlanarak ifade vermişti.",
+    "title": "DEM Partili belediyelerden Çevre Bakanlığı’na ‘ana dil’ başvurusu: ‘Temel bir gereklilik’",
+    "summary": "DEM Partili belediyeler, büyükşehirlerde \"Dilleri Yaşatma ve Geliştirme Daire Başkanlığı\", il, ilçe ve belde belediyelerinde \"Dilleri Yaşatma ve Geliştirme Müdürlüğü\" kurabilmek için mevzuat değişikliği talebiyle Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'na başvurdu. Karar, DEM Parti Demokratik Yerel Yönetimler Kurulu'nun 8-9 Haziran 2026'daki konferansında alınmış, mevzuat engelleri nedeniyle norm kadro cetvellerindeki birim adlarının güncellenmesi talebi yoluna gidilmişti. Belediyelere gönderilen genelgede anadili çalışmalarının belediyelerde kurumsallaştırılması \"temel bir gereklilik ve vazgeçilmez bir sorumluluk\" olarak nitelendirildi.",
     "sources": [
       {
         "source": "veryansintv.com/direct",
-        "title": "Etimesgut Belediyesi soruşturmasında 7 tutuklama",
-        "url": "https://www.veryansintv.com/etimesgut-belediyesi-sorusturmasinda-7-tutuklama"
+        "title": "DEM Partili belediyelerden Çevre Bakanlığı’na ‘ana dil’ başvurusu: ‘Temel bir gereklilik’",
+        "url": "https://www.veryansintv.com/dem-partili-belediyelerden-cevre-bakanligina-ana-dil-basvurusu-temel-bir-gereklilik"
       }
     ]
   },
   {
-    "title": "Ankara’da 8 belediye başkanı AKP’ye mi geçecek?",
-    "summary": "TGRT Haber’deki “Taksim Meydanı” programında konuşan gazeteci Mustafa Yavuz, Ankara’da 8 ilçe belediye başkanının toplu halde AKP’ye katılacağını ve önümüzdeki haftadan itibaren parti değiştiren belediye başkanı sayısında ciddi artış yaşanabileceğini öne sürdü. İddiaya göre Kalecik, Güdül, Polatlı, Ayaş, Şereflikoçhisar, Elmadağ, Beypazarı ve Nallıhan belediye başkanları AKP’ye geçecek; bu, AKP’nin 31 Mart 2024 yerel seçimlerinin ardından başlattığı belediye başkanı transferlerinin devamı olarak sunuluyor.",
-    "sources": [
-      {
-        "source": "veryansintv.com/direct",
-        "title": "Ankara’da 8 belediye başkanı AKP’ye mi geçecek?",
-        "url": "https://www.veryansintv.com/ankarada-8-belediye-baskani-akpye-mi-gececek"
-      }
-    ]
-  },
-  {
-    "title": "BBC araştırması: İsrail ordusu yüzlerce iç soruşturmasının sonuçlarını kamuoyuna açıklamadı",
-    "summary": "BBC Verify, İsrail ordusunun 7 Ekim 2023 ile 19 Ağustos 2026 arasında Gazze, Batı Şeria, Lübnan ve İsrail’de ölüm ve yaralanmaya yol açtığı iddia edilen ve soruşturma başlattığını açıkladığı 300 olaydan yalnızca 28’inin sonucunu yayımladığını, en az 254 olayın sonucunun ise kamuoyuna açıklanmadığını tespit etti. Bu olayların 158’i Gazze’de, 48’i Batı Şeria’da, 32’si Lübnan’da gerçekleşti ve 200’den fazlasında en az bir kişi öldü; aralarında Ağustos 2024’te Gazze’de bir okul binasına düzenlenen ve en az 93 kişinin öldüğü bildirilen saldırı da var. İsrail ordusu, soruşturma sonuçlarını gizlilik ve bilgi güvenliğiyle ilgili kısıtlamaları gözeterek mümkün olduğunda yayımladığını söyledi; Oxford’dan Prof. Janina Dill ise operasyonun üzerinden üç yıl geçtiğini ve bazı soruşturmaların artık sonuçlanmış olması gerektiğini belirtti.",
+    "title": "Ev hapsinde gözaltına alınan Murat Ağırel tutuklandı",
+    "summary": "Fon krizine ilişkin yayınları nedeniyle \"halkı yanıltıcı bilgiyi alenen yayma\" suçundan ev hapsinde olan gazeteci Murat Ağırel, \"suçtan kaynaklanan mal varlığı değerlerini aklama\" iddiasıyla yürütülen ayrı bir soruşturmada tutuklandı; soruşturmada 17 kişi adliyeye sevk edilmiş, 15 kişi için tutuklama istenmişti. Aynı soruşturmada Yeni Parti milletvekili Mustafa Sarıgül'ün oğlu Ömer Sarıgül ve eski eşi Aylin Kotil gözaltına alındı; dokunulmazlığı bulunan Sarıgül hakkındaki iddialar Ankara Cumhuriyet Başsavcılığı'na gönderildi. Ankara Büyükşehir Belediye Başkanı Mansur Yavaş zaten adli kontrol altındaki bir gazetecinin tutuklanmasının somut gerekçesini sordu; meslektaşı Timur Soykan, Ağırel'in Sarıgül ailesine ilişkin iddiaları belgeleri yeterli bulmadığı için beklemeye aldığını söyledi.",
     "sources": [
       {
         "source": "bbc.com/turkce",
-        "title": "BBC araştırması: İsrail ordusu yüzlerce iç soruşturmasının sonuçlarını kamuoyuna açıklamadı",
-        "url": "https://www.bbc.com/turkce/articles/cqdjv982nl4eo?at_medium=RSS&at_campaign=rss"
-      }
-    ]
-  },
-  {
-    "title": "İmamoğlu İBB davasındaki savunmasını dördüncü günde tamamladı",
-    "summary": "Tutuklu İBB Başkanı Ekrem İmamoğlu, 53’ü tutuklu 436 sanıklı İBB davasında 14 Ekim’de başladığı savunmasını dördüncü günde, 17 Ekim’de tamamladı; ardından çapraz sorgusu yapıldı ve avukatları savunma yaptı. 600 günden fazladır tutuklu olduğunu vurgulayan İmamoğlu davanın “her kelimesiyle, her harfiyle siyasi” olduğunu söyledi, örgüt üyeliği, casusluk ve rüşvet suçlamalarını reddetti ve “560 milyar dediler, 560 kuruş bulamadılar. Rakamı 160 milyara indirdiler” dedi. Mahkeme yedi sanığın tahliyesine karar verdi, tutuklu sayısı 46’ya indi; davanın üçüncü celsesi 2 Kasım’da başlayacak.",
-    "sources": [
-      {
-        "source": "bbc.com/turkce",
-        "title": "İmamoğlu İBB davasındaki savunmasını dördüncü günde tamamladı",
-        "url": "https://www.bbc.com/turkce/articles/cmlyd2xp1jxwo?at_medium=RSS&at_campaign=rss"
-      }
-    ]
-  },
-  {
-    "title": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa ettiğini açıkladı",
-    "summary": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras 16 Ekim’de CHP’den istifa ettiğini ve görevini bağımsız olarak sürdüreceğini açıkladı; gerekçe olarak “şahsım üzerinden yürütülen siyasi tartışmaların” kent için yapılan çalışmaların önüne geçtiğini söyledi. Aras’tan önce 2024 yerel seçimlerinde CHP’den seçilen İzmir Büyükşehir Belediye Başkanı Cemil Tugay, Ankara Büyükşehir Belediye Başkanı Mansur Yavaş ve Aydın Büyükşehir Belediye Başkanı Özlem Çerçioğlu da CHP’den istifa etmişti; Çerçioğlu ve Tugay daha sonra AKP’ye katıldı, Yavaş görevini bağımsız sürdürüyor.",
-    "sources": [
-      {
-        "source": "bbc.com/turkce",
-        "title": "Muğla Büyükşehir Belediye Başkanı Ahmet Aras CHP'den istifa ettiğini açıkladı",
-        "url": "https://www.bbc.com/turkce/articles/cq33x5l3p8vko?at_medium=RSS&at_campaign=rss"
+        "title": "Ev hapsinde gözaltına alınan Murat Ağırel tutuklandı",
+        "url": "https://www.bbc.com/turkce/articles/cmn04q2lnnrxo?at_medium=RSS&at_campaign=rss"
       }
     ]
   }
