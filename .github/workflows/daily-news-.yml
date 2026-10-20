@@ -1,10 +1,7 @@
 name: Daily News Pipeline                # Name shown in GitHub Actions tab
 
 on:
-  schedule:
-    # 08:00 Europe/Istanbul (UTC+3, no DST) = 05:00 UTC
-    - cron: '0 5 * * *'                  # Runs daily at 5:00 UTC = 8:00 Turkey
-  workflow_dispatch:                     # Lets you trigger it manually from the UI
+  workflow_dispatch:                     # Manual trigger only (no schedule); normally run with mode=scrape
     inputs:
       feed_check_only:
         description: 'Only check the feeds (no Gemini calls, no Discord post)'
@@ -18,7 +15,7 @@ on:
         description: 'full = normal run; scrape = fetch articles only (articles.json artifact, no Gemini); post = post clusters_file to Discord (no Gemini)'
         type: choice
         options: [full, scrape, post]
-        default: full
+        default: scrape
       clusters_file:
         description: 'For mode=post: path in the repo of a ready-made news_clusters.json'
         type: string
