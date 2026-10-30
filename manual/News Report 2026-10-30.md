@@ -1,0 +1,694 @@
+# News Report — 2026-10-30
+
+23 cross-source stories · 50 unique stories
+
+---
+
+## Common News
+
+### 1. Israel's election ends in deadlock as record Arab turnout leaves Arab parties holding the balance
+
+Final results of Israel's October 27 election show no clear winner: Benjamin Netanyahu's bloc of right-wing, far-right and religious parties won 53 seats, down from 64 in 2022, and Gadi Eisenkot's opposition bloc won 48, both short of the 61 needed in the 120-seat Knesset. Likud lost five seats but remains the largest party with 27, while Eisenkot's new centrist Yashar party came second with 21. The Arab parties Joint List and Ra'am won a record 19 seats, up from 10, after Arab turnout rose to nearly 80% from 53% according to the Mossawa Center, driven by rising crime in Arab communities and a desire to oust Netanyahu. Eisenkot cannot reach a majority without them, but his allies Naftali Bennett and Avigdor Liberman oppose any government that relies on Arab parties, and Eisenkot has set conditions for partners, including recognising Israel as a Jewish and democratic state and listing Hamas as a terrorist organisation. President Isaac Herzog has seven days to consult party leaders and choose a candidate, who then has 28 days, extendable by 14, to form a coalition, and if no government is formed within 12 weeks Israelis go back to the polls. Analysts expect little change in Israel's security policy or its international isolation whoever governs, and fear Netanyahu could stay on as caretaker for months.
+
+**Sources:**
+- [nytimes.com — Israel’s Election Is Unlikely to Change Its Policies and Global Isolation](https://www.nytimes.com/2026/10/30/world/europe/israel-election-netanyahu-eisenkot.html)
+- [nytimes.com — With No Clear Winner, How Could Israel Get a Prime Minister?](https://www.nytimes.com/2026/10/29/world/middleeast/israel-election-coalition-scenarios.html)
+- [nytimes.com — What Israeli Election Results Reveal About the Electorate](https://www.nytimes.com/2026/10/29/world/middleeast/israel-voter-data-takeaways.html)
+- [nytimes.com — An Arab Town in Israel Celebrates the Election but Wonders What Will Change](https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html)
+- [nytimes.com — No Clear Winner in Israel Election, Final Results Show](https://www.nytimes.com/2026/10/29/world/middleeast/israel-election-results-netanyahu-eisenkot.html)
+- [nytimes.com — How Israel’s Election Could End](https://www.nytimes.com/video/world/middleeast/100000011242127/how-israels-election-could-end.html)
+- [nytimes.com — How Arab Voters in Israel Shifted the Political Landscape](https://www.nytimes.com/2026/10/28/world/middleeast/israel-election-arab-parties.html)
+- [nytimes.com — How Netanyahu Used Fear, Again, to Win Votes in the Israel Elections](https://www.nytimes.com/2026/10/29/world/middleeast/netanyahu-fear-election-votes.html)
+- [cnn.com — After decades of boycotts, Palestinian citizens of Israel turned out to vote. It could shape what comes next](https://www.cnn.com/2026/10/30/middleeast/palestinian-israelis-vote-what-next-intl)
+- [cnn.com — Israel’s election ended in deadlock. Here are four ways out](https://www.cnn.com/2026/10/29/middleeast/israel-election-results-deadlock-vis-intl)
+- [npr.org — Israel is in a political deadlock. What comes next?](https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs)
+- [lemonde.fr/en — Israel's ceremonial president Isaac Herzog becomes arbiter of a Knesset without a majority](https://www.lemonde.fr/en/international/article/2026/10/30/in-israel-isaac-herzog-from-ceremonial-president-to-arbiter-of-a-knesset-without-a-majority_6767128_4.html)
+- [welt.de — Final result confirmed – Israel faces difficult government formation](https://www.welt.de/politik/ausland/video6ae42719aacefa08f5b98d26/parlamentswahl-endergebnis-steht-fest-israel-vor-schwieriger-regierungsbildung.html)
+- [welt.de — Final result in Israel confirmed – record result for Arab parties](https://www.welt.de/politik/ausland/article6ae423cf981b80c0b7986611/wahl-in-israel-endergebnis-steht-fest-rekordergebnis-fuer-arabische-parteien.html)
+- [welt.de — Netanyahu and Eisenkot miss majority – Israel now faces political deadlock](https://www.welt.de/politik/ausland/article6ae39702981b80c0b79861fe/wahl-endergebnis-netanjahu-und-eisenkot-verfehlen-mehrheit-nun-droht-israel-politischer-stillstand.html)
+
+---
+
+### 2. Netanyahu's camp says Arab parties 'stole' the election; Qatar and Türkiye deny interference
+
+Likud said the election "was stolen by Arab parties that support terror" through bribery, threats and forgery, and Central Elections Committee chairman Justice Noam Sohlberg asked Shin Bet to investigate "serious suspicions" of foreign interference; Shin Bet is examining whether the Arab parties received illegal funding from Qatar and Türkiye. Opposition leader Gadi Eisenkot accused Netanyahu of a coordinated campaign to delegitimise the results, the president rebuked Netanyahu for "tarnishing an entire community", and police officers and election committee members disowned his allegations. Ynet quoted anonymous officials saying Qatar may have paid "tens of millions", though the tips were described as not very concrete. Qatar's foreign ministry spokesman Majed al-Ansari called the accusations "ridiculous and dangerous", and Türkiye called them "completely baseless", with the Presidency's Center for Countering Disinformation describing them as part of a deliberate disinformation campaign. Critics see the row as an attempt to make it impossible for Eisenkot to join forces with the Arab parties, his bloc's only route to power.
+
+**Sources:**
+- [bbc.com — Israeli opposition accuses Netanyahu of trying to 'delegitimise' election](https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss)
+- [theguardian.com — Netanyahu accused of smearing Arab voters to hold on to power](https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power)
+- [theguardian.com — Israel election results: Qatar says accusations of election interference in Israel ‘ridiculous and dangerous’ – as it happened](https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news)
+- [welt.de — Suddenly the legitimacy of the election itself is being called into question](https://www.welt.de/politik/ausland/article6ae3317d4a674ddd4ba23985/israel-ploetzlich-wird-die-legitimitaet-der-wahl-selbst-in-zweifel-gezogen.html)
+- [bbc.com/turkce — Türkiye'den 'İsrail seçimlerine müdahale ettiği' iddialarına yalanlama](https://www.bbc.com/turkce/articles/c6d93pd9pxw2o?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 3. Truce brokered by Melania Trump brings rare calm to Kherson as Oleshky evacuation begins
+
+A rare local cease-fire took effect early Tuesday around the Russian-occupied frontline city of Oleshky, where about 2,000 civilians are trapped under bombardment and threatened by starvation, to allow aid deliveries and an evacuation. Melania Trump announced the truce on Friday after negotiating with the Russian and Ukrainian governments, a week after Pope Leo XIV spoke with Vladimir Putin and called for a cease-fire. Russia and Ukraine said demining of the routes around Oleshky was complete so the evacuation could begin, and a Ukrainian volunteer who had gathered 200 names by Monday said: "They gave us so little time." Kherson has had its first two days of quiet in years, and Ukraine's human rights ombudsman Dmytro Lubinets said the city has "literally come back to life", although residents fear what comes next. WELT's correspondent says Trump wants successes as a peacemaker in the face of poor election forecasts and the Russians are playing along, while the Kremlin's conditions for peace talks are unchanged.
+
+**Sources:**
+- [nytimes.com — Rare Evacuation Announced by Melania Trump Begins in Ukrainian City of Oleshky](https://www.nytimes.com/2026/10/26/world/europe/ukraine-oleshky-ceasefire-russia-war.html)
+- [nytimes.com — A Cease-Fire Melania Trump Announced Gives a City Brief Calm](https://www.nytimes.com/2026/10/29/world/europe/ukraine-kherson-respite.html)
+- [bbc.com — 'The city is alive': A brief peace in Kherson, but residents fear what comes next](https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss)
+- [welt.de — After successful demining – evacuation of Oleshky residents set to begin](https://www.welt.de/politik/ausland/video6ae43835aacefa08f5b98e2c/waffenruhe-nach-erfolgreicher-minenraeumung-evakuierung-der-bewohner-von-oleschky-soll-anlaufen.html)
+- [welt.de — "We do you a favour, Trump, and then you do us a favour"](https://www.welt.de/politik/ausland/video6ae35bbb981b80c0b7985ddb/gespraeche-mit-moskau-wir-tun-dir-einen-gefallen-trump-und-dann-tust-du-uns-einen-gefallen.html)
+
+---
+
+### 4. Machado thanks Trump for capturing Maduro and calls for elections in 2027
+
+Venezuelan opposition leader María Corina Machado, back in Caracas after more than 10 months in exile, used her first news conference to thank the Trump administration for opening the "floodgate to freedom" by capturing Nicolás Maduro in a US military operation on January 3, while saying her return was organised by her own team and not by any government. She called for presidential elections in 2027 and said Secretary of State Marco Rubio has set out a sequence of steps toward a democratic transition that is "irreversible". A senior State Department official said Venezuela should have a new Supreme Tribunal of Justice by the end of the year and a new electoral council soon after, after which the acting leader must declare a vacancy that triggers a six-month election period. Interim president Delcy Rodríguez, Maduro's former vice-president, said elections would be held and that her government should oversee the transition, which Machado dismissed as illogical; no date has been set.
+
+**Sources:**
+- [nytimes.com — Venezuelan Opposition Leader Thanks Trump But Marks Distance from Washington](https://www.nytimes.com/2026/10/29/world/americas/machado-trump-venezuela-return.html)
+- [cnn.com — Machado pushes for new elections in first news conference since returning to Venezuela](https://www.cnn.com/2026/10/29/americas/machado-presser-venezuela-latam-intl)
+- [bbc.com — Venezuela opposition leader María Machado calls for elections upon return](https://www.bbc.co.uk/news/articles/ck054d5mnzreo?at_medium=RSS&at_campaign=rss)
+- [aljazeera.com — Venezuela’s Machado lauds Trump for ‘freedom’, urges 2027 elections](https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss)
+- [welt.de — Opposition leader Machado thanks Trump for his "foresight, courage and action"](https://www.welt.de/politik/ausland/article6ae3d00f981b80c0b798646f/venezuela-oppositionsfuehrerin-machado-bedankt-sich-bei-trump-fuer-dessen-weitsicht-mut-und-handeln.html)
+
+---
+
+### 5. Kapadokya'da peribacası çöktü: Göreme'de 3 kişi öldü, savcılık 5 bilirkişi görevlendirdi
+
+Nevşehir Göreme'de Açık Hava Müzesi girişinde 29 Ekim'de, yoğun yağışın ardından peribacasından kopan kaya parçaları bölgedekilerin üzerine düştü; 3 kişi hayatını kaybetti, 5 kişi yaralandı. Hayatını kaybedenler, 5 Temmuz'da evlenen Sakaryalı gazeteci Fatih Eray Tuna, eşi Begüm Çetinkaya Tuna ve Fransız turist Cynthia Francine Marie Madeleine Houpert. Vali Hüseyin Kök yaralılardan dördünün taburcu edildiğini, tedavisi süren 8 yaşındaki Fransız çocuğun durumunun iyiye gittiğini açıkladı; İçişleri Bakanı Mustafa Çiftçi de arama kurtarma çalışmalarının tamamlandığını duyurdu. Adalet Bakanı Akın Gürlek soruşturma başlatıldığını açıkladı ve Nevşehir Cumhuriyet Başsavcılığı çökmenin teknik nedenlerini, ihmal ya da doğal afet boyutunu incelemek üzere 5 bilirkişi görevlendirdi.
+
+**Sources:**
+- [cnn.com — A rock formation collapse in Turkey’s touristic Cappadocia region kills at least 3](https://www.cnn.com/2026/10/29/world/rock-collapse-turkeys-touristic-latam-intl)
+- [bbc.com — Rock collapse kills two in Turkey's Cappadocia, local media reports](https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss)
+- [sozcu.com.tr — Kapadokya'da 3 kişinin öldüğü olayı 5 bilirkişi inceleyecek](https://www.sozcu.com.tr/kapadokyada-3-kisinin-oldugu-olayi-5-bilirkisi-inceleyecek-p374282)
+- [veryansintv.com/direct — Kapadokya’da peribacası çöktü: Ölü ve yaralılar var!](https://www.veryansintv.com/kapadokyada-peribacasi-coktu-olu-ve-yaralilar-var)
+- [bbc.com/turkce — Kapadokya'da peribacası çöktü, üç kişi hayatını kaybetti](https://www.bbc.com/turkce/articles/cwdd8qjqqmnzo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 6. China expels a record 33 party members as Xi's purge leaves a quarter of Central Committee seats empty
+
+China's Communist Party expelled a record 33 members as its fifth plenum ended, 16 of them from the military, including Zhang Youxia, formerly Xi Jinping's second-in-command in the military hierarchy, former Xinjiang party secretary Ma Xingrui and former diplomat Liu Jianchao. Only 279 of the 376 Central Committee members named in 2022 attended, the most empty seats in modern Chinese history, and WELT reports that of China's 44 military leaders only two have not disappeared. The expulsions bring the number removed in Xi's third term to a record 51, against 35 and five in his first and second terms, as he prepares to claim a fourth term. Carnegie China scholar Chong Ja Ian said the anti-corruption campaign has become "an effort to consolidate and maintain authority".
+
+**Sources:**
+- [nytimes.com — China Confirms Expulsion of 33 Officials, as Xi’s Purge Deepens](https://www.nytimes.com/2026/10/29/world/asia/china-communist-party-purges.html)
+- [bbc.com — Record number of purges as Xi emphasises 'party discipline' at China political gathering](https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss)
+- [theguardian.com — China expels a record number from Communist party amid Xi’s intensified purges of top officials](https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum)
+- [welt.de — Of China's 44 military leaders, only two have not disappeared](https://www.welt.de/politik/ausland/plus6ae30b3421fd087fed7ee6ae/xis-kahlschlag-von-chinas-44-militaerfuehrern-sind-nur-zwei-nicht-verschwunden.html)
+
+---
+
+### 7. Aliyev, Azerbaycan'daki okul kıyafeti gerginliğinin gölgesinde Ankara'daki TDT Zirvesi'ne katılmadı
+
+Türk Devletleri Teşkilatı'nın 13. Zirvesi Ankara'da başladı; Ankara ile Bakü arasındaki ilişkiler Azerbaycan'daki okullarda uygulanmaya başlayan yeni kıyafet kurallarının ardından gerildiği için Azerbaycan Cumhurbaşkanı İlham Aliyev zirveye katılmadı ve ülkesini Dışişleri Bakanı Ceyhun Bayramov temsil etti. Azerbaycan basını, Aliyev'in önceden planlanmış programı nedeniyle Bakü'de U-15 Dünya Şampiyonası finalistlerine ödül vereceğini yazdı. Dönem başkanlığını Azerbaycan'dan devralan Erdoğan, "Türk dünyasının aile fotoğrafında ayrılığa, gayrılığa, ihtilafa yer yoktur" dedi; Türkmenistan'ın tam üyeliğini ve Azerbaycan-Ermenistan normalleşmesini desteklediklerini, İran'daki gerilimde silahlar yerine diplomasinin kullanılması gerektiğini söyledi. Zirve öncesi yazdığı makalede Türk dünyasının ekonomik bütünleşmesini önceliklerin başında sayan Erdoğan, Trans-Hazar Orta Koridoru'nu "yarının ticaretine yön verecek stratejik bir hat" olarak niteledi. Bayramov ise "Tüm bölgede ve dünyada yeni tehdit ve tehlikeler mevcut" dedi.
+
+**Sources:**
+- [sozcu.com.tr — TDT Azerbaycan krizinin gölgesinde başladı! Erdoğan: 'Aile fotoğrafında ayrılığa yer yoktur'](https://www.sozcu.com.tr/tdt-azerbaycan-krizinin-golgesinde-basladi-erdogan-aile-fotografinda-ayriliga-yer-yoktur-p374256)
+- [bloomberght.com — Erdoğan: Türk dünyasının ekonomik bütünleşmesi önceliklerin başında](https://www.bloomberght.com/erdogan-turk-dunyasinin-ekonomik-butunlesmesi-onceliklerin-basinda-3792896)
+- [veryansintv.com/direct — Aliyev, Ankara’daki TDT Zirvesi’ne katılmayacak](https://www.veryansintv.com/aliyev-ankaradaki-tdt-zirvesine-katilmayacak)
+- [bbc.com/turkce — Aliyev, Türk Devletleri Teşkilatı Zirvesi'ne katılmadı](https://www.bbc.com/turkce/articles/cmrlypdepxy4o?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 8. Russian jet-powered drone hits crowded Dnipro station platform, killing at least 14
+
+A Russian jet-powered drone struck a crowded platform at Dnipro's main railway station on Thursday while a passenger train bound for Zaporizhzhia stood there, killing at least 14 people according to local officials, while WELT cited regional governor Oleksandr Hanzha giving 13 dead. The BBC reported at least 14 wounded, including an 11-year-old boy, and an elevated threat level had been announced before the strike. Volodymyr Zelensky called it a "horrific Russian attack", criticised the easing of sanctions on Russian oligarchs and called for tougher sanctions from the EU, the US and the G7. The strike showed that despite the local cease-fire around Oleshky other communities remain under fire; Russia has repeatedly hit Ukraine's railways but denies targeting civilians.
+
+**Sources:**
+- [nytimes.com — Russian Strike on Ukrainian Train Station Kills 14](https://www.nytimes.com/2026/10/29/world/europe/ukraine-dnipro-train-russia.html)
+- [bbc.com — Russian drone attack on Ukrainian train station kills at least 14, officials say](https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss)
+- [welt.de — Russia attacks Ukrainian railway station – 13 dead](https://www.welt.de/politik/ausland/article6ae320afec13b5a805f8ad49/ukraine-krieg-russland-greift-ukrainischen-bahnhof-an-13-tote.html)
+
+---
+
+### 9. Putin says Russia is 'ready' for war with Europe but does not want one
+
+Vladimir Putin said after the Russia-Africa summit in Moscow that Russia is prepared for war with Europe, responding to European warnings of a possible war with Russia by 2030: "We are ready, but we do not want war with Europe." He said such a war would have "no winners" and that Moscow supports steps to restore full relations with European countries, both with the EU and bilaterally. Putin spoke positively of a recent call initiated by Finland's president Alexander Stubb and Norway's prime minister Jonas Gahr Støre, and warned against a situation in the Baltic Sea like the one in the Strait of Hormuz.
+
+**Sources:**
+- [welt.de — "We are ready", Putin threatens – and warns of escalation in the Baltic Sea](https://www.welt.de/politik/ausland/article6ae431fd981b80c0b7986699/russland-wir-sind-bereit-droht-putin-und-warnt-vor-eskalation-in-der-ostsee.html)
+- [welt.de — "We are prepared" – Putin again threatens Europe with war](https://www.welt.de/politik/ausland/video6ae426b0981b80c0b798662e/kreml-chef-wir-sind-vorbereitet-putin-droht-europa-erneut-mit-krieg.html)
+- [sozcu.com.tr — Putin gözünü kırpmadan söyledi: 'Avrupa'yla savaşa hazırız'](https://www.sozcu.com.tr/putin-gozunu-kirpmadan-soyledi-avrupa-yla-savasa-haziriz-p374273)
+
+---
+
+### 10. France deploys 70,000 police as Yellow Vests and students call new protests for October 31
+
+Interior Minister Laurent Nuñez warned of a "very high risk of public disorder" on October 31 and announced the deployment of around 70,000 police officers and gendarmes across France for a new day of protests called by the Yellow Vest movement and student unions. The Yellow Vests also plan a loud protest with pots and pans in front of the National Assembly in Paris. France has been rocked by anger over the cost of living and inequality, and nationwide demonstrations on October 17 degenerated into some of the worst rioting in years, six months before a presidential election in which Marine Le Pen leads the polls.
+
+**Sources:**
+- [lemonde.fr/en — French minister warns of 'very high' violence risk at Halloween protests](https://www.lemonde.fr/en/france/article/2026/10/29/french-minister-warns-of-very-high-violence-risk-at-halloween-protests_6766895_7.html)
+- [welt.de — Yellow Vest movement calls for loud protest with pots and pans](https://www.welt.de/politik/ausland/video6ae436a1e6383048f41d38fe/frankreich-gelbwesten-bewegung-ruft-zu-lautstarkem-protest-mit-toepfen-und-pfannen-auf.html)
+
+---
+
+### 11. Defeated Flávio Bolsonaro flees to the US with Trump's help and calls himself 'leader of Brazil'
+
+Flávio Bolsonaro, who lost Brazil's presidential run-off to Luiz Inácio Lula da Silva by 4.4 million votes and faces multiple criminal investigations, left Brazil on Tuesday after failing to surrender his passports as a Supreme Court order required, crossing into Argentina and flying to Florida. US officials said President Trump and his aides ensured he could enter the United States. In a letter he called himself "leader of Brazil", alleged without evidence that he was the victim of "electoral fraud" and said he would lead the opposition from the US, while Lula called his departure "a shameful act". A BBC analysis found that only around 34,000 people voted during the extended polling hours he blames.
+
+**Sources:**
+- [nytimes.com — Trump and His Aides Helped Bolsonaro Flee Brazil and Enter U.S.](https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html)
+- [bbc.com — Flávio Bolsonaro calls himself 'leader of Brazil' after election loss](https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 12. US sanctions Rwanda's defence ministry over M23 support in a conflict Trump declared 'ended'
+
+The US Treasury imposed sanctions on Rwanda's defence ministry, accusing it of undermining a US-brokered peace agreement with DR Congo by supporting the M23 rebels in eastern Congo, a conflict President Trump had declared "ended". "Rwanda must halt its support for M23 and withdraw its troops from eastern DRC," Treasury Secretary Scott Bessent said, and the Treasury says the ministry directed thousands of troops to fight alongside M23 and supplied weapons, equipment, logistics and training. Fighting has continued since M23 seized Goma and Bukavu in early 2025, and Rwanda denies backing the rebels.
+
+**Sources:**
+- [nytimes.com — U.S. Hits Rwanda With New Sanctions Over a Conflict Trump Declared ‘Ended’](https://www.nytimes.com/2026/10/29/world/africa/rwanda-sanctions-m23-congo.html)
+- [bbc.com — US sanctions Rwanda's defence ministry over DR Congo conflict](https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 13. Canada moves to become the EU's first 'associate member' as its trade war with the US deepens
+
+Canada is reducing its reliance on the United States amid a trade war, after Trump levied 50% tariffs on around $20 billion of Canadian goods over the summer and Canada matched them, and is set to become the EU's first-ever "associate member". At the Canada-EU summit in Montreal, Ursula von der Leyen called the status "a partnership that comes close to membership than anything we have done before", including close alignment on governance and policies, and she and Mark Carney invited other countries to join an "Alliance for the Future". "Economic integration is now being weaponized, and tariffs are being used as a means of pressure," Carney told EU lawmakers. Officials from Germany and France have voiced opposition, and few details of the associate membership have been shared.
+
+**Sources:**
+- [cnn.com — Canada’s economic break with the US in 5 charts](https://www.cnn.com/2026/10/30/economy/canada-us-trade-economy-vis)
+- [bbc.com — EU chief lays out vision for new Canada partnership at Montreal summit](https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 14. Toledo rail crash that killed 69 shakes Sánchez's campaign a month before Spain's snap election
+
+The crash near Toledo that killed at least 69 people, the second deadly collision on the same line this year after one that killed 46 in January, has dealt a fresh blow to Prime Minister Pedro Sánchez weeks before the November 29 snap election, with his Socialists already polling behind the People's Party. Transport Minister Óscar Puente blamed computer failure and apparent human error, prompting backlash from unions, while protesters and far-right groups in Madrid demanded his resignation and a change of government. The election, called after right-wing and far-right parties voted down Sánchez's housing reforms, had been billed by the left as a last chance to stop the People's Party joining forces with Vox, and rail safety now threatens to overshadow Sánchez's defence of his record. Chatham House analyst Grégoire Roos said the climate of distrust can only favour Vox and, to some extent, the People's Party.
+
+**Sources:**
+- [cnn.com — Spanish train crash yet another blow to Sánchez’s government ahead of elections in November](https://www.cnn.com/2026/10/29/europe/spain-train-crash-protests-sanchez-election-intl)
+- [theguardian.com — Battle lines redrawn in Spain’s snap election after latest train disaster](https://www.theguardian.com/world/2026/oct/30/battle-lines-redrawn-spain-snap-election-train-disaster-pedro-sanchez-psoe-pp-vox)
+
+---
+
+### 15. Ukrainian troops fight Russians from inside buried gas pipes to escape drones
+
+Ukrainian troops in eastern Ukraine are fighting Russians from inside buried pipes that once carried natural gas between Ukraine and Russia, connected to an underground logistics hub hundreds of yards long. The pipes are less than four feet in diameter, yet soldiers spend weeks at a time inside them, fighting with guns and grenades, carrying out the wounded and dead and bringing in supplies to positions near the front. Ukrainian strategists say that with drones stalking the battlefield above, this is the future of war.
+
+**Sources:**
+- [nytimes.com — Ukrainians Are Fighting Russians Inside Underground Gas Pipes. I Went in One.](https://www.nytimes.com/2026/10/30/world/europe/ukraine-russia-natural-gas-pipes.html)
+- [nytimes.com — How Ukrainian Soldiers Are Moving Underground](https://www.nytimes.com/video/world/europe/100000011210889/how-ukrainian-soldiers-are-moving-underground.html)
+
+---
+
+### 16. Brent, Husi saldırıları ve Hürmüz'de mayına çarpan tankerlerle 117 doları aştı
+
+Brent petrol cuma günü kısa süreliğine varil başına 117 doları aşarak nisandan bu yana en yüksek seviyeye, savaş öncesinin yüzde 60'tan fazla üzerine çıktı; Bloomberg HT'ye göre Brent günü yüzde 0,75 artışla 115,74 dolardan, WTI 102,72 dolardan işlem gördü. Yükselişte İran destekli Husilerin Ras Tanura ve Rabigh rafinerileri ile Abqaiq'teki Aramco tesisini hedef aldıklarını duyurması ve İran Devrim Muhafızları'nın Hürmüz Boğazı'nın güneyinde izinsiz rota kullanan üç tankerin deniz mayınlarına çarparak alev aldığını bildirmesi etkili oldu. Kpler verilerine göre Körfez'den ham petrol ihracatı 18 Ekim'e kadarki haftada günlük ortalama 24,6 milyon varille savaş öncesi ortalamayı aştı, ancak analistler fiyatları çatışmanın yeniden alevlenme korkusu, azalan stoklar ve artan taşıma maliyetleriyle açıklıyor. Ağustosta Hürmüz'den geçen ham petrolün yüzde 70'inden fazlası gemiden gemiye aktarmayla taşındı.
+
+**Sources:**
+- [aljazeera.com — Oil flows are up as Iran war turmoil eases. Why do prices keep rising?](https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising?traffic_source=rss)
+- [bloomberght.com — Petrol Hürmüz Boğazı ve Suudi Arabistan’daki saldırılarla yükseldi](https://www.bloomberght.com/petrol-hurmuz-bogazi-ve-suudi-arabistandaki-saldirilarla-yukseldi-3792820)
+
+---
+
+### 17. Fransa ekonomisi üçüncü çeyrekte beklenmedik şekilde yüzde 0,1 daraldı
+
+INSEE verilerine göre Fransa'nın GSYH'si üçüncü çeyrekte yüzde 0,1 daraldı; analistler yüzde 0,1 büyüme bekliyordu. Ekonomi ikinci çeyrekte durgun kalmış, ilk çeyrekte yüzde 0,2 küçülmüştü; ekimde enflasyon yüzde 3,1'den yüzde 3,4'e çıkarak Ocak 2024'ten bu yana en yüksek seviyeye ulaştı. Yatırımlar yüzde 0,6 düştü, ihracattaki yüzde 1,7'lik gerileme büyümeye 0,6 puan negatif katkı yaptı ve INSEE 2026'da üretimin yalnızca yüzde 0,2 artacağını öngördü. Maliye Bakanı Roland Lescure "Üç çeyrektir büyüme yok" dedi ve bütçedeki toparlanma sağlanamazsa "doğrudan duvara gidiyoruz" diye uyardı; borç ve açık endişeleri gelecek yılki cumhurbaşkanlığı seçimi öncesinde Fransız tahvil faizlerini yükseltti.
+
+**Sources:**
+- [lemonde.fr/en — French economy shrinks 0.1 percent in third quarter](https://www.lemonde.fr/en/france/article/2026/10/30/french-economy-shrinks-0-1-percent-in-third-quarter_6767257_7.html)
+- [bloomberght.com — Fransa ekonomisi beklenmedik şekilde daraldı](https://www.bloomberght.com/fransa-ekonomisi-beklenmedik-sekilde-daraldi-3792843)
+
+---
+
+### 18. Avrupa Merkez Bankası faizi yüzde 2,5'te sabit tuttu, Lagarde görevden ayrılacağını açıkladı
+
+Avrupa Merkez Bankası, euro bölgesinde enflasyonun eylülde yüzde 3,8'e, yani yüzde 2'lik hedefin neredeyse iki katına çıkmasına rağmen faizi yüzde 2,5'te sabit tuttu ve olası bir artırımı 17 Aralık toplantısına bıraktı. İran'daki savaşın enerji fiyatlarını yükseltmesinin ardından üçüncü bir faiz artışından kaçınılan toplantıda Başkan Christine Lagarde, görev süresinin bitmesinden dokuz ay önce, 7 Şubat 2027'de ayrılacağını açıkladı. Yönetim Konseyi üyesi ve Fransa Merkez Bankası Başkanı Moulin, enflasyonun büyük ölçüde dış kaynaklı olduğunu, enerji ve taze gıda hariç fiyatların görece istikrarlı seyrettiğini ve ECB'nin ölçülü bir yaklaşım benimsediğini söyledi.
+
+**Sources:**
+- [lemonde.fr/en — Christine Lagarde announces departure from ECB, wants 'freedom to engage' on matters other than monetary policy](https://www.lemonde.fr/en/economy/article/2026/10/30/at-the-ecb-christine-lagarde-announces-departure-saying-she-wants-freedom-to-engage-on-matters-that-are-not-monetary-policy-matters_6767059_19.html)
+- [bloomberght.com — "Avrupa Merkez Bankası enflasyona ölçülü yanıt veriyor"](https://www.bloomberght.com/avrupa-merkez-bankasi-enflasyona-olculu-yanit-veriyor-3792835)
+
+---
+
+### 19. Ukrayna'nın İHA saldırılarında Samara'daki Rosneft rafinerisi vuruldu
+
+Ukrayna'nın yenilenen insansız hava aracı saldırılarında Rusya'nın Samara bölgesindeki bir petrol rafinerisi vuruldu; Rus yetkililer bir gecede birçok bölge üzerinde 1.000'den fazla Ukrayna İHA'sını düşürdüklerini açıkladı. NASA görüntüleri, Rosneft'in işlettiği, Moskova'nın yaklaşık 850 kilometre güneydoğusundaki günlük 170 bin varil kapasiteli Novokuybışevsk rafinerisi çevresinde yangınlara işaret edebilecek iki yeni ısı anomalisi gösterdi. Samara Valisi Vyaçeslav Fedorişçev bölgenin Ukrayna İHA'larının hedefi olduğunu söyledi.
+
+**Sources:**
+- [aljazeera.com — Russian oil refinery struck as Ukraine renews drone attacks](https://www.aljazeera.com/video/newsfeed/2026/10/30/russian-oil-refinery-struck-as-ukraine-renews-drone-attacks?traffic_source=rss)
+- [bloomberght.com — Rus rafinerilerinde savaş hasarı bitmiyor](https://www.bloomberght.com/rus-rafinerilerinde-savas-hasari-bitmiyor-3792882)
+
+---
+
+### 20. Bakırköy Belediyesi soruşturmasında 61 şüpheli adliyede; gözaltındakiler arasında başkanın 86 yaşındaki babası da var
+
+Bakırköy Cumhuriyet Başsavcılığı'nın belediyenin ihale ve ruhsat işlemlerine yönelik soruşturmasında gözaltına alınan 63 kişiden 61'i adliyeye sevk edildi. Savcılık, ihalelerde kamu zararı oluştuğu ve ruhsat isteyen işletmelerden hukuka aykırı para istendiği ihbarları üzerine 2024-2026 arasındaki 42 ihale dosyasını inceledi ve "ihaleye fesat karıştırma" ile "irtikap" suçlamalarıyla 76 kişi hakkında gözaltı kararı verdi. Gözaltına alınanlar arasında beş belediye başkan yardımcısı, iki meclis üyesi ve Yeni Partili Belediye Başkanı Ayşegül Ovalıoğlu'nun 86 yaşındaki babası Mustafa Özdemir ile dayısı da bulunuyor.
+
+**Sources:**
+- [sozcu.com.tr — Bakırköy Belediyesi soruşturmasında 61 şüpheli adliyeye sevk edildi](https://www.sozcu.com.tr/bakirkoy-belediyesi-sorusturmasinda-61-supheli-adliyeye-sevk-edildi-p374258)
+- [veryansintv.com/direct — Bakırköy Belediyesi soruşturmasında yeni gelişme](https://www.veryansintv.com/bakirkoy-belediyesi-sorusturmasinda-yeni-gelisme)
+
+---
+
+### 21. Türk-İş: Açlık sınırı 38 bin lirayı, yoksulluk sınırı 123 bin lirayı aştı
+
+TÜRK-İŞ'in Ekim 2026 araştırmasına göre dört kişilik bir ailenin açlık sınırı 38 bin 24 liraya, yoksulluk sınırı 123 bin 856 liraya yükseldi; bekâr bir çalışanın aylık yaşama maliyeti 49 bin 124 lira oldu. Mutfak enflasyonu ekimde aylık yüzde 0,59, yıllık yüzde 33,83, yıllık ortalamada yüzde 39,26 olarak gerçekleşti. Son veriyle açlık sınırı ile asgari ücret arasındaki fark 10 bin liraya çıktı.
+
+**Sources:**
+- [sozcu.com.tr — Ekim ayında açlık sınırı 38 bin lirayı aştı](https://www.sozcu.com.tr/ekim-ayinda-aclik-siniri-38-bin-lirayi-asti-p374248)
+- [bloomberght.com — Türk-İş: Yoksulluk sınırı 123 bin 856 lira](https://www.bloomberght.com/turk-is-yoksulluk-sinir-123-bin-856-lira-3792859)
+
+---
+
+### 22. Fon soruşturmasındaki Türkiye Sigorta, finansal riskler için 16,3 milyar lira karşılık ayırdı
+
+Fon soruşturması kapsamında üst düzey yöneticileri tutuklanan ve genel müdürünün istifası nedeniyle 9 aylık sonuçlarını açıklayamayan Türkiye Sigorta'ya SPK, bilanço için 16 Kasım'a kadar ek süre verdi. Şirket, SEDDK denetimi kapsamında 30 Eylül tarihli taslak bilançosunda finansal yatırımlarındaki riskler için toplam 16,34 milyar lira karşılık ayırdığını açıkladı; eylül ve sonrasındaki gelişmeler nedeniyle ayrılan ek karşılık 15,63 milyar lira, vergi sonrası net gider etkisi 10,94 milyar lira. Ek karşılığın 8,96 milyar lirası ödünç işlemlerinde vadesinde iade edilmeyen devlet iç borçlanma senetlerinden, 3,98 milyar lirası temerrüde düşen özel sektör tahvilleri ve benzeri araçlardan kaynaklanıyor.
+
+**Sources:**
+- [bloomberght.com — Türkiye Sigorta, finansal riskler için taslak bilançoda 16,3 milyar lira karşılık ayırdı](https://www.bloomberght.com/turkiye-sigorta-finansal-riskler-icin-taslak-bilancoda-16-3-milyar-lira-karsilik-ayirdi-3792876)
+- [bloomberght.com — SPK, Türkiye Sigorta'ya bilanço için süre verdi](https://www.bloomberght.com/spk-turkiye-sigorta-ya-bilanco-icin-sure-verdi-3792833)
+
+---
+
+### 23. Üsküdar Belediye Başkanı Sinem Dedetaş 90 günlük tutukluluğun ardından ev hapsiyle tahliye edildi
+
+31 Temmuz'dan bu yana tutuklu olan ve Üsküdar Belediye Başkanlığı görevinden uzaklaştırılan Sinem Dedetaş hakkında ev hapsi şeklindeki adli kontrol tedbiriyle tahliye kararı verildi. Kararı duyuran avukatı Akın Atalay, "Sinem Dedetaş başkanı cezaevinden aldık, darısı diğer haksız tutuklulara olsun" dedi. Dedetaş, 29 Ekim'de yaptığı paylaşımda Cumhuriyet Bayramı'nı 90 gündür özgürlüğünden yoksun geçirdiğini yazmıştı.
+
+**Sources:**
+- [veryansintv.com/direct — Sinem Dedetaş tahliye oldu: İlk fotoğraf geldi](https://www.veryansintv.com/sinem-dedetasa-ev-hapsi-sartiyla-tahliye-karari)
+- [bbc.com/turkce — Hakkında ev hapsi kararı verilen Sinem Dedetaş tahliye oldu](https://www.bbc.com/turkce/articles/ckq6nj1vpzjeo?at_medium=RSS&at_campaign=rss)
+
+---
+
+## nytimes.com
+
+### Another Toll of the Violent Unrest in France: The Political Center
+
+The riots that set French cities aflame on Oct. 17 are reshaping French politics as more extreme figures sideline the centre. Former prime minister Édouard Philippe, the leading centrist presidential candidate, accused President Emmanuel Macron of failing to restore order, but he has lost about two percentage points since the protests began and now polls between 13 and 15 percent. He trails far-left candidate Jean-Luc Mélenchon and far-right leader Marine Le Pen, who has about a third of voters in most polls, so as things stand he would not reach the second round of the election that starts in April.
+
+[Read more](https://www.nytimes.com/2026/10/30/world/europe/france-unrest-political-center.html)
+
+---
+
+### Cuba’s Foreign Minister: We’ll Outlast Trump
+
+The Trump administration is carrying out the most intense pressure campaign on Cuba in decades, and Cuba's foreign minister says the government's plan is simply to endure and outlast Trump.
+
+[Read more](https://www.nytimes.com/2026/10/29/world/americas/cuba-foreign-minister-trump.html)
+
+---
+
+### India’s Media Giants Join Fight Against Upcoming Privacy Law
+
+News organisations owned by two billionaires close to Prime Minister Narendra Modi have joined the fight against India's upcoming privacy law, saying the legislation could make investigative reporting nearly impossible.
+
+[Read more](https://www.nytimes.com/2026/10/29/world/asia/india-media-privacy-law.html)
+
+---
+
+## cnn.com
+
+### ‘BIG cheating’: This is Trump’s team on election claims and what they could do in November
+
+The Trump administration has undertaken an unprecedented effort to inject the federal government into state elections as it hunts for voter fraud and pursues Trump's baseless claim that the 2020 election was stolen. Election officials and Democratic lawmakers fear the administration's actions could spill into voter intimidation on Election Day and that dubious claims of mass fraud will be used to cast doubt on the midterm results if they go poorly for Trump and the Republicans.
+
+[Read more](https://www.cnn.com/2026/10/30/politics/trump-election-claims-team-what-they-could-do-november)
+
+---
+
+### ‘We just have to bother the crap out of these people’: How the GOP is confronting its voter enthusiasm deficit
+
+Republicans face a voter enthusiasm gap ahead of next week's midterms: a CNN/SSRS survey found 61% of registered voters leaning Democrat are extremely motivated to vote, up from 34% four years ago, while Republican enthusiasm has barely moved. CNN/SSRS polls in Texas, Kansas, Michigan and Maine show Democrats with a significant edge among highly motivated likely voters, and Florida Governor Ron DeSantis called turnout in his state underwhelming. A Republican National Committee official said the party must sell Trump's accomplishments amid intensifying economic concerns.
+
+[Read more](https://www.cnn.com/2026/10/30/politics/republican-turnout-voter-enthusiasm-midterms)
+
+---
+
+### If Republicans win the midterms, Elon Musk’s money may be why
+
+Elon Musk has put nearly half a billion dollars into the 2026 elections, contributing more than $445 million to federal committees alone through mid-October and becoming the largest disclosed donor in modern American politics. That is more than double the nearly $177 million George Soros gave in the 2022 cycle, and OpenSecrets' Brendan Glavin said Musk's money could "single-handedly" alter the course of the midterms.
+
+[Read more](https://www.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans)
+
+---
+
+### Protests and violence now go hand in hand in France. It wasn’t always like this
+
+A protest movement that began with French high-school students demanding better conditions has swelled into wider anger, and on October 17 a day of largely peaceful nationwide protests turned into looting and destruction in which Limoges's historic town hall burned. According to an internal Justice Ministry document, 68% of the 186 people jailed between October 18 and 21 were 25 or younger, 52% had no criminal record and nearly half were classified as looters. CNN reports that failures in the police response and the spread of Black Bloc confrontation tactics to a younger generation help explain how the situation got out of control.
+
+[Read more](https://www.cnn.com/2026/10/30/europe/france-violence-protests-intl)
+
+---
+
+### The range of outcomes in the 2026 battle for the Senate is enormous
+
+Five days before the US midterms, the battle for the Senate is wide open, with outcomes ranging from Democrats stuck at 47 seats to as many as 57. More than a dozen races are within or near the margin of error, including Michigan, Texas, Kansas, Iowa, South Carolina and Maine. If only those races are in play, Democrats would win between 49 and 55 seats, leaving a one-third chance they stay in the minority.
+
+[Read more](https://www.cnn.com/2026/10/29/politics/senate-midterms-democrats-republicans)
+
+---
+
+### Last snapshot of the US economy before midterms shows stronger growth but higher inflation
+
+US economic growth accelerated last quarter at its fastest pace in a year, but rising gas prices lifted September inflation to a four-month high: the PCE price index rose 0.5% from August, taking annual inflation to 3.6% from 3.4%, well above the Fed's 2% target. Inflation-adjusted consumer spending was flat, the savings rate fell to 3.8%, the lowest in nearly four years, and inflation-adjusted after-tax income fell 0.3%.
+
+[Read more](https://www.cnn.com/2026/10/29/economy/us-economy-pce-inflation-gdp)
+
+---
+
+## bbc.com
+
+### Syrians struggle with soaring prices as crisis challenges post-Assad recovery
+
+Protests erupted across Syria last month, with people burning tyres and blocking roads over the government's decision to raise fuel prices again, the largest show of discontent since President Ahmed al-Sharaa came to power two years ago. The rise was the latest in a series of measures that Syrians blame for a growing cost-of-living crisis, and days later, amid calls for more demonstrations, it was revoked. Many Syrians say their finances have worsened since Assad was ousted.
+
+[Read more](https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### More than 43 million ballots cast so far in midterms early voting surge
+
+More than 43 million Americans have already voted with less than a week to go before the midterms, with four to five million early votes cast each day according to the University of Florida Election Lab, and overall turnout appears on track to outpace 2020 and possibly 2018. In states that record party affiliation, 44% of early ballots were cast by Democrats and 31.2% by Republicans, and turnout is up among Hispanic and black voters. Texas has already surpassed its 2022 numbers by around 1.75 million voters.
+
+[Read more](https://www.bbc.co.uk/news/articles/c30rlxkjv2yko?at_medium=RSS&at_campaign=rss)
+
+---
+
+### Student-backed election winners demand sweeping resignations in Serbia
+
+Serbia's victorious student-led movement has called for the heads of the police, the BIA security agency and the anti-terror unit to stand down, days after ousting ex-president Aleksandar Vučić's party from power. The newly elected Student List MPs fear evidence of wrongdoing could be destroyed during the weeks-long handover, and the purge of Vučić loyalists has begun at state broadcaster RTS, whose director Manja Grčić stepped down. The movement emerged from protests after the Novi Sad station canopy collapse that killed 16 people in November 2024.
+
+[Read more](https://www.bbc.co.uk/news/articles/cmx2dwzp0z0vo?at_medium=RSS&at_campaign=rss)
+
+---
+
+## aljazeera.com
+
+### Saudi Arabia reports interception of Houthi drone targeting Mecca
+
+The Saudi-led coalition in Yemen said it intercepted and destroyed a Houthi drone launched towards Saudi Arabia's Mecca region on Friday, and earlier brought down a missile aimed at western Saudi Arabia, as hostilities between the Riyadh-backed Yemeni government and the Iran-backed Houthis escalate. A Houthi spokesperson denied targeting the holy city, saying the group's cross-border attacks focus strictly on Saudi energy and military infrastructure. On Thursday the coalition also said it destroyed a ballistic missile fired towards the eastern region and two ballistic missiles launched towards Riyadh.
+
+[Read more](https://www.aljazeera.com/news/2026/10/30/saudi-arabia-reports-interception-of-houthi-drone-targeting-mecca?traffic_source=rss)
+
+---
+
+### Sudan investigation maps commanders linked to wartime rape
+
+An investigation by the British open-source group Centre for Information Resilience identified 25 commanders linked to sexual violence in Sudan's three-year war, covering both the RSF and the Sudanese Armed Forces and their allies. It links commanders' presence and roles to evidence gathered by the UN and rights groups at five locations, without establishing that each personally committed or ordered rape. Among them is RSF major Khademallah Khashmin Herika, who in a video posted the day the RSF entered el-Fasher in October 2025 appeared to encourage fighters to rape women in Sudan's Northern State.
+
+[Read more](https://www.aljazeera.com/features/2026/10/30/sudan-investigation-maps-commanders-linked-wartime-rape?traffic_source=rss)
+
+---
+
+### Smoke from wildfires killed 3,500 people in Indonesia in September: Report
+
+Toxic smoke from wildfires killed 3,560 people in Indonesia in September, according to a report by the Centre for Research on Energy and Clean Air, as air pollution-related deaths surged 42 percent from an estimated 3,740 in August to 5,310. Fire smoke accounted for 94-99 percent of pollution deaths in Kalimantan and more than 80 percent on Sumatra.
+
+[Read more](https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss)
+
+---
+
+### How Israel choked off Hebron at 10 entrances, as 5,000 forced to flee
+
+Almost 5,000 people have been displaced by Israel's military siege of the West Bank city of Hebron, which has choked off the city at 10 entry points and enters its second week, according to an Al Jazeera analysis; 780 families, about 2 percent of the city's 250,000 residents, are displaced. The siege began on October 23 after two Palestinians shot dead two Israeli soldiers, and Benjamin Netanyahu ordered the city closed, saying "We will act to destroy this place, to change it completely". Defence Minister Israel Katz said Palestinians will not be allowed to return home until Hamas's "infrastructure" is dismantled.
+
+[Read more](https://www.aljazeera.com/economy/2026/10/30/how-israel-choked-off-hebron-at-10-entrances-as-5000-forced-to-flee?traffic_source=rss)
+
+---
+
+### US midterms: 4 days to go – What the polls say as Trump cancels two rallies
+
+Four days before the US midterms, Democrats lead Republicans by 51.4 percent to 43.2 percent in the RealClearPolling average, and Trump has cancelled two weekend rallies in favour of campaigning by phone. A Marquette Law School poll in Wisconsin put Trump's approval at 37 percent, and pollster Charles Franklin said Democrats are more enthusiastic and more certain to vote. CNN surveys show Democrat James Talarico ahead of Ken Paxton 49 to 43 percent in Texas and Abdul El-Sayed ahead of Mike Rogers 49 to 42 percent in Michigan.
+
+[Read more](https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies?traffic_source=rss)
+
+---
+
+### US judge blocks Trump’s Medicaid rule forcing ill to prove impairment
+
+US District Judge Richard Stearns blocked a Trump administration Medicaid rule that would require chronically ill people to prove their conditions "significantly impair" them to qualify for work exemptions, siding with 25 states and the District of Columbia that sued in June. The judge said the states faced irreparable harm from costly changes to their eligibility systems; from January 1, 2027, Medicaid expansion enrollees aged 19 to 64 must work or do community service at least 80 hours a month.
+
+[Read more](https://www.aljazeera.com/news/2026/10/30/us-judge-blocks-trumps-medicaid-rule-forcing-ill-to-prove-impairment?traffic_source=rss)
+
+---
+
+## npr.org
+
+### Here are the Senate races to watch ahead of Election Day
+
+Democrats were seen as long shots to win the Senate when the cycle began, but as the war in Iran has continued the field has widened, with competitive races in states Trump won by double digits in 2024. The Cook Political Report rates Alaska, Iowa, Kansas, Ohio and Texas as toss-ups, and races in all these states are within the margin of error. Republicans accuse Democrats of a criminal scheme in Alaska over the alleged recruitment of a second candidate named Sullivan.
+
+[Read more](https://www.npr.org/2026/10/30/g-s1-149975/2026-midterms-senate-map)
+
+---
+
+### Democrats seek to weaken the Republican lead in state legislatures
+
+More than 6,100 state legislative seats are up for election in the midterms, in chambers that make most laws on education, taxes, reproductive rights, crime and social media access. Republicans control the legislature in 28 states and Democrats in 18, with the remaining four divided or under power-sharing deals.
+
+[Read more](https://www.npr.org/2026/10/30/nx-s1-6022353/midterms-state-legislatures-pennsylvania)
+
+---
+
+## theguardian.com
+
+### UK requires foreign defence contractors to invest the contract value back into Britain
+
+The UK Ministry of Defence launched an offsets policy under which overseas companies that win UK defence contracts worth over £50m must invest an equivalent amount back into Britain through jobs, apprenticeships, factories, domestic suppliers and technology transfer. Defence Secretary Wes Streeting said every pound invested in defence "should be judged by what it does for Britain", and the MoD says Poland, Norway and the Netherlands use similar policies.
+
+[Read more](https://www.theguardian.com/politics/live/2026/oct/30/andy-burnham-labour-conservatives-devolution-scotland-wales-latest-news-updates)
+
+---
+
+### UK house prices grow at slowest pace in two years as mortgage rates rise
+
+UK house prices grew by an annual 0.5% in October, the slowest pace in more than two years, with the average price at £273,566 according to Nationwide, as higher mortgage rates put off buyers. The average five-year fixed-rate mortgage hit 6% for the first time in three years, driven up by bond market volatility even though the Bank of England base rate has not changed since last December.
+
+[Read more](https://www.theguardian.com/business/2026/oct/30/uk-house-prices-grow-at-slowest-pace-in-two-years-as-mortgage-rates-rise)
+
+---
+
+### Houthis sending Taiz ‘back to the stone age’, governor of besieged Yemen city says
+
+The governor of the besieged Yemeni city of Taiz, Nabil Shamsan, said the Houthis are sending the city "back to the stone age", with oxygen and water running out and only 1,000 of the 35,000 cubic metres of daily water needs reaching the city through Houthi roadblocks. He said 64 people were killed between August and 20 October 2026, 120 health centres were suspended, and the Houthis gave the more than 800,000 people inside a choice "either to leave or to die". Houthi leader Abdul-Malik al-Houthi denied there is a siege.
+
+[Read more](https://www.theguardian.com/world/2026/oct/30/houthis-taiz-stone-age-yemen-city-siege)
+
+---
+
+### Andy Burnham admits he would have liked more radical first budget
+
+Prime Minister Andy Burnham admitted his first budget was not as radical as he wanted because external events such as the war in Iran have pushed up borrowing costs. Chancellor John Healey announced relatively inexpensive measures including a £100 payment for most households towards winter energy bills, which Burnham called "a payment to 20 million households". Burnham said he will set out welfare reform plans in the coming months without "brutal cuts".
+
+[Read more](https://www.theguardian.com/uk-news/2026/oct/30/andy-burnham-first-budget-labour-welfare)
+
+---
+
+### Mahmood infuriates fellow ministers by failing to reveal impact of UK migration shake-up
+
+UK Home Secretary Shabana Mahmood has infuriated fellow ministers by repeatedly refusing to say how much she expects homelessness to rise as a result of her changes to the asylum system, which include ending permanent leave to remain and the government's duty to support people who would otherwise become destitute. Ministers will meet to seek a compromise amid warnings of a staff crisis in the care sector, while the Home Office says ending asylum hotels will not leave people homeless.
+
+[Read more](https://www.theguardian.com/uk-news/2026/oct/30/shabana-mahmood-infuriates-ministers-migration-shake-up)
+
+---
+
+### Sudanese diaspora and human rights groups denounce UAE nominee for UN top job
+
+Sudanese diaspora members and human rights groups denounced the UAE's nomination of diplomat Lana Nusseibeh to succeed António Guterres as UN secretary general, citing her denial of accusations that the UAE fuels Sudan's war by supporting the RSF. Rights groups have documented evidence of UAE support for the RSF, whose attack on El Fasher in October 2025 the UN said had "hallmarks of genocide". Activist Hala al-Karib said Security Council endorsement would amount to a denial of the genocidal acts committed in El Fasher.
+
+[Read more](https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job)
+
+---
+
+### El Niño-driven drought in Papua New Guinea a ‘national crisis’ as rivers dry up and local farms fail
+
+Extreme drought driven by a historic El Niño is affecting as many as 8 million people in Papua New Guinea, causing food, water and electricity shortages and closing schools and health facilities. A coalition of churches, trade unions and business groups called it a "national crisis" and said there appears to be no coordinated plan to protect vulnerable communities.
+
+[Read more](https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea)
+
+---
+
+### JD Vance letter may offer last chance to avert fresh conflict between US and Iran
+
+Hopes of averting a new US-Iran war after Tuesday's midterms may rest on Iran's reply to a letter from US Vice-President JD Vance, sent after mainly Qatari mediation, offering to restart diplomacy. The letter requires Tehran to make nuclear commitments at the start of a process leading to the opening of the Strait of Hormuz within seven days in return for US sanctions relief, but Iran is reluctant to make irreversible commitments such as exporting its enriched uranium stockpile if the US steps are reversible. Iran's chief negotiator Mohammad Ghalibaf said progress can come only once Iran's seven conditions, including ending the war on all fronts, are agreed, while a Democratic senator called the US military's plan for a renewed attack "insane".
+
+[Read more](https://www.theguardian.com/world/2026/oct/29/jd-vance-letter-may-offer-last-chance-to-avert-fresh-conflict-between-us-and-iran)
+
+---
+
+### Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US
+
+Seven tankers carrying an estimated 288,000 tonnes of Russian diesel are sailing towards the US, according to Greenpeace tracking, in the first phase of a supply deal agreed by Donald Trump and Vladimir Putin that reverses years of sanctions on Russian oil; Putin agreed on 9 October to supply 1.8m tonnes of diesel. It is uncertain whether the vessels can unload amid a political row over the legality of the shipments, and Greenpeace called on Congress or US local authorities to halt them.
+
+[Read more](https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump)
+
+---
+
+## theintercept.com
+
+### How AIPAC and AI Spent Their Money This Midterm Election
+
+This US election cycle is the most expensive on record according to AdImpact, with more than $16 billion raised and ad spending in House and Senate races above $4 billion, and mega-donors overwhelmingly backing Republicans with money largely from AI, crypto and online gambling interests. Hundreds of candidates still take donations from AIPAC and its super PAC despite public sentiment turning against the pro-Israel lobby. AI super PAC networks affiliated with OpenAI or Anthropic spent $50.7 million in the primaries but only $8.5 million ahead of the general election, likely in response to public backlash.
+
+[Read more](https://theintercept.com/2026/10/30/aipac-ai-spending-midterm-election/)
+
+---
+
+## lemonde.fr/en
+
+### 11 EU countries vow to release 42.6 million barrels of oil after G7 pledge
+
+Eleven European countries, including France, Germany and Italy, pledged to release 42.6 million barrels of oil from strategic reserves by the end of January 2027, including 20.5 million barrels of diesel, in line with a G7 deal this month. The G7 had agreed to release 100 million barrels after Donald Trump threatened a diesel export ban and pressed Europe to release reserves as the US-Israeli war with Iran sent energy prices soaring. EU energy commissioner Dan Jorgensen said the EU does not expect a supply problem but is taking the impact on households seriously.
+
+[Read more](https://www.lemonde.fr/en/economy/article/2026/10/30/11-eu-countries-vow-to-release-42-6-million-barrels-of-oil-after-g7-pledge_6767127_19.html)
+
+---
+
+### Behind Trump's shift towards Russia, the lucrative business promises of Kirill Dmitriev, Putin's dealmaker
+
+Le Monde reports that business promises by Kirill Dmitriev, Vladimir Putin's dealmaker, lie behind Donald Trump's shift towards Russia. At an October 9 meeting in Florida, Trump envoy Steve Witkoff and Jared Kushner pitched Ukraine's presidential administration head Kyrylo Budanov a postwar "regional prosperity plan" including fully restoring the pipelines carrying Russian gas and oil to Europe via Ukraine, which a witness said would have made Kyiv beholden to Moscow; Budanov retorted "Our model is not Belarus, but Poland!". During the meeting Trump announced a deal to buy nearly five million tonnes of Russian diesel, hoping to lower fuel prices ahead of the November 3 midterms.
+
+[Read more](https://www.lemonde.fr/en/international/article/2026/10/29/behind-trump-s-shift-towards-russia-the-lucrative-business-promises-of-kirill-dmitriev-putin-s-dealmaker_6766894_4.html)
+
+---
+
+## welt.de
+
+### Military chief briefs Trump on options in the Iran war – US senator calls plans "insane"
+
+US President Donald Trump was briefed in person at the White House on Thursday by Centcom commander Admiral Brad Cooper on military options in Iran, which the Wall Street Journal read as a possible sign that a major US operation could be imminent. According to Axios, the briefing focused on whether the US naval blockade of Iranian ports and coastal areas is working, and also covered the escort mission in the Strait of Hormuz and the economic pressure campaign; Dan Caine and Pete Hegseth also attended. Democratic Senator Chris Murphy, who was briefed on the war plan, wrote: "The plan is insane."
+
+[Read more](https://www.welt.de/politik/ausland/article6ae438abaacefa08f5b98e3b/iran-krieg-militaerchef-beraet-trump-zu-optionen-fuer-angriffe-us-senator-nennt-kriegsplan-wahnsinnig.html)
+
+---
+
+### Zelensky reports destruction of Russian fighter jets on the ground – Moscow responds with missiles
+
+Two Russian Su-34 fighter jets were destroyed on the ground in a Ukrainian Neptune missile strike on the Marinovka military airfield in Russia's Volgograd region, more than 450 kilometres from Ukrainian-held territory, according to Ukraine, and an Iskander launcher was damaged in another attack. Russia again struck Kyiv with ballistic missiles, and the IAEA said a worker was killed in a drone attack on the Zaporizhzhia nuclear power plant.
+
+[Read more](https://www.welt.de/politik/ausland/article6ae3c1cfaacefa08f5b98b49/ukraine-krieg-selenskyj-meldet-zerstoerung-russischer-kampfjets-russland-reagiert-mit-raketen.html)
+
+---
+
+## sozcu.com.tr
+
+### Dervişoğlu Bahçeli ile neden kol kola girdi? İYİ Partili Usta'nın paylaşımına dikkat çeken cevap
+
+İYİ Parti Genel Başkanı Müsavat Dervişoğlu, Cumhuriyet Bayramı törenlerinde Anıtkabir'de MHP Genel Başkanı Devlet Bahçeli ile kol kola yürümesinin ardından başlayan tartışmalara yanıt verdi. Dervişoğlu, görüntünün insani bir davranış olduğunu, siyasi mücadelesini ülküleri ve inançları üzerine, kişisel ilişkilerini ise aile terbiyesi üzerinden yürüttüğünü söyledi ve konunun sosyal medyada linç ortamına dönüştürüldüğünü belirtti.
+
+[Read more](https://www.sozcu.com.tr/dervisoglu-bahceli-ile-neden-kol-kola-girdi-iyi-partili-usta-nin-paylasimina-dikkat-ceken-cevap-p374309)
+
+---
+
+### 'Abdullah' kod adlı IŞİD'li terörist yakalanarak Türkiye'ye getirildi
+
+MİT, IŞİD'in sözde Horasan Vilayeti bünyesinde faaliyet gösteren 'Abdullah' kod adlı Uğur Bahadır'ı Afganistan-Pakistan bölgesinde düzenlediği operasyonla yakalayarak Türkiye'ye getirdi. Türkiye'den yasa dışı yollarla bölgeye geçen Bahadır'ın 2024'te örgüte katıldığı ve onu örgüte aktaran kişinin 2025 başında yakalanan 'Abu Yasir Al Turki' kod adlı Özgür Altun olduğu belirlendi. Bahadır sorgusunda örgütün eleman aktarım ağı ve bölgedeki yapılanması hakkında bilgi verdi.
+
+[Read more](https://www.sozcu.com.tr/abdullah-kod-adli-isid-li-terorist-yakalanarak-turkiye-ye-getirildi-p374252)
+
+---
+
+## bloomberght.com
+
+### Turist sayısı ilk 9 ayda yüzde 1,72 azaldı
+
+Kültür ve Turizm Bakanlığı verilerine göre Türkiye'ye gelen ziyaretçi sayısı 2026'nın ilk dokuz ayında yüzde 1,72 azalarak 49 milyon 992 bin 520'den 49 milyon 132 bin 62'ye geriledi ve 2024 seviyesinin de altında kaldı. Yabancı ziyaretçi sayısı yüzde 1,52 düşüşle 40 milyon 938 bin 498'e, yurt dışında ikamet eden vatandaş sayısı yüzde 2,73 düşüşle 8 milyon 193 bin 564'e indi; eylülde ise yabancı ziyaretçi sayısı yüzde 0,4 arttı.
+
+[Read more](https://www.bloomberght.com/turist-sayisi-ilk-9-ayda-yuzde-1-72-azaldi-3792893)
+
+---
+
+### Türkiye'nin Ar-Ge harcaması 2025'te 980,4 milyar liraya yükseldi
+
+TÜİK verilerine göre Türkiye'nin Ar-Ge harcaması 2025'te bir önceki yıla göre 328,6 milyar lira artarak 980 milyar 428 milyon liraya yükseldi ve GSYH içindeki payı yüzde 1,46'dan yüzde 1,55'e çıktı. Harcamaların yüzde 65'ini şirketler yaptı, Ar-Ge personeli sayısı 317 bin 982 oldu.
+
+[Read more](https://www.bloomberght.com/turkiye-nin-ar-ge-harcamasi-2025-te-980-4-milyar-liraya-yukseldi-3792871)
+
+---
+
+### Trive'dan faaliyet izninin geçici iptali için başvuru
+
+Fon piyasasındaki gelişmelerin sermaye piyasasını etkilemeye devam ettiği dönemde Trive aracı kurumu, daha önce açıkladığı dar yetkili aracı kurum statüsüne geçiş başvurusundan vazgeçerek SPK'ya faaliyet izninin iki yıl süreyle geçici olarak durdurulması için başvurma kararı aldı.
+
+[Read more](https://www.bloomberght.com/trive-dan-faaliyet-izninin-gecici-iptali-icin-basvuru-3792867)
+
+---
+
+### Turizm gelirinde 3. çeyrek rekoru
+
+TÜİK verilerine göre turizm geliri 2026'nın üçüncü çeyreğinde geçen yılın aynı dönemine göre yüzde 5 artarak 25 milyar 526 milyon dolarla rekor kırdı. Buna karşılık Türkiye'den çıkış yapan ziyaretçi sayısı yüzde 1,6 azalarak 23 milyon 255 bin 7 kişi oldu.
+
+[Read more](https://www.bloomberght.com/turizm-geliri-3-ceyrek-3792844)
+
+---
+
+### Ekonomik güven 3 yılın zirvesinden düştü
+
+TÜİK verilerine göre ekonomik güven endeksi ekimde yüzde 3,9 azalarak 97,3'e geriledi; endeks eylülde 101,3 ile 3 yılın zirvesindeydi. Tüketici güveni yüzde 7,7 düşüşle 84,8'e, reel kesim güveni yüzde 1,4 düşüşle 101,1'e, hizmet sektörü güveni yüzde 2,4 düşüşle 109,2'ye indi.
+
+[Read more](https://www.bloomberght.com/ekonomik-guven-ekim-de-geriledi-3792856)
+
+---
+
+### Volkswagen ile Türkiye'de binek otomobil üretimi için niyet mektubu imzalandı
+
+Doğuş Otomotiv'in KAP açıklamasına göre Volkswagen Grup Şirketleri ile Volkswagen binek otomobillerinin Türkiye'de üretilmesi seçeneklerinin değerlendirilmesine ilişkin niyet mektubu imzalandı. VW 2019'da Manisa'da yaklaşık 1,4 milyar dolarlık, yıllık 300 bin araç kapasiteli bir fabrika planlamış, ancak proje Temmuz 2020'de rafa kaldırılmıştı.
+
+[Read more](https://www.bloomberght.com/volkswagen-in-turkiye-de-uretimi-icin-yeni-girisim-3792841)
+
+---
+
+### Dolar, ara seçimlerden bölünmüş Kongre çıksa da yükselişini sürdürebilir
+
+ABD doları, yüksek faizler ve yapay zekâ yatırımlarının ABD'ye sermaye çekmeye devam etmesiyle, 3 Kasım ara seçimleri Kongre'de bölünmüş bir yönetim ortaya çıkarsa bile yükselişini sürdürebilir. Bloomberg Dolar Endeksi, beklentilerden güçlü gelen enflasyon verilerinin desteğiyle bu ay Mayıs 2025'ten bu yana en yüksek seviyesine ulaştı; Citigroup stratejisti Daniel Tobon, olası bir değer kaybının "kısa süreli" olmasını bekliyor.
+
+[Read more](https://www.bloomberght.com/dolarda-direnc-beklentisi-3792825)
+
+---
+
+### Altın petrol ve enflasyon baskısıyla 4 bin doların altına geriledi
+
+Altın, yükselen petrol fiyatlarının enflasyon endişelerini artırması ve güçlü ABD enflasyon verilerinin Fed'in yeniden faiz artırabileceği beklentisini güçlendirmesiyle cuma günü yüzde 0,6 düşüşle ons başına 3.997,39 dolara geriledi. Piyasalar Fed'in aralıkta faiz artırma olasılığını yaklaşık yüzde 75 olarak fiyatlıyor ve altın üst üste ikinci aylık düşüşüne hazırlanıyor.
+
+[Read more](https://www.bloomberght.com/altin-petrol-ve-enflasyon-baskisiyla-4-bin-dolarin-altina-geriledi-3792821)
+
+---
+
+### Japonya Merkez Bankası faizi sabit tuttu, artırım sinyali verdi
+
+Japonya Merkez Bankası politika faizini 8'e karşı 1 oyla yüzde 1,25'te sabit tuttu ve 2013'ten bu yana ilk kez fiyat artışlarının genel olarak yüzde 2 hedefiyle uyumlu olduğunu açıkladı. Yönetim kurulu üyesi Hajime Takata faizin yüzde 1,5'e çıkarılmasını savundu; ankete katılan ekonomistlerin tamamı aralık ya da ocakta faiz artırımı bekliyor.
+
+[Read more](https://www.bloomberght.com/japonya-merkez-bankasi-faizi-sabit-tuttu-artirim-sinyali-verdi-3792818)
+
+---
+
+## veryansintv.com/direct
+
+### Fon soruşturmasında yeni bağlantı: Tera Holding’in başdanışmanı eski valinin oğlu çıktı!
+
+Fon soruşturmasının merkezindeki şirketlerden Tera Yatırım Holding'in yönetim kurulu başdanışmanı Necip Fazıl Kaymak'ın eski Samsun Valisi Osman Kaymak'ın oğlu olduğu ortaya çıktı. Cumhuriyet'in haberine göre Kaymak 2018-2025 arasında yaklaşık 6,5 yıl Cumhurbaşkanlığı Finans Ofisi'nde özel kalem müdürü ve başkan yardımcısı olarak çalıştı, Nisan 2025-Mayıs 2026 arasında Milli Savunma Bakanlığı'nda müşavirlik yaptı ve Mayıs 2026'da Tera Holding'e geçti.
+
+[Read more](https://www.veryansintv.com/fon-sorusturmasinda-yeni-baglanti-tera-holdingin-basdanismani-eski-valinin-oglu-cikti)
+
+---
+
+### TIR şoförlerinden sınır kapılarında eylem: İthalat ve ihracat durduruldu
+
+Avrupa'ya karayoluyla yük taşıyan yüzlerce Türk TIR şoförü, Schengen bölgesindeki 90/180 gün kuralı nedeniyle Bulgaristan ve Yunanistan sınırlarında geri çevrilmelerini protesto ederek Kapıkule, İpsala ve Hamzabeyli sınır kapılarında ithalat ve ihracat taşımacılığını durdurdu. Şoförler Dışişleri, Ticaret ve İçişleri bakanlıklarından ticari sürücülere özel vize ve oturum düzenlemesi istedi ve talepleri karşılanmazsa eylemi büyüteceklerini söyledi; sözcü Yusuf Ateş "Biz turist değiliz" dedi.
+
+[Read more](https://www.veryansintv.com/tir-soforlerinden-sinir-kapilarinda-eylem-ithalat-ve-ihracat-durdurdu)
+
+---
+
+### Oktay Saral’dan Atatürk’süz 29 Ekim mesajı
+
+Azerbaycan'daki okullarda başörtülü öğrencilere yönelik kıyafet düzenlemesini eleştirdikten sonra 2016'dan beri sürdürdüğü Cumhurbaşkanı Başdanışmanlığı görevinden istifa eden Oktay Saral'ın 29 Ekim Cumhuriyet Bayramı mesajında Atatürk'ün adının geçmemesi dikkat çekti. Saral 12 Ekim'de "Azerbaycan'da başörtülü öğrencilerin eğitim hakkının engellenmesi kabul edilemez" demişti.
+
+[Read more](https://www.veryansintv.com/oktay-saraldan-ataturksuz-29-ekim-mesaji)
+
+---
+
+## bbc.com/turkce
+
+### 31 Mart yerel seçimlerinden bugüne İstanbul'un belediye dağılımı nasıl değişti?
+
+İstanbul'da 31 Mart 2024 yerel seçimlerinde CHP 39 ilçenin 26'sını kazandı, ancak o tarihten bu yana 26 CHP'li belediye başkanının 16'sı yolsuzluk dahil çeşitli suçlamalarla tutuklandı ve görevden alındı. Beş belediyede başkanvekilliğini AKP'li adaylar kazandı, iki belediyede başkanvekilleri ve Çekmeköy ile Tuzla'da belediye başkanları AKP'ye geçti; Şişli ve Esenyurt terör soruşturmaları gerekçesiyle halen kayyumla yönetiliyor. Terör suçlamasından beraat eden Esenyurt Belediye Başkanı Ahmet Özer tahliye edildiği halde görevine iade edilmedi.
+
+[Read more](https://www.bbc.com/turkce/articles/ck054dlgm8zdo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### AKP'de 'süresiz nafaka' düzenlemesine yeni formül arayışı
+
+AKP'nin yaklaşık 10 yıldır gündeminde olan süresiz nafaka düzenlemesi, Cumhurbaşkanı Erdoğan'ın yeniden çalışılmasını istemesi üzerine 13. Yargı Paketi'nden çıkarıldı; AKP kaynaklarına göre yeni düzenleme kadın dernekleri, akademisyenler ve aile mahkemesi hakimlerinin görüşleri alındıktan sonra Meclis'e gelecek. Anayasa Mahkemesi 4 Haziran 2026'da Türk Medeni Kanunu'nun 175. maddesindeki "süresiz olarak" ibaresini iptal etmiş ve Meclis'e yeni düzenleme için dokuz aylık süre tanınmıştı.
+
+[Read more](https://www.bbc.com/turkce/articles/cq1kdr1v0ml9o?at_medium=RSS&at_campaign=rss)
+
+---
