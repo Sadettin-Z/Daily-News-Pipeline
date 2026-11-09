@@ -1,0 +1,451 @@
+# News Report — 2026-11-09
+
+15 cross-source stories · 30 unique stories
+
+---
+
+## Common News
+
+### 1. Nvidia opens spy probe as CEO Jensen Huang admits affair and Trump defends him
+
+Nvidia’s board said on Sunday it is “initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort”, after The New York Times reported that US officials concluded Alice Huang, an executive linked to Singapore-based Megaspeed and no relation, had been passing information to Beijing and was suspected of smuggling Nvidia chips to China. In a note to staff Huang, 63, admitted he was “unfaithful” to his wife, said “I take full responsibility for what I did and the hurt I caused” and pledged full cooperation; the board said it “has no reason to believe that either national security or NVIDIA secrets were compromised” and has confidence in his leadership. Trump, who the Times says was briefed on the intelligence last year, called Huang “an honorable guy” who “probably has an excuse for it”, while Republican lawmakers asked Huang for a closed-door briefing to the House foreign affairs and intelligence committees next week. China’s foreign ministry spokesman Guo Jiakun called the espionage allegation groundless and “nothing but slander against China” ahead of next week’s Xi-Trump meeting at APEC in Shenzhen; Nasdaq 100 futures briefly fell as much as 1 percent on the news.
+
+**Sources:**
+- [cnn.com — Nvidia CEO Jensen Huang admits affair as company launches investigation into foreign spy claims](https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang)
+- [aljazeera.com — Trump defends Nvidia CEO amid Chinese spying allegations](https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-defends-nvidia-ceo-amid-chinese-spying-allegations?traffic_source=rss)
+- [npr.org — Nvidia launches investigation into CEO's alleged relationship with Chinese spy](https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy)
+- [theguardian.com — Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence](https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation)
+- [lemonde.fr/en — Nvidia announces probe after CEO Huang admits affair with suspected Chinese spy](https://www.lemonde.fr/en/pixels/article/2026/11/09/nvidia-announces-probe-into-huang-after-reports-of-affair-with-alleged-chinese-spy_6775507_13.html)
+- [sozcu.com.tr — Çin'den Nvidia CEO'suna casusluk iddiasına yanıt](https://www.sozcu.com.tr/cinden-nvidia-ceosuna-casusluk-iddiasina-yanit-iftira-p379499)
+- [bloomberght.com — Çin'den Nvidia CEO’suyla ilgili casusluk suçlamalarına yanıt](https://www.bloomberght.com/cin-den-nvidia-ceosuyla-ilgili-casusluk-suclamalarina-yanit-3793932)
+- [bloomberght.com — Nvidia](https://www.bloomberght.com/nvidia-ceo-sundan-evlilik-disi-iliskin-itirafi-casusluk-suphesi-sorusturmaya-dondu-3793891)
+- [bbc.com/turkce — Nvidia şirketi, CEO'sunun casus olduğundan şüphelenilen Çinli biriyle ilişkisini soruşturuyor](https://www.bbc.com/turkce/articles/cm93z0e73435o?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 2. COP31 opens in Antalya as WMO says 2026 among four hottest years on record
+
+The 31st UN climate conference opened on Monday in Antalya, Türkiye, with representatives from around 200 states and tens of thousands of delegates expected over two weeks; Türkiye holds the COP31 presidency under environment minister Murat Kurum and Australia’s Chris Bowen leads the negotiations. Türkiye is centring electrification on the agenda through the non-binding 35-by-35 Global Electrification Pledge to make electricity at least 35 percent of global energy demand by 2035, up from about one-fifth today; Kurum said “energy that you import is energy that you do not control”, while climate advocates criticised the pledge for not requiring low-carbon sources. A World Meteorological Organization report timed to the opening says 2026 will be one of the four hottest years recorded, with the January-September average about 1.47°C above pre-industrial levels, and warns a “supersized El Niño” could make 2027 the hottest year on record; WMO chief Celeste Saulo said “We are supercharging our weather and El Niño will be a risk multiplier.” Negotiations are expected to focus on climate finance, the Belem-Antalya just transition mechanism, adaptation finance and emission cuts, against the backdrop of the Iran war’s disruption of oil shipments.
+
+**Sources:**
+- [nytimes.com — A Guide to COP31 Climate Talks in Antalya, Turkey](https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html)
+- [cnn.com — Planetary extremes are ‘off the charts’ as world’s biggest climate talks kick off](https://www.cnn.com/2026/11/09/climate/climate-extremes-el-nino-cop31-wmo)
+- [aljazeera.com — Turkiye pushes electrification top of climate agenda as COP31 set to open](https://www.aljazeera.com/news/2026/11/9/turkiye-pushes-electrification-top-of-climate-agenda-as-cop31-set-to-open?traffic_source=rss)
+- [lemonde.fr/en — 'A supersized El Niño is colliding with a planet already superheated': 2026 will be among hottest years on record](https://www.lemonde.fr/en/environment/article/2026/11/09/a-supersized-el-nino-is-colliding-with-a-planet-already-superheated-2026-will-be-among-hottest-years-on-record_6775606_114.html)
+- [welt.de — “Turkey is not exactly known for climate protection either”](https://www.welt.de/politik/ausland/video6af18897eaa675c45847c3d8/weltklimakonferenz-in-antalya-die-tuerkei-ist-jetzt-auch-nicht-besonders-fuer-klimaschutz-bekannt.html)
+- [bloomberght.com — Küresel kamuoyunun gözü COP31'de olacak](https://www.bloomberght.com/kuresel-kamuoyunun-gozu-cop31-de-olacak-3793894)
+- [bbc.com/turkce — Antalya'da düzenlenen COP31'den neler bekleniyor, kilit sorular neler?](https://www.bbc.com/turkce/articles/cw073jxd20jro?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 3. Pope Leo rebukes Milei’s austerity in Argentina: economy must serve the people
+
+Pope Leo XIV, arriving in Buenos Aires on Sunday on the second stop of a 12-day Latin America tour three weeks after lung cancer surgery, delivered a pointed critique of President Javier Milei’s austerity: “The economy must be at the service of the people, rather than people being at the service of the economy.” He urged that “particular concern be shown for those affected by illness, dependency and disability”, a veiled reference to cuts to disability assistance, and told Milei that strengthening democracy required a “willingness to listen” and the “careful use of words”, calling democracy “a part of Argentina’s heritage that needs to be safeguarded”. Milei, who has strong backing from Trump, replied that his government was working to avoid “punishing the Argentines of tomorrow in order to benefit the Argentines of today”. It is the first papal visit to Argentina in nearly four decades, after prolonged tensions between Milei and much of the country’s Catholic clergy.
+
+**Sources:**
+- [nytimes.com — In Argentina, Pope Leo Tells President Milei Economy Must Serve the Needy](https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html)
+- [cnn.com — Pope Leo urges President Milei, a Trump ally, to ‘safeguard democracy’ on arrival in Argentina](https://www.cnn.com/2026/11/08/americas/pope-visit-argentina-latam-intl)
+- [bbc.com — Pope delivers veiled rebuke of Milei's austerity measures](https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss)
+- [aljazeera.com — Pope tells Argentina’s Milei leaders should know limits of power](https://www.aljazeera.com/video/newsfeed/2026/11/9/pope-tells-argentinas-milei-leaders-should-know-limits-of-power?traffic_source=rss)
+- [theguardian.com — Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit](https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity)
+- [lemonde.fr/en — In Argentina, Pope Leo delivers stinging rebuke to Milei over austerity measures](https://www.lemonde.fr/en/international/article/2026/11/09/in-argentina-pope-leo-delivers-stinging-rebuke-to-milei-over-austerity-measures_6775541_4.html)
+
+---
+
+### 4. Trump says new strikes on Iran ‘highly unlikely’ as Rubio sees no breakthrough
+
+Trump told CNN in a 20-minute phone interview on Sunday that it is “highly unlikely” he will need to order the US back to war with Iran as long as talks on its nuclear program and reopening the Strait of Hormuz progress, repeating the assertion five times: “It depends on whether or not they sign a very strong agreement.” He called Iran “a failing nation” with “301% inflation”, said the US had identified targets including “38 bridges” it could destroy within an hour, and announced on Truth Social that the “Iron Gate” task force against weapons transports is fully active. Secretary of State Marco Rubio said before leaving for the G7 in Paris that “I wouldn’t say we’re on the verge of a breakthrough”, calling Iran’s demands “not just unacceptable, but in some cases, outrageous and ridiculous”, while defending the war as “necessary” to stop a nuclear threat. Iran’s Foreign Minister Abbas Araghchi said “American voters have made their choice. Time for the White House to make its own,” repeating a “2-day proposal” to reopen Hormuz if Iran’s conditions, including an end to war on all fronts, are met; Tehran is reviewing Qatari proposals and Trump meets Qatar’s prime minister at the White House on Monday. Both sides reported ships hit in the strait over the weekend.
+
+**Sources:**
+- [cnn.com — US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know](https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl)
+- [cnn.com — Trump says renewed attacks on Iran ‘highly unlikely’ if talks show progress](https://www.cnn.com/2026/11/08/politics/trump-interview-on-iran)
+- [aljazeera.com — Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat](https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss)
+- [sozcu.com.tr — Trump'tan 'İran'a saldırı' açıklaması: 'Görüşmeler devam ederse...'](https://www.sozcu.com.tr/trump-tan-iran-a-saldiri-aciklamasi-gorusmeler-devam-ederse-p379466)
+- [bloomberght.com — ABD Dışişleri Bakanı'ndan İran görüşmeleriyle ilgili negatif çıkış](https://www.bloomberght.com/abd-disisleri-bakani-ndan-iran-gorusmeleriyle-ilgili-negatif-cikis-3793899)
+
+---
+
+### 5. Trump calls his deportation drive ‘too tough’ days after making Miller chief of staff
+
+In a CBS “60 Minutes” interview aired Sunday, his first since Republicans lost both chambers of Congress, Trump said of his deportation policy: “I think it was too tough. I think it might be too tough, yeah,” citing immigrants in the country for ten years or more without serious crimes, and said a deal with the Democratic majority was “actually doable”. He took no personal blame for the midterm losses, naming Iran and bad messaging as the main culprits. The concession sat at odds with his decision on Friday to elevate Stephen Miller, the architect of the crackdown, to replace Susie Wiles as White House chief of staff; Senate Democratic leader Chuck Schumer posted “Trump says his immigration crackdown went too far”. Trump also said his offer of the vacant press secretary post to UFC boss Dana White was a joke: “I was only kidding. But Dana loves the idea.”
+
+**Sources:**
+- [cnn.com — Trump’s regrets on immigration enforcement, and other takeaways from his ‘60 Minutes’ interview](https://www.cnn.com/2026/11/08/politics/trumps-regrets-immigration-enforcement-60-minutes-interview)
+- [aljazeera.com — Trump says his immigration policy ‘too tough’ for voters](https://www.aljazeera.com/news/2026/11/9/trump-says-his-immigration-policy-too-tough-for-voters?traffic_source=rss)
+- [theguardian.com — Trump admits deportation policy was ‘too tough’ despite promotion of Stephen Miller](https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration)
+- [lemonde.fr/en — Trump says mass deportation policy was 'too tough'](https://www.lemonde.fr/en/international/article/2026/11/09/trump-says-mass-deportation-policy-was-too-tough_6775309_4.html)
+- [welt.de — Trump rows back on Dana White and calls mass deportations “too tough”](https://www.welt.de/politik/ausland/article6af12b16a389bc337cfca9c0/sinneswandel-trump-rudert-bei-dana-white-zurueck-und-nennt-massenabschiebungen-zu-hart.html)
+
+---
+
+### 6. Herzog hands Eisenkot the mandate to form Israel’s next government
+
+Israel’s president Isaac Herzog formally tasked opposition leader Gadi Eisenkot, 66, with forming a government at a ceremony on Sunday, after the 27 October election left Eisenkot’s bloc with 48 of the Knesset’s 120 seats and Netanyahu’s camp with 53. “This is the time to reach out a hand, to do everything for the unity of our people,” Herzog said; Eisenkot called for “a national emergency government” requiring “creative and unconventional political steps”, said Israel is “approaching a point of no return” and that “even our closest friends and strategic allies are saying their relationship with Israel must be reassessed”, and appealed to Likud and Bezalel Smotrich’s party to join him only with himself as prime minister. The Guardian reports he has 28 days, the New York Times up to six weeks, before the mandate can pass to another candidate, most likely Netanyahu. His options are power-sharing with Netanyahu, support from the Arab-led parties that endorsed him, which his partner Yisrael Beiteinu refuses, or a deal with ultra-Orthodox parties demanding the draft exemptions his Yashar party campaigned to end.
+
+**Sources:**
+- [nytimes.com — Who Is Gadi Eisenkot, Israel’s Opposition Leader?](https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html)
+- [nytimes.com — Eisenkot, Netanyahu Rival and Opposition Leader, Tapped to Try to Form Government](https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html)
+- [theguardian.com — Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government](https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government)
+- [theguardian.com — Israel’s president picks Yashar leader Gadi Eisenkot to form government](https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government)
+- [welt.de — “For Eisenkot, forming a coalition is a bit like solving a Rubik’s cube”](https://www.welt.de/politik/ausland/video6af04c3cd487d5232edf0acb/regierungsbildung-in-israel-fuer-eisenkot-gleicht-die-koalitionsbildung-ein-bisschen-dem-drehen-eines-zauberwuerfels.html)
+
+---
+
+### 7. Midterm post-mortems: 780 of 800 counties shifted to Democrats as Trump approval hits 37%
+
+A CNN county-level analysis of the states where Democrats flipped seven Republican-held Senate seats, plus Mississippi and Alaska still too close to call, found voters shifted toward Democrats in more than 780 of 800 counties, with the Democratic margin improving by more than 25 points in Texas and more than 20 in Kansas and South Carolina. In the SSRS Voter Poll for CNN and other outlets, just 37% of voters approved of Trump and 63% disapproved, a deeper disapproval than in the midterm routs of 2018, 2010, 2006 and 1994. Split Senate delegations will rise from four, the fewest since 1914, to at least 10 in January, and Kansas elected a Democratic senator for the first time since the Great Depression. Voters also elected the first Native American woman governor, Deb Haaland in New Mexico, and senator, Peggy Flanagan in Minnesota, among at least 75 Native women or non-binary candidates nationwide; Welt reports from Texas on voters’ frustration with Republicans and the pitfalls awaiting Democrats.
+
+**Sources:**
+- [cnn.com — How the midterms shook up Senate delegations for 2027](https://www.cnn.com/2026/11/09/politics/senate-delegations-2027-vis)
+- [cnn.com — How the rejection of Trump produced a biblical downpour on Republicans](https://www.cnn.com/2026/11/08/politics/republican-midterm-losses-trump)
+- [cnn.com — How Democrats reshaped the Senate, in charts and maps](https://www.cnn.com/2026/11/08/politics/trump-senate-flip-democrats-map-vis)
+- [theguardian.com — ‘Seismic shift’: Native American women made significant gains in US midterms](https://www.theguardian.com/us-news/2026/nov/08/native-american-women-midterm-elections)
+- [welt.de — “This is not what politics for the citizens looks like”: How the Republicans lost their stronghold Texas](https://www.welt.de/politik/ausland/plus6af00f9580d3a1c6aa66cbb9/trumps-bittere-niederlage-so-sieht-keine-politik-fuer-die-buerger-aus-wie-den-republikanern-ihre-hochburg-texas-entglitt.html)
+
+---
+
+### 8. Trump predicts Ukraine ‘in a somewhat different form’ as Europe joins Abu Dhabi talks
+
+Trump told CBS he expects the Ukraine war to end soon and that “they will end up with a Ukraine in a somewhat different form”, answering “Oh, I don’t think so” when asked whether Putin was stringing him along; Rubio said he was probably alluding to progress on security guarantees. US envoy Steve Witkoff is bringing Ukrainian and Russian delegations to Abu Dhabi on 10 and 11 November for the fourth US-brokered round and the first since Geneva in February, and France’s foreign minister Jean-Noël Barrot said “France will be there and will ensure that Europe’s voice is heard,” although Kremlin spokesman Dmitry Peskov had ruled out a European role. Zelenskyy told CNN he had not been given details of the agreement Trump referenced and warned “it can be dangerous,” invoking Yalta. Norway’s prime minister Jonas Gahr Støre defended his call to Putin, saying it is an illusion that the war ends without Europe talking to Moscow and that “confidence-building measures” are what matter in Abu Dhabi; Trump expects to meet Putin and Xi at next week’s APEC summit in China.
+
+**Sources:**
+- [npr.org — Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections](https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia)
+- [welt.de — Trump announces imminent end of war and prepares Ukraine for territorial concessions](https://www.welt.de/politik/ausland/video6af16bc4a389bc337cfcabb8/ukraine-krieg-trump-verkuendet-baldiges-kriegsende-und-stellt-ukraine-auf-gebietsabtretungen-ein.html)
+- [welt.de — “Let’s not kid ourselves. Putin is not isolated”](https://www.welt.de/politik/ausland/plus6af0ae51a389bc337cfca5b5/norwegens-ministerpraesident-machen-wir-uns-nichts-vor-putin-ist-nicht-isoliert.html)
+- [welt.de — Trump announces imminent end of war and prepares Ukraine for territorial concessions](https://www.welt.de/politik/ausland/article6af11eef80d3a1c6aa66dbe9/ukraine-krieg-trump-verkuendet-baldiges-kriegsende-und-stellt-ukraine-auf-gebietsabtretungen-ein.html)
+
+---
+
+### 9. Ara seçim satışı sonrası piyasalar toparlandı: Taiex yüzde 4,94, Nasdaq 100 yüzde 1,35 yükseldi
+
+Demokratların ara seçim zaferinin yapay zeka yatırımlarını yavaşlatabileceği endişesiyle perşembe günü S&P 500 yüzde 4,4, Nasdaq 100 yüzde 6,4 düşmüş ve Wall Street’te 2,5 trilyon dolarlık satış yaşanmıştı; cuma günü tepki alımlarıyla Nasdaq 100 yüzde 1,35, yarı iletken hisseleri yüzde 4,2 yükseldi. Pazartesi Asya’da Taipei Taiex yüzde 4,94, Nikkei 225 yüzde 2,33 artarken KOSPI yüzde 0,8 geriledi; Nvidia’nın CEO’su hakkındaki soruşturma Nasdaq 100 vadelilerini kısa süreliğine yüzde 1’e kadar düşürdü. Morgan Stanley’den Mike Wilson, S&P 500’ün 7.100-7.300 puanlık hedef aralığına yaklaştığını belirterek “Önümüzdeki 2-3 hafta boyunca riski artırmanız gereken yer burası” dedi ve 8.000 yıl sonu hedefini korudu; JP Morgan’dan Cameron Chui yapay zeka talebinin güçlü kaldığını ve değerlemelerde anlamlı bir düzeltmenin yaşandığını söyledi. Güçlü ABD istihdam verileri Fed’in aralıkta faiz artıracağı beklentisini güçlendirerek tahvil getirilerini ve doları yükseltti.
+
+**Sources:**
+- [aljazeera.com — Asian stock markets climb after earlier tech rout](https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss)
+- [bloomberght.com — Morgan Stanley/Wilson: ABD hisse senetlerindeki düzeltme son aşamasında](https://www.bloomberght.com/morgan-stanleywilson-abd-hisse-senetlerindeki-duzeltme-son-asamasinda-3793923)
+- [bloomberght.com — Wall Street stratejistleri piyasada alım fırsatı görüyor](https://www.bloomberght.com/wall-street-stratejistleri-piyasada-alim-firsati-goruyor-3793898)
+- [bloomberght.com — Küresel piyasalarda teknolojik toparlanma](https://www.bloomberght.com/kuresel-piyasalarda-teknolojik-toparlanma-3793897)
+
+---
+
+### 10. Houthi missiles and drones hit Aramco Tower in Riyadh’s financial district
+
+The Aramco Tower in Riyadh’s King Abdullah Financial District was hit in an attack the Houthis claimed, saying “The Yemeni Armed Forces, with the help of Allah Almighty, carried out four qualitative military operations, using a number of ballistic and cruise missiles and drones” against the business zone, the airport and Aramco oil storage; the BBC dates the strike to Saturday and Le Monde the claim to Sunday. The Saudi energy ministry said the tower suffered only “minor damage” from “falling shrapnel” with no casualties, while footage authenticated by BBC Verify shows at least one floor badly hit and windows shattered on several levels; Saudi Arabia said its air defences intercepted several missiles. The strike came a day after the Houthis accused the Saudi-led coalition of killing at least 33 people in an air strike on al-Shariyah east of Sanaa, in a war that reignited after an informal ceasefire unravelled in July.
+
+**Sources:**
+- [nytimes.com — Saudi Aramco Tower Damaged as Yemen’s Houthis Attack Riyadh](https://www.nytimes.com/2026/11/08/world/middleeast/saudi-aramco-tower-riyadh-hit.html)
+- [bbc.com — Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes](https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss)
+- [lemonde.fr/en — Yemen's Houthis claim attack on Riyadh financial district, Aramco skyscraper damaged](https://www.lemonde.fr/en/international/article/2026/11/08/saudi-capital-s-financial-district-targeted-in-attack-aramco-skyscraper-damaged_6774880_4.html)
+
+---
+
+### 11. Trump orders DOJ probes of Democrats as House heads for Hegseth impeachment vote
+
+Trump instructed Attorney General Todd Blanche on Truth Social on Saturday to open investigations into Democratic politicians who had announced inquiries into him and his administration, calling it “extortion”, and wrote on Sunday that “America took a huge step back in history in the last election” but “we will come back, bigger and stronger than ever”. Blanche told CNN that Democrats planning oversight should be “worried”; Robert Garcia, top Democrat on the House Oversight Committee, said Congress would not cow before a “threat”. The first confrontation comes this week as Republican Rep. Thomas Massie plans to bring articles of impeachment against Defense Secretary Pete Hegseth over his conduct of the Iran war, and incoming Speaker Hakeem Jeffries said it is a “hard yes” on supporting the effort. Trump also demanded that Republican Dan Sullivan be declared winner of the still-open Alaska Senate race, where the Democrat narrowly leads after a judge rejected an attempt to intervene; his appointment of Stephen Miller as chief of staff was read as a declaration of war on Democrats.
+
+**Sources:**
+- [cnn.com — Trump team interprets midterms debacle as a cue to go harder, further, faster](https://www.cnn.com/2026/11/09/politics/trump-midterms-hegseth-impeachment)
+- [aljazeera.com — US top Democrat backs impeachment of Pete Hegseth](https://www.aljazeera.com/video/newsfeed/2026/11/9/us-top-democrat-backs-impeachment-of-pete-hegseth?traffic_source=rss)
+- [welt.de — Trump threatens Democrats with investigations and speaks of a “huge step back” for America](https://www.welt.de/politik/ausland/article6af0a0a4a389bc337cfca4d7/trump-droht-demokraten-mit-ermittlungen-und-spricht-von-riesigem-schritt-zurueck-fuer-amerika.html)
+
+---
+
+### 12. Drone attack on Khor Mor gas field blacks out Iraqi Kurdistan
+
+A drone attack halted production at the Khor Mor gas field in Iraq’s autonomous Kurdistan region, triggering fires and widespread power outages across the region, which relies on the field’s gas to generate most of its electricity. It was initially unclear who was responsible for the attack.
+
+**Sources:**
+- [aljazeera.com — Drone attack on Iraqi Kurdistan gas field triggers mass blackout](https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss)
+- [welt.de — Attack on gas field in Kurdistan in northern Iraq](https://www.welt.de/politik/ausland/video6af167e580d3a1c6aa66ddfc/nahost-angriff-auf-erdgasfeld-in-kurdistan-im-nordirak.html)
+
+---
+
+### 13. Ekimde en çok kazandıran mevduat faizi oldu, BIST 100 yüzde 14,53 kaybettirdi
+
+TÜİK’in ekim ayı verilerine göre aylık en yüksek reel getiri, Yİ-ÜFE ile indirgendiğinde yüzde 1,31, TÜFE ile indirgendiğinde yüzde 0,39 ile brüt mevduat faizinde gerçekleşti. DİBS Yİ-ÜFE ile yüzde 0,91 reel getiri sağlarken dolar yüzde 0,04, avro yüzde 2,65, külçe altın yüzde 4,70 ve BIST 100 endeksi yüzde 14,53 kaybettirdi. Üç aylık değerlendirmede mevduat faizi Yİ-ÜFE ile yüzde 2,90 ile en çok kazandıran, BIST 100 yüzde 21,13 ile en çok kaybettiren araç oldu; yıllık bazda en yüksek reel getiri Yİ-ÜFE ile yüzde 5,96 ile DİBS’te görüldü.
+
+**Sources:**
+- [sozcu.com.tr — TÜİK açıkladı: Ekim ayının en çok kazandıran yatırım aracı belli oldu](https://www.sozcu.com.tr/tuik-acikladi-ekim-ayinin-en-cok-kazandiran-yatirim-araci-belli-oldu-p379460)
+- [bloomberght.com — Ekim'de en yüksek reel getiri mevduat faizinde](https://www.bloomberght.com/ekim-de-en-yuksek-reel-getiri-mevduat-faizinde-3793913)
+
+---
+
+### 14. Fon soruşturmasında BDDK Başkan Yardımcısı Erişen ve Adil Katılım GM Yönaç tutuklandı
+
+İstanbul Cumhuriyet Başsavcılığının fon soruşturmasında gözaltına alınan BDDK Başkan Yardımcısı Muhammet Erişen ve Adil Katılım Bankası Genel Müdürü Murat Yönaç, savcılıkta ifade verdikten sonra sevk edildikleri sulh ceza hakimliğince tutuklandı. Ruzy Madencilik Yönetim Kurulu Başkanı Nureddin Çevik, eski Takasbank Genel Müdürü Yunus Arıncı ve Bulls Yatırım Yönetim Kurulu Başkanı Kemal Akkaya’nın bugün adliyeye sevk edilmesi bekleniyor.
+
+**Sources:**
+- [sozcu.com.tr — Fon soruşturmasında 2 kritik tutuklama!](https://www.sozcu.com.tr/fon-sorusturmasinda-2-kritik-tutuklama-p379452)
+- [bloomberght.com — Fon soruşturmasında 2 şüpheli tutuklandı](https://www.bloomberght.com/fon-sorusturmasinda-2-supheli-tutuklandi-3793918)
+
+---
+
+### 15. Gürlek: Fon soruşturmasında 464 şüpheli, 120 tutuklu; yatırımcılara 130 milyar TL ödendi
+
+Adalet Bakanı Akın Gürlek, TBMM Plan ve Bütçe Komisyonunda 9 Kasım itibarıyla fon soruşturmalarında 464 şüpheli bulunduğunu, 120’sinin tutuklu olduğunu, 262 kişiye adli kontrol uygulandığını ve firari 40 şüpheli için yakalama kararı çıkarıldığını açıkladı; 386 gerçek ve 116 tüzel kişinin malvarlığına tedbir kondu, yaklaşık 31,5 milyar TL TMSF’deki gönüllü iade hesabına iade edildi. Gürlek, “denetim mekanizmalarına kadar uzanan bağlantılar da araştırılmaktadır” dedi. BBC Türkçe’nin derlemesine göre 7 Kasım’da eski SPK Kurul Başkan Vekili Enver Usca, BDDK Daire Başkanı Mustafa Alper Taş ve eski SPK Daire Başkanı Ercan Urkan tutuklandı; Cumhurbaşkanı Yardımcısı Cevdet Yılmaz 17 Eylül’de 131 fonun “karantina”ya alındığını ve “Toplamda 420 bin yatırımcı ödeme aldı. Toplam yatırımcılara 130 milyar TL ödeme yapıldı” dedi, olağanüstü tasfiyede Tera, Pusula ve Atlas kaldı ve 13 Kasım’da yeni ödeme yapılacak.
+
+**Sources:**
+- [bloomberght.com — Gürlek: Fon soruşturmasında 464 şüpheli, 120 tutuklu](https://www.bloomberght.com/gurlek-fon-sorusturmasinda-464-supheli-120-tutuklu-3793928)
+- [bbc.com/turkce — Fon krizinde şimdiye kadar neler oldu, ne kadar ödeme yapıldı?](https://www.bbc.com/turkce/articles/cmzxjn4205xqo?at_medium=RSS&at_campaign=rss)
+
+---
+
+## nytimes.com
+
+### More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War
+
+More than 50 people were killed in Yemen in 24 hours, one of the deadliest stretches since the war between the Iran-backed Houthis and the Saudi-backed government reignited in August. Houthi officials said airstrikes on the village of al-Shariya, east of Sanaa, killed at least 27 people and wounded 30 on Saturday, most of them women and children, and blamed Saudi warplanes; a day earlier strikes on a crowded market in Taiz Province killed at least 30, with the warring parties trading blame. Almost 1,800 people had been killed by the end of October and more than 300,000 displaced, the World Health Organization said, and the UN has warned the fighting is returning to the levels seen before the 2022 cease-fire.
+
+[Read more](https://www.nytimes.com/2026/11/07/world/middleeast/more-than-50-killed-in-yemen.html)
+
+---
+
+## cnn.com
+
+### Hakeem Jeffries has a plan for Donald Trump and for his Democratic critics
+
+Hakeem Jeffries, 56, is set to become the first Black speaker in American history, leading a historically large majority after Democrats, who had needed to net three seats, won a margin well into the dozens. “A lot of people counted us out and claimed the Democratic Party was dead in the immediate aftermath of the 2024 election,” he told CNN; he faces a president who just picked Stephen Miller as chief of staff, swing-district members worried about overreach and an activist left labeling him a shill of corporate interests. “My track record speaks for itself,” he said.
+
+[Read more](https://www.cnn.com/2026/11/08/politics/hakeem-jeffries-first-black-speaker-donald-trump-democrats)
+
+---
+
+## aljazeera.com
+
+### Who are the seafarers caught in the US-Israeli war on Iran?
+
+Iran’s Islamic Revolutionary Guard Corps said on Sunday that three “rogue oil tankers travelling an unauthorised route” in the Strait of Hormuz were subject to “explosions and severe fires”, the latest attacks on commercial shipping since the United States and Israel launched their war on Iran nine months ago. The International Maritime Organization has recorded at least 129 incidents and the deaths of at least 25 seafarers since the war started on February 28, many of them citizens of India; on Thursday Iranian forces said five oil tankers and a tugboat caught fire. Before the war roughly one-fifth of global oil consumption passed through the strait, which Iran essentially closed while Washington imposed a naval blockade on Iranian ports.
+
+[Read more](https://www.aljazeera.com/news/2026/11/9/who-are-the-seafarers-caught-in-the-us-israeli-war-on-iran?traffic_source=rss)
+
+---
+
+### ‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza
+
+More than 70,000 tents have been flooded in Gaza since heavy rains began late on Friday, according to Gaza’s Government Media Office, with hundreds of thousands of displaced Palestinians sheltering in locations considered “highly vulnerable” to more flooding. More than a year after the ceasefire deal between Israel and Hamas, Al Jazeera reports that Israel has continued to block the entry of goods including 60,000 mobile homes and 200,000 tents, with only 20,000 tents allowed in and the mobile homes parked on the Egyptian side of the border. Jaber al-Kaseeh, in his 70s and in his fourth winter in a tent in az-Zawayda, said “All the tents are now damaged, torn and covered in mud.”
+
+[Read more](https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss)
+
+---
+
+### Moldova launches new power line to Romania to cut reliance on Russia
+
+Moldova inaugurated a new 400-kilowatt extra-high-voltage line from Vulcanesti to Chisinau connecting it to Romania and the European grid, allowing it to cut reliance on the Cuciurgan thermal power plant in separatist Transnistria. “For decades, Moscow used energy to blackmail us. No more: Moldova buys zero Russian gas,” President Maia Sandu said, adding that “two more power lines to Romania are on the way”; European Commissioner for Energy Marta Kos said Moldova could now “buy energy where it is cheapest”. Last month Moldova’s parliament approved a state of emergency until November 20 over gas shortages amid soaring world energy prices.
+
+[Read more](https://www.aljazeera.com/news/2026/11/9/moldova-launches-new-power-line-to-romania-to-cut-reliance-on-russia?traffic_source=rss)
+
+---
+
+## npr.org
+
+### How a bank collapse left millions in limbo and toppled Paraguay's president
+
+The collapse of Ueno Bank, which said it had 2.9 million customers, around 60% of Paraguay’s adult population, left millions unable to transact and led to the impeachment and removal of President Santiago Peña, a close ally of Trump, exposing a power struggle inside the ruling Colorado Party. The Central Bank said the bank had about 1.8 million depositors; by Saturday almost 1.2 million customers had received an advance payment under the state’s deposit guarantee fund, while hundreds protested outside Congress. Ueno launched as a fintech in 2021 and began operating as a bank in November 2023.
+
+[Read more](https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno)
+
+---
+
+## theguardian.com
+
+### Burnham’s homelessness pledge to ‘get everyone in for Christmas’ in jeopardy
+
+Andy Burnham’s pledge to get “everyone in for Christmas” is in jeopardy as official figures show 8,748 rough sleepers in England in June, up nearly 1,000 since January and the highest since November 2025, with only 15% found accommodation by the end of June. Homelessness minister Florence Eshalomi said the government hoped to offer a bed to every rough sleeper by Christmas but that there is a chronic shortage of suitable housing, and that “a route off the street” may not involve housing. A record 135,600 households in England were living in temporary accommodation.
+
+[Read more](https://www.theguardian.com/society/2026/nov/09/burnham-homelessness-pledge-rough-sleeping-england)
+
+---
+
+### Lisa Nandy wary of ‘circular arguments’ about rejoining EU
+
+Culture secretary Lisa Nandy said she wants to avoid “circular arguments” about whether the UK should rejoin the EU, underlining cabinet divisions over Prime Minister Andy Burnham’s plan for an “honest conversation” about Brexit, which some ministers privately warn would benefit Nigel Farage’s Reform UK. “I do not believe that anybody wants to repeat circular arguments about in or out, leave or remain,” she told the BBC, while saying “the deal that we got is not what we were promised”. Burnham attends the European Political Community summit in Dublin on Thursday, and agreements on agriculture and food, emissions trading and youth experience visas are expected at a Brexit reset meeting in Brussels on 20 November.
+
+[Read more](https://www.theguardian.com/politics/2026/nov/08/lisa-nandy-wary-of-circular-arguments-about-rejoining-eu)
+
+---
+
+## lemonde.fr/en
+
+### 2027 French presidential election: Jean-Luc Mélenchon energizes his base and seeks to broaden his electorate
+
+About 20,000 people attended Jean-Luc Mélenchon’s rally in Le Bourget on Saturday, November 7, where the La France Insoumise presidential candidate unveiled his program L’Avenir en commun, with 1,000 proposed measures published on Friday. The audience was mostly young and diverse, and activists described the Socialists’ nominee Raphaël Glucksmann as “not from the left”.
+
+[Read more](https://www.lemonde.fr/en/politics/article/2026/11/08/2027-french-presidential-election-jean-luc-melenchon-energizes-his-base-and-seeks-to-broaden-his-electorate_6774847_5.html)
+
+---
+
+## welt.de
+
+### Operation “Iron Gate”: Trump deploys special unit against Iranian weapons transports
+
+In addition to the naval blockade of Iran’s ports, US Central Command has formed a task force to cut off further supply routes, including weapons deliveries overland and across the Caspian Sea; Trump announced on Truth Social that the “Iron Gate” task force is already active and that “very little” can get into or out of Iran. The aim is above all to dry up Iranian oil export revenue and to block technology that could be used militarily. Rubio said before leaving for the G7 foreign ministers’ meeting in France: “I can’t report any progress. There are several countries still talking to Iran and putting forward various ideas, but I wouldn’t say we are close to a breakthrough”; Tehran is said to be examining Qatari proposals while demanding an end to the US blockade, the lifting of sanctions, the release of frozen assets and compensation for war damage.
+
+[Read more](https://www.welt.de/politik/ausland/article6af0f62a80d3a1c6aa66db6d/iran-krieg-operation-iron-gate-trump-setzt-spezialeinheit-gegen-iranische-waffentransporte-ein.html)
+
+---
+
+## sozcu.com.tr
+
+### Dünya devi Türkiye'de 1.400 kişiyi işten çıkaracaktı: 300 kişiyle başladı devamı gelecek
+
+Bosch’un Bursa fabrikasında işten çıkarmalar başladı; ilk aşamada emeklilikte yaşa takılanlar kapsamındaki yaklaşık 300 işçinin işine son verildi ve toplamda 1200 işçinin işsiz kalabileceği ifade edildi. Şirket Mayıs 2026’da, elektrikli otomobillerin yaygınlaşmasıyla geleneksel parçalara talebin azalmasını gerekçe göstererek yaklaşık 1.400 çalışanı kapsayan küçülme programı açıklamıştı; mavi yakalı çıkışların 2027 sonuna, yaklaşık 300 beyaz yakalı çıkışın 2030’a kadar yapılması planlanıyor. Türk Metal Sendikası ile kapsamı daraltma görüşmeleri başlamıştı.
+
+[Read more](https://www.sozcu.com.tr/bosch-fabrikasinda-yaklasik-300-isci-isten-cikarildi-p379485)
+
+---
+
+### Fatma Betül Sayan Kaya'nın hakimlik ifadesi ortaya çıktı: Mesleği ev hanımı, aylık geliri 500 bin lira
+
+Fon skandalı soruşturmasında “suç örgütüne üye olma” ve “SPK Kanunu’na muhalefet” suçlarından tutuklanan eski Aile ve Sosyal Hizmetler Bakanı ve AKP eski Genel Başkan Yardımcısı Fatma Betül Sayan Kaya’nın hakimlik ifadesi ortaya çıktı. Mesleğini ev hanımı, aylık gelirini 500 bin lira olarak bildiren Kaya suçlamaları kabul etmediğini söyledi; TERA yönetimiyle yoğun görüşme yaptığı iddiası için “Öyle bir ifadem olduysa görmek isterim” dedi, Emre Tezmen ile yalnızca bir kez karşılaştığını, Erdin Özel’in yardımcısı olması için bazı siyasilerce önerildiğini ancak hiçbir dönemde yardımcısı olmadığını belirtti. Kaya, “Ben örgüte üye olma suçlamasını kabul etmiyorum. Serbest bırakılmamı talep ediyorum” ifadelerini kullandı.
+
+[Read more](https://www.sozcu.com.tr/fatma-betul-sayan-kaya-nin-hakimlik-ifadesi-ortaya-cikti-meslegi-ev-hanimi-aylik-geliri-500-bin-lira-p379443)
+
+---
+
+### İki komşu ülke arasında film koptu: 1340 kilometrelik sınıra hendek kazacaklar
+
+Finlandiya, NATO’nun Rusya ile kara sınırının yaklaşık yarısını oluşturan 1340 kilometrelik hatta Ukrayna modeli tank savar hendekler ve bariyerler inşa etmeye hazırlanıyor. Bloomberg’e göre Kara Kuvvetleri Komutanı Korgeneral Pasi Välimäki, Rusya’nın depolama üslerine T-90 tankları, BMP-3 piyade savaş araçları ve kundağı motorlu topçu sistemlerinin peş peşe sevk edildiğini söyledi. Proje, eylülde 365 milyon avroluk yatırımla tamamlanan 200 kilometrelik sınır bariyerinin ardından gündeme geldi.
+
+[Read more](https://www.sozcu.com.tr/iki-komsu-ulke-arasinda-film-koptu-1340-kilometrelik-sinira-hendek-kazacaklar-p379478)
+
+---
+
+### AB kapısı açılınca eski müttefiklerini tek kalemde sildiler: ilk işleri vize koymak oldu
+
+Moldova’nın Rusya vatandaşlarına vize getirmeyi değerlendirdiği bildirildi; Tofan, olası vize kararının ülkenin Avrupa entegrasyonu yükümlülüklerinden kaynaklandığını ve düzenlemenin Belarus ile Çin vatandaşlarını da kapsayabileceğini söyledi, net bir takvim paylaşılmadı. Kişinev’in kararı hayata geçirmesi halinde Moskova’nın karşılıklı yaptırımlarla yanıt verebileceği değerlendiriliyor. Moskova Yüksek Ekonomi Okulu analisti Nikol Bodishtyanu, Moldova’nın hedef gösterdiği 2030’a kadar AB üyeliği için gereken kurumsal ve ekonomik hazırlığı tamamlayamayacağını savundu.
+
+[Read more](https://www.sozcu.com.tr/ab-kapisi-acilinca-eski-muttefiklerini-tek-kalemde-sildiler-ilk-isleri-vize-koymak-oldu-p379455)
+
+---
+
+### Asansörde taciz iddiası! Gazeteci Terkoğlu, Sarıgül ile ilgili inanılmaz arşiv bilgisini açıkladı
+
+Gazeteci Barış Terkoğlu Sözcü canlı yayınında, Mustafa Sarıgül’ün 2007’de uluslararası ziyaretçi vizesiyle gittiği ABD’de kendisine verilen tercümanı asansörde taciz ettiği iddiasıyla ABD Dışişleri Bakanlığı’na şikayet edildiğini ve görüşmelerin bunun üzerine kesildiğini anlattı. Terkoğlu’na göre belgelerde Sarıgül “tercüman beni şikayet ettiği için ABD beni desteklemekten vazgeçti” diyor; Terkoğlu, ABD Dışişleri Bakanlığı’nın elinde Sarıgül’le ilgili 54 belge bulunduğunu ve bu belgelerde çok sayıda yolsuzluk dosyası olduğunun raporlandığını söyledi.
+
+[Read more](https://www.sozcu.com.tr/asansorde-taciz-iddiasi-gazeteci-terkoglu-sarigul-ile-ilgili-inanilmaz-arsiv-bilgisini-acikladi-p379451)
+
+---
+
+### Dolar/TL yeni rekorlara koşuyor
+
+Dolar/TL saat 09.50 itibarıyla yüzde 0,1 yükselişle 50,20 seviyesine çıkarak tüm zamanların rekorunu kırdı; cuma günü 50,1550’den kapanmıştı. Avro/TL 56,1120, sterlin/TL 67,2700’dan işlem görürken dolar endeksi 102 seviyesinde bulunuyor. ABD’de güçlü istihdam verilerinin ardından Fed’in aralıkta faiz artırabileceği beklentileri kuvvetlendi; yarın açıklanacak ABD ekim enflasyon verisi beklentilerin şekillenmesinde önemli olacak.
+
+[Read more](https://www.sozcu.com.tr/dolar-tl-50-18-seviyesinde-islem-goruyor-p379442)
+
+---
+
+### SONAR anketinde bugüne kadar görülmemiş sonuç! Siyasi partilere rakip oldular
+
+SONAR Araştırma’nın son seçim anketine göre kararsızlar, oy kullanmayı düşünmeyenler, geçersiz oy vereceğini söyleyenler ve yanıt vermeyenlerin toplam oranı yüzde 33,1 ile anketin en büyük grubunu oluşturdu. SONAR Başkanı Hakan Bayrakçı 38 yıllık meslek hayatında ilk kez böyle bir veriyle karşılaştığını söyledi; iktidara yakın yazar Abdulkadir Selvi “Son birkaç aydır kararsızlar birinci parti seviyesine yükselmiş durumda” diyerek konuştuğu üç ayrı araştırma şirketi yöneticisinin de artışa dikkat çektiğini yazdı.
+
+[Read more](https://www.sozcu.com.tr/sonar-anketinde-dengeleri-degistiren-sonuc-siyasi-partilere-rakip-oldular-p379439)
+
+---
+
+### İktidar medyası duyurdu: En düşük emekli aylığı hesaplandı
+
+İktidara yakın Sabah’a göre emeklilere ocakta önce temmuz-aralık enflasyon farkı zammı, ardından refah payı üzerinden ek ödeme yapılması planlanıyor; SSK ve BAĞ-KUR emeklilerine yüzde 10, memur emeklilerine yaklaşık yüzde 8 zam bekleniyor. Yüzde 10 senaryosunda 25 bin TL maaş 27 bin 500 TL’ye çıkacak; 23 bin 552 TL olan en düşük emekli maaşının yaklaşık 25 bin 907 TL’ye yükselip 26 bin TL’ye yuvarlanması, en düşük memur emekli aylığının 31 bin 528 TL’den 34 bin 50 TL’ye çıkması öngörülüyor. Düzenlemenin aralık sonunda veya Ocak 2027’de Meclis’ten geçirilmesi gerekiyor.
+
+[Read more](https://www.sozcu.com.tr/iktidar-medyasi-duyurdu-en-dusuk-emekli-ayligi-hesaplandi-p379436)
+
+---
+
+## bloomberght.com
+
+### EBRD/Falcetti: Türkiye'nin elektrifikasyon yatırım ihtiyacı çok yüksek
+
+EBRD Türkiye ve Kafkaslar Yönetici Direktörü Elisabetta Falcetti, Antalya’daki COP31’de Bloomberg HT’ye Türkiye’nin yeşil dönüşümüne bugüne kadar yaklaşık 14 milyar euro kaynak sağladıklarını ve yatırımı hazır şirketler için 2030’a kadar 5 milyar euroluk finansmanın harekete geçirilmesinin öngörüldüğünü söyledi. Türkiye’nin %22 olan elektrifikasyon oranının 2035’e kadar %35’e çıkarılmasının hedeflendiğini hatırlatan Falcetti, çelik, çimento ve otomotiv gibi sektörlerin dönüşümüne öncelik verildiğini belirtti.
+
+[Read more](https://www.bloomberght.com/ebrdfalcetti-turkiye-nin-elektrifikasyon-yatirim-ihtiyaci-cok-yuksek-3793919)
+
+---
+
+### İhracat iklimi son üç ayın en düşük seviyesinde
+
+İSO Türkiye İmalat Sektörü İhracat Pazarları İklim Endeksi ekimde 53,2’den 52,5’e gerileyerek son üç ayın en düşük düzeyine indi, ancak 50 eşiğinin üzerinde kalarak ihracat pazarlarındaki iyileşmenin 34’üncü ay sürdüğüne işaret etti. En hızlı artış Türk imalat ihracatından yüzde 3,5 pay alan BAE’de görüldü; ABD’de genişleme 45’inci aya ulaştı, Birleşik Krallık’ta üretim son sekiz ayın en yüksek hızında arttı, Fransa ve Romanya’da üretim düşüşe geçti, en sert daralma Brezilya’da yaşandı.
+
+[Read more](https://www.bloomberght.com/ihracat-iklimi-son-uc-ayin-en-dusuk-seviyesinde-3793916)
+
+---
+
+### TMSF, Pet Gaz LPG depolama tesislerini satışa çıkardı
+
+TMSF, Pet Gaz LPG Depolama Tesisleri Ticari ve İktisadi Bütünlüğü’nü 3 milyar 210 milyon lira muhammen bedelle satışa çıkardı; ihale 9 Aralık Çarşamba saat 11.00’de TMSF’nin Esentepe’deki binasında kapalı zarf ve açık artırma usulleriyle yapılacak. Katılım için 321 milyon lira teminat yatırılması ve 8 Aralık saat 16.00’ya kadar teklif verilmesi gerekiyor.
+
+[Read more](https://www.bloomberght.com/tmsf-pet-gaz-lpg-depolama-tesislerini-satisa-cikardi-3793912)
+
+---
+
+### Uluslararası ticarette yuan ile ödeme rekora hazırlanıyor
+
+Bloomberg hesaplamalarına göre Çin’in Sınır Ötesi Bankalararası Ödeme Sistemi (CIPS) bu yılın ekim ayına kadar 182,8 trilyon yuan (27,4 trilyon dolar) tutarında işlem gerçekleştirerek 2025’in toplamını aştı. Bu ivme Pekin’in yuanı uluslararasılaştırma kampanyasının göstergesi olarak değerlendiriliyor; BBVA’dan Dariusz Kowalczyk “bu yıl CIPS üzerinden yapılan ödemeler yeni bir rekor seviyeye ulaştı” ve “Her iki eğilimin de devam etmesi muhtemel” dedi.
+
+[Read more](https://www.bloomberght.com/uluslararasi-piyasalarda-yuanin-kullanimi-rekora-hazirlaniyor-3793902)
+
+---
+
+### TESKOMB kefaletli krediler 900 milyar TL'yi aştı
+
+Ticaret Bakanlığı’na göre 2002 sonundan Ekim 2026 sonuna kadar TESKOMB kefaletiyle ve Halkbank kaynaklı olarak esnaf ve sanatkârlara 4 milyon 786 bin 84 kredi kullandırıldı ve tutar 907,8 milyar TL’ye ulaştı. Finansman, Hazine’nin yüzde 50 maliyet sübvansiyonuyla 2025’te yüzde 25, 2026’da yüzde 20 yıllık maliyetle uygulandı.
+
+[Read more](https://www.bloomberght.com/teskomb-kefaletli-krediler-900-milyar-tl-yi-asti-3793900)
+
+---
+
+### Petrolde 'diplomatik' denge
+
+Brent petrol, Nisan 2020’den bu yana en büyük haftalık düşüş olan yüzde 16’yı aşan kaybın ardından varil başına 98 dolar civarında yatay seyretti, WTI 91 dolara yakın işlem gördü. Fiyatlar, Demokratların ara seçim zaferinin çatışmada tırmanma beklentilerini azaltmasıyla ekim sonundaki altı ayın zirvesinden sert düşmüştü; Rystad Energy’den Jorge Leon “Anlaşma için daha fazla baskı yapılması, bir anlaşmanın mutlaka daha yakın olduğu anlamına gelmez” dedi. Hafta sonu Hürmüz’den çıkan bir tanker kaynağı bilinmeyen mühimmatla vuruldu ve Husiler Riyad’daki Saudi Aramco ofislerine saldırdı; Suudi kuvvetleri iki füze fırlatıcısını imha etti.
+
+[Read more](https://www.bloomberght.com/petrolde-diplomatik-denge-3793896)
+
+---
+
+### Çin'den ABD tarifeleriyle ilgili yeni adım
+
+Çin Devlet Konseyi Gümrük Tarifeleri Komisyonu, ABD’ye yönelik yüzde 24’lük gümrük tarifelerini iki ay askıya alma kararının salı günü Pekin saatiyle 13:01’de yürürlüğe gireceğini ve yüzde 10’luk genel verginin sürdürüleceğini açıkladı; Amerikan gemilerine uygulanan özel liman harçlarının askıya alınması 10 Ocak’a kadar uzatıldı. Karar, Trump ile Şi Cinping’in eylülde ticaret ateşkesini uzatma anlaşmasının sonucu; iki lider bu ayın sonlarında Şenzen’deki APEC’te bir araya gelecek. Pekin, Yüksek Mahkeme’nin iptal ettiği acil durum tarifelerinin yerine 301. Madde kapsamında konulacak vergileri izleyeceğini ve misillemesini buna göre ayarlayabileceğini belirtti.
+
+[Read more](https://www.bloomberght.com/cin-den-abd-tarifeleriyle-ilgili-yeni-adim-3793895)
+
+---
+
+### Altın yeni haftaya pozitif girdi
+
+Altın, petrolün düşüşü ve Nvidia CEO’su hakkındaki soruşturmanın teknoloji hisselerini baskılamasıyla cuma günkü gerilemesini silerek ons başına 4 bin 100 doların üzerinde işlem gördü. Ralli geçen hafta güçlü ABD istihdam verilerinin Fed’in aralıkta faiz artıracağı beklentisini pekiştirmesiyle duraklamıştı; Vantage Global Prime analisti Hebe Chen, “Siyasi belirsizlik altın fiyatlarının altında bir yastık sağlarken, değişen Fed beklentileri ve Hazine tahvili getirileri her türlü toparlanmayı sıkı bir dizginde tutuyor” dedi.
+
+[Read more](https://www.bloomberght.com/altin-yeni-haftaya-pozitif-girdi-3793893)
+
+---
+
+### Çin'de üretici enflasyonu 2022'den bu yana en yüksek seviyede
+
+Çin’de üretici fiyatları ekimde yıllık yüzde 5,7 artarak 2022’den bu yana en yüksek seviyeye çıktı; artış eylüldeki yüzde 5’in ve Bloomberg anketindeki yüzde 5,3’lük medyan tahminin üzerinde gerçekleşti. NBS istatistikçisi Dong Lijuan, kömür madenciliği, petrol ve doğal gaz çıkarma ile yakıt işleme gibi sektörlerin başı çektiği dokuz sanayi kolunun artışa 6 puandan fazla katkı yaptığını söyledi. Tüketici enflasyonu ise yüzde 0,9’dan yüzde 0,7’ye geriledi, çekirdek TÜFE yüzde 0,8 ile yılın en düşük seviyesine indi.
+
+[Read more](https://www.bloomberght.com/cin-de-uretici-enflasyonu-2022-den-bu-yana-en-yuksek-seviyede-3793892)
+
+---
+
+### ABD'de Demokratların zaferi 1,5 trilyon dolarlık savunma bütçesini riske soktu
+
+Cumhuriyetçilerin ara seçim yenilgisi, Kongre’nin Trump’ın bir önceki mali yıla göre %44 artış anlamına gelen 1,5 trilyon dolarlık savunma bütçesi talebini onaylama umutlarını yıktı; her iki kanatta çoğunluğu alan Demokratlar bütçeyi engelleyeceklerinin sinyalini veriyor. Temsilciler Meclisi Silahlı Hizmetler Komitesi’nin yeni başkanı Adam Smith, 1 trilyon doları aşan bir savunma bütçesi gerektirmeyen “daha gerçekçi ve sürdürülebilir bir yaklaşımın geliştirilmesi için baskı yapmalıyız” dedi. Direnç Altın Kubbe füze kalkanı ve Trump sınıfı savaş gemisi planlarını tehlikeye atıyor; 11 Aralık’ta süresi dolacak geçici finansman altında 2027 harcama planı da belirsizliğini koruyor.
+
+[Read more](https://www.bloomberght.com/abd-de-demokratlarin-zaferi-1-5-trilyon-dolarlik-savunma-butcesini-riske-soktu-3793889)
+
+---
+
+## bbc.com/turkce
+
+### Türkiye ve Irak'tan ortak açıklama: TSK'nın Başika üssünden çekilme süreci başlayacak
+
+Türkiye ve Irak 8 Kasım’daki ortak açıklamada, Musul yakınlarındaki Başika-Zilikan yerleşkesinin Irak Federal Hükümetine kademeli devri sürecinin başlatılacağını duyurdu; 2015’ten bu yana TSK kontrolündeki üs için “Türk tarafı; liderler düzeyinde varılan mutabakat uyarınca, Başika-Zilikan yerleşkesinin Irak Federal Hükümetine kademeli olarak devrine yönelik üzerine düşen adımları atmaya başlayacağını beyan etmektedir” denildi. PKK’nın Sincar’daki varlığının sona ermesinin denetlenmesi için Ortak Güvenlik Koordinasyon Komitesi’nin faaliyete geçirilmesi kararlaştırıldı. Açıklama, Erdoğan ile Irak Başbakanı Ali Zeydi’nin 23 Eylül’de New York’ta vardığı mutabakattan bu yana sürecin bu ayağında ilk ilerleme oldu; Ankara uzlaşmanın PKK’nın silah bırakma sürecinde kritik önem taşıdığını değerlendiriyor.
+
+[Read more](https://www.bbc.com/turkce/articles/cxnv04p1dvgpo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### Erdoğan'ın Azerbaycan ziyaretinde Aliyev ile 'birlik' mesajı verildi
+
+Cumhurbaşkanı Erdoğan “Karabağ Zaferi” programı kapsamında Bakü’de Azerbaycan Cumhurbaşkanı İlham Aliyev ile bir araya geldi; ziyaret, Eylül 2026’da basına yansıyan ve Aliyev’in 29-30 Ekim’deki Ankara TDT Zirvesi’ne katılmamasıyla süren gerilimin ardından liderler arasındaki ilk temas oldu. Erdoğan ortak basın toplantısında “Türkiye ile Azerbaycan arasındaki münasebetler tarihin türlü imtihanlarından geçerek bugünkü ileri seviyesine ulaşmıştır” dedi ve “Bir millet, iki devlet” vurgusunu yineledi; Aliyev “Türkiye Azerbaycan birliği ebedidir ve sarsılmazdır” dedi. Anlaşmazlık, Azerbaycan’da okul üniformalarının laiklik ilkesine uygun olmasını öngören kıyafet düzenlemesiyle başlamıştı.
+
+[Read more](https://www.bbc.com/turkce/articles/cw1m4dj30e05o?at_medium=RSS&at_campaign=rss)
+
+---
