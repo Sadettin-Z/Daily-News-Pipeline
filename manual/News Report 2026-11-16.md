@@ -1,0 +1,558 @@
+# News Report — 2026-11-16
+
+15 cross-source stories · 44 unique stories
+
+---
+
+## Common News
+
+### 1. After the nationwide ground stop, Trump demands $50bn as Democrats say FAA has funds
+
+US air travel was still disrupted on Sunday, two days after the FAA grounded all flights for about four hours on Friday November 13, the longest nationwide stop since September 11, 2001: FlightAware counted more than 2,300 cancellations and 8,000 delays on Sunday, around 9,000 cancellations in all and some 1.5 million stranded passengers, and Transportation Secretary Sean Duffy said the system would be “fully normal tomorrow”. Duffy blamed faulty work by contractor L3Harris replacing old copper wire with fibre optic at FAA sites in El Dorado, Arkansas and Amarillo, Texas, where a router began sending about 1,000 log-on attempts every four or five seconds and overloaded what he called “an analog telecommunications system”; the routers were sent to an L3Harris lab in Florida, L3Harris said it has completed more than 70% of the conversion, and Homeland Security Secretary Markwayne Mullin said there was no sign of a cyber-attack. Duffy raised his funding request from about $30 billion to $50 billion in emergency money and rejected calls to resign, while Trump broke days of silence to post “give the money, FAST!”, call “the Biden Administration” “an FAA disaster” and say the 50-year-old system must be rebuilt “all at once, not in drips and drabs”. Democrats, who take control of Congress in January, pointed to the $12.5 billion granted last year, $4.75 billion of it for telecoms modernisation, of which about a third has been spent; Reps. Rick Larsen and André Carson asked why more money is needed while funds remain unspent, Rosa DeLauro said the FAA needs “a competent partner at the Department of Transportation”, and Sen. Brian Schatz proposed diverting part of the $60 billion extra for ICE. Duffy said the telecom work can be finished by “the first part of 2029”; the dispute is set to become an early test of a Democratic Congress facing a Republican president.
+
+**Sources:**
+- [cnn.com — Showdown looms between Trump and Democrats over air traffic control meltdown](https://www.cnn.com/2026/11/16/politics/air-traffic-trump-administration-faa-duffy)
+- [cnn.com — As Trump administration implores Congress for additional FAA funding, Democrats say the agency already has it](https://www.cnn.com/2026/11/15/politics/congress-additional-funding-request-faa-duffy)
+- [aljazeera.com — After a nationwide ground stop, US faces aviation infrastructure questions](https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss)
+- [npr.org — Flight disruptions expected to last into Monday](https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday)
+- [lemonde.fr/en — Trump admin warns air travelers of another messy day at US airports](https://www.lemonde.fr/en/international/article/2026/11/15/trump-admin-warns-air-travelers-of-another-messy-day-at-us-airports_6781744_4.html)
+- [sozcu.com.tr — Havacılık tarihinin en büyük krizi yaşanıyor: ABD çaresiz kaldı](https://www.sozcu.com.tr/ucus-tarihinin-en-buyuk-krizi-yasaniyor-abd-caresiz-kaldi-p381721)
+- [bloomberght.com — Trump'tan Kongre'ye: Hava trafik kontrolü için fonu acilen onaylayın](https://www.bloomberght.com/trump-tan-kongre-ye-hava-trafik-kontrolu-icin-fonu-acilen-onaylayin-3794683)
+- [bbc.com/turkce — ABD'de binlerce iç hat uçuşunun iptali ve rötarı devam ediyor](https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 2. Bessent gives Nvidia 10 days on China chips as Musk and 165,000 demand Huang’s return
+
+US Treasury Secretary Scott Bessent said on Fox News on Sunday that Nvidia must explain within 10 days whether it knowingly let its most advanced AI chips reach China through “obvious” shell companies linked to Megaspeed, calling this more important than Jensen Huang’s affair with an alleged Chinese spy (“Jensen’s foibles are his foibles”), and said the company needs “a dramatic shake-up” and should look outside for its next chief; “Nothing above the H200s can be sold to the Chinese,” he said, after Trump authorised H200 sales in late 2025, and he blamed Howard Lutnick’s Commerce Department for not blacklisting Megaspeed although four federal agencies pushed for it. Late Sunday Elon Musk, Epic Games’ Tim Sweeney, Y Combinator’s Garry Tan and Uber co-founder Travis Kalanick were among more than 165,000 signatories of an open letter demanding the board “bring Jensen back while an independent investigation establishes the facts”, with more than 7,500 signatories identifying themselves as Nvidia employees, about 18% of the workforce. The Financial Times reported that Huang, who resigned on Thursday after 33 years at the helm over affairs with Alice Huang, a Nvidia vice president and a third employee, has discussed a return with confidants, and an ally said a “war room” of Silicon Valley executives would lobby the board and the White House; shareholders Altimeter Capital’s Brad Gerstner and Atreides Management’s Gavin Baker urged the board to move “slow, measured and careful” and keep all options open. Lawmakers from both parties want Huang and Nvidia before Congress, and Nvidia reports earnings on Tuesday.
+
+**Sources:**
+- [aljazeera.com — US Treasury chief calls for outsider to lead embattled tech firm Nvidia](https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss)
+- [theguardian.com — Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter](https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo)
+- [lemonde.fr/en — US Treasury Secretary wants answers soon from Nvidia](https://www.lemonde.fr/en/international/article/2026/11/16/us-treasury-secretary-wants-answers-soon-from-nvidia_6781876_4.html)
+- [welt.de — Jensen Huang already talking about a return to the top of Nvidia; 150,000 sign open letter](https://www.welt.de/politik/ausland/article6afa7e409849eea0701e415c/nvidia-jensen-huang-spricht-schon-ueber-rueckkehr-an-spitze-150-000-unterschreiben-offenen-brief.html)
+- [sozcu.com.tr — Elon Musk ve 165 bin iş insanı bu çağrıya imza attı: 'Jensen Huang'ı geri getirin'](https://www.sozcu.com.tr/elon-musk-ve-165-bin-is-insani-bu-cagriya-imza-atti-jensen-huang-i-geri-getirin-p381769)
+- [bloomberght.com — FT: Huang Nvidia’ya dönüşü değerlendiriyor](https://www.bloomberght.com/ft-huang-nvidiaya-donusu-degerlendiriyor-3794690)
+
+---
+
+### 3. Estonia shuts all Russia border crossings after GRU-ordered attack on drone maker
+
+Estonia will close all three of its border crossings with Russia, Narva, Koidula and Luhamaa, from 1 December after an attempted arson attack on Threod Systems, a maker of long-range attack and reconnaissance drones in Viimsi north of Tallinn, overnight Saturday, which Prime Minister Kristen Michal called a “GRU-ordered sabotage attempt”; eight suspects living in Latvia were detained, the Kapo security service said the attack aimed “to cause an explosion and set the building on fire”, and no damage or injuries were reported. Michal said “Russia’s aim is to make us afraid, make us hesitate and weaken our support for Ukraine. Estonia’s response is the opposite,” and Foreign Minister Margus Tsahkna, citing “clear evidence”, said “hostile actions against Estonia come with consequences”, informed his Finnish, Latvian and Lithuanian counterparts and expects further EU sanctions on Russian individuals and entities at Monday’s foreign ministers’ meeting in Brussels. Russian Foreign Ministry spokeswoman Maria Zakharova told TASS that Moscow would verify the plan and would treat it as “another bout of aggressive and unbridled Russophobia”, while Ukrainian Foreign Minister Andrii Sybiha said “Estonia has shown that Russian sabotage can and should have consequences beyond diplomatic condemnation.” It is the second attack on an Estonian defence company blamed on Russia after the August arson attempt at Milrem Robotics; the authorities did not say how long the closure will last.
+
+**Sources:**
+- [cnn.com — Estonia to shut its border with Russia, blaming Moscow for foiled arson plot](https://www.cnn.com/2026/11/15/europe/estonia-close-russian-border-attack-intl)
+- [theguardian.com — Estonia to close all border crossings with Russia after attack on drone maker](https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker)
+- [lemonde.fr/en — Estonia to close Russia border after 'sabotage' bid](https://www.lemonde.fr/en/international/article/2026/11/15/estonia-to-close-russia-border-after-sabotage-bid_6781546_4.html)
+- [welt.de — Estonia closes border with Russia after attempted attack; Moscow to examine ‘unbridled Russophobia’](https://www.welt.de/politik/ausland/video6afa95794495f9bd85b8198a/reaktion-auf-einschuechterung-estland-schliesst-nach-versuchtem-anschlag-grenze-zu-russland-moskau-prueft-zuegellose-russophobie.html)
+- [welt.de — Estonia closes border with Russia after attempted attack; Moscow to examine ‘unbridled Russophobia’](https://www.welt.de/politik/ausland/article6af9d3ea9849eea0701e3c13/reaktion-auf-einschuechterung-estland-schliesst-nach-versuchtem-anschlag-grenze-zu-russland-moskau-prueft-zuegellose-russophobie.html)
+- [sozcu.com.tr — İHA tesisine saldırı Avrupa'yı alarma geçirdi: Tüm sınırlar kapatıldı](https://www.sozcu.com.tr/iha-tesisine-saldiri-avrupa-yi-alarma-gecirdi-tum-sinirlar-kapatildi-p381748)
+
+---
+
+### 4. Megaspeed says Alice Huang left in August 2025, hires lawyers for internal probe
+
+Megaspeed International, the Singapore-based data centre company at the centre of the Nvidia spying scandal and one of Nvidia’s biggest foreign customers with nearly US$5bn of AI chips bought in three years, said on Sunday that Alice Huang “officially left Megaspeed effective August 30, 2025 and currently has no role with the company”, and that it has retained external legal counsel for a thorough internal investigation into claims that it diverted Nvidia chips to China, which it called “not supported by verifiable evidence”. The Washington-based group C4ADS said she remained “practically in control” of the firm after stepping down as director in late 2023, short seller Culper Research quoted an employee in May saying she was “still our boss”, and Singapore said on Thursday she had been barred from re-entering the city state after a 2025 investigation into the company’s “suspected breaches of our domestic laws”; Megaspeed is suspected of giving Chinese firms covert access to Nvidia chips through data centres in Malaysia, Indonesia and Thailand. Reuters reported, citing internal correspondence, that Jensen Huang deceived several Nvidia executives about the nature of the relationship, and the New York Times said he described it as purely business when its reporters asked in September 2025. Congressman John Moolenaar said Huang has agreed to testify behind closed doors before the House Select Committee on China and the Foreign Affairs and Intelligence committees without subpoenas being issued. Nvidia’s board opened an independent investigation on 8 November, Huang then resigned all his posts and CFO Colette Kress became interim CEO.
+
+**Sources:**
+- [bbc.com — Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says](https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss)
+- [aljazeera.com — Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025](https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss)
+- [theguardian.com — Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’](https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang)
+- [welt.de — Alice Huang apparently left Megaspeed in 2025; Nvidia chief said to have deceived employees](https://www.welt.de/politik/ausland/article6af9a8fb4495f9bd85b80e78/affaeren-und-spionageverdacht-alice-huang-hat-megaspeed-offenbar-2025-verlassen-nvidia-chef-soll-mitarbeiter-getaeuscht-haben.html)
+- [bloomberght.com — Megaspeed'den Nvidia çipleriyle ilgili iddialara iç soruşturma](https://www.bloomberght.com/megaspeed-den-nvidia-cipleriyle-ilgili-iddialara-ic-sorusturma-3794682)
+
+---
+
+### 5. Saudi-backed forces quit Bab al-Mandab, leaving the Red Sea strait to the Houthis
+
+Saudi-backed forces of Yemen’s internationally recognised government said on Sunday they were withdrawing “from Dhubab Airport and the Bab al-Mandab area” in western Taiz to defend the interim capital Aden, ending a six-week counteroffensive and leaving the strait at the southern entrance of the Red Sea under the control of the Iran-aligned Houthis, who said they had taken the territory. The Houthis seized the coast in a surprise offensive in September, choking the Saudi oil exports that had been rerouted through the Red Sea since the US-Israel war on Iran effectively closed the Strait of Hormuz, and pushing up global oil prices; Saudi Arabia answered with hundreds of air strikes while the Houthis fired hundreds of drones and missiles at its cities, and the UN estimates nearly 330,000 people have been displaced. Analysts called the retreat a blow to the government and to Saudi Arabia, which has not commented; “The Houthis are very determined to go to Aden,” said Ahmed Nagi of the International Crisis Group. Houthi spokesman Yahya Saree said two drones hit pump stations 5 and 6 of the East-West pipeline near Riyadh on Sunday and that Riyadh airport and its financial centre were targeted; Saudi Arabia did not confirm this but said two Houthi ballistic missiles over Riyadh were intercepted and destroyed.
+
+**Sources:**
+- [nytimes.com — Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control](https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html)
+- [bbc.com — Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway](https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss)
+- [aljazeera.com — Houthis advance in Yemen as government forces move to defend Aden](https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden?traffic_source=rss)
+- [veryansintv.com/direct — Suudi destekli güçler geri çekildi, Husiler Babülmendep’te kontrolü sağladı](https://www.veryansintv.com/suudi-destekli-gucler-geri-cekildi-husiler-babulmendepte-kontrolu-sagladi)
+- [bbc.com/turkce — Yemen hükümet güçleri Babülmendep Boğazı civarından çekiliyor](https://www.bbc.com/turkce/articles/cm4gnznnnxvxo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 6. Iran hits Bahrain with drones again and claims mines sank a supertanker in Hormuz
+
+Iran’s Revolutionary Guards launched six drones on Sunday at a US air defence radar at the Al-Rifaa helicopter base in Bahrain, the second attack in three days and the first on the kingdom in about two months, calling it retaliation for US strikes in southern Iran including on Qeshm Island; Bahrain said its air defences intercepted the drones after sounding missile sirens twice, and the US military had said it shot down two Iranian drones on Friday without damage. The Guards also claimed that two tankers escorted by the US military, which had switched off their transponders, hit sea mines in the Strait of Hormuz, “resulting in massive explosions and fire”, and that an oil supertanker carrying 2m barrels sank; the UK Maritime Trade Operations reported a tanker came under fire with its crew safe, nothing was independently verified, and the US military had recently said it cleared all mines from the main routes. Saudi Arabia, Qatar, Jordan and Egypt condemned the attack, Riyadh calling it “a violation of international law and the principles of good neighborliness” and demanding “an immediate halt to the blatant Iranian attacks on the countries of the region”, while the US Embassy in Bahrain urged Americans to exercise “heightened vigilance”. Foreign ministry spokesman Esmaeil Baghaei said Iran was “not waiting for anyone”, warned the Gulf states “must be careful not to reopen old wounds” and asked how states that “made their airspace, territory and waters available to those who attacked Iranian territory” could seek compensation, after the GCC suggested Iran pay for its attacks. Trump said last week that Washington was no longer seeking a deal and that Gulf states had cautioned him against large-scale strikes; the conflict that began with US and Israeli attacks in February remains at an impasse under a US blockade and Iran’s chokehold on Hormuz.
+
+**Sources:**
+- [nytimes.com — Iran Attacks Bahrain for the Second Time in Days](https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html)
+- [cnn.com — Iran raises stakes with new drone attacks as Trump signals a waiting game](https://www.cnn.com/2026/11/15/middleeast/iran-bahrain-attacks-trump-intl)
+- [theguardian.com — Iran launches drone attacks against US military base in Bahrain](https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain)
+- [theguardian.com — Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened](https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis)
+- [welt.de — Iran reports explosions on oil tankers in the Strait of Hormuz; US military base attacked](https://www.welt.de/politik/ausland/article6af966ad4495f9bd85b80873/nahost-iran-meldet-explosionen-an-oeltankern-in-der-strasse-von-hormus-us-militaerstuetzpunkt-angegriffen.html)
+
+---
+
+### 7. Trump, Şi ve Putin 19 Kasım’da Shenzhen’de ilk üçlü zirvede bir araya geliyor
+
+ABD, Çin ve Rusya liderleri ilk kez düzenlenecek üçlü zirve için 18-19 Kasım’daki APEC zirvesi sırasında Shenzhen’de bir araya gelecek; Beyaz Saray Sözcüsü Olivia Wales 13 Kasım’da görüşmeyi doğruladı, Kremlin de toplantıyı resmen duyurdu. ABD’ye göre ana gündem nükleer silahların azaltılması ve İran savaşı olacak: Rusya ile ABD arasındaki nükleer anlaşmanın şubatta sona ermesiyle yarım yüzyılı aşkın süredir ilk kez iki cephaneliğe yönelik sınırlamalar kalktı, ABD ve Rusya’nın her birinde 5 binden fazla, Çin’de 600’ün üzerinde nükleer silah olduğu tahmin ediliyor ve Trump Çin’i de kapsayan yeni bir anlaşma istiyor; AP’ye konuşan bir ABD’li yetkili anlaşma beklenmediğini ancak toplantının “verimli sonuçlar doğurabilecek bir diyaloğun başlangıcı olabileceğini” söyledi. Ukrayna savaşının gündeme gelip gelmeyeceği belirsiz; Kremlin’in öneri haberleri ekim ortasında çıktığında AB ve Ukrayna’da 1945 Yalta Konferansı benzetmesiyle endişe yaratmıştı ve Zelenskiy “Bunun Yalta İki, Üç ya da Dört olmasını, nüfuzun basitçe yeniden dağıtıldığı bir düzen ortaya çıkmasını kesinlikle istemiyorum” dedi. Trump, ara seçimlerdeki sert yenilginin ve Batı Kanadı’ndaki değişikliklerin ardından otoritesini yeniden tesis etmek için pazartesi Filipinler’e hareket ediyor; ABD’li yetkililere göre Şi ile dördüncü görüşmesinde Jensen Huang casusluk konusunu ve Çin’e çip kısıtlamalarını gündeme getirmeyecek, geziye 445 milyon dolarlık siyasi harcaması Cumhuriyetçi çoğunluğu kurtaramayan Elon Musk da katılıyor. Putin ve Şi 2013’ten bu yana 40’tan fazla, Trump ile Putin yedi kez görüştü.
+
+**Sources:**
+- [cnn.com — How Trump is hoping to use an Asia trip to reassert his authority](https://www.cnn.com/2026/11/16/politics/trump-asia-trip-nvidia)
+- [welt.de — Trump meets Xi and Putin next week in China](https://www.welt.de/politik/ausland/video6af94b4c4495f9bd85b80624/dreier-gipfel-trump-trifft-xi-und-putin-kommende-woche-in-china.html)
+- [sozcu.com.tr — Yeni Yalta konferansı: Trump, Şi ve Putin ilk kez üçlü zirve yapaacak](https://www.sozcu.com.tr/yeni-yalta-konferansi-trump-si-ve-putin-ilk-kez-uclu-zirve-yapaacak-p381758)
+- [bbc.com/turkce — Trump, Şi ve Putin'den tarihi zirve: Dünya için nasıl sonuçlar çıkabilir?](https://www.bbc.com/turkce/articles/cjdx1y7p47ydo?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 8. Yeni Parti kurultayında Özel’in 160 kişilik PM listesi seçildi, Ağbaba ve Tezcan dışarıda kaldı
+
+Yeni Parti’nin “Türkiye Yenileniyor” sloganıyla 14-15 Kasım’da Ankara Spor Salonu’nda düzenlediği 1. Olağan Kurultayı’nda Genel Başkan Özgür Özel’in 160 üyeli Parti Meclisi ve 15 üyeli Yüksek Disiplin Kurulu blok listesi, kayıtlı 1.202 delegeden oy kullanan 1.116’sının 1.098 geçerli oyuyla seçildi; PM üye sayısı 80’den 150’ye, ardından 160’a çıkarıldı ve Politika Geliştirme Grubu 30’dan 40’a genişletildi. PM; 40 üyeli Politika Geliştirme Grubu, 77 kişilik Yasama Grubu ve 43 kişilik Parti Örgüt Grubu’ndan oluştu; Kurucular Kurulu’ndaki 90 milletvekilinden 75’i listeye girerken Meclis Başkanvekili Tekin Bingöl, Grup Başkanvekilleri Murat Emir, Gökhan Günaydın ve Ali Mahir Başarır ile Veli Ağbaba, Bülent Tezcan, Asu Kaya, Mustafa Erdem, Tahsin Ocaklı, Cavit Arı ve Ahmet Vehbi Bakırlıoğlu listede yer almadı, bir bölümünün TBMM Grup Yönetimi’nde görev alabileceği belirtildi. Özgür Karabat, Turan Taşkın Özer, Umut Akdoğan ve Burhanettin Bulut PM’ye yeni girdi; Eğitim İş Genel Başkanı Kadem Özbay, eski TTB Başkanı Sinan Adıyaman, Prof. Dr. Cem Say, Prof. Dr. Mithat Çelikpala ve mutlak butlan kararı sonrası CHP’den ayrılan eski PM üyeleri de listede yer aldı. Ankara Büyükşehir Belediye Başkanı Mansur Yavaş davet edildiği kurultaya katılmadı; gazeteci Deniz Zeyrek’e göre Yavaş “süreci kazasız belasız atlatmak” ve cumhurbaşkanı adaylığını “herkesin adayı” sıfatıyla üstlenmek istiyor, bu Yeni Parti’ye mesafe anlamına gelmiyor; Yavaş Özel’i tebrik ederek “Kurultayın, Türk siyasetine ve demokrasimize hayırlı olmasını temenni ediyorum” dedi.
+
+**Sources:**
+- [sozcu.com.tr — Özgür Özel’in A Takımı belli oldu! PM listesine giremeyen ünlü vekiller dikkat çekti](https://www.sozcu.com.tr/ozgur-ozel-in-a-takimi-belli-oldu-pm-listesine-giremeyen-unlu-vekiller-dikkat-cekti-p381731)
+- [sozcu.com.tr — Mansur Yavaş’ın kurultay kararının perde arkası ortaya çıktı](https://www.sozcu.com.tr/mansur-yavas-in-kurultay-kararinin-perde-arkasi-ortaya-cikti-p381722)
+- [veryansintv.com/direct — Yeni Parti 1. Olağan Kurultayı: Özgür Özel’in listesi belli oldu](https://www.veryansintv.com/yeni-parti-1-olagan-kurultayi-pm-ve-ydk-secimi-icin-oy-kullanma-islemi-basladi)
+- [bbc.com/turkce — Yeni Parti'nin ilk kurultayı: 160 kişiye çıkarılan Parti Meclisi'nde kimler var?](https://www.bbc.com/turkce/articles/cwlylvd3374po?at_medium=RSS&at_campaign=rss)
+
+---
+
+### 9. USS Theodore Roosevelt arrives, putting three US carriers in the Middle East
+
+The aircraft carrier USS Theodore Roosevelt, dispatched in early October, reached the US Central Command area on Sunday, a US official told Al Jazeera and Axios journalist Barak Ravid reported, joining the USS George H.W. Bush and USS George Washington already deployed in the conflict with Iran; Centcom did not immediately comment. It is the first time since April that three US carrier strike groups are in the region at once, giving Washington expanded options for military operations, though it is unclear whether the presence is being permanently reinforced or one carrier is being relieved. Iran warned it could strike first, and its IRGC navy said two oil tankers transiting the southern Strait of Hormuz without its permission struck sea mines and exploded; negotiations between Washington and Tehran on a lasting end to the conflict show no progress.
+
+**Sources:**
+- [aljazeera.com — Iran war live: Third US carrier arrives, Iran warns it could strike first](https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss)
+- [welt.de — Third US aircraft carrier reaches the Middle East](https://www.welt.de/politik/ausland/article6afa85e29849eea0701e4176/konflikt-mit-iran-dritter-us-flugzeugtraeger-erreicht-nahen-osten.html)
+
+---
+
+### 10. Carney courts Asia and warns Canada may turn to Chinese automakers if US talks fail
+
+Canadian Prime Minister Mark Carney said in Cambodia on Monday that Canada could turn to Chinese, European or Japanese automakers if trade negotiations with Donald Trump fail to preserve an integrated North American auto industry, ahead of a meeting with Xi Jinping in Shenzhen this week: “That market has become less integrated because of US trade actions,” he said, adding “It’s not leverage. But action, reaction”, that talks with the US remain his priority and that any Chinese investment must bring substantial manufacturing, labour standards and domestic supply chains including Canadian critical minerals, “not just about kit cars”. Under a January agreement Canada cut its 100% tariff on Chinese electric vehicles to 6.1% for up to 49,000 vehicles a year in exchange for lower Chinese tariffs on canola and other farm products. A year after his first appearance at the ASEAN and APEC meetings as a curiosity, Carney arrives as a marquee attraction after his Davos speech and Trump’s energy security threats, having added a Dublin stop with European leaders and announced that Canada seeks to become the first “associate member” of the EU; Kazuto Suzuki of the University of Tokyo said that “if Canada is to avoid dependence on the U.S. market and form a coalition of middle powers, cooperation with Asia is essential.”
+
+**Sources:**
+- [nytimes.com — A Year On, Canada’s Mark Carney Returns to China a Political Star](https://www.nytimes.com/2026/11/16/world/canada/carney-china-xi-trump-putin-trade.html)
+- [theguardian.com — Canada could work with Chinese automakers if US trade talks fail, says Carney](https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks)
+
+---
+
+### 11. Canary Islands take in record 1,580 migrants in one day, El Hierro overwhelmed
+
+The Canary Islands took in 1,580 migrants in 15 boats on Saturday, the most in a single day since the Canary route began 32 years ago, surpassing the record of 1,461 set on 7 November 2020, according to the Spanish news agency EFE. The small island of El Hierro, where 1,327 people arrived in 13 boats, was overwhelmed, with arrivals sleeping crowded on the floor of the La Estaca port building; one boat with 203 people was taken to Gran Canaria and one with 50 to Tenerife, and 17 people needed hospital treatment. At least 120 women and 173 minors were among the arrivals, who came from Senegal, Gambia and Guinea and had set out six days earlier from Gunjur in Gambia; arrivals continued on Sunday on the Atlantic route, considered especially dangerous, with crossings lasting days or weeks.
+
+**Sources:**
+- [welt.de — 1,580 people in one day: Canary Islands report new record of arriving migrants](https://www.welt.de/politik/ausland/video6afa9a199849eea0701e423e/spanien-1580-menschen-an-einem-tag-kanaren-melden-neuen-rekord-von-ankommenden-migranten.html)
+- [welt.de — 1,580 people in one day: Canary Islands report new record of arriving migrants](https://www.welt.de/politik/ausland/article6af9c3f04495f9bd85b81076/spanien-1580-menschen-an-einem-tag-kanaren-melden-neuen-rekord-von-ankommenden-migranten.html)
+
+---
+
+### 12. Ukraine’s war goes underground as soldiers fight in disused gas pipelines
+
+The war in Ukraine is also being fought underground: in the vast network of disused gas pipelines, Ukrainian and Russian soldiers fight at close quarters under extreme and life-threatening conditions. Soldiers report exclusively to WELT on incredible scenes in the damp, dark tunnels where bodies lie everywhere, and strategists fear this new front against Russia is only the beginning.
+
+**Sources:**
+- [welt.de — ‘It is damp, it is dark, it stinks, bodies lie everywhere’](https://www.welt.de/politik/ausland/plus6af5e106d2f851d14ad018c2/gaspipelines-in-der-todeszone-es-ist-feucht-es-ist-dunkel-es-stinkt-ueberall-liegen-leichen-herum.html)
+- [welt.de — ‘It is hell’: inside Ukraine’s underground war against Putin](https://www.welt.de/politik/ausland/video6af9729c4468a1e3991a2f90/gaspipelines-in-der-todeszone-es-ist-die-hoelle-im-unterirdischen-krieg-der-ukraine-gegen-putin.html)
+
+---
+
+### 13. İran petrolü kesilen Çinli bağımsız rafineriler Irak’a döndü, Mercuria 20 milyon varil sattı
+
+Çin’in bağımsız (“teapot”) rafinerileri, ABD’nin deniz ablukası ve yaklaşık dokuz aydır süren Orta Doğu savaşının İran’dan yaptırımlı petrol sevkiyatını neredeyse tamamen durdurması ve Rus ESPO petrolünün maliyetinin artması üzerine Irak ve diğer alternatif tedarikçilere yöneldi. Irak, Hürmüz Boğazı üzerinden sevkiyatın lojistik riskini üstlenip gemi temin eden alıcılara yüksek indirimler sunuyor; GL Consulting kurucusu Liao Na bunun Basra Körfezi’ndeki diğer tedarikçileri de benzer adımlara teşvik edebileceğini ve arz fazlası piyasada Çinli bağımsız rafinerilerin güçlü talebin sürdüğü az sayıdaki alıcı grubundan biri olduğunu söyledi. Traderlara göre İsviçre merkezli Mercuria son haftalarda Shenghong Petrochemical, Hongrun ve Chambroad dahil en az sekiz rafineriye 20 milyon varile kadar Irak petrolü sattı ve sevkiyatları çoğu Şandong’daki rafineri limanlarına doğrudan yaptı; Vitol da Irak petrolünün Çin’e taşınmasında rol alıyor. Mercuria açıklama yapmayı reddetti, rafineriler yorum taleplerine yanıt vermedi.
+
+**Sources:**
+- [sozcu.com.tr — İran petrolü kesilince Çinli rafinerilerin rotası Irak'a döndü](https://www.sozcu.com.tr/iran-petrolu-kesilince-cinli-rafinerilerin-rotasi-iraka-dondu-p381738)
+- [bloomberght.com — İran petrolü kesilince Çinli rafineriler Irak'a yöneldi](https://www.bloomberght.com/iran-petrolu-kesilince-cinli-rafineriler-irak-a-yoneldi-3794686)
+
+---
+
+### 14. Altın 13 ayın dibine yaklaştı: Fed sıkılaşma beklentisi ve güçlü dolar baskılıyor
+
+Ons altın, geçen haftayı yüzde 5’e yakın düşüşle 3 bin 884 dolardan tamamlayıp haziran ayından bu yana en sert haftalık kaybını yaşadıktan sonra yeni haftada yüzde 1’in üzerinde gerileyerek 3 bin 838 dolara indi; 3 bin 853 dolar son 13 ayın en düşük seviyesi, gram altın sabah 6 bin 273 lira idi. Baskının kaynağı ABD tüketici fiyatlarının üçüncü ay üst üste beklentileri aşmasıyla güçlenen Fed faiz artırımı beklentisi, Fed yetkilisi Christopher Waller’ın enflasyon hızlanırsa yarım puanlık artışı destekleyeceğini söylemesi, Nisan 2025’ten bu yana en yüksek seviye olan 103,44’e çıkan dolar endeksi ve yüzde 5,14’e yakın seyreden ABD 10 yıllık tahvil getirisi; teknoloji hisselerindeki düşüş de yatırımcıları kayıplarını karşılamak için altın satmaya itti. Goldman Sachs 2027 yıl sonu tahminini 4 bin 800 dolardan 4 bin 650 dolara çekerek bir ayda ikinci kez düşürdü ve Fed’in Mart 2027’de de 25 baz puan artırabileceğini öngörüyor; UBS bu çeyrek için tahminini yüzde 10 düşürerek 4 bin 500 dolara indirdi, 2027’nin son çeyreği için 5 bin dolar beklentisini korudu. Yatırımcılar bu hafta Fed’in Ekim toplantı tutanaklarına ve Fed Başkanı Kevin Warsh’un geçen ayki basın toplantısından bu yana ilk açıklamasına odaklanıyor; gümüş yüzde 2,4 düşüşle 47,55 dolara geriledi.
+
+**Sources:**
+- [sozcu.com.tr — Altın korkutuyor! Fiyatlar 1 yılın dibine yakın](https://www.sozcu.com.tr/altin-korkutuyor-fiyatlar-1-yilin-dibine-yakin-p381713)
+- [bloomberght.com — Altında düşüş yüzde 1’i aştı](https://www.bloomberght.com/altinda-dusus-yuzde-1i-asti-3794699)
+
+---
+
+### 15. Şimşek: 119 fonda 444 bin yatırımcıya 161 milyar lira ödendi, manipülasyon cezaları artacak
+
+Hazine ve Maliye Bakanı Mehmet Şimşek, 17 Eylül’de tasfiye kapsamına alınan 7 portföy yönetim şirketine ait 131 fondan 119’unda 444 bin 987 yatırımcıya toplam 161 milyar lira ödendiğini açıkladı: “Öyle bir anlatılıyor ki sanki fonlardaki her şey kayboldu, bir şey ödenmeyecek, böyle bir şey yok.” Olağan tasfiyedeki 97 fonun 94’ünde 55 bin 821 kişiye 68 milyar lira ödenerek süreç yüzde 99,9 tamamlandı, olağanüstü tasfiyedeki 25 fonda 415 bin 955 kişiye 93 milyar lira ödendi ve 456 bin yatırımcının 371 bin 21’i net yatırım tutarının tamamını aldı; ödemelerde bütçeden kaynak kullanılmadı, TMSF nezdindeki iade ve geri kazanım hesabında 35,6 milyar lira birikti. Şimşek, fon piyasalarına yönelik yeni yasa teklifinin yakında Meclis’e gideceğini söyledi: “Özellikle koordineli işlemlerde, fonlar üzerinden yapılan manipülasyonlarda, cezaları örgütlü suç gibi kapsama alıp, artıracağız. Aralık ortasında inanıyorum ki kalıcı reform şekillenmiş olacak”; aralık ortasında G20 için gideceği ABD’de MSCI üst yönetimi ve endişeli yerli ve küresel yatırımcılarla görüşecek. Vergi yapılandırmasının af olmadığını vurgulayan Şimşek, 72 aya kadar taksit, KDV alacağında 36 ay, 10 milyon liraya kadar teminatsız yapılandırma ve 2027 hedefi olan yüzde 21 enflasyonun altında faiz sözü verdi.
+
+**Sources:**
+- [bloomberght.com — Şimşek: MSCI'ın üst yönetimiyle bir araya geleceğiz](https://www.bloomberght.com/simsek-msci-in-ust-yonetimiyle-bir-araya-gelecegiz-3794697)
+- [bloomberght.com — Şimşek, fonlardaki tüm varlıkların kaybolduğu iddialarını reddetti](https://www.bloomberght.com/simsek-fonlardaki-tum-varliklarin-kayboldugu-iddialarini-reddetti-3794678)
+
+---
+
+## nytimes.com
+
+### They Defeated a Strongman. But Can They Run a Country?
+
+Serbia’s student movement, with no leader, no party and decisions taken by raised hands after hours of debate in university classrooms, routed the political machine of Aleksandar Vucic in the general election on Oct. 25, achieving what the established opposition had failed to do for more than a decade. Vucic, nearing the end of his second presidential term and barred from running again, had resigned as president a month before the vote, gambling that his party would win and that he could keep his grip on power as prime minister. The victory of a slate of parliamentary candidates chosen in campus meetings now raises the question whether a leaderless movement of political novices with sometimes contradictory views can build a functioning and durable government.
+
+[Read more](https://www.nytimes.com/2026/11/16/world/europe/serbia-students-vucic-election.html)
+
+---
+
+### Israel Kidnapped Iranian Generals in Hunt for Ron Arad
+
+Israeli intelligence officers posing as movers kidnapped Gen. Abdullah Saberi, a veteran commander of Iran’s Islamic Revolutionary Guards Corps, during a morning jog in the diplomatic quarter of Damascus in September 2021, drugged him, threw a refrigerator box over his head and whisked him to Israel for interrogation, according to numerous officials in the Middle East, including senior Iranian officials close to Saberi and a Syrian official who reviewed video of the abduction. His interrogators wanted only one thing: what he knew about Ron Arad, the Israeli airman who vanished decades ago and whom the Israeli military classifies as its only service member missing in action. Israel took the risk of seizing the general in the shadow of his own embassy four decades after Arad’s disappearance.
+
+[Read more](https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html)
+
+---
+
+## cnn.com
+
+### Army soldier files whistleblower complaint against the Pentagon over Iranian strike that killed 6 US service members
+
+Army Maj. Stephen Ramsbottom, a survivor of the Iranian strike on a makeshift operations center at Kuwait’s Shuaiba port on March 1 that killed six US Army Reserve soldiers, the first US service members killed in the war with Iran, has filed a whistleblower complaint with the House and Senate Armed Services committees alleging the Pentagon ignored warnings about the lack of protection for troops. He called the attack a “tactical failure” by “the Army, our leadership, and myself”, said superiors told him “We don’t have to worry about protection”, and said a promised counter-drone system “never arrived at Shuaiba”; the site had only concrete barriers against car bombs, no sirens, one ambulance and no physician. The complaint comes as Democrats prepare wide-ranging investigations into the administration’s handling of the Iran war when they take control of Congress in January.
+
+[Read more](https://www.cnn.com/2026/11/15/politics/army-soldier-whistleblower-complaint)
+
+---
+
+### Russian diesel under Trump deal struggles to reach US market amid legal fears and criticism
+
+More than a month after President Trump announced on October 9 a deal with Vladimir Putin for Russia to “immediately supply over 300,000 Tons of Diesel Fuel to the American and Global Marketplace”, the diesel has struggled to reach the US market amid outrage from bipartisan lawmakers and European allies and legal concerns over sanctions. The tanker Agioi Fanendes, which left Russia with tens of thousands of barrels and was expected in New York and New Jersey around November 7, was hovering hundreds of miles off the US coast on Sunday broadcasting “FOR ORDERS”, while other tankers from Primorsk, including the Talisman, which docked in Alexandria, Egypt, and the Leruo, now heading to Brazil, shifted away from the US; both are under European and British sanctions and the Talisman is also sanctioned in the US. A White House official said the diesel “is on the water and heading to the market, which will ease prices for Americans”, without saying it was heading to the US.
+
+[Read more](https://www.cnn.com/2026/11/15/politics/russia-diesel-trump-deal-oil-tankers)
+
+---
+
+### Israel kills senior Hamas commander in Gaza two months after killing his predecessor as ceasefire stagnates
+
+Israel killed Samir Mahmoud Abu Younis, commander of Hamas’ Rafah Brigade, in a strike in southern Gaza overnight Saturday, two months after killing his predecessor Nael Abu Obeid, a sign that the conflict remains active despite the US-brokered ceasefire in place for more than a year. Hamas’ Al-Qassam Brigades said Abu Younis joined the brigade in 1991 and was “among the most prominent commanders who participated in planning and overseeing” the October 7, 2023 attack; Defense Minister Israel Katz said “another one joins his predecessors in the depths of hell” and that the offensive policy will continue “until Gaza is demilitarized and there is no Hamas”. Hamas quickly replaces killed commanders and entrenches its grip on the half of Gaza not occupied by Israel, while the Trump administration’s Board of Peace remains sidelined on the 20-point plan: the Palestinian technocratic committee has yet to enter Gaza and the international security force has yet to materialize. An Israeli strike on Nasser Hospital in Khan Younis last week killed at least six people, including Dr. Rizk Abu Shaira and a 13-year-old boy awaiting surgery, according to Palestinian officials.
+
+[Read more](https://www.cnn.com/2026/11/15/middleeast/israel-kills-hamas-commander-gaza-intl)
+
+---
+
+### Jensen Huang resigned in disgrace from Nvidia. Many in Silicon Valley are still showering him with support
+
+Jensen Huang resigned as Nvidia’s chief executive on Thursday after reports of multiple extramarital affairs, including with at least one subordinate, having already been under scrutiny over an affair with a woman US officials described as a potential Chinese intelligence asset; CFO Colette Kress is interim leader. Current and former employees responded with tributes on social media: director Edward Liu called it “a heartbreaking day”, engineer Fei Peng wrote that the departure “has killed NVIDIA’s soul”, and research scientist Gavin Woolery said the ousting came too quickly before all the information emerged, while vice president Bryan Catanzaro said he fully supports the board and Kress. Nvidia, often called the “central bank” of the AI industry, supplied the hardware and financed much of the sector through investments and partnerships, drawing criticism and fears of “circular financing” in which companies use Nvidia capital to buy Nvidia products.
+
+[Read more](https://www.cnn.com/2026/11/15/business/jensen-huang-resigned-nvidia-support)
+
+---
+
+### Lutnick under fire: How Trump’s commerce secretary cultivated Nvidia’s CEO while chip controls slipped
+
+Commerce Secretary Howard Lutnick is under intense scrutiny after Jensen Huang’s resignation from Nvidia, with some Trump advisers discussing whether he should be dismissed over what they see as inaction on limiting US chip exports to China and his role in cultivating Huang as a top administration ally, according to more than a dozen sources inside the administration and the tech industry. Other officials accuse Lutnick of bucking internal consensus and Trump’s own directives by failing to blacklist an Nvidia customer suspected of funneling chips to China; Huang recalled on Joe Rogan’s podcast that Lutnick had called him and the company “a national treasure” and told him “whenever you need the president, call us.” The questions, and a fresh push to limit sales of advanced chips to China, are likely to persist as Trump meets Xi Jinping in Shenzhen next week, though US officials said Trump is not expected to raise the alleged spying and China would have no say in whether Washington tightens restrictions.
+
+[Read more](https://www.cnn.com/2026/11/15/politics/lutnick-jensen-alice-huang-trump-nvidia)
+
+---
+
+### Europe scrambles to respond to wave of bomb threats disrupting transport, media and schools
+
+An unprecedented wave of bomb threats across Europe, mainly sent by email and so far all false, has hit multiple media broadcasters, more than 50 flights, thousands of schools and at least one cruise ship, leaving authorities struggling to respond while it remains unclear who is behind them. Responses varied by country, with some diverting flights and others, such as Hungary and France, scrambling fighter jets to escort passenger planes, and analysts say the hoaxes expose the vulnerability of Europe’s infrastructure to anonymous messages and the need for a bloc-wide framework. Wizz Air chief executive József Váradi said he had met European Commission officials to push for a coordinated response and a possible central body, calling it “a very hot potato because of the sovereign nation state concept”, and Chatham House’s Grégoire Roos said each country is responding with “its own toolbox and standards” and proposed a Europe-wide threat assessment standard.
+
+[Read more](https://www.cnn.com/2026/11/15/europe/europe-bomb-threats-response-intl)
+
+---
+
+## bbc.com
+
+### Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'
+
+President Volodymyr Zelensky said on Sunday that speed restrictions on Starshield, the military-grade service developed by Elon Musk’s Starlink and provided to Ukraine by the US government, remain in place along the front line and in occupied territories and are hampering Ukraine’s defence: “Our interceptor drones lose connection with their operators at a speed of 161km/h (100mph) and simply cannot catch up with Russian jet-powered ‘shaheds’,” he wrote, adding “It is important to be on the right side of history.” He said the protection of lives and energy infrastructure ahead of winter “directly depends” on the restrictions being lifted and argued that limits applied only in occupied areas amount to “partially recognising the temporary occupied territories as not ours”. The issue, first identified in October, produced conflicting accounts, with Musk saying the US government controlled Starshield and Trump denying responsibility, and it coincided with a stand-off over Ukrainian strikes on Russian oil refineries that Trump said pushed global prices higher; Ukraine also faces a shortage of US-made Patriot interceptors.
+
+[Read more](https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss)
+
+---
+
+## aljazeera.com
+
+### US and rivals spar over next UN boss as race lurches towards deadline
+
+The race to replace UN Secretary-General Antonio Guterres, who must leave office on December 31, is heading into its final weeks with eight candidates, secret polls and rivalries among the five veto-holding permanent members of the Security Council, raising fears that for the first time the new year could begin without a leader at the UN. The late entry of Emirati diplomat Lana Nusseibeh and Turkish nominee Feridun Sinirlioglu has split the race further, with no name yet overcoming opposition from all five permanent members. Georgina Holmes of the Open University called the contest a “struggle over who will exercise political influence within the UN at a time when multilateralism is under considerable pressure and attack”, noting that “P5 member states are not as politically aligned as they have been in previous eras”; the UN has been sidelined from the Iran and Ukraine conflicts, faces blistering criticism from President Trump and is in a financial crisis.
+
+[Read more](https://www.aljazeera.com/news/2026/11/16/us-and-rivals-spar-over-next-un-boss-as-race-lurches-towards-deadline?traffic_source=rss)
+
+---
+
+### Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’
+
+Iraq’s Iran-aligned Kataib Hezbollah denied involvement in oil smuggling in the Jurf al-Nasr area on Sunday, accusing Prime Minister Ali al-Zaidi’s office of “fabricating lies” and calling the anticorruption probe “the largest blackmail operation” to force its disarmament, a day after al-Zaidi sacked nine senior officials, including security and intelligence officers in Babil province, an Interior Ministry commander and the director of the Oil Pipelines Company. The government said an investigation committee chaired by al-Zaidi confirmed smuggling on the basis of “intelligence documents” with satellite images of operations in the faction’s stronghold and referred those implicated to the judiciary. Baghdad is under growing US pressure to rein in Iran-aligned groups; al-Zaidi has promised that non-state armed groups will hand their weapons to the state, while Kataib Hezbollah pledges to keep its arsenal and accuses him of caving to the US, Saudi Arabia and the UAE.
+
+[Read more](https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss)
+
+---
+
+### Indonesian president apologises to Singapore, Malaysia for wildfire haze
+
+Indonesian President Prabowo Subianto apologised to Singapore and Malaysia at the ASEAN summit in Manila on Sunday for months of transboundary haze from Indonesia’s most intense wildfires in 11 years: “I would like to apologise to my neighbouring countries Malaysia and Singapore when we had a very big forest fire, which took nearly four months for us to control.” He said Indonesia had revoked 17 concessions, charged 11 companies with 23 more to be charged and 104 under police investigation, deployed 71,000 forest firefighters and lost 16 people fighting the blazes, and is preparing a new body for wildfire prevention. Philippine Foreign Minister Theresa Lazaro said Jakarta was “very frank and candid” about its efforts; Malaysia and Singapore refrained from criticism and offered assistance.
+
+[Read more](https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss)
+
+---
+
+### ASEAN, China fall short of agreeing on South China Sea code
+
+China and ASEAN failed to conclude their two-decade negotiations on a code of conduct for the South China Sea at meetings in Manila despite tentative agreement on about 80 percent of a draft, Philippine Foreign Minister Theresa Lazaro said on Sunday: “There is no conclusion yet,” with key issues unresolved, including whether the code would be legally binding. The Philippines, as chair, had pledged a deal by the end of this year; Lazaro hoped it could be concluded under Singapore’s chairmanship next year. China claims most of the sea, overlapping the exclusive economic zones of Brunei, Indonesia, Malaysia, the Philippines and Vietnam, and rejects the 2016 arbitration ruling against its claims; separately, ASEAN extended its ban on Myanmar’s leader attending summits for failing to comply with the 2021 peace plan.
+
+[Read more](https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code?traffic_source=rss)
+
+---
+
+### Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling
+
+Israeli opposition leader Gadi Eisenkot, tasked with forming the new government, said on Sunday that Benjamin Netanyahu cannot “remain at the helm of government for even one more minute” and that his conduct “poses a tangible, direct and immediate threat to Israeli democracy”, after Channel 12 reported that Netanyahu’s chief of staff Ido Norden lodged a police complaint against members of the United Arab List (Ra’am) on the eve of the October 27 election, leading about 14 officers to raid the homes of three Ra’am members without a warrant and arrest them on bribery suspicions later found unfounded. The report also alleged that Shin Bet chief David Zini asked the attorney general’s office to wiretap five Palestinian-Israeli Knesset members on election day, a request that was rejected; Arab-led parties won a record 19 seats and Netanyahu made unproven fraud accusations. Eisenkot called for an immediate investigation, Likud called his statement “outrageous incitement”, and the attack came hours after representatives of the two men met on a possible national unity government, an appeal Eisenkot had called a “bluff”.
+
+[Read more](https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling?traffic_source=rss)
+
+---
+
+### Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza
+
+The foreign ministers of Australia, Canada, Italy and the United Kingdom urged Israel in a joint statement on Sunday to “stop the delays now and allow immediate, rapid and unimpeded humanitarian access throughout Gaza”, saying recent floods have “brought further suffering” and that “150,000 tents and other vital supplies are being held at the border and prevented from entering Gaza”. Heavy rain this month swept away tens of thousands of tents; the UN says more than 1.9 million people are displaced, and the Global Shelter Cluster estimated as of November 1 that Gaza needs at least 1.7 million mattresses and 121,000 tents for the winter. The statement, which said “This situation is entirely reversible” and “there is still time to act before the winter fully sets in”, follows a similar appeal by the UN’s Humanitarian Country Team on Friday.
+
+[Read more](https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss)
+
+---
+
+### Yemen’s Houthis unilaterally release 600 war detainees
+
+Yemen’s Houthis released 600 people imprisoned during the civil war, saying the move brings the total freed through their unilateral amnesty initiatives to 2,612. The ICRC said the operation was separate from negotiated prisoner-exchange agreements.
+
+[Read more](https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss)
+
+---
+
+## npr.org
+
+### Midterm voters ended the long-running GOP dominance in state legislatures
+
+The midterm elections ended the Republican dominance of US state legislatures that began in 2010: Pennsylvania elected a Democratic state Senate majority for the first time since Jimmy Carter was president, Democrats will run the Texas House for the first time in 24 years and the Georgia House for the first time in more than 20 years. Republicans controlled legislatures in 28 states and Democrats 18 before the vote; with some votes still being counted, Democrats look likely to hold a 24-to-22 lead, having picked up seats in nearly every state that held legislative elections, including Texas, Utah and Florida, and gained six new “trifectas”, among them Arizona for the first time since 1966. The Republican State Legislative Committee blamed the national anti-incumbent mood and heavy Democratic spending, while Heather Williams of the Democratic Legislative Campaign Committee said the wins “proved what is possible when you put statehouses at the center of a national strategy”.
+
+[Read more](https://www.npr.org/2026/11/15/nx-s1-6039175/midterms-legislatures-states-democrats-gop)
+
+---
+
+## theguardian.com
+
+### UK exposed to polycrisis of threats amid government ‘complacency’
+
+A House of Lords national resilience committee report, written after months of expert hearings, finds ministers complacent in the face of fast-changing and interconnected threats to the UK, from cyber-attacks, proxy violence and strikes on undersea cables to extreme weather and flooding, and says the country is underprepared for a “polycrisis” of several disruptions blending into one another, especially as AI “supercharges” the risk from cyber-attacks. It calls for a dedicated cabinet minister, an annual statement to parliament by the prime minister on preparedness, a booklet to every household on the model of Denmark and Sweden, and a pause to plans to switch off the digital terrestrial TV signal; “the government appears complacent and the UK is underprepared. We need to move fast to turn things around,” the committee warned. It highlights medicines and food as particular vulnerabilities, noting that about 90% of the world’s 6-APA, the basis of penicillin-type antibiotics, comes from China.
+
+[Read more](https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency)
+
+---
+
+### Weakening UK electric vehicle targets would hurt car industry, ministers told
+
+The UK’s Climate Change Committee will write to ministers on Wednesday about the effects of changing the zero emissions vehicle mandate, which requires 80% of new car sales to be electric from 2030 and 100% from 2035, after reports that Labour is poised to reduce the targets; campaigners and experts say weakening them would hurt the car industry and consumers. Filling a petrol car can cost more than £100 while an electric vehicle can be fully charged for less than £10, and Greenpeace UK’s Ami McCarthy said “Watering down the current sales targets for EVs would be like driving with the handbrake on”, citing the prime minister’s speech to the COP31 summit on Thursday calling on industry to play its part. Carmakers say the targets are too onerous and force heavy discounting; the committee’s chair Nigel Topping has long advocated electric vehicles.
+
+[Read more](https://www.theguardian.com/environment/2026/nov/16/weakening-uk-electric-vehicle-targets-would-hurt-car-industry-ministers-told)
+
+---
+
+### Special needs overhaul in England could bring in new avenues for extra support
+
+The UK government is considering major concessions to its overhaul of special needs education in England, with two independent appeal routes under consideration for families dissatisfied with the support their child’s school offers, after campaigners and parents’ groups criticised the reforms for watering down legal protections. The white paper published in February replaces education, health and care plans (EHCPs) with school-managed individual support plans (ISPs) and restricts appeals to the independent first-tier Send tribunal, leaving complaints to be handled by each child’s school. The options are an appeal to the local government and social care ombudsman or to an independent review panel modelled on school exclusion panels; Education Secretary Lucy Powell told MPs to “wait and see”, hinting that changes to the appeals process were “a key part of what we are looking at”.
+
+[Read more](https://www.theguardian.com/education/2026/nov/16/families-rights-appeal-support-send-overhaul-england)
+
+---
+
+### Will Spain’s snap election in November bring a far-right party into government?
+
+Spaniards vote on 29 November in the country’s sixth general election in 11 years. The snap election could end eight years of socialist-led rule and bring a far-right party into government for the first time since Spain’s return to democracy after the death of Gen Franco.
+
+[Read more](https://www.theguardian.com/world/2026/nov/16/will-spains-snap-election-in-november-bring-a-far-right-party-into-government)
+
+---
+
+## lemonde.fr/en
+
+### 'French Fractures' survey: Amid polarized political landscape, people no longer see elections as a solution
+
+The latest “French Fractures” survey, conducted by Ipsos BVA-CESI Engineering School for Le Monde with the Sciences Po Center for Political Research (CEVIPOF), the Jean Jaurès Fondation and the Montaigne Institute among about 3,000 people, finds five months before the 2027 presidential election that only a minority of French people believe the vote will bring solutions, while respondents are united in their pride in being French yet convinced their divisions outweigh what unites them. Amid what the paper calls an unprecedented purchasing power crisis, respondents ranked that concern above all others, ahead of crime, debt, immigration and environmental protection, its score up 11 percentage points from 2025; the survey has tracked the values and political mood of the French every year since 2013.
+
+[Read more](https://www.lemonde.fr/en/politics/article/2026/11/15/french-fractures-survey-amid-polarized-political-landscape-people-no-longer-see-elections-as-a-solution_6781579_5.html)
+
+---
+
+### COP31: Thousands in Antalya protest environmental damage: 'We no longer believe in those who lead us'
+
+Nearly 10,000 people marched peacefully in downtown Antalya on Saturday, November 14, in the People’s Climate March on the sidelines of COP31, behind a banner in Turkish reading “Against COP31, we defend life!”, a demonstration that stood out for its scale in a country where the space for environmental and political protest is narrow, though far smaller than the tens of thousands at COP30 in Belém a year earlier. Major NGOs such as Greenpeace, 350.org, Fridays for Future and the Climate Action Network marched alongside Palestinian, feminist, antiwar and antinuclear groups, a handful of far-left activists backing a Turkish-Greek peace initiative, trade unions and Turkish opposition parties including the Left Party and the pro-Kurdish DEM, whose co-chair, lawmaker Tülay Hatimogullari, marched among her supporters.
+
+[Read more](https://www.lemonde.fr/en/environment/article/2026/11/15/cop31-thousands-in-antalya-protest-environmental-damage-we-no-longer-believe-in-those-who-lead-us_6781315_114.html)
+
+---
+
+### November 14 demonstrations: In both Paris and Lyon, diverse but determined crowds take to the streets
+
+Demonstrations across France on Saturday, November 14, brought together demands ranging from protecting children and raising wages to more resources for education, continuing high school blockades and protesting police violence; the Interior Ministry counted 106,000 marchers, including 24,000 in Paris, a sharp drop from previous weeks, across 137 “public demonstrations”, while the youth coalition of student unions (Union étudiante, USL, FAGE, UNEF) claimed 200,000 nationwide and nearly 100,000 in the capital. In Paris, eight organisations led the march from Place de la République behind the banner “From birth to death, justice, peace, dignity”, with signs reading “Hey [Prime Minister Sébastien] Lecornu, you’re missing the mark” and “SOS cost of living”.
+
+[Read more](https://www.lemonde.fr/en/france/article/2026/11/15/november-14-demonstrations-in-both-paris-and-lyon-diverse-but-determined-crowds-take-to-the-streets_6781282_7.html)
+
+---
+
+## welt.de
+
+### ‘We ask ourselves whether we still live in a democracy’
+
+At an opposition rally on New Delhi’s Ramlila Maidan, Rahul Gandhi called the alleged “vote theft” a “betrayal” and said the man responsible, chief election commissioner Gyanesh Kumar, would go to prison for it: in a nationwide revision of the voter rolls the Election Commission struck about 130 million names, more people than live in Germany, and the opposition accuses it of acting for Modi’s Hindu nationalist BJP. India’s young generation has been on the streets since May, after the chief justice compared unemployed young people to cockroaches and political consultant Abhijeet Dipke founded the satirical “Cockroach Janta Party”, which has more than 25 million Instagram followers, more than twice the BJP’s; in July the movement forced the education minister’s resignation over leaked exam questions, and nearly 40 percent of Indian graduates under 25 are unemployed.
+
+[Read more](https://www.welt.de/politik/ausland/article6ae98d01e54274d5b379d352/proteste-in-indien-wir-fragen-uns-ob-wir-noch-in-einer-demokratie-leben.html)
+
+---
+
+### Three dead in Russian attacks on Ukrainian cities
+
+At least three people were killed and more than 30 injured in Russian attacks on Ukrainian cities; in Zaporizhzhia at least 22 people were injured, including three children, according to the regional military administration.
+
+[Read more](https://www.welt.de/politik/ausland/video6af94b794495f9bd85b8062a/ueber-30-verletzte-drei-tote-bei-russischen-angriffen-uaf-ukainische-staedte.html)
+
+---
+
+## sozcu.com.tr
+
+### İstanbul'un göbeğinde 7,4 ton birden yayılıyor: Evlerin içine kadar girmeye başladı
+
+DW Türkçe’nin aktardığı uydu izleme verilerine göre İstanbul Silivri’deki Seymen Atık Bertaraf Tesisi’nden zirve dönemlerde saatte ortalama 7,4 ton metan gazı salındığı ölçüldü; katı atık sahası kaynaklı noktasal emisyon yoğunluğunda Türkiye dünya genelinde 5’inci sırada yer alıyor ve Seymen sahası dünyada en fazla metan salan çöp sahalarından biri olarak gösteriliyor. Ağır çöp kokusu rüzgârla yerleşim alanlarına taşınıp evlerin içine sızıyor; bölge sakinleri gece yarısı uyandıklarını ve pencerelerini açamadıklarını söylüyor. Uzmanlar yanıcı ve sıkıştığında patlama riski taşıyan metanın insan sağlığı için ciddi tehdit oluşturduğunu belirterek sahadaki gaz toplama ve bertaraf sistemlerinin sıkı denetlenmesini bekliyor.
+
+[Read more](https://www.sozcu.com.tr/istanbul-un-gobeginde-7-4-ton-birden-yayiliyor-evlerin-icine-kadar-girmeye-basladi-p381761)
+
+---
+
+### Türkiye'den sonra NATO zirvesinin yapılacağı ülke belli oldu
+
+Bir NATO yetkilisi, 2026’da Türkiye’de yapılacak zirvenin ardından bir sonraki NATO zirvesinin Arnavutluk’ta düzenleneceğini teyit etti, ancak tarihin henüz netleşmediğini bildirdi; Arnavutluk Başbakanı Edi Rama zirvenin Tiran’da yapılabileceğini belirterek 2027 yerine 2028’e işaret etti. 25 Haziran 2025’teki Lahey Zirvesi bildirisinde liderlerin Türkiye’nin ardından Arnavutluk’ta buluşma kararı kayda geçmiş ancak tarih verilmemişti. Diplomatik kaynaklara göre ABD yönetimi, NATO liderler zirvelerinin her yıl düzenlenmesi geleneğine son verilip toplantıların iki yılda bir yapılmasını talep ediyor ve İttifak bünyesinde bu yönde girişimlerde bulunuyor.
+
+[Read more](https://www.sozcu.com.tr/turkiye-den-sonra-nato-zirvesinin-yapilacagi-ulke-belli-oldu-p381757)
+
+---
+
+### AKP'de "uyuyan hücreler" kavgası
+
+AKP’de fon krizine ilişkin tartışmalar “uyuyan hücreler” çıkışıyla yeni bir boyut kazandı: AKP Trabzon Milletvekili Vehbi Koç, Trabzon İl Danışma Meclisi’nde ülke terör belasından kurtulup ekonomik dönüşüme hazırlanırken örgütlü ve mali operasyonlar yapılmasının tesadüf olmadığını söyleyerek “Bunları kim yaptırdı? Bunlar uyuyan hücreler mi? Bunu anlamamız lazım” dedi. AKP eski Gaziantep Milletvekili Şamil Tayyar ise teşkilat toplantılarında “uyuyan hücrelerin” harekete geçmesinden söz edilmesine salondakilerin bile homurtuyla karşılık verdiğini belirterek “Yapmayın, Alfred Hitchcock’a rahmet okutmayın. Ne uyuyan hücresi? Uyuyan biziz. Referans alacağınız kişi Cumhurbaşkanı Recep Tayyip Erdoğan” diye tepki gösterdi. Tayyar, fon krizinde parti içinde ortak bir söylem geliştirilmesi ve sürecin şeffaf yönetilmesi gerektiğini daha önce de dile getirdiğini, Türkiye’nin farklı bölgelerinden kendisine çok sayıda konuşma kaydı gönderildiğini aktardı.
+
+[Read more](https://www.sozcu.com.tr/akp-de-uyuyan-hucreler-kavgasi-p381753)
+
+---
+
+### Ankara kulislerinde emeklileri yıkan zam söylentileri
+
+Türkiye’de 20 milyonu aşkın memur ve emeklinin beklediği ocak ayı maaş düzenlemesinde, Sosyal Güvenlik Başuzmanı İsa Karakaş’ın aktardığı kulis bilgilerine göre tüm emeklilere 10 bin ila 15 bin TL seyyanen zam formülü, SGK bütçe verilerine göre ek bütçe olmadan yıl boyu karşılanamayacağı tespit edildiği için rafa kalktı. Ankara’da konuşulan en güçlü senaryo yasal enflasyon oranlarına yüzde 5 ila 15 arasında refah payı eklenmesi; açlık sınırının 38 bin TL’yi aştığı ve yılbaşında 40 bin TL’nin üzerine çıkacağı öngörülürken yüzde 15 refah payının bile emekliyi rahatlatmayacağı belirtiliyor. TÜİK verileriyle temmuz-ekim dört aylık enflasyon yüzde 8,28’e ulaştı; yıl sonu enflasyonunun yüzde 30 bandında gerçekleşmesi halinde SSK ve Bağ-Kur emeklisine yüzde 9,5-10,5, memur ve memur emeklisine yüzde 7,5-8,5 artış hesaplanıyor; Hazine ve Maliye Bakanı Mehmet Şimşek’in “Enflasyonun altında artış yapılmayacak” sözü hatırlatılıyor.
+
+[Read more](https://www.sozcu.com.tr/ankara-kulislerinde-emeklileri-yikan-zam-soylentileri-p381740)
+
+---
+
+### Konaklama platformlarında yeni kurallar: 5 milyon TL şartı geliyor
+
+Yabancı dijital konaklama platformlarının Türkiye’de faaliyet göstermek için Kültür ve Turizm Bakanlığından 5 milyon lira karşılığında iki yıl geçerli izin belgesi almasını öngören kanun teklifi bu hafta TBMM Genel Kurulu’nda görüşülecek; komisyondan geçen teklife göre platformların dijital hizmet vergisi mükellefi olması, Türkiye’de yerleşik Türk vatandaşı bir temsilci belirlemesi gerekecek ve uyuşmazlıklarda Türk hukuku ile Türk mahkemeleri yetkili olacak. Yurt içi satışlarda hizmet bedeli vergiler hariç yüzde 17’yi geçemeyecek, platformlar Türkiye Turizm Tanıtım ve Geliştirme Ajansına on binde 7,5 turizm payı ödeyecek ve yalnızca belgeli tesisler ile izinli turizm amaçlı konutların satışını yapabilecek. Yükümlülüklere aykırılıkta 200 bin ila 500 bin lira, eksik hizmette sözleşme başına 50 bin ila 100 bin lira ceza, yüzde 17 sınırının aşılmasında haksız alınan tutarın 10 katı ceza öngörülüyor; tekrarında izin belgesi iptal edilecek, izinsiz faaliyette erişim engeli uygulanacak.
+
+[Read more](https://www.sozcu.com.tr/konaklama-platformlarinda-yeni-kurallar-5-milyon-tl-sarti-geliyor-p381727)
+
+---
+
+### Türkiye'deki milyonlarca telefon 1 ay sonra kullanıma kapatılacak
+
+BTK’nın 2024’te yürürlüğe koyduğu düzenleme uyarınca, 1 Ocak 2026’dan bu yana mobil operatörlerden hiçbir sinyal almayan cep telefonlarının IMEI numaraları 31 Aralık 2026 gecesi itibarıyla otomatik olarak kapatılacak ve iletişime engellenecek; çekmecede yedek bekletilen milyonlarca telefon bu kapsamda. Cihazı şarja takmak veya Wi-Fi’a bağlamak yetmiyor; yıl sonuna kadar aktif bir SIM kart takılıp şebeke sinyali alınması ve kısa bir arama, SMS ya da mobil veri kullanımı gerekiyor. Askıya alınan cihazlar e-Devlet’teki “IMEI - Cep Telefonu Sinyal Alınamayan Cihaz Başvurusu” hizmetiyle sahiplik doğrulanarak yeniden açılabiliyor, ancak faturası bulunmayan ikinci el telefonlarda başvuru olumsuz sonuçlanabiliyor.
+
+[Read more](https://www.sozcu.com.tr/turkiye-deki-milyonlarca-telefon-1-ay-sonra-kullanima-kapatilacak-p381723)
+
+---
+
+### Foncular çözülmeye başladı: Herkes birbirini satıyor
+
+Fon soruşturmasında tutuklu Tera Portföy Yönetim Kurulu Başkanı Erdin Özel’in savcılığa ek ifade verdiği ve belirli miktarda parayı iade ettiği, ancak tutukluluğunun sürdüğü öne sürüldü; Sözcü yazarı İsmail Saymaz’ın gündeme taşıdığı iddialara göre Türkiye Sigorta ve Türkiye Hayat Emeklilik bağlantılı tahviller Tera grubunun finansman işlemlerinde teminat olarak kullanılıp bunlar üzerinden Tera Bank’tan kredi çekildi ve kaynak fonlardaki hisse işlemlerinde değerlendirildi; kayıpların ardından tutuklu yönetici Taha Çakmak’ın tahvillerin iadesini istediği ileri sürüldü. İfadeye dayandırılan iddialarda Borsa İstanbul ve Türkiye Varlık Fonu yönetiminde görev aldığı belirtilen Erişah Arıcan’ın Emre Tezmen’in Merkezi Kayıt Kuruluşu yönetimine aday gösterilmesinde rol oynadığı, Tezmen’e “Siz yerli ve millisiniz” dediği ve Tezmen’in “Ekonominin başına gelirsem neler yapacağımı tüm Türkiye görecek” ifadesini kullandığı öne sürüldü.
+
+[Read more](https://www.sozcu.com.tr/foncular-cozulmeye-basladi-herkes-birbirini-satiyor-p381717)
+
+---
+
+### Bulgaristan'dan vize randevusu planı: Dört ile 8 yeni konsolos
+
+Bulgaristan, Türkiye’den yapılan Schengen vizesi başvurularındaki uzun bekleme ve randevu sorunlarını azaltmak için İstanbul, Ankara, Edirne ve Bursa’daki konsolosluk birimlerine 2026 bitmeden göreve başlayacak 8 yeni konsolos atayacak; Dışişleri Bakanı Velislava Petrova planı İstanbul Başkonsolosluğu ziyaretinin ardından açıkladı, 2025’te yalnızca İstanbul’a yaklaşık 40 bin başvuru yapıldı. Randevuların merkezi bir elektronik sistem üzerinden dağıtılması için ikinci düzenlemenin 2027 ortasına kadar devreye alınması planlanıyor; yeni adımlar vizesiz seyahat veya otomatik onay sağlamayacak. Görüşmelerde Türk TIR şoförlerinin 180 günde 90 gün kalış sınırı da ele alındı ve ekim sonunda sınır kapılarında uzun kuyruklara yol açan sorun için 90 günü dolduran sürücülerin taşımacılığı sürdürebilmesine yönelik kısa vadeli bir istisna üzerinde uzlaşıldığı belirtildi.
+
+[Read more](https://www.sozcu.com.tr/bulgaristandan-vize-randevusu-plani-dort-ile-8-yeni-konsolos-p381708)
+
+---
+
+## bloomberght.com
+
+### Küresel piyasalarda satış dalgası
+
+Küresel piyasalar yeni haftaya teknoloji hisseleri öncülüğünde satış baskısıyla başladı: Cuma günü Wall Street’te çip hisseleri endeksi yüzde 3,4 düştü, Nvidia hisseleri Jensen Huang’ın görevden ayrılmasının ardından şirketin geleceğine ilişkin belirsizlik ve Çin’e çip satışlarına yönelik artan hukuki incelemelerle haftalık yüzde 13 değer kaybederek Nisan 2025’ten bu yana en kötü performansını gösterdi; Nasdaq 100 yüzde 1,2, S&P 500 yüzde 0,4 geriledi, Bitcoin 70 bin doların altına indi. Asya’da TSİ 07.39’da MSCI Asya Pasifik Endeksi yüzde 1,6 düştü, Tayvan ve Güney Kore borsalarında kayıplar en az yüzde 3’e ulaştı ve Asya teknoloji göstergesi yüzde 5’in üzerinde düşerek 6 Kasım’dan bu yana en sert gerilemesini kaydetti; Çin’de ekimde tüketim ve sanayi üretiminin beklentilerin altında kalması, yatırımlardaki daralmanın derinleşmesi ve Japonya ekonomisinin bir yılın ardından ilk kez daralması satışları besledi. ABD’de ekimde üretici fiyatları yıllık bazda 2022’den bu yana en hızlı artışı kaydetmesine karşın beklentilerin biraz altında kalarak aralıkta 50 baz puanlık faiz artırımı fiyatlamasını azalttı; ABD 10 yıllık tahvil getirisi geçen hafta 28 baz puan yükseldi, yatırımcılar salı günü açıklanacak Nvidia bilançosunu bekliyor.
+
+[Read more](https://www.bloomberght.com/kuresel-piyasalarda-satis-dalgasi-3794694)
+
+---
+
+### OSD: Otomotiv üretimi ilk 10 ayda yüzde 6 azaldı
+
+Otomotiv Sanayii Derneği verilerine göre ocak-ekim döneminde toplam otomotiv üretimi geçen yılın aynı dönemine göre yüzde 6 azalarak 1 milyon 92 bin 519, otomobil üretimi yüzde 17 gerileyerek 592 bin 163 oldu; ticari araç üretimi yüzde 12 arttı ve sektörün kapasite kullanım oranı yüzde 61’de kaldı (traktörde yüzde 28). Otomotiv ihracatı adet bazında yüzde 9 düşüşle 779 bin 557’ye gerilerken otomobil ihracatı yüzde 25 azaldı; Türkiye İhracatçılar Meclisi verilerine göre toplam otomotiv ihracatı değer olarak yüzde 3 artışla 35,2 milyar dolar oldu ve sektör ihracat sıralamasında ilk sıradaki yerini korudu. Toplam pazar 10 ayda yüzde 15 daralarak 916 bin 149’a, otomobil pazarı yüzde 17 düşüşle 692 bin 916’ya indi; otomobil satışlarında yerli araç payı yüzde 35, hafif ticari araçta yüzde 24 oldu.
+
+[Read more](https://www.bloomberght.com/osd-otomotiv-uretimi-ilk-10-ayda-yuzde-6-azaldi-3794693)
+
+---
+
+### Çin ekonomisinde sürpriz yavaşlama
+
+Çin’de ekim ayı verileri ekonomik yavaşlamanın geniş tabana yayıldığını gösterdi: perakende satışlar yıllık yüzde 0,4 artarak Bloomberg anketindeki yüzde 0,8 beklentinin altında kaldı, sanayi üretimi üç ayın ardından ilk kez ivme kaybedip yüzde 4,8 büyüdü ve sabit sermaye yatırımları ocak-ekimde yüzde 8,1 gerileyerek yüzde 7’lik düşüş beklentisini aştı. Pekin’in eylül sonunda konut kredisi sübvansiyonları ve kamu borçlanma kotası artışını içeren sınırlı teşvik paketine rağmen ekonomi son çeyreğe zayıf başladı; pazartesi açıklanan verilere göre konut fiyatlarındaki düşüş ekimde de sürdü ve gayrimenkul yatırımları ilk 10 ayda yüzde 21,6 azaldı. UBP Asya Kıdemli Ekonomisti Carlos Casanova ek destek olmadan yıllık büyüme hedefine ulaşma risklerinin arttığını ve yeni maliye politikası önlemlerinin muhtemel olduğunu söyledi; Ulusal İstatistik Bürosu ekonominin genel olarak istikrarlı seyrettiğini bildirdi.
+
+[Read more](https://www.bloomberght.com/cin-ekonomisinde-surpriz-yavaslama-3794688)
+
+---
+
+### SPK'dan olağanüstü tasfiyedeki pay geri alımlarına ilişkin açıklama
+
+Sermaye Piyasası Kurulu, 15 Kasım 2026 tarihli duyurusunda olağanüstü tasfiye kapsamındaki yatırım fonlarının portföylerindeki payların, borsadaki son işlem gününün kapanış fiyatı esas alınarak ilgili halka açık şirketlere satılabildiğini bildirdi ve bazı basın haberlerinde bu işlemlerin niteliği hakkında eksik veya hatalı değerlendirmeler yer aldığını kaydetti. Kurul, payların miktarı, piyasa derinliği ve likidite koşulları dikkate alınmadan doğrudan borsada satılmasının fiyatlar üzerinde baskı oluşturabileceğini ve fon varlıklarının daha düşük bedelle nakde çevrilebileceğini belirterek, şirketlerin kendi paylarını geri alabildiği uygulamanın satış baskısını sınırlamayı ve fon katılma payı sahiplerinin menfaatlerini korumayı amaçladığını açıkladı.
+
+[Read more](https://www.bloomberght.com/spk-dan-olaganustu-tasfiyedeki-pay-geri-alimlarina-iliskin-aciklama-3794681)
+
+---
+
+### İran: Ne savaş ne barış durumu içinde kalmayacağız
+
+İran Meclis Başkanı Muhammed Bakır Kalibaf, Meclis oturumunda İran ile ABD arasındaki mevcut duruma ilişkin “Ne savaş ne barış durumu içinde kalmayacağız” dedi; IRNA’nın aktardığına göre savaş koşullarına rağmen füze üretimini sürdürdüklerini belirtip yer altında kurulan yeni füze şehrinin açılışını “bölgedeki stratejik değişimin sembolü” olarak nitelendirdi. Kalibaf, İran’ın ABD’ye ilettiği yedi şartın kabul edilmesi halinde anlaşma yolunun açık olduğunu söyledi: “Ama eğer ABD bu kez de hata yaparsa, savaşın coğrafyasını İran Silahlı Kuvvetleri’nin gücü ve iradesi belirleyecektir.”
+
+[Read more](https://www.bloomberght.com/iran-ne-savas-ne-baris-durumu-icinde-kalmayacagiz-3794673)
+
+---
+
+### VakıfBank ile Dünya Bankası arasında 250 milyon dolarlık finansman anlaşması
+
+VakıfBank, Sanayi ve Teknoloji Bakanlığı koordinasyonundaki Sanayinin Teknolojiyle Dönüşümü Projesi (TransformIndustry) kapsamında Dünya Bankası’nın IBRD’si ile 250 milyon dolarlık finansman anlaşması imzaladı; kaynak, imalat sanayisi ve ihracata bağlı sektörlerdeki KOBİ’ler ile orta ölçekli işletmelerin dijitalleşme, otomasyon, enerji verimliliği ve düşük karbonlu üretim yatırımlarına yönlendirilecek. Genel Müdür Osman Arslan, modelin Hazine ve Maliye Bakanlığı garantisini, Sanayi ve Teknoloji Bakanlığı teknik koordinasyonunu ve Dünya Bankası finansmanını bir araya getirdiğini belirterek “ihracat odaklı işletmelerimizin dönüşüm yatırımlarına uzun vadeli finansman imkanı sunarak küresel pazarlardaki rekabet güçlerini artırmayı amaçlamaktayız” dedi.
+
+[Read more](https://www.bloomberght.com/vakifbank-ile-dunya-bankasi-arasinda-250-milyon-dolarlik-finansman-anlasmasi-3794672)
+
+---
+
+### WSJ: ABD istihbaratına göre İran'ın hâlâ 1.500 ila 2.500 füzesi var
+
+Wall Street Journal’a göre adı açıklanmayan ABD’li yetkililer, ABD istihbaratının İran’ın savaşa rağmen hâlâ 1.500 ila 2.500 füzeye sahip olduğunu değerlendirdiğini, ancak stokun kesin büyüklüğü belirlenemediği için değerlendirmenin düşük güvenilirlikte olduğunu söyledi. Yetkililere göre ABD ve İsrail saldırılarında üretim tesisleri hasar görse de Tahran düşük hızda silah üretimini sürdürüyor, çok sayıda insansız hava aracı ve kısa menzilli füzesi bulunuyor; İran’ın kapasitesini yeniden kazanması Trump yönetimini saldırıları yeniden başlatma seçeneğini değerlendirmeye yöneltti. ABD’li ve İsrailli yetkililer, İran’ın ABD’ye ait askeri tesisleri, radarları ve erken uyarı sistemlerini hedef almasının ardından ABD’nin bölgedeki askeri varlıklarını daha güvenli gördüğü İsrail’e taşıdığını savundu; Trump daha önce İran’ın silahlarını ortadan kaldırdıklarını söylemişti.
+
+[Read more](https://www.bloomberght.com/wsj-abd-istihbaratina-gore-iran-in-hl-1500-ila-2500-fuzesi-var-3794671)
+
+---
+
+## veryansintv.com/direct
+
+### Atama bekleyen öğretmeler Ankara’dan hükümete seslendi
+
+Atama bekleyen öğretmenler ve eğitim sendikaları Ankara Ulus Atatürk Anıtı önünde yaptıkları basın açıklamasında 2026 Akademi Giriş Sınavı (AGS) kapsamında en az 50 bin öğretmen ataması ve branşlara adil kontenjan dağılımı talep etti; “50 bin kontenjan AGS’nin hakkıdır” sloganları atıldı. Öğretmenler adına konuşan Tarık İbiri, Milli Eğitim Bakanlığı’nın 2026 AGS kontenjanları için bütçeyi beklemesini ve sınavın üzerinden geçen zamana rağmen tek bir resmi açıklama yapılmamasını eleştirerek “Sağlık Bakanlığı 38 bin alım yaparken kimse bütçe beklemedi” dedi ve geçen yıl 81 ilde 100 bine yakın ücretli öğretmen çalıştırıldığını, bunun en az yarısı olan 50 bin atamanın hakları olduğunu söyledi. Açıklamanın ardından öğretmenler temsili bir seçim sandığına diplomalarını attı.
+
+[Read more](https://www.veryansintv.com/atama-bekleyen-ogretmeler-ankaradan-hukumete-seslendi)
+
+---
+
+### Mahkemeden Fatih Altaylı’nın hapis cezasına ilişkin karar
+
+İstanbul Bölge Adliye Mahkemesi Ceza Daireleri Başkanlar Kurulu, Fatih Altaylı’nın YouTube videosundaki sözleri nedeniyle Cumhurbaşkanı Erdoğan’a tehdit suçundan aldığı 4 yıl 2 ay hapis cezasının onanması kararını oy birliğiyle ve kesin olarak kaldırdı; dosya yeniden değerlendirilmek üzere ilgili daireye gönderildi. İstanbul 26. Ağır Ceza Mahkemesi’nin cezasını BAM 2. Ceza Dairesi istinaf başvurusunu esastan reddederek onamış, ancak BAM Cumhuriyet Başsavcılığı Altaylı lehine itiraz ederek konuşmanın bir bütün olarak değerlendirilmesi gerektiğini, Osmanlı padişahlarına ilişkin tarihsel örneklerde “suikast demeyelim de komploya kurban giden” düzeltmesi yapıldığını ve tehdit kastıyla hareket edilmediğini, beraat kararı verilmesi gerektiğini savunmuştu. Kurul, tehdit suçu için sözlerin “objektif olarak ciddi bir korku yaratmaya elverişli, yeterli ve uygun olması gerektiğini” ve bu hususun ilk derece mahkemesi kararında yeterince tartışılmadığını belirtti.
+
+[Read more](https://www.veryansintv.com/mahkemeden-fatih-altaylinin-hapis-cezasina-iliskin-karar)
+
+---
+
+### Kurtulmuş bölücü izleme komisyonu için parti turlarını sürdürecek
+
+TBMM’de 2027 bütçe görüşmeleri sürerken TBMM Başkanı Numan Kurtulmuş, PKK’lı teröristlerin affını öngören “Çerçeve Yasa” kapsamında kurulması planlanan İzleme Komisyonu için siyasi parti gruplarına ziyaretlerini sürdürecek: 17 Kasım Salı İYİ Parti Genel Başkanı Müsavat Dervişoğlu ile görüşecek, Yeni Parti grubunu ziyaret ederek Özgür Özel ile görüşmesi bekleniyor; geçen hafta Kemal Kılıçdaroğlu, Yeni Yol grup başkanvekilleri, AKP Grup Başkanı Abdullah Güler ve Devlet Bahçeli ile görüşmüştü. Genel Kurul’da geçen hafta maddeleri kabul edilen ancak yeter sayı olmadığı için oylanamayan 9 maddelik Türk Kızılay Kanun Teklifi oylanacak, ardından yabancı dijital konaklama platformlarına Kültür ve Turizm Bakanlığı’ndan izin belgesi alma, Türkiye’de temsilci bulundurma ve turizm payı yükümlülüğü getiren, Türk hukuku ve mahkemelerini yetkili kılan teklif görüşülecek; teklifin yasalaşmasıyla Türkiye’den Booking’e erişim sağlanmaya başlanacak.
+
+[Read more](https://www.veryansintv.com/kurtulmus-bolucu-izleme-komisyonu-icin-parti-turlarini-surdurecek)
+
+---

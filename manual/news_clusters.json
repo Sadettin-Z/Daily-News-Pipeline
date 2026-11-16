@@ -1,741 +1,860 @@
 [
   {
-    "title": "Nvidia opens spy probe as CEO Jensen Huang admits affair and Trump defends him",
-    "summary": "Nvidia’s board said on Sunday it is “initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort”, after The New York Times reported that US officials concluded Alice Huang, an executive linked to Singapore-based Megaspeed and no relation, had been passing information to Beijing and was suspected of smuggling Nvidia chips to China. In a note to staff Huang, 63, admitted he was “unfaithful” to his wife, said “I take full responsibility for what I did and the hurt I caused” and pledged full cooperation; the board said it “has no reason to believe that either national security or NVIDIA secrets were compromised” and has confidence in his leadership. Trump, who the Times says was briefed on the intelligence last year, called Huang “an honorable guy” who “probably has an excuse for it”, while Republican lawmakers asked Huang for a closed-door briefing to the House foreign affairs and intelligence committees next week. China’s foreign ministry spokesman Guo Jiakun called the espionage allegation groundless and “nothing but slander against China” ahead of next week’s Xi-Trump meeting at APEC in Shenzhen; Nasdaq 100 futures briefly fell as much as 1 percent on the news.",
+    "title": "After the nationwide ground stop, Trump demands $50bn as Democrats say FAA has funds",
+    "summary": "US air travel was still disrupted on Sunday, two days after the FAA grounded all flights for about four hours on Friday November 13, the longest nationwide stop since September 11, 2001: FlightAware counted more than 2,300 cancellations and 8,000 delays on Sunday, around 9,000 cancellations in all and some 1.5 million stranded passengers, and Transportation Secretary Sean Duffy said the system would be “fully normal tomorrow”. Duffy blamed faulty work by contractor L3Harris replacing old copper wire with fibre optic at FAA sites in El Dorado, Arkansas and Amarillo, Texas, where a router began sending about 1,000 log-on attempts every four or five seconds and overloaded what he called “an analog telecommunications system”; the routers were sent to an L3Harris lab in Florida, L3Harris said it has completed more than 70% of the conversion, and Homeland Security Secretary Markwayne Mullin said there was no sign of a cyber-attack. Duffy raised his funding request from about $30 billion to $50 billion in emergency money and rejected calls to resign, while Trump broke days of silence to post “give the money, FAST!”, call “the Biden Administration” “an FAA disaster” and say the 50-year-old system must be rebuilt “all at once, not in drips and drabs”. Democrats, who take control of Congress in January, pointed to the $12.5 billion granted last year, $4.75 billion of it for telecoms modernisation, of which about a third has been spent; Reps. Rick Larsen and André Carson asked why more money is needed while funds remain unspent, Rosa DeLauro said the FAA needs “a competent partner at the Department of Transportation”, and Sen. Brian Schatz proposed diverting part of the $60 billion extra for ICE. Duffy said the telecom work can be finished by “the first part of 2029”; the dispute is set to become an early test of a Democratic Congress facing a Republican president.",
     "sources": [
       {
         "source": "cnn.com",
-        "title": "Nvidia CEO Jensen Huang admits affair as company launches investigation into foreign spy claims",
-        "url": "https://www.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang"
+        "title": "Showdown looms between Trump and Democrats over air traffic control meltdown",
+        "url": "https://www.cnn.com/2026/11/16/politics/air-traffic-trump-administration-faa-duffy"
+      },
+      {
+        "source": "cnn.com",
+        "title": "As Trump administration implores Congress for additional FAA funding, Democrats say the agency already has it",
+        "url": "https://www.cnn.com/2026/11/15/politics/congress-additional-funding-request-faa-duffy"
       },
       {
         "source": "aljazeera.com",
-        "title": "Trump defends Nvidia CEO amid Chinese spying allegations",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-defends-nvidia-ceo-amid-chinese-spying-allegations?traffic_source=rss"
+        "title": "After a nationwide ground stop, US faces aviation infrastructure questions",
+        "url": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss"
       },
       {
         "source": "npr.org",
-        "title": "Nvidia launches investigation into CEO's alleged relationship with Chinese spy",
-        "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy"
-      },
-      {
-        "source": "theguardian.com",
-        "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-        "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+        "title": "Flight disruptions expected to last into Monday",
+        "url": "https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday"
       },
       {
         "source": "lemonde.fr/en",
-        "title": "Nvidia announces probe after CEO Huang admits affair with suspected Chinese spy",
-        "url": "https://www.lemonde.fr/en/pixels/article/2026/11/09/nvidia-announces-probe-into-huang-after-reports-of-affair-with-alleged-chinese-spy_6775507_13.html"
+        "title": "Trump admin warns air travelers of another messy day at US airports",
+        "url": "https://www.lemonde.fr/en/international/article/2026/11/15/trump-admin-warns-air-travelers-of-another-messy-day-at-us-airports_6781744_4.html"
       },
       {
         "source": "sozcu.com.tr",
-        "title": "Çin'den Nvidia CEO'suna casusluk iddiasına yanıt",
-        "url": "https://www.sozcu.com.tr/cinden-nvidia-ceosuna-casusluk-iddiasina-yanit-iftira-p379499"
+        "title": "Havacılık tarihinin en büyük krizi yaşanıyor: ABD çaresiz kaldı",
+        "url": "https://www.sozcu.com.tr/ucus-tarihinin-en-buyuk-krizi-yasaniyor-abd-caresiz-kaldi-p381721"
       },
       {
         "source": "bloomberght.com",
-        "title": "Çin'den Nvidia CEO’suyla ilgili casusluk suçlamalarına yanıt",
-        "url": "https://www.bloomberght.com/cin-den-nvidia-ceosuyla-ilgili-casusluk-suclamalarina-yanit-3793932"
-      },
-      {
-        "source": "bloomberght.com",
-        "title": "Nvidia",
-        "url": "https://www.bloomberght.com/nvidia-ceo-sundan-evlilik-disi-iliskin-itirafi-casusluk-suphesi-sorusturmaya-dondu-3793891"
+        "title": "Trump'tan Kongre'ye: Hava trafik kontrolü için fonu acilen onaylayın",
+        "url": "https://www.bloomberght.com/trump-tan-kongre-ye-hava-trafik-kontrolu-icin-fonu-acilen-onaylayin-3794683"
       },
       {
         "source": "bbc.com/turkce",
-        "title": "Nvidia şirketi, CEO'sunun casus olduğundan şüphelenilen Çinli biriyle ilişkisini soruşturuyor",
-        "url": "https://www.bbc.com/turkce/articles/cm93z0e73435o?at_medium=RSS&at_campaign=rss"
+        "title": "ABD'de binlerce iç hat uçuşunun iptali ve rötarı devam ediyor",
+        "url": "https://www.bbc.com/turkce/articles/cqx2wyd99w13o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   {
-    "title": "COP31 opens in Antalya as WMO says 2026 among four hottest years on record",
-    "summary": "The 31st UN climate conference opened on Monday in Antalya, Türkiye, with representatives from around 200 states and tens of thousands of delegates expected over two weeks; Türkiye holds the COP31 presidency under environment minister Murat Kurum and Australia’s Chris Bowen leads the negotiations. Türkiye is centring electrification on the agenda through the non-binding 35-by-35 Global Electrification Pledge to make electricity at least 35 percent of global energy demand by 2035, up from about one-fifth today; Kurum said “energy that you import is energy that you do not control”, while climate advocates criticised the pledge for not requiring low-carbon sources. A World Meteorological Organization report timed to the opening says 2026 will be one of the four hottest years recorded, with the January-September average about 1.47°C above pre-industrial levels, and warns a “supersized El Niño” could make 2027 the hottest year on record; WMO chief Celeste Saulo said “We are supercharging our weather and El Niño will be a risk multiplier.” Negotiations are expected to focus on climate finance, the Belem-Antalya just transition mechanism, adaptation finance and emission cuts, against the backdrop of the Iran war’s disruption of oil shipments.",
+    "title": "Bessent gives Nvidia 10 days on China chips as Musk and 165,000 demand Huang’s return",
+    "summary": "US Treasury Secretary Scott Bessent said on Fox News on Sunday that Nvidia must explain within 10 days whether it knowingly let its most advanced AI chips reach China through “obvious” shell companies linked to Megaspeed, calling this more important than Jensen Huang’s affair with an alleged Chinese spy (“Jensen’s foibles are his foibles”), and said the company needs “a dramatic shake-up” and should look outside for its next chief; “Nothing above the H200s can be sold to the Chinese,” he said, after Trump authorised H200 sales in late 2025, and he blamed Howard Lutnick’s Commerce Department for not blacklisting Megaspeed although four federal agencies pushed for it. Late Sunday Elon Musk, Epic Games’ Tim Sweeney, Y Combinator’s Garry Tan and Uber co-founder Travis Kalanick were among more than 165,000 signatories of an open letter demanding the board “bring Jensen back while an independent investigation establishes the facts”, with more than 7,500 signatories identifying themselves as Nvidia employees, about 18% of the workforce. The Financial Times reported that Huang, who resigned on Thursday after 33 years at the helm over affairs with Alice Huang, a Nvidia vice president and a third employee, has discussed a return with confidants, and an ally said a “war room” of Silicon Valley executives would lobby the board and the White House; shareholders Altimeter Capital’s Brad Gerstner and Atreides Management’s Gavin Baker urged the board to move “slow, measured and careful” and keep all options open. Lawmakers from both parties want Huang and Nvidia before Congress, and Nvidia reports earnings on Tuesday.",
     "sources": [
       {
-        "source": "nytimes.com",
-        "title": "A Guide to COP31 Climate Talks in Antalya, Turkey",
-        "url": "https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html"
-      },
-      {
-        "source": "cnn.com",
-        "title": "Planetary extremes are ‘off the charts’ as world’s biggest climate talks kick off",
-        "url": "https://www.cnn.com/2026/11/09/climate/climate-extremes-el-nino-cop31-wmo"
-      },
-      {
         "source": "aljazeera.com",
-        "title": "Turkiye pushes electrification top of climate agenda as COP31 set to open",
-        "url": "https://www.aljazeera.com/news/2026/11/9/turkiye-pushes-electrification-top-of-climate-agenda-as-cop31-set-to-open?traffic_source=rss"
+        "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+        "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+        "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo"
       },
       {
         "source": "lemonde.fr/en",
-        "title": "'A supersized El Niño is colliding with a planet already superheated': 2026 will be among hottest years on record",
-        "url": "https://www.lemonde.fr/en/environment/article/2026/11/09/a-supersized-el-nino-is-colliding-with-a-planet-already-superheated-2026-will-be-among-hottest-years-on-record_6775606_114.html"
+        "title": "US Treasury Secretary wants answers soon from Nvidia",
+        "url": "https://www.lemonde.fr/en/international/article/2026/11/16/us-treasury-secretary-wants-answers-soon-from-nvidia_6781876_4.html"
       },
       {
         "source": "welt.de",
-        "title": "“Turkey is not exactly known for climate protection either”",
-        "url": "https://www.welt.de/politik/ausland/video6af18897eaa675c45847c3d8/weltklimakonferenz-in-antalya-die-tuerkei-ist-jetzt-auch-nicht-besonders-fuer-klimaschutz-bekannt.html"
+        "title": "Jensen Huang already talking about a return to the top of Nvidia; 150,000 sign open letter",
+        "url": "https://www.welt.de/politik/ausland/article6afa7e409849eea0701e415c/nvidia-jensen-huang-spricht-schon-ueber-rueckkehr-an-spitze-150-000-unterschreiben-offenen-brief.html"
+      },
+      {
+        "source": "sozcu.com.tr",
+        "title": "Elon Musk ve 165 bin iş insanı bu çağrıya imza attı: 'Jensen Huang'ı geri getirin'",
+        "url": "https://www.sozcu.com.tr/elon-musk-ve-165-bin-is-insani-bu-cagriya-imza-atti-jensen-huang-i-geri-getirin-p381769"
       },
       {
         "source": "bloomberght.com",
-        "title": "Küresel kamuoyunun gözü COP31'de olacak",
-        "url": "https://www.bloomberght.com/kuresel-kamuoyunun-gozu-cop31-de-olacak-3793894"
-      },
-      {
-        "source": "bbc.com/turkce",
-        "title": "Antalya'da düzenlenen COP31'den neler bekleniyor, kilit sorular neler?",
-        "url": "https://www.bbc.com/turkce/articles/cw073jxd20jro?at_medium=RSS&at_campaign=rss"
+        "title": "FT: Huang Nvidia’ya dönüşü değerlendiriyor",
+        "url": "https://www.bloomberght.com/ft-huang-nvidiaya-donusu-degerlendiriyor-3794690"
       }
     ]
   },
   {
-    "title": "Pope Leo rebukes Milei’s austerity in Argentina: economy must serve the people",
-    "summary": "Pope Leo XIV, arriving in Buenos Aires on Sunday on the second stop of a 12-day Latin America tour three weeks after lung cancer surgery, delivered a pointed critique of President Javier Milei’s austerity: “The economy must be at the service of the people, rather than people being at the service of the economy.” He urged that “particular concern be shown for those affected by illness, dependency and disability”, a veiled reference to cuts to disability assistance, and told Milei that strengthening democracy required a “willingness to listen” and the “careful use of words”, calling democracy “a part of Argentina’s heritage that needs to be safeguarded”. Milei, who has strong backing from Trump, replied that his government was working to avoid “punishing the Argentines of tomorrow in order to benefit the Argentines of today”. It is the first papal visit to Argentina in nearly four decades, after prolonged tensions between Milei and much of the country’s Catholic clergy.",
+    "title": "Estonia shuts all Russia border crossings after GRU-ordered attack on drone maker",
+    "summary": "Estonia will close all three of its border crossings with Russia, Narva, Koidula and Luhamaa, from 1 December after an attempted arson attack on Threod Systems, a maker of long-range attack and reconnaissance drones in Viimsi north of Tallinn, overnight Saturday, which Prime Minister Kristen Michal called a “GRU-ordered sabotage attempt”; eight suspects living in Latvia were detained, the Kapo security service said the attack aimed “to cause an explosion and set the building on fire”, and no damage or injuries were reported. Michal said “Russia’s aim is to make us afraid, make us hesitate and weaken our support for Ukraine. Estonia’s response is the opposite,” and Foreign Minister Margus Tsahkna, citing “clear evidence”, said “hostile actions against Estonia come with consequences”, informed his Finnish, Latvian and Lithuanian counterparts and expects further EU sanctions on Russian individuals and entities at Monday’s foreign ministers’ meeting in Brussels. Russian Foreign Ministry spokeswoman Maria Zakharova told TASS that Moscow would verify the plan and would treat it as “another bout of aggressive and unbridled Russophobia”, while Ukrainian Foreign Minister Andrii Sybiha said “Estonia has shown that Russian sabotage can and should have consequences beyond diplomatic condemnation.” It is the second attack on an Estonian defence company blamed on Russia after the August arson attempt at Milrem Robotics; the authorities did not say how long the closure will last.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Estonia to shut its border with Russia, blaming Moscow for foiled arson plot",
+        "url": "https://www.cnn.com/2026/11/15/europe/estonia-close-russian-border-attack-intl"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+        "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker"
+      },
+      {
+        "source": "lemonde.fr/en",
+        "title": "Estonia to close Russia border after 'sabotage' bid",
+        "url": "https://www.lemonde.fr/en/international/article/2026/11/15/estonia-to-close-russia-border-after-sabotage-bid_6781546_4.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "Estonia closes border with Russia after attempted attack; Moscow to examine ‘unbridled Russophobia’",
+        "url": "https://www.welt.de/politik/ausland/video6afa95794495f9bd85b8198a/reaktion-auf-einschuechterung-estland-schliesst-nach-versuchtem-anschlag-grenze-zu-russland-moskau-prueft-zuegellose-russophobie.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "Estonia closes border with Russia after attempted attack; Moscow to examine ‘unbridled Russophobia’",
+        "url": "https://www.welt.de/politik/ausland/article6af9d3ea9849eea0701e3c13/reaktion-auf-einschuechterung-estland-schliesst-nach-versuchtem-anschlag-grenze-zu-russland-moskau-prueft-zuegellose-russophobie.html"
+      },
+      {
+        "source": "sozcu.com.tr",
+        "title": "İHA tesisine saldırı Avrupa'yı alarma geçirdi: Tüm sınırlar kapatıldı",
+        "url": "https://www.sozcu.com.tr/iha-tesisine-saldiri-avrupa-yi-alarma-gecirdi-tum-sinirlar-kapatildi-p381748"
+      }
+    ]
+  },
+  {
+    "title": "Megaspeed says Alice Huang left in August 2025, hires lawyers for internal probe",
+    "summary": "Megaspeed International, the Singapore-based data centre company at the centre of the Nvidia spying scandal and one of Nvidia’s biggest foreign customers with nearly US$5bn of AI chips bought in three years, said on Sunday that Alice Huang “officially left Megaspeed effective August 30, 2025 and currently has no role with the company”, and that it has retained external legal counsel for a thorough internal investigation into claims that it diverted Nvidia chips to China, which it called “not supported by verifiable evidence”. The Washington-based group C4ADS said she remained “practically in control” of the firm after stepping down as director in late 2023, short seller Culper Research quoted an employee in May saying she was “still our boss”, and Singapore said on Thursday she had been barred from re-entering the city state after a 2025 investigation into the company’s “suspected breaches of our domestic laws”; Megaspeed is suspected of giving Chinese firms covert access to Nvidia chips through data centres in Malaysia, Indonesia and Thailand. Reuters reported, citing internal correspondence, that Jensen Huang deceived several Nvidia executives about the nature of the relationship, and the New York Times said he described it as purely business when its reporters asked in September 2025. Congressman John Moolenaar said Huang has agreed to testify behind closed doors before the House Select Committee on China and the Foreign Affairs and Intelligence committees without subpoenas being issued. Nvidia’s board opened an independent investigation on 8 November, Huang then resigned all his posts and CFO Colette Kress became interim CEO.",
+    "sources": [
+      {
+        "source": "bbc.com",
+        "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+        "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "aljazeera.com",
+        "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+        "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
+        "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang"
+      },
+      {
+        "source": "welt.de",
+        "title": "Alice Huang apparently left Megaspeed in 2025; Nvidia chief said to have deceived employees",
+        "url": "https://www.welt.de/politik/ausland/article6af9a8fb4495f9bd85b80e78/affaeren-und-spionageverdacht-alice-huang-hat-megaspeed-offenbar-2025-verlassen-nvidia-chef-soll-mitarbeiter-getaeuscht-haben.html"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "Megaspeed'den Nvidia çipleriyle ilgili iddialara iç soruşturma",
+        "url": "https://www.bloomberght.com/megaspeed-den-nvidia-cipleriyle-ilgili-iddialara-ic-sorusturma-3794682"
+      }
+    ]
+  },
+  {
+    "title": "Saudi-backed forces quit Bab al-Mandab, leaving the Red Sea strait to the Houthis",
+    "summary": "Saudi-backed forces of Yemen’s internationally recognised government said on Sunday they were withdrawing “from Dhubab Airport and the Bab al-Mandab area” in western Taiz to defend the interim capital Aden, ending a six-week counteroffensive and leaving the strait at the southern entrance of the Red Sea under the control of the Iran-aligned Houthis, who said they had taken the territory. The Houthis seized the coast in a surprise offensive in September, choking the Saudi oil exports that had been rerouted through the Red Sea since the US-Israel war on Iran effectively closed the Strait of Hormuz, and pushing up global oil prices; Saudi Arabia answered with hundreds of air strikes while the Houthis fired hundreds of drones and missiles at its cities, and the UN estimates nearly 330,000 people have been displaced. Analysts called the retreat a blow to the government and to Saudi Arabia, which has not commented; “The Houthis are very determined to go to Aden,” said Ahmed Nagi of the International Crisis Group. Houthi spokesman Yahya Saree said two drones hit pump stations 5 and 6 of the East-West pipeline near Riyadh on Sunday and that Riyadh airport and its financial centre were targeted; Saudi Arabia did not confirm this but said two Houthi ballistic missiles over Riyadh were intercepted and destroyed.",
     "sources": [
       {
         "source": "nytimes.com",
-        "title": "In Argentina, Pope Leo Tells President Milei Economy Must Serve the Needy",
-        "url": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html"
-      },
-      {
-        "source": "cnn.com",
-        "title": "Pope Leo urges President Milei, a Trump ally, to ‘safeguard democracy’ on arrival in Argentina",
-        "url": "https://www.cnn.com/2026/11/08/americas/pope-visit-argentina-latam-intl"
+        "title": "Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control",
+        "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html"
       },
       {
         "source": "bbc.com",
-        "title": "Pope delivers veiled rebuke of Milei's austerity measures",
-        "url": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss"
+        "title": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
+        "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
       },
       {
         "source": "aljazeera.com",
-        "title": "Pope tells Argentina’s Milei leaders should know limits of power",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/pope-tells-argentinas-milei-leaders-should-know-limits-of-power?traffic_source=rss"
+        "title": "Houthis advance in Yemen as government forces move to defend Aden",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden?traffic_source=rss"
       },
       {
-        "source": "theguardian.com",
-        "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
-        "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity"
+        "source": "veryansintv.com/direct",
+        "title": "Suudi destekli güçler geri çekildi, Husiler Babülmendep’te kontrolü sağladı",
+        "url": "https://www.veryansintv.com/suudi-destekli-gucler-geri-cekildi-husiler-babulmendepte-kontrolu-sagladi"
       },
       {
-        "source": "lemonde.fr/en",
-        "title": "In Argentina, Pope Leo delivers stinging rebuke to Milei over austerity measures",
-        "url": "https://www.lemonde.fr/en/international/article/2026/11/09/in-argentina-pope-leo-delivers-stinging-rebuke-to-milei-over-austerity-measures_6775541_4.html"
+        "source": "bbc.com/turkce",
+        "title": "Yemen hükümet güçleri Babülmendep Boğazı civarından çekiliyor",
+        "url": "https://www.bbc.com/turkce/articles/cm4gnznnnxvxo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   {
-    "title": "Trump says new strikes on Iran ‘highly unlikely’ as Rubio sees no breakthrough",
-    "summary": "Trump told CNN in a 20-minute phone interview on Sunday that it is “highly unlikely” he will need to order the US back to war with Iran as long as talks on its nuclear program and reopening the Strait of Hormuz progress, repeating the assertion five times: “It depends on whether or not they sign a very strong agreement.” He called Iran “a failing nation” with “301% inflation”, said the US had identified targets including “38 bridges” it could destroy within an hour, and announced on Truth Social that the “Iron Gate” task force against weapons transports is fully active. Secretary of State Marco Rubio said before leaving for the G7 in Paris that “I wouldn’t say we’re on the verge of a breakthrough”, calling Iran’s demands “not just unacceptable, but in some cases, outrageous and ridiculous”, while defending the war as “necessary” to stop a nuclear threat. Iran’s Foreign Minister Abbas Araghchi said “American voters have made their choice. Time for the White House to make its own,” repeating a “2-day proposal” to reopen Hormuz if Iran’s conditions, including an end to war on all fronts, are met; Tehran is reviewing Qatari proposals and Trump meets Qatar’s prime minister at the White House on Monday. Both sides reported ships hit in the strait over the weekend.",
+    "title": "Iran hits Bahrain with drones again and claims mines sank a supertanker in Hormuz",
+    "summary": "Iran’s Revolutionary Guards launched six drones on Sunday at a US air defence radar at the Al-Rifaa helicopter base in Bahrain, the second attack in three days and the first on the kingdom in about two months, calling it retaliation for US strikes in southern Iran including on Qeshm Island; Bahrain said its air defences intercepted the drones after sounding missile sirens twice, and the US military had said it shot down two Iranian drones on Friday without damage. The Guards also claimed that two tankers escorted by the US military, which had switched off their transponders, hit sea mines in the Strait of Hormuz, “resulting in massive explosions and fire”, and that an oil supertanker carrying 2m barrels sank; the UK Maritime Trade Operations reported a tanker came under fire with its crew safe, nothing was independently verified, and the US military had recently said it cleared all mines from the main routes. Saudi Arabia, Qatar, Jordan and Egypt condemned the attack, Riyadh calling it “a violation of international law and the principles of good neighborliness” and demanding “an immediate halt to the blatant Iranian attacks on the countries of the region”, while the US Embassy in Bahrain urged Americans to exercise “heightened vigilance”. Foreign ministry spokesman Esmaeil Baghaei said Iran was “not waiting for anyone”, warned the Gulf states “must be careful not to reopen old wounds” and asked how states that “made their airspace, territory and waters available to those who attacked Iranian territory” could seek compensation, after the GCC suggested Iran pay for its attacks. Trump said last week that Washington was no longer seeking a deal and that Gulf states had cautioned him against large-scale strikes; the conflict that began with US and Israeli attacks in February remains at an impasse under a US blockade and Iran’s chokehold on Hormuz.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Iran Attacks Bahrain for the Second Time in Days",
+        "url": "https://www.nytimes.com/2026/11/15/world/middleeast/bahrain-iran-israel.html"
+      },
+      {
+        "source": "cnn.com",
+        "title": "Iran raises stakes with new drone attacks as Trump signals a waiting game",
+        "url": "https://www.cnn.com/2026/11/15/middleeast/iran-bahrain-attacks-trump-intl"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Iran launches drone attacks against US military base in Bahrain",
+        "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain"
+      },
+      {
+        "source": "theguardian.com",
+        "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+        "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis"
+      },
+      {
+        "source": "welt.de",
+        "title": "Iran reports explosions on oil tankers in the Strait of Hormuz; US military base attacked",
+        "url": "https://www.welt.de/politik/ausland/article6af966ad4495f9bd85b80873/nahost-iran-meldet-explosionen-an-oeltankern-in-der-strasse-von-hormus-us-militaerstuetzpunkt-angegriffen.html"
+      }
+    ]
+  },
+  {
+    "title": "Trump, Şi ve Putin 19 Kasım’da Shenzhen’de ilk üçlü zirvede bir araya geliyor",
+    "summary": "ABD, Çin ve Rusya liderleri ilk kez düzenlenecek üçlü zirve için 18-19 Kasım’daki APEC zirvesi sırasında Shenzhen’de bir araya gelecek; Beyaz Saray Sözcüsü Olivia Wales 13 Kasım’da görüşmeyi doğruladı, Kremlin de toplantıyı resmen duyurdu. ABD’ye göre ana gündem nükleer silahların azaltılması ve İran savaşı olacak: Rusya ile ABD arasındaki nükleer anlaşmanın şubatta sona ermesiyle yarım yüzyılı aşkın süredir ilk kez iki cephaneliğe yönelik sınırlamalar kalktı, ABD ve Rusya’nın her birinde 5 binden fazla, Çin’de 600’ün üzerinde nükleer silah olduğu tahmin ediliyor ve Trump Çin’i de kapsayan yeni bir anlaşma istiyor; AP’ye konuşan bir ABD’li yetkili anlaşma beklenmediğini ancak toplantının “verimli sonuçlar doğurabilecek bir diyaloğun başlangıcı olabileceğini” söyledi. Ukrayna savaşının gündeme gelip gelmeyeceği belirsiz; Kremlin’in öneri haberleri ekim ortasında çıktığında AB ve Ukrayna’da 1945 Yalta Konferansı benzetmesiyle endişe yaratmıştı ve Zelenskiy “Bunun Yalta İki, Üç ya da Dört olmasını, nüfuzun basitçe yeniden dağıtıldığı bir düzen ortaya çıkmasını kesinlikle istemiyorum” dedi. Trump, ara seçimlerdeki sert yenilginin ve Batı Kanadı’ndaki değişikliklerin ardından otoritesini yeniden tesis etmek için pazartesi Filipinler’e hareket ediyor; ABD’li yetkililere göre Şi ile dördüncü görüşmesinde Jensen Huang casusluk konusunu ve Çin’e çip kısıtlamalarını gündeme getirmeyecek, geziye 445 milyon dolarlık siyasi harcaması Cumhuriyetçi çoğunluğu kurtaramayan Elon Musk da katılıyor. Putin ve Şi 2013’ten bu yana 40’tan fazla, Trump ile Putin yedi kez görüştü.",
     "sources": [
       {
         "source": "cnn.com",
-        "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know",
-        "url": "https://www.cnn.com/2026/11/09/middleeast/iran-us-talks-explainer-intl"
+        "title": "How Trump is hoping to use an Asia trip to reassert his authority",
+        "url": "https://www.cnn.com/2026/11/16/politics/trump-asia-trip-nvidia"
       },
       {
-        "source": "cnn.com",
-        "title": "Trump says renewed attacks on Iran ‘highly unlikely’ if talks show progress",
-        "url": "https://www.cnn.com/2026/11/08/politics/trump-interview-on-iran"
-      },
-      {
-        "source": "aljazeera.com",
-        "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
-        "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss"
+        "source": "welt.de",
+        "title": "Trump meets Xi and Putin next week in China",
+        "url": "https://www.welt.de/politik/ausland/video6af94b4c4495f9bd85b80624/dreier-gipfel-trump-trifft-xi-und-putin-kommende-woche-in-china.html"
       },
       {
         "source": "sozcu.com.tr",
-        "title": "Trump'tan 'İran'a saldırı' açıklaması: 'Görüşmeler devam ederse...'",
-        "url": "https://www.sozcu.com.tr/trump-tan-iran-a-saldiri-aciklamasi-gorusmeler-devam-ederse-p379466"
+        "title": "Yeni Yalta konferansı: Trump, Şi ve Putin ilk kez üçlü zirve yapaacak",
+        "url": "https://www.sozcu.com.tr/yeni-yalta-konferansi-trump-si-ve-putin-ilk-kez-uclu-zirve-yapaacak-p381758"
       },
       {
-        "source": "bloomberght.com",
-        "title": "ABD Dışişleri Bakanı'ndan İran görüşmeleriyle ilgili negatif çıkış",
-        "url": "https://www.bloomberght.com/abd-disisleri-bakani-ndan-iran-gorusmeleriyle-ilgili-negatif-cikis-3793899"
+        "source": "bbc.com/turkce",
+        "title": "Trump, Şi ve Putin'den tarihi zirve: Dünya için nasıl sonuçlar çıkabilir?",
+        "url": "https://www.bbc.com/turkce/articles/cjdx1y7p47ydo?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   {
-    "title": "Trump calls his deportation drive ‘too tough’ days after making Miller chief of staff",
-    "summary": "In a CBS “60 Minutes” interview aired Sunday, his first since Republicans lost both chambers of Congress, Trump said of his deportation policy: “I think it was too tough. I think it might be too tough, yeah,” citing immigrants in the country for ten years or more without serious crimes, and said a deal with the Democratic majority was “actually doable”. He took no personal blame for the midterm losses, naming Iran and bad messaging as the main culprits. The concession sat at odds with his decision on Friday to elevate Stephen Miller, the architect of the crackdown, to replace Susie Wiles as White House chief of staff; Senate Democratic leader Chuck Schumer posted “Trump says his immigration crackdown went too far”. Trump also said his offer of the vacant press secretary post to UFC boss Dana White was a joke: “I was only kidding. But Dana loves the idea.”",
+    "title": "Yeni Parti kurultayında Özel’in 160 kişilik PM listesi seçildi, Ağbaba ve Tezcan dışarıda kaldı",
+    "summary": "Yeni Parti’nin “Türkiye Yenileniyor” sloganıyla 14-15 Kasım’da Ankara Spor Salonu’nda düzenlediği 1. Olağan Kurultayı’nda Genel Başkan Özgür Özel’in 160 üyeli Parti Meclisi ve 15 üyeli Yüksek Disiplin Kurulu blok listesi, kayıtlı 1.202 delegeden oy kullanan 1.116’sının 1.098 geçerli oyuyla seçildi; PM üye sayısı 80’den 150’ye, ardından 160’a çıkarıldı ve Politika Geliştirme Grubu 30’dan 40’a genişletildi. PM; 40 üyeli Politika Geliştirme Grubu, 77 kişilik Yasama Grubu ve 43 kişilik Parti Örgüt Grubu’ndan oluştu; Kurucular Kurulu’ndaki 90 milletvekilinden 75’i listeye girerken Meclis Başkanvekili Tekin Bingöl, Grup Başkanvekilleri Murat Emir, Gökhan Günaydın ve Ali Mahir Başarır ile Veli Ağbaba, Bülent Tezcan, Asu Kaya, Mustafa Erdem, Tahsin Ocaklı, Cavit Arı ve Ahmet Vehbi Bakırlıoğlu listede yer almadı, bir bölümünün TBMM Grup Yönetimi’nde görev alabileceği belirtildi. Özgür Karabat, Turan Taşkın Özer, Umut Akdoğan ve Burhanettin Bulut PM’ye yeni girdi; Eğitim İş Genel Başkanı Kadem Özbay, eski TTB Başkanı Sinan Adıyaman, Prof. Dr. Cem Say, Prof. Dr. Mithat Çelikpala ve mutlak butlan kararı sonrası CHP’den ayrılan eski PM üyeleri de listede yer aldı. Ankara Büyükşehir Belediye Başkanı Mansur Yavaş davet edildiği kurultaya katılmadı; gazeteci Deniz Zeyrek’e göre Yavaş “süreci kazasız belasız atlatmak” ve cumhurbaşkanı adaylığını “herkesin adayı” sıfatıyla üstlenmek istiyor, bu Yeni Parti’ye mesafe anlamına gelmiyor; Yavaş Özel’i tebrik ederek “Kurultayın, Türk siyasetine ve demokrasimize hayırlı olmasını temenni ediyorum” dedi.",
     "sources": [
       {
-        "source": "cnn.com",
-        "title": "Trump’s regrets on immigration enforcement, and other takeaways from his ‘60 Minutes’ interview",
-        "url": "https://www.cnn.com/2026/11/08/politics/trumps-regrets-immigration-enforcement-60-minutes-interview"
+        "source": "sozcu.com.tr",
+        "title": "Özgür Özel’in A Takımı belli oldu! PM listesine giremeyen ünlü vekiller dikkat çekti",
+        "url": "https://www.sozcu.com.tr/ozgur-ozel-in-a-takimi-belli-oldu-pm-listesine-giremeyen-unlu-vekiller-dikkat-cekti-p381731"
       },
       {
-        "source": "aljazeera.com",
-        "title": "Trump says his immigration policy ‘too tough’ for voters",
-        "url": "https://www.aljazeera.com/news/2026/11/9/trump-says-his-immigration-policy-too-tough-for-voters?traffic_source=rss"
+        "source": "sozcu.com.tr",
+        "title": "Mansur Yavaş’ın kurultay kararının perde arkası ortaya çıktı",
+        "url": "https://www.sozcu.com.tr/mansur-yavas-in-kurultay-kararinin-perde-arkasi-ortaya-cikti-p381722"
       },
       {
-        "source": "theguardian.com",
-        "title": "Trump admits deportation policy was ‘too tough’ despite promotion of Stephen Miller",
-        "url": "https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration"
+        "source": "veryansintv.com/direct",
+        "title": "Yeni Parti 1. Olağan Kurultayı: Özgür Özel’in listesi belli oldu",
+        "url": "https://www.veryansintv.com/yeni-parti-1-olagan-kurultayi-pm-ve-ydk-secimi-icin-oy-kullanma-islemi-basladi"
       },
       {
-        "source": "lemonde.fr/en",
-        "title": "Trump says mass deportation policy was 'too tough'",
-        "url": "https://www.lemonde.fr/en/international/article/2026/11/09/trump-says-mass-deportation-policy-was-too-tough_6775309_4.html"
-      },
-      {
-        "source": "welt.de",
-        "title": "Trump rows back on Dana White and calls mass deportations “too tough”",
-        "url": "https://www.welt.de/politik/ausland/article6af12b16a389bc337cfca9c0/sinneswandel-trump-rudert-bei-dana-white-zurueck-und-nennt-massenabschiebungen-zu-hart.html"
+        "source": "bbc.com/turkce",
+        "title": "Yeni Parti'nin ilk kurultayı: 160 kişiye çıkarılan Parti Meclisi'nde kimler var?",
+        "url": "https://www.bbc.com/turkce/articles/cwlylvd3374po?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   {
-    "title": "Herzog hands Eisenkot the mandate to form Israel’s next government",
-    "summary": "Israel’s president Isaac Herzog formally tasked opposition leader Gadi Eisenkot, 66, with forming a government at a ceremony on Sunday, after the 27 October election left Eisenkot’s bloc with 48 of the Knesset’s 120 seats and Netanyahu’s camp with 53. “This is the time to reach out a hand, to do everything for the unity of our people,” Herzog said; Eisenkot called for “a national emergency government” requiring “creative and unconventional political steps”, said Israel is “approaching a point of no return” and that “even our closest friends and strategic allies are saying their relationship with Israel must be reassessed”, and appealed to Likud and Bezalel Smotrich’s party to join him only with himself as prime minister. The Guardian reports he has 28 days, the New York Times up to six weeks, before the mandate can pass to another candidate, most likely Netanyahu. His options are power-sharing with Netanyahu, support from the Arab-led parties that endorsed him, which his partner Yisrael Beiteinu refuses, or a deal with ultra-Orthodox parties demanding the draft exemptions his Yashar party campaigned to end.",
-    "sources": [
-      {
-        "source": "nytimes.com",
-        "title": "Who Is Gadi Eisenkot, Israel’s Opposition Leader?",
-        "url": "https://www.nytimes.com/2026/11/08/world/middleeast/israel-eisenkot-netanyahu-what-to-know.html"
-      },
-      {
-        "source": "nytimes.com",
-        "title": "Eisenkot, Netanyahu Rival and Opposition Leader, Tapped to Try to Form Government",
-        "url": "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html"
-      },
-      {
-        "source": "theguardian.com",
-        "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
-        "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government"
-      },
-      {
-        "source": "theguardian.com",
-        "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
-        "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government"
-      },
-      {
-        "source": "welt.de",
-        "title": "“For Eisenkot, forming a coalition is a bit like solving a Rubik’s cube”",
-        "url": "https://www.welt.de/politik/ausland/video6af04c3cd487d5232edf0acb/regierungsbildung-in-israel-fuer-eisenkot-gleicht-die-koalitionsbildung-ein-bisschen-dem-drehen-eines-zauberwuerfels.html"
-      }
-    ]
-  },
-  {
-    "title": "Midterm post-mortems: 780 of 800 counties shifted to Democrats as Trump approval hits 37%",
-    "summary": "A CNN county-level analysis of the states where Democrats flipped seven Republican-held Senate seats, plus Mississippi and Alaska still too close to call, found voters shifted toward Democrats in more than 780 of 800 counties, with the Democratic margin improving by more than 25 points in Texas and more than 20 in Kansas and South Carolina. In the SSRS Voter Poll for CNN and other outlets, just 37% of voters approved of Trump and 63% disapproved, a deeper disapproval than in the midterm routs of 2018, 2010, 2006 and 1994. Split Senate delegations will rise from four, the fewest since 1914, to at least 10 in January, and Kansas elected a Democratic senator for the first time since the Great Depression. Voters also elected the first Native American woman governor, Deb Haaland in New Mexico, and senator, Peggy Flanagan in Minnesota, among at least 75 Native women or non-binary candidates nationwide; Welt reports from Texas on voters’ frustration with Republicans and the pitfalls awaiting Democrats.",
-    "sources": [
-      {
-        "source": "cnn.com",
-        "title": "How the midterms shook up Senate delegations for 2027",
-        "url": "https://www.cnn.com/2026/11/09/politics/senate-delegations-2027-vis"
-      },
-      {
-        "source": "cnn.com",
-        "title": "How the rejection of Trump produced a biblical downpour on Republicans",
-        "url": "https://www.cnn.com/2026/11/08/politics/republican-midterm-losses-trump"
-      },
-      {
-        "source": "cnn.com",
-        "title": "How Democrats reshaped the Senate, in charts and maps",
-        "url": "https://www.cnn.com/2026/11/08/politics/trump-senate-flip-democrats-map-vis"
-      },
-      {
-        "source": "theguardian.com",
-        "title": "‘Seismic shift’: Native American women made significant gains in US midterms",
-        "url": "https://www.theguardian.com/us-news/2026/nov/08/native-american-women-midterm-elections"
-      },
-      {
-        "source": "welt.de",
-        "title": "“This is not what politics for the citizens looks like”: How the Republicans lost their stronghold Texas",
-        "url": "https://www.welt.de/politik/ausland/plus6af00f9580d3a1c6aa66cbb9/trumps-bittere-niederlage-so-sieht-keine-politik-fuer-die-buerger-aus-wie-den-republikanern-ihre-hochburg-texas-entglitt.html"
-      }
-    ]
-  },
-  {
-    "title": "Trump predicts Ukraine ‘in a somewhat different form’ as Europe joins Abu Dhabi talks",
-    "summary": "Trump told CBS he expects the Ukraine war to end soon and that “they will end up with a Ukraine in a somewhat different form”, answering “Oh, I don’t think so” when asked whether Putin was stringing him along; Rubio said he was probably alluding to progress on security guarantees. US envoy Steve Witkoff is bringing Ukrainian and Russian delegations to Abu Dhabi on 10 and 11 November for the fourth US-brokered round and the first since Geneva in February, and France’s foreign minister Jean-Noël Barrot said “France will be there and will ensure that Europe’s voice is heard,” although Kremlin spokesman Dmitry Peskov had ruled out a European role. Zelenskyy told CNN he had not been given details of the agreement Trump referenced and warned “it can be dangerous,” invoking Yalta. Norway’s prime minister Jonas Gahr Støre defended his call to Putin, saying it is an illusion that the war ends without Europe talking to Moscow and that “confidence-building measures” are what matter in Abu Dhabi; Trump expects to meet Putin and Xi at next week’s APEC summit in China.",
-    "sources": [
-      {
-        "source": "npr.org",
-        "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
-        "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia"
-      },
-      {
-        "source": "welt.de",
-        "title": "Trump announces imminent end of war and prepares Ukraine for territorial concessions",
-        "url": "https://www.welt.de/politik/ausland/video6af16bc4a389bc337cfcabb8/ukraine-krieg-trump-verkuendet-baldiges-kriegsende-und-stellt-ukraine-auf-gebietsabtretungen-ein.html"
-      },
-      {
-        "source": "welt.de",
-        "title": "“Let’s not kid ourselves. Putin is not isolated”",
-        "url": "https://www.welt.de/politik/ausland/plus6af0ae51a389bc337cfca5b5/norwegens-ministerpraesident-machen-wir-uns-nichts-vor-putin-ist-nicht-isoliert.html"
-      },
-      {
-        "source": "welt.de",
-        "title": "Trump announces imminent end of war and prepares Ukraine for territorial concessions",
-        "url": "https://www.welt.de/politik/ausland/article6af11eef80d3a1c6aa66dbe9/ukraine-krieg-trump-verkuendet-baldiges-kriegsende-und-stellt-ukraine-auf-gebietsabtretungen-ein.html"
-      }
-    ]
-  },
-  {
-    "title": "Ara seçim satışı sonrası piyasalar toparlandı: Taiex yüzde 4,94, Nasdaq 100 yüzde 1,35 yükseldi",
-    "summary": "Demokratların ara seçim zaferinin yapay zeka yatırımlarını yavaşlatabileceği endişesiyle perşembe günü S&P 500 yüzde 4,4, Nasdaq 100 yüzde 6,4 düşmüş ve Wall Street’te 2,5 trilyon dolarlık satış yaşanmıştı; cuma günü tepki alımlarıyla Nasdaq 100 yüzde 1,35, yarı iletken hisseleri yüzde 4,2 yükseldi. Pazartesi Asya’da Taipei Taiex yüzde 4,94, Nikkei 225 yüzde 2,33 artarken KOSPI yüzde 0,8 geriledi; Nvidia’nın CEO’su hakkındaki soruşturma Nasdaq 100 vadelilerini kısa süreliğine yüzde 1’e kadar düşürdü. Morgan Stanley’den Mike Wilson, S&P 500’ün 7.100-7.300 puanlık hedef aralığına yaklaştığını belirterek “Önümüzdeki 2-3 hafta boyunca riski artırmanız gereken yer burası” dedi ve 8.000 yıl sonu hedefini korudu; JP Morgan’dan Cameron Chui yapay zeka talebinin güçlü kaldığını ve değerlemelerde anlamlı bir düzeltmenin yaşandığını söyledi. Güçlü ABD istihdam verileri Fed’in aralıkta faiz artıracağı beklentisini güçlendirerek tahvil getirilerini ve doları yükseltti.",
+    "title": "USS Theodore Roosevelt arrives, putting three US carriers in the Middle East",
+    "summary": "The aircraft carrier USS Theodore Roosevelt, dispatched in early October, reached the US Central Command area on Sunday, a US official told Al Jazeera and Axios journalist Barak Ravid reported, joining the USS George H.W. Bush and USS George Washington already deployed in the conflict with Iran; Centcom did not immediately comment. It is the first time since April that three US carrier strike groups are in the region at once, giving Washington expanded options for military operations, though it is unclear whether the presence is being permanently reinforced or one carrier is being relieved. Iran warned it could strike first, and its IRGC navy said two oil tankers transiting the southern Strait of Hormuz without its permission struck sea mines and exploded; negotiations between Washington and Tehran on a lasting end to the conflict show no progress.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "Asian stock markets climb after earlier tech rout",
-        "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss"
+        "title": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss"
       },
       {
-        "source": "bloomberght.com",
-        "title": "Morgan Stanley/Wilson: ABD hisse senetlerindeki düzeltme son aşamasında",
-        "url": "https://www.bloomberght.com/morgan-stanleywilson-abd-hisse-senetlerindeki-duzeltme-son-asamasinda-3793923"
-      },
-      {
-        "source": "bloomberght.com",
-        "title": "Wall Street stratejistleri piyasada alım fırsatı görüyor",
-        "url": "https://www.bloomberght.com/wall-street-stratejistleri-piyasada-alim-firsati-goruyor-3793898"
-      },
-      {
-        "source": "bloomberght.com",
-        "title": "Küresel piyasalarda teknolojik toparlanma",
-        "url": "https://www.bloomberght.com/kuresel-piyasalarda-teknolojik-toparlanma-3793897"
+        "source": "welt.de",
+        "title": "Third US aircraft carrier reaches the Middle East",
+        "url": "https://www.welt.de/politik/ausland/article6afa85e29849eea0701e4176/konflikt-mit-iran-dritter-us-flugzeugtraeger-erreicht-nahen-osten.html"
       }
     ]
   },
   {
-    "title": "Houthi missiles and drones hit Aramco Tower in Riyadh’s financial district",
-    "summary": "The Aramco Tower in Riyadh’s King Abdullah Financial District was hit in an attack the Houthis claimed, saying “The Yemeni Armed Forces, with the help of Allah Almighty, carried out four qualitative military operations, using a number of ballistic and cruise missiles and drones” against the business zone, the airport and Aramco oil storage; the BBC dates the strike to Saturday and Le Monde the claim to Sunday. The Saudi energy ministry said the tower suffered only “minor damage” from “falling shrapnel” with no casualties, while footage authenticated by BBC Verify shows at least one floor badly hit and windows shattered on several levels; Saudi Arabia said its air defences intercepted several missiles. The strike came a day after the Houthis accused the Saudi-led coalition of killing at least 33 people in an air strike on al-Shariyah east of Sanaa, in a war that reignited after an informal ceasefire unravelled in July.",
+    "title": "Carney courts Asia and warns Canada may turn to Chinese automakers if US talks fail",
+    "summary": "Canadian Prime Minister Mark Carney said in Cambodia on Monday that Canada could turn to Chinese, European or Japanese automakers if trade negotiations with Donald Trump fail to preserve an integrated North American auto industry, ahead of a meeting with Xi Jinping in Shenzhen this week: “That market has become less integrated because of US trade actions,” he said, adding “It’s not leverage. But action, reaction”, that talks with the US remain his priority and that any Chinese investment must bring substantial manufacturing, labour standards and domestic supply chains including Canadian critical minerals, “not just about kit cars”. Under a January agreement Canada cut its 100% tariff on Chinese electric vehicles to 6.1% for up to 49,000 vehicles a year in exchange for lower Chinese tariffs on canola and other farm products. A year after his first appearance at the ASEAN and APEC meetings as a curiosity, Carney arrives as a marquee attraction after his Davos speech and Trump’s energy security threats, having added a Dublin stop with European leaders and announced that Canada seeks to become the first “associate member” of the EU; Kazuto Suzuki of the University of Tokyo said that “if Canada is to avoid dependence on the U.S. market and form a coalition of middle powers, cooperation with Asia is essential.”",
     "sources": [
       {
         "source": "nytimes.com",
-        "title": "Saudi Aramco Tower Damaged as Yemen’s Houthis Attack Riyadh",
-        "url": "https://www.nytimes.com/2026/11/08/world/middleeast/saudi-aramco-tower-riyadh-hit.html"
+        "title": "A Year On, Canada’s Mark Carney Returns to China a Political Star",
+        "url": "https://www.nytimes.com/2026/11/16/world/canada/carney-china-xi-trump-putin-trade.html"
       },
+      {
+        "source": "theguardian.com",
+        "title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+        "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks"
+      }
+    ]
+  },
+  {
+    "title": "Canary Islands take in record 1,580 migrants in one day, El Hierro overwhelmed",
+    "summary": "The Canary Islands took in 1,580 migrants in 15 boats on Saturday, the most in a single day since the Canary route began 32 years ago, surpassing the record of 1,461 set on 7 November 2020, according to the Spanish news agency EFE. The small island of El Hierro, where 1,327 people arrived in 13 boats, was overwhelmed, with arrivals sleeping crowded on the floor of the La Estaca port building; one boat with 203 people was taken to Gran Canaria and one with 50 to Tenerife, and 17 people needed hospital treatment. At least 120 women and 173 minors were among the arrivals, who came from Senegal, Gambia and Guinea and had set out six days earlier from Gunjur in Gambia; arrivals continued on Sunday on the Atlantic route, considered especially dangerous, with crossings lasting days or weeks.",
+    "sources": [
+      {
+        "source": "welt.de",
+        "title": "1,580 people in one day: Canary Islands report new record of arriving migrants",
+        "url": "https://www.welt.de/politik/ausland/video6afa9a199849eea0701e423e/spanien-1580-menschen-an-einem-tag-kanaren-melden-neuen-rekord-von-ankommenden-migranten.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "1,580 people in one day: Canary Islands report new record of arriving migrants",
+        "url": "https://www.welt.de/politik/ausland/article6af9c3f04495f9bd85b81076/spanien-1580-menschen-an-einem-tag-kanaren-melden-neuen-rekord-von-ankommenden-migranten.html"
+      }
+    ]
+  },
+  {
+    "title": "Ukraine’s war goes underground as soldiers fight in disused gas pipelines",
+    "summary": "The war in Ukraine is also being fought underground: in the vast network of disused gas pipelines, Ukrainian and Russian soldiers fight at close quarters under extreme and life-threatening conditions. Soldiers report exclusively to WELT on incredible scenes in the damp, dark tunnels where bodies lie everywhere, and strategists fear this new front against Russia is only the beginning.",
+    "sources": [
+      {
+        "source": "welt.de",
+        "title": "‘It is damp, it is dark, it stinks, bodies lie everywhere’",
+        "url": "https://www.welt.de/politik/ausland/plus6af5e106d2f851d14ad018c2/gaspipelines-in-der-todeszone-es-ist-feucht-es-ist-dunkel-es-stinkt-ueberall-liegen-leichen-herum.html"
+      },
+      {
+        "source": "welt.de",
+        "title": "‘It is hell’: inside Ukraine’s underground war against Putin",
+        "url": "https://www.welt.de/politik/ausland/video6af9729c4468a1e3991a2f90/gaspipelines-in-der-todeszone-es-ist-die-hoelle-im-unterirdischen-krieg-der-ukraine-gegen-putin.html"
+      }
+    ]
+  },
+  {
+    "title": "İran petrolü kesilen Çinli bağımsız rafineriler Irak’a döndü, Mercuria 20 milyon varil sattı",
+    "summary": "Çin’in bağımsız (“teapot”) rafinerileri, ABD’nin deniz ablukası ve yaklaşık dokuz aydır süren Orta Doğu savaşının İran’dan yaptırımlı petrol sevkiyatını neredeyse tamamen durdurması ve Rus ESPO petrolünün maliyetinin artması üzerine Irak ve diğer alternatif tedarikçilere yöneldi. Irak, Hürmüz Boğazı üzerinden sevkiyatın lojistik riskini üstlenip gemi temin eden alıcılara yüksek indirimler sunuyor; GL Consulting kurucusu Liao Na bunun Basra Körfezi’ndeki diğer tedarikçileri de benzer adımlara teşvik edebileceğini ve arz fazlası piyasada Çinli bağımsız rafinerilerin güçlü talebin sürdüğü az sayıdaki alıcı grubundan biri olduğunu söyledi. Traderlara göre İsviçre merkezli Mercuria son haftalarda Shenghong Petrochemical, Hongrun ve Chambroad dahil en az sekiz rafineriye 20 milyon varile kadar Irak petrolü sattı ve sevkiyatları çoğu Şandong’daki rafineri limanlarına doğrudan yaptı; Vitol da Irak petrolünün Çin’e taşınmasında rol alıyor. Mercuria açıklama yapmayı reddetti, rafineriler yorum taleplerine yanıt vermedi.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "İran petrolü kesilince Çinli rafinerilerin rotası Irak'a döndü",
+        "url": "https://www.sozcu.com.tr/iran-petrolu-kesilince-cinli-rafinerilerin-rotasi-iraka-dondu-p381738"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "İran petrolü kesilince Çinli rafineriler Irak'a yöneldi",
+        "url": "https://www.bloomberght.com/iran-petrolu-kesilince-cinli-rafineriler-irak-a-yoneldi-3794686"
+      }
+    ]
+  },
+  {
+    "title": "Altın 13 ayın dibine yaklaştı: Fed sıkılaşma beklentisi ve güçlü dolar baskılıyor",
+    "summary": "Ons altın, geçen haftayı yüzde 5’e yakın düşüşle 3 bin 884 dolardan tamamlayıp haziran ayından bu yana en sert haftalık kaybını yaşadıktan sonra yeni haftada yüzde 1’in üzerinde gerileyerek 3 bin 838 dolara indi; 3 bin 853 dolar son 13 ayın en düşük seviyesi, gram altın sabah 6 bin 273 lira idi. Baskının kaynağı ABD tüketici fiyatlarının üçüncü ay üst üste beklentileri aşmasıyla güçlenen Fed faiz artırımı beklentisi, Fed yetkilisi Christopher Waller’ın enflasyon hızlanırsa yarım puanlık artışı destekleyeceğini söylemesi, Nisan 2025’ten bu yana en yüksek seviye olan 103,44’e çıkan dolar endeksi ve yüzde 5,14’e yakın seyreden ABD 10 yıllık tahvil getirisi; teknoloji hisselerindeki düşüş de yatırımcıları kayıplarını karşılamak için altın satmaya itti. Goldman Sachs 2027 yıl sonu tahminini 4 bin 800 dolardan 4 bin 650 dolara çekerek bir ayda ikinci kez düşürdü ve Fed’in Mart 2027’de de 25 baz puan artırabileceğini öngörüyor; UBS bu çeyrek için tahminini yüzde 10 düşürerek 4 bin 500 dolara indirdi, 2027’nin son çeyreği için 5 bin dolar beklentisini korudu. Yatırımcılar bu hafta Fed’in Ekim toplantı tutanaklarına ve Fed Başkanı Kevin Warsh’un geçen ayki basın toplantısından bu yana ilk açıklamasına odaklanıyor; gümüş yüzde 2,4 düşüşle 47,55 dolara geriledi.",
+    "sources": [
+      {
+        "source": "sozcu.com.tr",
+        "title": "Altın korkutuyor! Fiyatlar 1 yılın dibine yakın",
+        "url": "https://www.sozcu.com.tr/altin-korkutuyor-fiyatlar-1-yilin-dibine-yakin-p381713"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "Altında düşüş yüzde 1’i aştı",
+        "url": "https://www.bloomberght.com/altinda-dusus-yuzde-1i-asti-3794699"
+      }
+    ]
+  },
+  {
+    "title": "Şimşek: 119 fonda 444 bin yatırımcıya 161 milyar lira ödendi, manipülasyon cezaları artacak",
+    "summary": "Hazine ve Maliye Bakanı Mehmet Şimşek, 17 Eylül’de tasfiye kapsamına alınan 7 portföy yönetim şirketine ait 131 fondan 119’unda 444 bin 987 yatırımcıya toplam 161 milyar lira ödendiğini açıkladı: “Öyle bir anlatılıyor ki sanki fonlardaki her şey kayboldu, bir şey ödenmeyecek, böyle bir şey yok.” Olağan tasfiyedeki 97 fonun 94’ünde 55 bin 821 kişiye 68 milyar lira ödenerek süreç yüzde 99,9 tamamlandı, olağanüstü tasfiyedeki 25 fonda 415 bin 955 kişiye 93 milyar lira ödendi ve 456 bin yatırımcının 371 bin 21’i net yatırım tutarının tamamını aldı; ödemelerde bütçeden kaynak kullanılmadı, TMSF nezdindeki iade ve geri kazanım hesabında 35,6 milyar lira birikti. Şimşek, fon piyasalarına yönelik yeni yasa teklifinin yakında Meclis’e gideceğini söyledi: “Özellikle koordineli işlemlerde, fonlar üzerinden yapılan manipülasyonlarda, cezaları örgütlü suç gibi kapsama alıp, artıracağız. Aralık ortasında inanıyorum ki kalıcı reform şekillenmiş olacak”; aralık ortasında G20 için gideceği ABD’de MSCI üst yönetimi ve endişeli yerli ve küresel yatırımcılarla görüşecek. Vergi yapılandırmasının af olmadığını vurgulayan Şimşek, 72 aya kadar taksit, KDV alacağında 36 ay, 10 milyon liraya kadar teminatsız yapılandırma ve 2027 hedefi olan yüzde 21 enflasyonun altında faiz sözü verdi.",
+    "sources": [
+      {
+        "source": "bloomberght.com",
+        "title": "Şimşek: MSCI'ın üst yönetimiyle bir araya geleceğiz",
+        "url": "https://www.bloomberght.com/simsek-msci-in-ust-yonetimiyle-bir-araya-gelecegiz-3794697"
+      },
+      {
+        "source": "bloomberght.com",
+        "title": "Şimşek, fonlardaki tüm varlıkların kaybolduğu iddialarını reddetti",
+        "url": "https://www.bloomberght.com/simsek-fonlardaki-tum-varliklarin-kayboldugu-iddialarini-reddetti-3794678"
+      }
+    ]
+  },
+  {
+    "title": "They Defeated a Strongman. But Can They Run a Country?",
+    "summary": "Serbia’s student movement, with no leader, no party and decisions taken by raised hands after hours of debate in university classrooms, routed the political machine of Aleksandar Vucic in the general election on Oct. 25, achieving what the established opposition had failed to do for more than a decade. Vucic, nearing the end of his second presidential term and barred from running again, had resigned as president a month before the vote, gambling that his party would win and that he could keep his grip on power as prime minister. The victory of a slate of parliamentary candidates chosen in campus meetings now raises the question whether a leaderless movement of political novices with sometimes contradictory views can build a functioning and durable government.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "They Defeated a Strongman. But Can They Run a Country?",
+        "url": "https://www.nytimes.com/2026/11/16/world/europe/serbia-students-vucic-election.html"
+      }
+    ]
+  },
+  {
+    "title": "Israel Kidnapped Iranian Generals in Hunt for Ron Arad",
+    "summary": "Israeli intelligence officers posing as movers kidnapped Gen. Abdullah Saberi, a veteran commander of Iran’s Islamic Revolutionary Guards Corps, during a morning jog in the diplomatic quarter of Damascus in September 2021, drugged him, threw a refrigerator box over his head and whisked him to Israel for interrogation, according to numerous officials in the Middle East, including senior Iranian officials close to Saberi and a Syrian official who reviewed video of the abduction. His interrogators wanted only one thing: what he knew about Ron Arad, the Israeli airman who vanished decades ago and whom the Israeli military classifies as its only service member missing in action. Israel took the risk of seizing the general in the shadow of his own embassy four decades after Arad’s disappearance.",
+    "sources": [
+      {
+        "source": "nytimes.com",
+        "title": "Israel Kidnapped Iranian Generals in Hunt for Ron Arad",
+        "url": "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html"
+      }
+    ]
+  },
+  {
+    "title": "Army soldier files whistleblower complaint against the Pentagon over Iranian strike that killed 6 US service members",
+    "summary": "Army Maj. Stephen Ramsbottom, a survivor of the Iranian strike on a makeshift operations center at Kuwait’s Shuaiba port on March 1 that killed six US Army Reserve soldiers, the first US service members killed in the war with Iran, has filed a whistleblower complaint with the House and Senate Armed Services committees alleging the Pentagon ignored warnings about the lack of protection for troops. He called the attack a “tactical failure” by “the Army, our leadership, and myself”, said superiors told him “We don’t have to worry about protection”, and said a promised counter-drone system “never arrived at Shuaiba”; the site had only concrete barriers against car bombs, no sirens, one ambulance and no physician. The complaint comes as Democrats prepare wide-ranging investigations into the administration’s handling of the Iran war when they take control of Congress in January.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Army soldier files whistleblower complaint against the Pentagon over Iranian strike that killed 6 US service members",
+        "url": "https://www.cnn.com/2026/11/15/politics/army-soldier-whistleblower-complaint"
+      }
+    ]
+  },
+  {
+    "title": "Russian diesel under Trump deal struggles to reach US market amid legal fears and criticism",
+    "summary": "More than a month after President Trump announced on October 9 a deal with Vladimir Putin for Russia to “immediately supply over 300,000 Tons of Diesel Fuel to the American and Global Marketplace”, the diesel has struggled to reach the US market amid outrage from bipartisan lawmakers and European allies and legal concerns over sanctions. The tanker Agioi Fanendes, which left Russia with tens of thousands of barrels and was expected in New York and New Jersey around November 7, was hovering hundreds of miles off the US coast on Sunday broadcasting “FOR ORDERS”, while other tankers from Primorsk, including the Talisman, which docked in Alexandria, Egypt, and the Leruo, now heading to Brazil, shifted away from the US; both are under European and British sanctions and the Talisman is also sanctioned in the US. A White House official said the diesel “is on the water and heading to the market, which will ease prices for Americans”, without saying it was heading to the US.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Russian diesel under Trump deal struggles to reach US market amid legal fears and criticism",
+        "url": "https://www.cnn.com/2026/11/15/politics/russia-diesel-trump-deal-oil-tankers"
+      }
+    ]
+  },
+  {
+    "title": "Israel kills senior Hamas commander in Gaza two months after killing his predecessor as ceasefire stagnates",
+    "summary": "Israel killed Samir Mahmoud Abu Younis, commander of Hamas’ Rafah Brigade, in a strike in southern Gaza overnight Saturday, two months after killing his predecessor Nael Abu Obeid, a sign that the conflict remains active despite the US-brokered ceasefire in place for more than a year. Hamas’ Al-Qassam Brigades said Abu Younis joined the brigade in 1991 and was “among the most prominent commanders who participated in planning and overseeing” the October 7, 2023 attack; Defense Minister Israel Katz said “another one joins his predecessors in the depths of hell” and that the offensive policy will continue “until Gaza is demilitarized and there is no Hamas”. Hamas quickly replaces killed commanders and entrenches its grip on the half of Gaza not occupied by Israel, while the Trump administration’s Board of Peace remains sidelined on the 20-point plan: the Palestinian technocratic committee has yet to enter Gaza and the international security force has yet to materialize. An Israeli strike on Nasser Hospital in Khan Younis last week killed at least six people, including Dr. Rizk Abu Shaira and a 13-year-old boy awaiting surgery, according to Palestinian officials.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Israel kills senior Hamas commander in Gaza two months after killing his predecessor as ceasefire stagnates",
+        "url": "https://www.cnn.com/2026/11/15/middleeast/israel-kills-hamas-commander-gaza-intl"
+      }
+    ]
+  },
+  {
+    "title": "Jensen Huang resigned in disgrace from Nvidia. Many in Silicon Valley are still showering him with support",
+    "summary": "Jensen Huang resigned as Nvidia’s chief executive on Thursday after reports of multiple extramarital affairs, including with at least one subordinate, having already been under scrutiny over an affair with a woman US officials described as a potential Chinese intelligence asset; CFO Colette Kress is interim leader. Current and former employees responded with tributes on social media: director Edward Liu called it “a heartbreaking day”, engineer Fei Peng wrote that the departure “has killed NVIDIA’s soul”, and research scientist Gavin Woolery said the ousting came too quickly before all the information emerged, while vice president Bryan Catanzaro said he fully supports the board and Kress. Nvidia, often called the “central bank” of the AI industry, supplied the hardware and financed much of the sector through investments and partnerships, drawing criticism and fears of “circular financing” in which companies use Nvidia capital to buy Nvidia products.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Jensen Huang resigned in disgrace from Nvidia. Many in Silicon Valley are still showering him with support",
+        "url": "https://www.cnn.com/2026/11/15/business/jensen-huang-resigned-nvidia-support"
+      }
+    ]
+  },
+  {
+    "title": "Lutnick under fire: How Trump’s commerce secretary cultivated Nvidia’s CEO while chip controls slipped",
+    "summary": "Commerce Secretary Howard Lutnick is under intense scrutiny after Jensen Huang’s resignation from Nvidia, with some Trump advisers discussing whether he should be dismissed over what they see as inaction on limiting US chip exports to China and his role in cultivating Huang as a top administration ally, according to more than a dozen sources inside the administration and the tech industry. Other officials accuse Lutnick of bucking internal consensus and Trump’s own directives by failing to blacklist an Nvidia customer suspected of funneling chips to China; Huang recalled on Joe Rogan’s podcast that Lutnick had called him and the company “a national treasure” and told him “whenever you need the president, call us.” The questions, and a fresh push to limit sales of advanced chips to China, are likely to persist as Trump meets Xi Jinping in Shenzhen next week, though US officials said Trump is not expected to raise the alleged spying and China would have no say in whether Washington tightens restrictions.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Lutnick under fire: How Trump’s commerce secretary cultivated Nvidia’s CEO while chip controls slipped",
+        "url": "https://www.cnn.com/2026/11/15/politics/lutnick-jensen-alice-huang-trump-nvidia"
+      }
+    ]
+  },
+  {
+    "title": "Europe scrambles to respond to wave of bomb threats disrupting transport, media and schools",
+    "summary": "An unprecedented wave of bomb threats across Europe, mainly sent by email and so far all false, has hit multiple media broadcasters, more than 50 flights, thousands of schools and at least one cruise ship, leaving authorities struggling to respond while it remains unclear who is behind them. Responses varied by country, with some diverting flights and others, such as Hungary and France, scrambling fighter jets to escort passenger planes, and analysts say the hoaxes expose the vulnerability of Europe’s infrastructure to anonymous messages and the need for a bloc-wide framework. Wizz Air chief executive József Váradi said he had met European Commission officials to push for a coordinated response and a possible central body, calling it “a very hot potato because of the sovereign nation state concept”, and Chatham House’s Grégoire Roos said each country is responding with “its own toolbox and standards” and proposed a Europe-wide threat assessment standard.",
+    "sources": [
+      {
+        "source": "cnn.com",
+        "title": "Europe scrambles to respond to wave of bomb threats disrupting transport, media and schools",
+        "url": "https://www.cnn.com/2026/11/15/europe/europe-bomb-threats-response-intl"
+      }
+    ]
+  },
+  {
+    "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+    "summary": "President Volodymyr Zelensky said on Sunday that speed restrictions on Starshield, the military-grade service developed by Elon Musk’s Starlink and provided to Ukraine by the US government, remain in place along the front line and in occupied territories and are hampering Ukraine’s defence: “Our interceptor drones lose connection with their operators at a speed of 161km/h (100mph) and simply cannot catch up with Russian jet-powered ‘shaheds’,” he wrote, adding “It is important to be on the right side of history.” He said the protection of lives and energy infrastructure ahead of winter “directly depends” on the restrictions being lifted and argued that limits applied only in occupied areas amount to “partially recognising the temporary occupied territories as not ours”. The issue, first identified in October, produced conflicting accounts, with Musk saying the US government controlled Starshield and Trump denying responsibility, and it coincided with a stand-off over Ukrainian strikes on Russian oil refineries that Trump said pushed global prices higher; Ukraine also faces a shortage of US-made Patriot interceptors.",
+    "sources": [
       {
         "source": "bbc.com",
-        "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-        "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "source": "lemonde.fr/en",
-        "title": "Yemen's Houthis claim attack on Riyadh financial district, Aramco skyscraper damaged",
-        "url": "https://www.lemonde.fr/en/international/article/2026/11/08/saudi-capital-s-financial-district-targeted-in-attack-aramco-skyscraper-damaged_6774880_4.html"
+        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+        "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
       }
     ]
   },
   {
-    "title": "Trump orders DOJ probes of Democrats as House heads for Hegseth impeachment vote",
-    "summary": "Trump instructed Attorney General Todd Blanche on Truth Social on Saturday to open investigations into Democratic politicians who had announced inquiries into him and his administration, calling it “extortion”, and wrote on Sunday that “America took a huge step back in history in the last election” but “we will come back, bigger and stronger than ever”. Blanche told CNN that Democrats planning oversight should be “worried”; Robert Garcia, top Democrat on the House Oversight Committee, said Congress would not cow before a “threat”. The first confrontation comes this week as Republican Rep. Thomas Massie plans to bring articles of impeachment against Defense Secretary Pete Hegseth over his conduct of the Iran war, and incoming Speaker Hakeem Jeffries said it is a “hard yes” on supporting the effort. Trump also demanded that Republican Dan Sullivan be declared winner of the still-open Alaska Senate race, where the Democrat narrowly leads after a judge rejected an attempt to intervene; his appointment of Stephen Miller as chief of staff was read as a declaration of war on Democrats.",
-    "sources": [
-      {
-        "source": "cnn.com",
-        "title": "Trump team interprets midterms debacle as a cue to go harder, further, faster",
-        "url": "https://www.cnn.com/2026/11/09/politics/trump-midterms-hegseth-impeachment"
-      },
-      {
-        "source": "aljazeera.com",
-        "title": "US top Democrat backs impeachment of Pete Hegseth",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/us-top-democrat-backs-impeachment-of-pete-hegseth?traffic_source=rss"
-      },
-      {
-        "source": "welt.de",
-        "title": "Trump threatens Democrats with investigations and speaks of a “huge step back” for America",
-        "url": "https://www.welt.de/politik/ausland/article6af0a0a4a389bc337cfca4d7/trump-droht-demokraten-mit-ermittlungen-und-spricht-von-riesigem-schritt-zurueck-fuer-amerika.html"
-      }
-    ]
-  },
-  {
-    "title": "Drone attack on Khor Mor gas field blacks out Iraqi Kurdistan",
-    "summary": "A drone attack halted production at the Khor Mor gas field in Iraq’s autonomous Kurdistan region, triggering fires and widespread power outages across the region, which relies on the field’s gas to generate most of its electricity. It was initially unclear who was responsible for the attack.",
+    "title": "US and rivals spar over next UN boss as race lurches towards deadline",
+    "summary": "The race to replace UN Secretary-General Antonio Guterres, who must leave office on December 31, is heading into its final weeks with eight candidates, secret polls and rivalries among the five veto-holding permanent members of the Security Council, raising fears that for the first time the new year could begin without a leader at the UN. The late entry of Emirati diplomat Lana Nusseibeh and Turkish nominee Feridun Sinirlioglu has split the race further, with no name yet overcoming opposition from all five permanent members. Georgina Holmes of the Open University called the contest a “struggle over who will exercise political influence within the UN at a time when multilateralism is under considerable pressure and attack”, noting that “P5 member states are not as politically aligned as they have been in previous eras”; the UN has been sidelined from the Iran and Ukraine conflicts, faces blistering criticism from President Trump and is in a financial crisis.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss"
-      },
-      {
-        "source": "welt.de",
-        "title": "Attack on gas field in Kurdistan in northern Iraq",
-        "url": "https://www.welt.de/politik/ausland/video6af167e580d3a1c6aa66ddfc/nahost-angriff-auf-erdgasfeld-in-kurdistan-im-nordirak.html"
+        "title": "US and rivals spar over next UN boss as race lurches towards deadline",
+        "url": "https://www.aljazeera.com/news/2026/11/16/us-and-rivals-spar-over-next-un-boss-as-race-lurches-towards-deadline?traffic_source=rss"
       }
     ]
   },
   {
-    "title": "Ekimde en çok kazandıran mevduat faizi oldu, BIST 100 yüzde 14,53 kaybettirdi",
-    "summary": "TÜİK’in ekim ayı verilerine göre aylık en yüksek reel getiri, Yİ-ÜFE ile indirgendiğinde yüzde 1,31, TÜFE ile indirgendiğinde yüzde 0,39 ile brüt mevduat faizinde gerçekleşti. DİBS Yİ-ÜFE ile yüzde 0,91 reel getiri sağlarken dolar yüzde 0,04, avro yüzde 2,65, külçe altın yüzde 4,70 ve BIST 100 endeksi yüzde 14,53 kaybettirdi. Üç aylık değerlendirmede mevduat faizi Yİ-ÜFE ile yüzde 2,90 ile en çok kazandıran, BIST 100 yüzde 21,13 ile en çok kaybettiren araç oldu; yıllık bazda en yüksek reel getiri Yİ-ÜFE ile yüzde 5,96 ile DİBS’te görüldü.",
-    "sources": [
-      {
-        "source": "sozcu.com.tr",
-        "title": "TÜİK açıkladı: Ekim ayının en çok kazandıran yatırım aracı belli oldu",
-        "url": "https://www.sozcu.com.tr/tuik-acikladi-ekim-ayinin-en-cok-kazandiran-yatirim-araci-belli-oldu-p379460"
-      },
-      {
-        "source": "bloomberght.com",
-        "title": "Ekim'de en yüksek reel getiri mevduat faizinde",
-        "url": "https://www.bloomberght.com/ekim-de-en-yuksek-reel-getiri-mevduat-faizinde-3793913"
-      }
-    ]
-  },
-  {
-    "title": "Fon soruşturmasında BDDK Başkan Yardımcısı Erişen ve Adil Katılım GM Yönaç tutuklandı",
-    "summary": "İstanbul Cumhuriyet Başsavcılığının fon soruşturmasında gözaltına alınan BDDK Başkan Yardımcısı Muhammet Erişen ve Adil Katılım Bankası Genel Müdürü Murat Yönaç, savcılıkta ifade verdikten sonra sevk edildikleri sulh ceza hakimliğince tutuklandı. Ruzy Madencilik Yönetim Kurulu Başkanı Nureddin Çevik, eski Takasbank Genel Müdürü Yunus Arıncı ve Bulls Yatırım Yönetim Kurulu Başkanı Kemal Akkaya’nın bugün adliyeye sevk edilmesi bekleniyor.",
-    "sources": [
-      {
-        "source": "sozcu.com.tr",
-        "title": "Fon soruşturmasında 2 kritik tutuklama!",
-        "url": "https://www.sozcu.com.tr/fon-sorusturmasinda-2-kritik-tutuklama-p379452"
-      },
-      {
-        "source": "bloomberght.com",
-        "title": "Fon soruşturmasında 2 şüpheli tutuklandı",
-        "url": "https://www.bloomberght.com/fon-sorusturmasinda-2-supheli-tutuklandi-3793918"
-      }
-    ]
-  },
-  {
-    "title": "Gürlek: Fon soruşturmasında 464 şüpheli, 120 tutuklu; yatırımcılara 130 milyar TL ödendi",
-    "summary": "Adalet Bakanı Akın Gürlek, TBMM Plan ve Bütçe Komisyonunda 9 Kasım itibarıyla fon soruşturmalarında 464 şüpheli bulunduğunu, 120’sinin tutuklu olduğunu, 262 kişiye adli kontrol uygulandığını ve firari 40 şüpheli için yakalama kararı çıkarıldığını açıkladı; 386 gerçek ve 116 tüzel kişinin malvarlığına tedbir kondu, yaklaşık 31,5 milyar TL TMSF’deki gönüllü iade hesabına iade edildi. Gürlek, “denetim mekanizmalarına kadar uzanan bağlantılar da araştırılmaktadır” dedi. BBC Türkçe’nin derlemesine göre 7 Kasım’da eski SPK Kurul Başkan Vekili Enver Usca, BDDK Daire Başkanı Mustafa Alper Taş ve eski SPK Daire Başkanı Ercan Urkan tutuklandı; Cumhurbaşkanı Yardımcısı Cevdet Yılmaz 17 Eylül’de 131 fonun “karantina”ya alındığını ve “Toplamda 420 bin yatırımcı ödeme aldı. Toplam yatırımcılara 130 milyar TL ödeme yapıldı” dedi, olağanüstü tasfiyede Tera, Pusula ve Atlas kaldı ve 13 Kasım’da yeni ödeme yapılacak.",
-    "sources": [
-      {
-        "source": "bloomberght.com",
-        "title": "Gürlek: Fon soruşturmasında 464 şüpheli, 120 tutuklu",
-        "url": "https://www.bloomberght.com/gurlek-fon-sorusturmasinda-464-supheli-120-tutuklu-3793928"
-      },
-      {
-        "source": "bbc.com/turkce",
-        "title": "Fon krizinde şimdiye kadar neler oldu, ne kadar ödeme yapıldı?",
-        "url": "https://www.bbc.com/turkce/articles/cmzxjn4205xqo?at_medium=RSS&at_campaign=rss"
-      }
-    ]
-  },
-  {
-    "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
-    "summary": "More than 50 people were killed in Yemen in 24 hours, one of the deadliest stretches since the war between the Iran-backed Houthis and the Saudi-backed government reignited in August. Houthi officials said airstrikes on the village of al-Shariya, east of Sanaa, killed at least 27 people and wounded 30 on Saturday, most of them women and children, and blamed Saudi warplanes; a day earlier strikes on a crowded market in Taiz Province killed at least 30, with the warring parties trading blame. Almost 1,800 people had been killed by the end of October and more than 300,000 displaced, the World Health Organization said, and the UN has warned the fighting is returning to the levels seen before the 2022 cease-fire.",
-    "sources": [
-      {
-        "source": "nytimes.com",
-        "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
-        "url": "https://www.nytimes.com/2026/11/07/world/middleeast/more-than-50-killed-in-yemen.html"
-      }
-    ]
-  },
-  {
-    "title": "Hakeem Jeffries has a plan for Donald Trump and for his Democratic critics",
-    "summary": "Hakeem Jeffries, 56, is set to become the first Black speaker in American history, leading a historically large majority after Democrats, who had needed to net three seats, won a margin well into the dozens. “A lot of people counted us out and claimed the Democratic Party was dead in the immediate aftermath of the 2024 election,” he told CNN; he faces a president who just picked Stephen Miller as chief of staff, swing-district members worried about overreach and an activist left labeling him a shill of corporate interests. “My track record speaks for itself,” he said.",
-    "sources": [
-      {
-        "source": "cnn.com",
-        "title": "Hakeem Jeffries has a plan for Donald Trump and for his Democratic critics",
-        "url": "https://www.cnn.com/2026/11/08/politics/hakeem-jeffries-first-black-speaker-donald-trump-democrats"
-      }
-    ]
-  },
-  {
-    "title": "Who are the seafarers caught in the US-Israeli war on Iran?",
-    "summary": "Iran’s Islamic Revolutionary Guard Corps said on Sunday that three “rogue oil tankers travelling an unauthorised route” in the Strait of Hormuz were subject to “explosions and severe fires”, the latest attacks on commercial shipping since the United States and Israel launched their war on Iran nine months ago. The International Maritime Organization has recorded at least 129 incidents and the deaths of at least 25 seafarers since the war started on February 28, many of them citizens of India; on Thursday Iranian forces said five oil tankers and a tugboat caught fire. Before the war roughly one-fifth of global oil consumption passed through the strait, which Iran essentially closed while Washington imposed a naval blockade on Iranian ports.",
+    "title": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
+    "summary": "Iraq’s Iran-aligned Kataib Hezbollah denied involvement in oil smuggling in the Jurf al-Nasr area on Sunday, accusing Prime Minister Ali al-Zaidi’s office of “fabricating lies” and calling the anticorruption probe “the largest blackmail operation” to force its disarmament, a day after al-Zaidi sacked nine senior officials, including security and intelligence officers in Babil province, an Interior Ministry commander and the director of the Oil Pipelines Company. The government said an investigation committee chaired by al-Zaidi confirmed smuggling on the basis of “intelligence documents” with satellite images of operations in the faction’s stronghold and referred those implicated to the judiciary. Baghdad is under growing US pressure to rein in Iran-aligned groups; al-Zaidi has promised that non-state armed groups will hand their weapons to the state, while Kataib Hezbollah pledges to keep its arsenal and accuses him of caving to the US, Saudi Arabia and the UAE.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "Who are the seafarers caught in the US-Israeli war on Iran?",
-        "url": "https://www.aljazeera.com/news/2026/11/9/who-are-the-seafarers-caught-in-the-us-israeli-war-on-iran?traffic_source=rss"
+        "title": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
+        "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss"
       }
     ]
   },
   {
-    "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
-    "summary": "More than 70,000 tents have been flooded in Gaza since heavy rains began late on Friday, according to Gaza’s Government Media Office, with hundreds of thousands of displaced Palestinians sheltering in locations considered “highly vulnerable” to more flooding. More than a year after the ceasefire deal between Israel and Hamas, Al Jazeera reports that Israel has continued to block the entry of goods including 60,000 mobile homes and 200,000 tents, with only 20,000 tents allowed in and the mobile homes parked on the Egyptian side of the border. Jaber al-Kaseeh, in his 70s and in his fourth winter in a tent in az-Zawayda, said “All the tents are now damaged, torn and covered in mud.”",
+    "title": "Indonesian president apologises to Singapore, Malaysia for wildfire haze",
+    "summary": "Indonesian President Prabowo Subianto apologised to Singapore and Malaysia at the ASEAN summit in Manila on Sunday for months of transboundary haze from Indonesia’s most intense wildfires in 11 years: “I would like to apologise to my neighbouring countries Malaysia and Singapore when we had a very big forest fire, which took nearly four months for us to control.” He said Indonesia had revoked 17 concessions, charged 11 companies with 23 more to be charged and 104 under police investigation, deployed 71,000 forest firefighters and lost 16 people fighting the blazes, and is preparing a new body for wildfire prevention. Philippine Foreign Minister Theresa Lazaro said Jakarta was “very frank and candid” about its efforts; Malaysia and Singapore refrained from criticism and offered assistance.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
-        "url": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss"
+        "title": "Indonesian president apologises to Singapore, Malaysia for wildfire haze",
+        "url": "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss"
       }
     ]
   },
   {
-    "title": "Moldova launches new power line to Romania to cut reliance on Russia",
-    "summary": "Moldova inaugurated a new 400-kilowatt extra-high-voltage line from Vulcanesti to Chisinau connecting it to Romania and the European grid, allowing it to cut reliance on the Cuciurgan thermal power plant in separatist Transnistria. “For decades, Moscow used energy to blackmail us. No more: Moldova buys zero Russian gas,” President Maia Sandu said, adding that “two more power lines to Romania are on the way”; European Commissioner for Energy Marta Kos said Moldova could now “buy energy where it is cheapest”. Last month Moldova’s parliament approved a state of emergency until November 20 over gas shortages amid soaring world energy prices.",
+    "title": "ASEAN, China fall short of agreeing on South China Sea code",
+    "summary": "China and ASEAN failed to conclude their two-decade negotiations on a code of conduct for the South China Sea at meetings in Manila despite tentative agreement on about 80 percent of a draft, Philippine Foreign Minister Theresa Lazaro said on Sunday: “There is no conclusion yet,” with key issues unresolved, including whether the code would be legally binding. The Philippines, as chair, had pledged a deal by the end of this year; Lazaro hoped it could be concluded under Singapore’s chairmanship next year. China claims most of the sea, overlapping the exclusive economic zones of Brunei, Indonesia, Malaysia, the Philippines and Vietnam, and rejects the 2016 arbitration ruling against its claims; separately, ASEAN extended its ban on Myanmar’s leader attending summits for failing to comply with the 2021 peace plan.",
     "sources": [
       {
         "source": "aljazeera.com",
-        "title": "Moldova launches new power line to Romania to cut reliance on Russia",
-        "url": "https://www.aljazeera.com/news/2026/11/9/moldova-launches-new-power-line-to-romania-to-cut-reliance-on-russia?traffic_source=rss"
+        "title": "ASEAN, China fall short of agreeing on South China Sea code",
+        "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code?traffic_source=rss"
       }
     ]
   },
   {
-    "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
-    "summary": "The collapse of Ueno Bank, which said it had 2.9 million customers, around 60% of Paraguay’s adult population, left millions unable to transact and led to the impeachment and removal of President Santiago Peña, a close ally of Trump, exposing a power struggle inside the ruling Colorado Party. The Central Bank said the bank had about 1.8 million depositors; by Saturday almost 1.2 million customers had received an advance payment under the state’s deposit guarantee fund, while hundreds protested outside Congress. Ueno launched as a fintech in 2021 and began operating as a bank in November 2023.",
+    "title": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
+    "summary": "Israeli opposition leader Gadi Eisenkot, tasked with forming the new government, said on Sunday that Benjamin Netanyahu cannot “remain at the helm of government for even one more minute” and that his conduct “poses a tangible, direct and immediate threat to Israeli democracy”, after Channel 12 reported that Netanyahu’s chief of staff Ido Norden lodged a police complaint against members of the United Arab List (Ra’am) on the eve of the October 27 election, leading about 14 officers to raid the homes of three Ra’am members without a warrant and arrest them on bribery suspicions later found unfounded. The report also alleged that Shin Bet chief David Zini asked the attorney general’s office to wiretap five Palestinian-Israeli Knesset members on election day, a request that was rejected; Arab-led parties won a record 19 seats and Netanyahu made unproven fraud accusations. Eisenkot called for an immediate investigation, Likud called his statement “outrageous incitement”, and the attack came hours after representatives of the two men met on a possible national unity government, an appeal Eisenkot had called a “bluff”.",
+    "sources": [
+      {
+        "source": "aljazeera.com",
+        "title": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
+        "url": "https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling?traffic_source=rss"
+      }
+    ]
+  },
+  {
+    "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+    "summary": "The foreign ministers of Australia, Canada, Italy and the United Kingdom urged Israel in a joint statement on Sunday to “stop the delays now and allow immediate, rapid and unimpeded humanitarian access throughout Gaza”, saying recent floods have “brought further suffering” and that “150,000 tents and other vital supplies are being held at the border and prevented from entering Gaza”. Heavy rain this month swept away tens of thousands of tents; the UN says more than 1.9 million people are displaced, and the Global Shelter Cluster estimated as of November 1 that Gaza needs at least 1.7 million mattresses and 121,000 tents for the winter. The statement, which said “This situation is entirely reversible” and “there is still time to act before the winter fully sets in”, follows a similar appeal by the UN’s Humanitarian Country Team on Friday.",
+    "sources": [
+      {
+        "source": "aljazeera.com",
+        "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+        "url": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss"
+      }
+    ]
+  },
+  {
+    "title": "Yemen’s Houthis unilaterally release 600 war detainees",
+    "summary": "Yemen’s Houthis released 600 people imprisoned during the civil war, saying the move brings the total freed through their unilateral amnesty initiatives to 2,612. The ICRC said the operation was separate from negotiated prisoner-exchange agreements.",
+    "sources": [
+      {
+        "source": "aljazeera.com",
+        "title": "Yemen’s Houthis unilaterally release 600 war detainees",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss"
+      }
+    ]
+  },
+  {
+    "title": "Midterm voters ended the long-running GOP dominance in state legislatures",
+    "summary": "The midterm elections ended the Republican dominance of US state legislatures that began in 2010: Pennsylvania elected a Democratic state Senate majority for the first time since Jimmy Carter was president, Democrats will run the Texas House for the first time in 24 years and the Georgia House for the first time in more than 20 years. Republicans controlled legislatures in 28 states and Democrats 18 before the vote; with some votes still being counted, Democrats look likely to hold a 24-to-22 lead, having picked up seats in nearly every state that held legislative elections, including Texas, Utah and Florida, and gained six new “trifectas”, among them Arizona for the first time since 1966. The Republican State Legislative Committee blamed the national anti-incumbent mood and heavy Democratic spending, while Heather Williams of the Democratic Legislative Campaign Committee said the wins “proved what is possible when you put statehouses at the center of a national strategy”.",
     "sources": [
       {
         "source": "npr.org",
-        "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
-        "url": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno"
+        "title": "Midterm voters ended the long-running GOP dominance in state legislatures",
+        "url": "https://www.npr.org/2026/11/15/nx-s1-6039175/midterms-legislatures-states-democrats-gop"
       }
     ]
   },
   {
-    "title": "Burnham’s homelessness pledge to ‘get everyone in for Christmas’ in jeopardy",
-    "summary": "Andy Burnham’s pledge to get “everyone in for Christmas” is in jeopardy as official figures show 8,748 rough sleepers in England in June, up nearly 1,000 since January and the highest since November 2025, with only 15% found accommodation by the end of June. Homelessness minister Florence Eshalomi said the government hoped to offer a bed to every rough sleeper by Christmas but that there is a chronic shortage of suitable housing, and that “a route off the street” may not involve housing. A record 135,600 households in England were living in temporary accommodation.",
+    "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
+    "summary": "A House of Lords national resilience committee report, written after months of expert hearings, finds ministers complacent in the face of fast-changing and interconnected threats to the UK, from cyber-attacks, proxy violence and strikes on undersea cables to extreme weather and flooding, and says the country is underprepared for a “polycrisis” of several disruptions blending into one another, especially as AI “supercharges” the risk from cyber-attacks. It calls for a dedicated cabinet minister, an annual statement to parliament by the prime minister on preparedness, a booklet to every household on the model of Denmark and Sweden, and a pause to plans to switch off the digital terrestrial TV signal; “the government appears complacent and the UK is underprepared. We need to move fast to turn things around,” the committee warned. It highlights medicines and food as particular vulnerabilities, noting that about 90% of the world’s 6-APA, the basis of penicillin-type antibiotics, comes from China.",
     "sources": [
       {
         "source": "theguardian.com",
-        "title": "Burnham’s homelessness pledge to ‘get everyone in for Christmas’ in jeopardy",
-        "url": "https://www.theguardian.com/society/2026/nov/09/burnham-homelessness-pledge-rough-sleeping-england"
+        "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
+        "url": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency"
       }
     ]
   },
   {
-    "title": "Lisa Nandy wary of ‘circular arguments’ about rejoining EU",
-    "summary": "Culture secretary Lisa Nandy said she wants to avoid “circular arguments” about whether the UK should rejoin the EU, underlining cabinet divisions over Prime Minister Andy Burnham’s plan for an “honest conversation” about Brexit, which some ministers privately warn would benefit Nigel Farage’s Reform UK. “I do not believe that anybody wants to repeat circular arguments about in or out, leave or remain,” she told the BBC, while saying “the deal that we got is not what we were promised”. Burnham attends the European Political Community summit in Dublin on Thursday, and agreements on agriculture and food, emissions trading and youth experience visas are expected at a Brexit reset meeting in Brussels on 20 November.",
+    "title": "Weakening UK electric vehicle targets would hurt car industry, ministers told",
+    "summary": "The UK’s Climate Change Committee will write to ministers on Wednesday about the effects of changing the zero emissions vehicle mandate, which requires 80% of new car sales to be electric from 2030 and 100% from 2035, after reports that Labour is poised to reduce the targets; campaigners and experts say weakening them would hurt the car industry and consumers. Filling a petrol car can cost more than £100 while an electric vehicle can be fully charged for less than £10, and Greenpeace UK’s Ami McCarthy said “Watering down the current sales targets for EVs would be like driving with the handbrake on”, citing the prime minister’s speech to the COP31 summit on Thursday calling on industry to play its part. Carmakers say the targets are too onerous and force heavy discounting; the committee’s chair Nigel Topping has long advocated electric vehicles.",
     "sources": [
       {
         "source": "theguardian.com",
-        "title": "Lisa Nandy wary of ‘circular arguments’ about rejoining EU",
-        "url": "https://www.theguardian.com/politics/2026/nov/08/lisa-nandy-wary-of-circular-arguments-about-rejoining-eu"
+        "title": "Weakening UK electric vehicle targets would hurt car industry, ministers told",
+        "url": "https://www.theguardian.com/environment/2026/nov/16/weakening-uk-electric-vehicle-targets-would-hurt-car-industry-ministers-told"
       }
     ]
   },
   {
-    "title": "2027 French presidential election: Jean-Luc Mélenchon energizes his base and seeks to broaden his electorate",
-    "summary": "About 20,000 people attended Jean-Luc Mélenchon’s rally in Le Bourget on Saturday, November 7, where the La France Insoumise presidential candidate unveiled his program L’Avenir en commun, with 1,000 proposed measures published on Friday. The audience was mostly young and diverse, and activists described the Socialists’ nominee Raphaël Glucksmann as “not from the left”.",
+    "title": "Special needs overhaul in England could bring in new avenues for extra support",
+    "summary": "The UK government is considering major concessions to its overhaul of special needs education in England, with two independent appeal routes under consideration for families dissatisfied with the support their child’s school offers, after campaigners and parents’ groups criticised the reforms for watering down legal protections. The white paper published in February replaces education, health and care plans (EHCPs) with school-managed individual support plans (ISPs) and restricts appeals to the independent first-tier Send tribunal, leaving complaints to be handled by each child’s school. The options are an appeal to the local government and social care ombudsman or to an independent review panel modelled on school exclusion panels; Education Secretary Lucy Powell told MPs to “wait and see”, hinting that changes to the appeals process were “a key part of what we are looking at”.",
+    "sources": [
+      {
+        "source": "theguardian.com",
+        "title": "Special needs overhaul in England could bring in new avenues for extra support",
+        "url": "https://www.theguardian.com/education/2026/nov/16/families-rights-appeal-support-send-overhaul-england"
+      }
+    ]
+  },
+  {
+    "title": "Will Spain’s snap election in November bring a far-right party into government?",
+    "summary": "Spaniards vote on 29 November in the country’s sixth general election in 11 years. The snap election could end eight years of socialist-led rule and bring a far-right party into government for the first time since Spain’s return to democracy after the death of Gen Franco.",
+    "sources": [
+      {
+        "source": "theguardian.com",
+        "title": "Will Spain’s snap election in November bring a far-right party into government?",
+        "url": "https://www.theguardian.com/world/2026/nov/16/will-spains-snap-election-in-november-bring-a-far-right-party-into-government"
+      }
+    ]
+  },
+  {
+    "title": "'French Fractures' survey: Amid polarized political landscape, people no longer see elections as a solution",
+    "summary": "The latest “French Fractures” survey, conducted by Ipsos BVA-CESI Engineering School for Le Monde with the Sciences Po Center for Political Research (CEVIPOF), the Jean Jaurès Fondation and the Montaigne Institute among about 3,000 people, finds five months before the 2027 presidential election that only a minority of French people believe the vote will bring solutions, while respondents are united in their pride in being French yet convinced their divisions outweigh what unites them. Amid what the paper calls an unprecedented purchasing power crisis, respondents ranked that concern above all others, ahead of crime, debt, immigration and environmental protection, its score up 11 percentage points from 2025; the survey has tracked the values and political mood of the French every year since 2013.",
     "sources": [
       {
         "source": "lemonde.fr/en",
-        "title": "2027 French presidential election: Jean-Luc Mélenchon energizes his base and seeks to broaden his electorate",
-        "url": "https://www.lemonde.fr/en/politics/article/2026/11/08/2027-french-presidential-election-jean-luc-melenchon-energizes-his-base-and-seeks-to-broaden-his-electorate_6774847_5.html"
+        "title": "'French Fractures' survey: Amid polarized political landscape, people no longer see elections as a solution",
+        "url": "https://www.lemonde.fr/en/politics/article/2026/11/15/french-fractures-survey-amid-polarized-political-landscape-people-no-longer-see-elections-as-a-solution_6781579_5.html"
       }
     ]
   },
   {
-    "title": "Operation “Iron Gate”: Trump deploys special unit against Iranian weapons transports",
-    "summary": "In addition to the naval blockade of Iran’s ports, US Central Command has formed a task force to cut off further supply routes, including weapons deliveries overland and across the Caspian Sea; Trump announced on Truth Social that the “Iron Gate” task force is already active and that “very little” can get into or out of Iran. The aim is above all to dry up Iranian oil export revenue and to block technology that could be used militarily. Rubio said before leaving for the G7 foreign ministers’ meeting in France: “I can’t report any progress. There are several countries still talking to Iran and putting forward various ideas, but I wouldn’t say we are close to a breakthrough”; Tehran is said to be examining Qatari proposals while demanding an end to the US blockade, the lifting of sanctions, the release of frozen assets and compensation for war damage.",
+    "title": "COP31: Thousands in Antalya protest environmental damage: 'We no longer believe in those who lead us'",
+    "summary": "Nearly 10,000 people marched peacefully in downtown Antalya on Saturday, November 14, in the People’s Climate March on the sidelines of COP31, behind a banner in Turkish reading “Against COP31, we defend life!”, a demonstration that stood out for its scale in a country where the space for environmental and political protest is narrow, though far smaller than the tens of thousands at COP30 in Belém a year earlier. Major NGOs such as Greenpeace, 350.org, Fridays for Future and the Climate Action Network marched alongside Palestinian, feminist, antiwar and antinuclear groups, a handful of far-left activists backing a Turkish-Greek peace initiative, trade unions and Turkish opposition parties including the Left Party and the pro-Kurdish DEM, whose co-chair, lawmaker Tülay Hatimogullari, marched among her supporters.",
+    "sources": [
+      {
+        "source": "lemonde.fr/en",
+        "title": "COP31: Thousands in Antalya protest environmental damage: 'We no longer believe in those who lead us'",
+        "url": "https://www.lemonde.fr/en/environment/article/2026/11/15/cop31-thousands-in-antalya-protest-environmental-damage-we-no-longer-believe-in-those-who-lead-us_6781315_114.html"
+      }
+    ]
+  },
+  {
+    "title": "November 14 demonstrations: In both Paris and Lyon, diverse but determined crowds take to the streets",
+    "summary": "Demonstrations across France on Saturday, November 14, brought together demands ranging from protecting children and raising wages to more resources for education, continuing high school blockades and protesting police violence; the Interior Ministry counted 106,000 marchers, including 24,000 in Paris, a sharp drop from previous weeks, across 137 “public demonstrations”, while the youth coalition of student unions (Union étudiante, USL, FAGE, UNEF) claimed 200,000 nationwide and nearly 100,000 in the capital. In Paris, eight organisations led the march from Place de la République behind the banner “From birth to death, justice, peace, dignity”, with signs reading “Hey [Prime Minister Sébastien] Lecornu, you’re missing the mark” and “SOS cost of living”.",
+    "sources": [
+      {
+        "source": "lemonde.fr/en",
+        "title": "November 14 demonstrations: In both Paris and Lyon, diverse but determined crowds take to the streets",
+        "url": "https://www.lemonde.fr/en/france/article/2026/11/15/november-14-demonstrations-in-both-paris-and-lyon-diverse-but-determined-crowds-take-to-the-streets_6781282_7.html"
+      }
+    ]
+  },
+  {
+    "title": "‘We ask ourselves whether we still live in a democracy’",
+    "summary": "At an opposition rally on New Delhi’s Ramlila Maidan, Rahul Gandhi called the alleged “vote theft” a “betrayal” and said the man responsible, chief election commissioner Gyanesh Kumar, would go to prison for it: in a nationwide revision of the voter rolls the Election Commission struck about 130 million names, more people than live in Germany, and the opposition accuses it of acting for Modi’s Hindu nationalist BJP. India’s young generation has been on the streets since May, after the chief justice compared unemployed young people to cockroaches and political consultant Abhijeet Dipke founded the satirical “Cockroach Janta Party”, which has more than 25 million Instagram followers, more than twice the BJP’s; in July the movement forced the education minister’s resignation over leaked exam questions, and nearly 40 percent of Indian graduates under 25 are unemployed.",
     "sources": [
       {
         "source": "welt.de",
-        "title": "Operation “Iron Gate”: Trump deploys special unit against Iranian weapons transports",
-        "url": "https://www.welt.de/politik/ausland/article6af0f62a80d3a1c6aa66db6d/iran-krieg-operation-iron-gate-trump-setzt-spezialeinheit-gegen-iranische-waffentransporte-ein.html"
+        "title": "‘We ask ourselves whether we still live in a democracy’",
+        "url": "https://www.welt.de/politik/ausland/article6ae98d01e54274d5b379d352/proteste-in-indien-wir-fragen-uns-ob-wir-noch-in-einer-demokratie-leben.html"
       }
     ]
   },
   {
-    "title": "Dünya devi Türkiye'de 1.400 kişiyi işten çıkaracaktı: 300 kişiyle başladı devamı gelecek",
-    "summary": "Bosch’un Bursa fabrikasında işten çıkarmalar başladı; ilk aşamada emeklilikte yaşa takılanlar kapsamındaki yaklaşık 300 işçinin işine son verildi ve toplamda 1200 işçinin işsiz kalabileceği ifade edildi. Şirket Mayıs 2026’da, elektrikli otomobillerin yaygınlaşmasıyla geleneksel parçalara talebin azalmasını gerekçe göstererek yaklaşık 1.400 çalışanı kapsayan küçülme programı açıklamıştı; mavi yakalı çıkışların 2027 sonuna, yaklaşık 300 beyaz yakalı çıkışın 2030’a kadar yapılması planlanıyor. Türk Metal Sendikası ile kapsamı daraltma görüşmeleri başlamıştı.",
+    "title": "Three dead in Russian attacks on Ukrainian cities",
+    "summary": "At least three people were killed and more than 30 injured in Russian attacks on Ukrainian cities; in Zaporizhzhia at least 22 people were injured, including three children, according to the regional military administration.",
+    "sources": [
+      {
+        "source": "welt.de",
+        "title": "Three dead in Russian attacks on Ukrainian cities",
+        "url": "https://www.welt.de/politik/ausland/video6af94b794495f9bd85b8062a/ueber-30-verletzte-drei-tote-bei-russischen-angriffen-uaf-ukainische-staedte.html"
+      }
+    ]
+  },
+  {
+    "title": "İstanbul'un göbeğinde 7,4 ton birden yayılıyor: Evlerin içine kadar girmeye başladı",
+    "summary": "DW Türkçe’nin aktardığı uydu izleme verilerine göre İstanbul Silivri’deki Seymen Atık Bertaraf Tesisi’nden zirve dönemlerde saatte ortalama 7,4 ton metan gazı salındığı ölçüldü; katı atık sahası kaynaklı noktasal emisyon yoğunluğunda Türkiye dünya genelinde 5’inci sırada yer alıyor ve Seymen sahası dünyada en fazla metan salan çöp sahalarından biri olarak gösteriliyor. Ağır çöp kokusu rüzgârla yerleşim alanlarına taşınıp evlerin içine sızıyor; bölge sakinleri gece yarısı uyandıklarını ve pencerelerini açamadıklarını söylüyor. Uzmanlar yanıcı ve sıkıştığında patlama riski taşıyan metanın insan sağlığı için ciddi tehdit oluşturduğunu belirterek sahadaki gaz toplama ve bertaraf sistemlerinin sıkı denetlenmesini bekliyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Dünya devi Türkiye'de 1.400 kişiyi işten çıkaracaktı: 300 kişiyle başladı devamı gelecek",
-        "url": "https://www.sozcu.com.tr/bosch-fabrikasinda-yaklasik-300-isci-isten-cikarildi-p379485"
+        "title": "İstanbul'un göbeğinde 7,4 ton birden yayılıyor: Evlerin içine kadar girmeye başladı",
+        "url": "https://www.sozcu.com.tr/istanbul-un-gobeginde-7-4-ton-birden-yayiliyor-evlerin-icine-kadar-girmeye-basladi-p381761"
       }
     ]
   },
   {
-    "title": "Fatma Betül Sayan Kaya'nın hakimlik ifadesi ortaya çıktı: Mesleği ev hanımı, aylık geliri 500 bin lira",
-    "summary": "Fon skandalı soruşturmasında “suç örgütüne üye olma” ve “SPK Kanunu’na muhalefet” suçlarından tutuklanan eski Aile ve Sosyal Hizmetler Bakanı ve AKP eski Genel Başkan Yardımcısı Fatma Betül Sayan Kaya’nın hakimlik ifadesi ortaya çıktı. Mesleğini ev hanımı, aylık gelirini 500 bin lira olarak bildiren Kaya suçlamaları kabul etmediğini söyledi; TERA yönetimiyle yoğun görüşme yaptığı iddiası için “Öyle bir ifadem olduysa görmek isterim” dedi, Emre Tezmen ile yalnızca bir kez karşılaştığını, Erdin Özel’in yardımcısı olması için bazı siyasilerce önerildiğini ancak hiçbir dönemde yardımcısı olmadığını belirtti. Kaya, “Ben örgüte üye olma suçlamasını kabul etmiyorum. Serbest bırakılmamı talep ediyorum” ifadelerini kullandı.",
+    "title": "Türkiye'den sonra NATO zirvesinin yapılacağı ülke belli oldu",
+    "summary": "Bir NATO yetkilisi, 2026’da Türkiye’de yapılacak zirvenin ardından bir sonraki NATO zirvesinin Arnavutluk’ta düzenleneceğini teyit etti, ancak tarihin henüz netleşmediğini bildirdi; Arnavutluk Başbakanı Edi Rama zirvenin Tiran’da yapılabileceğini belirterek 2027 yerine 2028’e işaret etti. 25 Haziran 2025’teki Lahey Zirvesi bildirisinde liderlerin Türkiye’nin ardından Arnavutluk’ta buluşma kararı kayda geçmiş ancak tarih verilmemişti. Diplomatik kaynaklara göre ABD yönetimi, NATO liderler zirvelerinin her yıl düzenlenmesi geleneğine son verilip toplantıların iki yılda bir yapılmasını talep ediyor ve İttifak bünyesinde bu yönde girişimlerde bulunuyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Fatma Betül Sayan Kaya'nın hakimlik ifadesi ortaya çıktı: Mesleği ev hanımı, aylık geliri 500 bin lira",
-        "url": "https://www.sozcu.com.tr/fatma-betul-sayan-kaya-nin-hakimlik-ifadesi-ortaya-cikti-meslegi-ev-hanimi-aylik-geliri-500-bin-lira-p379443"
+        "title": "Türkiye'den sonra NATO zirvesinin yapılacağı ülke belli oldu",
+        "url": "https://www.sozcu.com.tr/turkiye-den-sonra-nato-zirvesinin-yapilacagi-ulke-belli-oldu-p381757"
       }
     ]
   },
   {
-    "title": "İki komşu ülke arasında film koptu: 1340 kilometrelik sınıra hendek kazacaklar",
-    "summary": "Finlandiya, NATO’nun Rusya ile kara sınırının yaklaşık yarısını oluşturan 1340 kilometrelik hatta Ukrayna modeli tank savar hendekler ve bariyerler inşa etmeye hazırlanıyor. Bloomberg’e göre Kara Kuvvetleri Komutanı Korgeneral Pasi Välimäki, Rusya’nın depolama üslerine T-90 tankları, BMP-3 piyade savaş araçları ve kundağı motorlu topçu sistemlerinin peş peşe sevk edildiğini söyledi. Proje, eylülde 365 milyon avroluk yatırımla tamamlanan 200 kilometrelik sınır bariyerinin ardından gündeme geldi.",
+    "title": "AKP'de \"uyuyan hücreler\" kavgası",
+    "summary": "AKP’de fon krizine ilişkin tartışmalar “uyuyan hücreler” çıkışıyla yeni bir boyut kazandı: AKP Trabzon Milletvekili Vehbi Koç, Trabzon İl Danışma Meclisi’nde ülke terör belasından kurtulup ekonomik dönüşüme hazırlanırken örgütlü ve mali operasyonlar yapılmasının tesadüf olmadığını söyleyerek “Bunları kim yaptırdı? Bunlar uyuyan hücreler mi? Bunu anlamamız lazım” dedi. AKP eski Gaziantep Milletvekili Şamil Tayyar ise teşkilat toplantılarında “uyuyan hücrelerin” harekete geçmesinden söz edilmesine salondakilerin bile homurtuyla karşılık verdiğini belirterek “Yapmayın, Alfred Hitchcock’a rahmet okutmayın. Ne uyuyan hücresi? Uyuyan biziz. Referans alacağınız kişi Cumhurbaşkanı Recep Tayyip Erdoğan” diye tepki gösterdi. Tayyar, fon krizinde parti içinde ortak bir söylem geliştirilmesi ve sürecin şeffaf yönetilmesi gerektiğini daha önce de dile getirdiğini, Türkiye’nin farklı bölgelerinden kendisine çok sayıda konuşma kaydı gönderildiğini aktardı.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "İki komşu ülke arasında film koptu: 1340 kilometrelik sınıra hendek kazacaklar",
-        "url": "https://www.sozcu.com.tr/iki-komsu-ulke-arasinda-film-koptu-1340-kilometrelik-sinira-hendek-kazacaklar-p379478"
+        "title": "AKP'de \"uyuyan hücreler\" kavgası",
+        "url": "https://www.sozcu.com.tr/akp-de-uyuyan-hucreler-kavgasi-p381753"
       }
     ]
   },
   {
-    "title": "AB kapısı açılınca eski müttefiklerini tek kalemde sildiler: ilk işleri vize koymak oldu",
-    "summary": "Moldova’nın Rusya vatandaşlarına vize getirmeyi değerlendirdiği bildirildi; Tofan, olası vize kararının ülkenin Avrupa entegrasyonu yükümlülüklerinden kaynaklandığını ve düzenlemenin Belarus ile Çin vatandaşlarını da kapsayabileceğini söyledi, net bir takvim paylaşılmadı. Kişinev’in kararı hayata geçirmesi halinde Moskova’nın karşılıklı yaptırımlarla yanıt verebileceği değerlendiriliyor. Moskova Yüksek Ekonomi Okulu analisti Nikol Bodishtyanu, Moldova’nın hedef gösterdiği 2030’a kadar AB üyeliği için gereken kurumsal ve ekonomik hazırlığı tamamlayamayacağını savundu.",
+    "title": "Ankara kulislerinde emeklileri yıkan zam söylentileri",
+    "summary": "Türkiye’de 20 milyonu aşkın memur ve emeklinin beklediği ocak ayı maaş düzenlemesinde, Sosyal Güvenlik Başuzmanı İsa Karakaş’ın aktardığı kulis bilgilerine göre tüm emeklilere 10 bin ila 15 bin TL seyyanen zam formülü, SGK bütçe verilerine göre ek bütçe olmadan yıl boyu karşılanamayacağı tespit edildiği için rafa kalktı. Ankara’da konuşulan en güçlü senaryo yasal enflasyon oranlarına yüzde 5 ila 15 arasında refah payı eklenmesi; açlık sınırının 38 bin TL’yi aştığı ve yılbaşında 40 bin TL’nin üzerine çıkacağı öngörülürken yüzde 15 refah payının bile emekliyi rahatlatmayacağı belirtiliyor. TÜİK verileriyle temmuz-ekim dört aylık enflasyon yüzde 8,28’e ulaştı; yıl sonu enflasyonunun yüzde 30 bandında gerçekleşmesi halinde SSK ve Bağ-Kur emeklisine yüzde 9,5-10,5, memur ve memur emeklisine yüzde 7,5-8,5 artış hesaplanıyor; Hazine ve Maliye Bakanı Mehmet Şimşek’in “Enflasyonun altında artış yapılmayacak” sözü hatırlatılıyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "AB kapısı açılınca eski müttefiklerini tek kalemde sildiler: ilk işleri vize koymak oldu",
-        "url": "https://www.sozcu.com.tr/ab-kapisi-acilinca-eski-muttefiklerini-tek-kalemde-sildiler-ilk-isleri-vize-koymak-oldu-p379455"
+        "title": "Ankara kulislerinde emeklileri yıkan zam söylentileri",
+        "url": "https://www.sozcu.com.tr/ankara-kulislerinde-emeklileri-yikan-zam-soylentileri-p381740"
       }
     ]
   },
   {
-    "title": "Asansörde taciz iddiası! Gazeteci Terkoğlu, Sarıgül ile ilgili inanılmaz arşiv bilgisini açıkladı",
-    "summary": "Gazeteci Barış Terkoğlu Sözcü canlı yayınında, Mustafa Sarıgül’ün 2007’de uluslararası ziyaretçi vizesiyle gittiği ABD’de kendisine verilen tercümanı asansörde taciz ettiği iddiasıyla ABD Dışişleri Bakanlığı’na şikayet edildiğini ve görüşmelerin bunun üzerine kesildiğini anlattı. Terkoğlu’na göre belgelerde Sarıgül “tercüman beni şikayet ettiği için ABD beni desteklemekten vazgeçti” diyor; Terkoğlu, ABD Dışişleri Bakanlığı’nın elinde Sarıgül’le ilgili 54 belge bulunduğunu ve bu belgelerde çok sayıda yolsuzluk dosyası olduğunun raporlandığını söyledi.",
+    "title": "Konaklama platformlarında yeni kurallar: 5 milyon TL şartı geliyor",
+    "summary": "Yabancı dijital konaklama platformlarının Türkiye’de faaliyet göstermek için Kültür ve Turizm Bakanlığından 5 milyon lira karşılığında iki yıl geçerli izin belgesi almasını öngören kanun teklifi bu hafta TBMM Genel Kurulu’nda görüşülecek; komisyondan geçen teklife göre platformların dijital hizmet vergisi mükellefi olması, Türkiye’de yerleşik Türk vatandaşı bir temsilci belirlemesi gerekecek ve uyuşmazlıklarda Türk hukuku ile Türk mahkemeleri yetkili olacak. Yurt içi satışlarda hizmet bedeli vergiler hariç yüzde 17’yi geçemeyecek, platformlar Türkiye Turizm Tanıtım ve Geliştirme Ajansına on binde 7,5 turizm payı ödeyecek ve yalnızca belgeli tesisler ile izinli turizm amaçlı konutların satışını yapabilecek. Yükümlülüklere aykırılıkta 200 bin ila 500 bin lira, eksik hizmette sözleşme başına 50 bin ila 100 bin lira ceza, yüzde 17 sınırının aşılmasında haksız alınan tutarın 10 katı ceza öngörülüyor; tekrarında izin belgesi iptal edilecek, izinsiz faaliyette erişim engeli uygulanacak.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Asansörde taciz iddiası! Gazeteci Terkoğlu, Sarıgül ile ilgili inanılmaz arşiv bilgisini açıkladı",
-        "url": "https://www.sozcu.com.tr/asansorde-taciz-iddiasi-gazeteci-terkoglu-sarigul-ile-ilgili-inanilmaz-arsiv-bilgisini-acikladi-p379451"
+        "title": "Konaklama platformlarında yeni kurallar: 5 milyon TL şartı geliyor",
+        "url": "https://www.sozcu.com.tr/konaklama-platformlarinda-yeni-kurallar-5-milyon-tl-sarti-geliyor-p381727"
       }
     ]
   },
   {
-    "title": "Dolar/TL yeni rekorlara koşuyor",
-    "summary": "Dolar/TL saat 09.50 itibarıyla yüzde 0,1 yükselişle 50,20 seviyesine çıkarak tüm zamanların rekorunu kırdı; cuma günü 50,1550’den kapanmıştı. Avro/TL 56,1120, sterlin/TL 67,2700’dan işlem görürken dolar endeksi 102 seviyesinde bulunuyor. ABD’de güçlü istihdam verilerinin ardından Fed’in aralıkta faiz artırabileceği beklentileri kuvvetlendi; yarın açıklanacak ABD ekim enflasyon verisi beklentilerin şekillenmesinde önemli olacak.",
+    "title": "Türkiye'deki milyonlarca telefon 1 ay sonra kullanıma kapatılacak",
+    "summary": "BTK’nın 2024’te yürürlüğe koyduğu düzenleme uyarınca, 1 Ocak 2026’dan bu yana mobil operatörlerden hiçbir sinyal almayan cep telefonlarının IMEI numaraları 31 Aralık 2026 gecesi itibarıyla otomatik olarak kapatılacak ve iletişime engellenecek; çekmecede yedek bekletilen milyonlarca telefon bu kapsamda. Cihazı şarja takmak veya Wi-Fi’a bağlamak yetmiyor; yıl sonuna kadar aktif bir SIM kart takılıp şebeke sinyali alınması ve kısa bir arama, SMS ya da mobil veri kullanımı gerekiyor. Askıya alınan cihazlar e-Devlet’teki “IMEI - Cep Telefonu Sinyal Alınamayan Cihaz Başvurusu” hizmetiyle sahiplik doğrulanarak yeniden açılabiliyor, ancak faturası bulunmayan ikinci el telefonlarda başvuru olumsuz sonuçlanabiliyor.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "Dolar/TL yeni rekorlara koşuyor",
-        "url": "https://www.sozcu.com.tr/dolar-tl-50-18-seviyesinde-islem-goruyor-p379442"
+        "title": "Türkiye'deki milyonlarca telefon 1 ay sonra kullanıma kapatılacak",
+        "url": "https://www.sozcu.com.tr/turkiye-deki-milyonlarca-telefon-1-ay-sonra-kullanima-kapatilacak-p381723"
       }
     ]
   },
   {
-    "title": "SONAR anketinde bugüne kadar görülmemiş sonuç! Siyasi partilere rakip oldular",
-    "summary": "SONAR Araştırma’nın son seçim anketine göre kararsızlar, oy kullanmayı düşünmeyenler, geçersiz oy vereceğini söyleyenler ve yanıt vermeyenlerin toplam oranı yüzde 33,1 ile anketin en büyük grubunu oluşturdu. SONAR Başkanı Hakan Bayrakçı 38 yıllık meslek hayatında ilk kez böyle bir veriyle karşılaştığını söyledi; iktidara yakın yazar Abdulkadir Selvi “Son birkaç aydır kararsızlar birinci parti seviyesine yükselmiş durumda” diyerek konuştuğu üç ayrı araştırma şirketi yöneticisinin de artışa dikkat çektiğini yazdı.",
+    "title": "Foncular çözülmeye başladı: Herkes birbirini satıyor",
+    "summary": "Fon soruşturmasında tutuklu Tera Portföy Yönetim Kurulu Başkanı Erdin Özel’in savcılığa ek ifade verdiği ve belirli miktarda parayı iade ettiği, ancak tutukluluğunun sürdüğü öne sürüldü; Sözcü yazarı İsmail Saymaz’ın gündeme taşıdığı iddialara göre Türkiye Sigorta ve Türkiye Hayat Emeklilik bağlantılı tahviller Tera grubunun finansman işlemlerinde teminat olarak kullanılıp bunlar üzerinden Tera Bank’tan kredi çekildi ve kaynak fonlardaki hisse işlemlerinde değerlendirildi; kayıpların ardından tutuklu yönetici Taha Çakmak’ın tahvillerin iadesini istediği ileri sürüldü. İfadeye dayandırılan iddialarda Borsa İstanbul ve Türkiye Varlık Fonu yönetiminde görev aldığı belirtilen Erişah Arıcan’ın Emre Tezmen’in Merkezi Kayıt Kuruluşu yönetimine aday gösterilmesinde rol oynadığı, Tezmen’e “Siz yerli ve millisiniz” dediği ve Tezmen’in “Ekonominin başına gelirsem neler yapacağımı tüm Türkiye görecek” ifadesini kullandığı öne sürüldü.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "SONAR anketinde bugüne kadar görülmemiş sonuç! Siyasi partilere rakip oldular",
-        "url": "https://www.sozcu.com.tr/sonar-anketinde-dengeleri-degistiren-sonuc-siyasi-partilere-rakip-oldular-p379439"
+        "title": "Foncular çözülmeye başladı: Herkes birbirini satıyor",
+        "url": "https://www.sozcu.com.tr/foncular-cozulmeye-basladi-herkes-birbirini-satiyor-p381717"
       }
     ]
   },
   {
-    "title": "İktidar medyası duyurdu: En düşük emekli aylığı hesaplandı",
-    "summary": "İktidara yakın Sabah’a göre emeklilere ocakta önce temmuz-aralık enflasyon farkı zammı, ardından refah payı üzerinden ek ödeme yapılması planlanıyor; SSK ve BAĞ-KUR emeklilerine yüzde 10, memur emeklilerine yaklaşık yüzde 8 zam bekleniyor. Yüzde 10 senaryosunda 25 bin TL maaş 27 bin 500 TL’ye çıkacak; 23 bin 552 TL olan en düşük emekli maaşının yaklaşık 25 bin 907 TL’ye yükselip 26 bin TL’ye yuvarlanması, en düşük memur emekli aylığının 31 bin 528 TL’den 34 bin 50 TL’ye çıkması öngörülüyor. Düzenlemenin aralık sonunda veya Ocak 2027’de Meclis’ten geçirilmesi gerekiyor.",
+    "title": "Bulgaristan'dan vize randevusu planı: Dört ile 8 yeni konsolos",
+    "summary": "Bulgaristan, Türkiye’den yapılan Schengen vizesi başvurularındaki uzun bekleme ve randevu sorunlarını azaltmak için İstanbul, Ankara, Edirne ve Bursa’daki konsolosluk birimlerine 2026 bitmeden göreve başlayacak 8 yeni konsolos atayacak; Dışişleri Bakanı Velislava Petrova planı İstanbul Başkonsolosluğu ziyaretinin ardından açıkladı, 2025’te yalnızca İstanbul’a yaklaşık 40 bin başvuru yapıldı. Randevuların merkezi bir elektronik sistem üzerinden dağıtılması için ikinci düzenlemenin 2027 ortasına kadar devreye alınması planlanıyor; yeni adımlar vizesiz seyahat veya otomatik onay sağlamayacak. Görüşmelerde Türk TIR şoförlerinin 180 günde 90 gün kalış sınırı da ele alındı ve ekim sonunda sınır kapılarında uzun kuyruklara yol açan sorun için 90 günü dolduran sürücülerin taşımacılığı sürdürebilmesine yönelik kısa vadeli bir istisna üzerinde uzlaşıldığı belirtildi.",
     "sources": [
       {
         "source": "sozcu.com.tr",
-        "title": "İktidar medyası duyurdu: En düşük emekli aylığı hesaplandı",
-        "url": "https://www.sozcu.com.tr/iktidar-medyasi-duyurdu-en-dusuk-emekli-ayligi-hesaplandi-p379436"
+        "title": "Bulgaristan'dan vize randevusu planı: Dört ile 8 yeni konsolos",
+        "url": "https://www.sozcu.com.tr/bulgaristandan-vize-randevusu-plani-dort-ile-8-yeni-konsolos-p381708"
       }
     ]
   },
   {
-    "title": "EBRD/Falcetti: Türkiye'nin elektrifikasyon yatırım ihtiyacı çok yüksek",
-    "summary": "EBRD Türkiye ve Kafkaslar Yönetici Direktörü Elisabetta Falcetti, Antalya’daki COP31’de Bloomberg HT’ye Türkiye’nin yeşil dönüşümüne bugüne kadar yaklaşık 14 milyar euro kaynak sağladıklarını ve yatırımı hazır şirketler için 2030’a kadar 5 milyar euroluk finansmanın harekete geçirilmesinin öngörüldüğünü söyledi. Türkiye’nin %22 olan elektrifikasyon oranının 2035’e kadar %35’e çıkarılmasının hedeflendiğini hatırlatan Falcetti, çelik, çimento ve otomotiv gibi sektörlerin dönüşümüne öncelik verildiğini belirtti.",
+    "title": "Küresel piyasalarda satış dalgası",
+    "summary": "Küresel piyasalar yeni haftaya teknoloji hisseleri öncülüğünde satış baskısıyla başladı: Cuma günü Wall Street’te çip hisseleri endeksi yüzde 3,4 düştü, Nvidia hisseleri Jensen Huang’ın görevden ayrılmasının ardından şirketin geleceğine ilişkin belirsizlik ve Çin’e çip satışlarına yönelik artan hukuki incelemelerle haftalık yüzde 13 değer kaybederek Nisan 2025’ten bu yana en kötü performansını gösterdi; Nasdaq 100 yüzde 1,2, S&P 500 yüzde 0,4 geriledi, Bitcoin 70 bin doların altına indi. Asya’da TSİ 07.39’da MSCI Asya Pasifik Endeksi yüzde 1,6 düştü, Tayvan ve Güney Kore borsalarında kayıplar en az yüzde 3’e ulaştı ve Asya teknoloji göstergesi yüzde 5’in üzerinde düşerek 6 Kasım’dan bu yana en sert gerilemesini kaydetti; Çin’de ekimde tüketim ve sanayi üretiminin beklentilerin altında kalması, yatırımlardaki daralmanın derinleşmesi ve Japonya ekonomisinin bir yılın ardından ilk kez daralması satışları besledi. ABD’de ekimde üretici fiyatları yıllık bazda 2022’den bu yana en hızlı artışı kaydetmesine karşın beklentilerin biraz altında kalarak aralıkta 50 baz puanlık faiz artırımı fiyatlamasını azalttı; ABD 10 yıllık tahvil getirisi geçen hafta 28 baz puan yükseldi, yatırımcılar salı günü açıklanacak Nvidia bilançosunu bekliyor.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "EBRD/Falcetti: Türkiye'nin elektrifikasyon yatırım ihtiyacı çok yüksek",
-        "url": "https://www.bloomberght.com/ebrdfalcetti-turkiye-nin-elektrifikasyon-yatirim-ihtiyaci-cok-yuksek-3793919"
+        "title": "Küresel piyasalarda satış dalgası",
+        "url": "https://www.bloomberght.com/kuresel-piyasalarda-satis-dalgasi-3794694"
       }
     ]
   },
   {
-    "title": "İhracat iklimi son üç ayın en düşük seviyesinde",
-    "summary": "İSO Türkiye İmalat Sektörü İhracat Pazarları İklim Endeksi ekimde 53,2’den 52,5’e gerileyerek son üç ayın en düşük düzeyine indi, ancak 50 eşiğinin üzerinde kalarak ihracat pazarlarındaki iyileşmenin 34’üncü ay sürdüğüne işaret etti. En hızlı artış Türk imalat ihracatından yüzde 3,5 pay alan BAE’de görüldü; ABD’de genişleme 45’inci aya ulaştı, Birleşik Krallık’ta üretim son sekiz ayın en yüksek hızında arttı, Fransa ve Romanya’da üretim düşüşe geçti, en sert daralma Brezilya’da yaşandı.",
+    "title": "OSD: Otomotiv üretimi ilk 10 ayda yüzde 6 azaldı",
+    "summary": "Otomotiv Sanayii Derneği verilerine göre ocak-ekim döneminde toplam otomotiv üretimi geçen yılın aynı dönemine göre yüzde 6 azalarak 1 milyon 92 bin 519, otomobil üretimi yüzde 17 gerileyerek 592 bin 163 oldu; ticari araç üretimi yüzde 12 arttı ve sektörün kapasite kullanım oranı yüzde 61’de kaldı (traktörde yüzde 28). Otomotiv ihracatı adet bazında yüzde 9 düşüşle 779 bin 557’ye gerilerken otomobil ihracatı yüzde 25 azaldı; Türkiye İhracatçılar Meclisi verilerine göre toplam otomotiv ihracatı değer olarak yüzde 3 artışla 35,2 milyar dolar oldu ve sektör ihracat sıralamasında ilk sıradaki yerini korudu. Toplam pazar 10 ayda yüzde 15 daralarak 916 bin 149’a, otomobil pazarı yüzde 17 düşüşle 692 bin 916’ya indi; otomobil satışlarında yerli araç payı yüzde 35, hafif ticari araçta yüzde 24 oldu.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "İhracat iklimi son üç ayın en düşük seviyesinde",
-        "url": "https://www.bloomberght.com/ihracat-iklimi-son-uc-ayin-en-dusuk-seviyesinde-3793916"
+        "title": "OSD: Otomotiv üretimi ilk 10 ayda yüzde 6 azaldı",
+        "url": "https://www.bloomberght.com/osd-otomotiv-uretimi-ilk-10-ayda-yuzde-6-azaldi-3794693"
       }
     ]
   },
   {
-    "title": "TMSF, Pet Gaz LPG depolama tesislerini satışa çıkardı",
-    "summary": "TMSF, Pet Gaz LPG Depolama Tesisleri Ticari ve İktisadi Bütünlüğü’nü 3 milyar 210 milyon lira muhammen bedelle satışa çıkardı; ihale 9 Aralık Çarşamba saat 11.00’de TMSF’nin Esentepe’deki binasında kapalı zarf ve açık artırma usulleriyle yapılacak. Katılım için 321 milyon lira teminat yatırılması ve 8 Aralık saat 16.00’ya kadar teklif verilmesi gerekiyor.",
+    "title": "Çin ekonomisinde sürpriz yavaşlama",
+    "summary": "Çin’de ekim ayı verileri ekonomik yavaşlamanın geniş tabana yayıldığını gösterdi: perakende satışlar yıllık yüzde 0,4 artarak Bloomberg anketindeki yüzde 0,8 beklentinin altında kaldı, sanayi üretimi üç ayın ardından ilk kez ivme kaybedip yüzde 4,8 büyüdü ve sabit sermaye yatırımları ocak-ekimde yüzde 8,1 gerileyerek yüzde 7’lik düşüş beklentisini aştı. Pekin’in eylül sonunda konut kredisi sübvansiyonları ve kamu borçlanma kotası artışını içeren sınırlı teşvik paketine rağmen ekonomi son çeyreğe zayıf başladı; pazartesi açıklanan verilere göre konut fiyatlarındaki düşüş ekimde de sürdü ve gayrimenkul yatırımları ilk 10 ayda yüzde 21,6 azaldı. UBP Asya Kıdemli Ekonomisti Carlos Casanova ek destek olmadan yıllık büyüme hedefine ulaşma risklerinin arttığını ve yeni maliye politikası önlemlerinin muhtemel olduğunu söyledi; Ulusal İstatistik Bürosu ekonominin genel olarak istikrarlı seyrettiğini bildirdi.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "TMSF, Pet Gaz LPG depolama tesislerini satışa çıkardı",
-        "url": "https://www.bloomberght.com/tmsf-pet-gaz-lpg-depolama-tesislerini-satisa-cikardi-3793912"
+        "title": "Çin ekonomisinde sürpriz yavaşlama",
+        "url": "https://www.bloomberght.com/cin-ekonomisinde-surpriz-yavaslama-3794688"
       }
     ]
   },
   {
-    "title": "Uluslararası ticarette yuan ile ödeme rekora hazırlanıyor",
-    "summary": "Bloomberg hesaplamalarına göre Çin’in Sınır Ötesi Bankalararası Ödeme Sistemi (CIPS) bu yılın ekim ayına kadar 182,8 trilyon yuan (27,4 trilyon dolar) tutarında işlem gerçekleştirerek 2025’in toplamını aştı. Bu ivme Pekin’in yuanı uluslararasılaştırma kampanyasının göstergesi olarak değerlendiriliyor; BBVA’dan Dariusz Kowalczyk “bu yıl CIPS üzerinden yapılan ödemeler yeni bir rekor seviyeye ulaştı” ve “Her iki eğilimin de devam etmesi muhtemel” dedi.",
+    "title": "SPK'dan olağanüstü tasfiyedeki pay geri alımlarına ilişkin açıklama",
+    "summary": "Sermaye Piyasası Kurulu, 15 Kasım 2026 tarihli duyurusunda olağanüstü tasfiye kapsamındaki yatırım fonlarının portföylerindeki payların, borsadaki son işlem gününün kapanış fiyatı esas alınarak ilgili halka açık şirketlere satılabildiğini bildirdi ve bazı basın haberlerinde bu işlemlerin niteliği hakkında eksik veya hatalı değerlendirmeler yer aldığını kaydetti. Kurul, payların miktarı, piyasa derinliği ve likidite koşulları dikkate alınmadan doğrudan borsada satılmasının fiyatlar üzerinde baskı oluşturabileceğini ve fon varlıklarının daha düşük bedelle nakde çevrilebileceğini belirterek, şirketlerin kendi paylarını geri alabildiği uygulamanın satış baskısını sınırlamayı ve fon katılma payı sahiplerinin menfaatlerini korumayı amaçladığını açıkladı.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "Uluslararası ticarette yuan ile ödeme rekora hazırlanıyor",
-        "url": "https://www.bloomberght.com/uluslararasi-piyasalarda-yuanin-kullanimi-rekora-hazirlaniyor-3793902"
+        "title": "SPK'dan olağanüstü tasfiyedeki pay geri alımlarına ilişkin açıklama",
+        "url": "https://www.bloomberght.com/spk-dan-olaganustu-tasfiyedeki-pay-geri-alimlarina-iliskin-aciklama-3794681"
       }
     ]
   },
   {
-    "title": "TESKOMB kefaletli krediler 900 milyar TL'yi aştı",
-    "summary": "Ticaret Bakanlığı’na göre 2002 sonundan Ekim 2026 sonuna kadar TESKOMB kefaletiyle ve Halkbank kaynaklı olarak esnaf ve sanatkârlara 4 milyon 786 bin 84 kredi kullandırıldı ve tutar 907,8 milyar TL’ye ulaştı. Finansman, Hazine’nin yüzde 50 maliyet sübvansiyonuyla 2025’te yüzde 25, 2026’da yüzde 20 yıllık maliyetle uygulandı.",
+    "title": "İran: Ne savaş ne barış durumu içinde kalmayacağız",
+    "summary": "İran Meclis Başkanı Muhammed Bakır Kalibaf, Meclis oturumunda İran ile ABD arasındaki mevcut duruma ilişkin “Ne savaş ne barış durumu içinde kalmayacağız” dedi; IRNA’nın aktardığına göre savaş koşullarına rağmen füze üretimini sürdürdüklerini belirtip yer altında kurulan yeni füze şehrinin açılışını “bölgedeki stratejik değişimin sembolü” olarak nitelendirdi. Kalibaf, İran’ın ABD’ye ilettiği yedi şartın kabul edilmesi halinde anlaşma yolunun açık olduğunu söyledi: “Ama eğer ABD bu kez de hata yaparsa, savaşın coğrafyasını İran Silahlı Kuvvetleri’nin gücü ve iradesi belirleyecektir.”",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "TESKOMB kefaletli krediler 900 milyar TL'yi aştı",
-        "url": "https://www.bloomberght.com/teskomb-kefaletli-krediler-900-milyar-tl-yi-asti-3793900"
+        "title": "İran: Ne savaş ne barış durumu içinde kalmayacağız",
+        "url": "https://www.bloomberght.com/iran-ne-savas-ne-baris-durumu-icinde-kalmayacagiz-3794673"
       }
     ]
   },
   {
-    "title": "Petrolde 'diplomatik' denge",
-    "summary": "Brent petrol, Nisan 2020’den bu yana en büyük haftalık düşüş olan yüzde 16’yı aşan kaybın ardından varil başına 98 dolar civarında yatay seyretti, WTI 91 dolara yakın işlem gördü. Fiyatlar, Demokratların ara seçim zaferinin çatışmada tırmanma beklentilerini azaltmasıyla ekim sonundaki altı ayın zirvesinden sert düşmüştü; Rystad Energy’den Jorge Leon “Anlaşma için daha fazla baskı yapılması, bir anlaşmanın mutlaka daha yakın olduğu anlamına gelmez” dedi. Hafta sonu Hürmüz’den çıkan bir tanker kaynağı bilinmeyen mühimmatla vuruldu ve Husiler Riyad’daki Saudi Aramco ofislerine saldırdı; Suudi kuvvetleri iki füze fırlatıcısını imha etti.",
+    "title": "VakıfBank ile Dünya Bankası arasında 250 milyon dolarlık finansman anlaşması",
+    "summary": "VakıfBank, Sanayi ve Teknoloji Bakanlığı koordinasyonundaki Sanayinin Teknolojiyle Dönüşümü Projesi (TransformIndustry) kapsamında Dünya Bankası’nın IBRD’si ile 250 milyon dolarlık finansman anlaşması imzaladı; kaynak, imalat sanayisi ve ihracata bağlı sektörlerdeki KOBİ’ler ile orta ölçekli işletmelerin dijitalleşme, otomasyon, enerji verimliliği ve düşük karbonlu üretim yatırımlarına yönlendirilecek. Genel Müdür Osman Arslan, modelin Hazine ve Maliye Bakanlığı garantisini, Sanayi ve Teknoloji Bakanlığı teknik koordinasyonunu ve Dünya Bankası finansmanını bir araya getirdiğini belirterek “ihracat odaklı işletmelerimizin dönüşüm yatırımlarına uzun vadeli finansman imkanı sunarak küresel pazarlardaki rekabet güçlerini artırmayı amaçlamaktayız” dedi.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "Petrolde 'diplomatik' denge",
-        "url": "https://www.bloomberght.com/petrolde-diplomatik-denge-3793896"
+        "title": "VakıfBank ile Dünya Bankası arasında 250 milyon dolarlık finansman anlaşması",
+        "url": "https://www.bloomberght.com/vakifbank-ile-dunya-bankasi-arasinda-250-milyon-dolarlik-finansman-anlasmasi-3794672"
       }
     ]
   },
   {
-    "title": "Çin'den ABD tarifeleriyle ilgili yeni adım",
-    "summary": "Çin Devlet Konseyi Gümrük Tarifeleri Komisyonu, ABD’ye yönelik yüzde 24’lük gümrük tarifelerini iki ay askıya alma kararının salı günü Pekin saatiyle 13:01’de yürürlüğe gireceğini ve yüzde 10’luk genel verginin sürdürüleceğini açıkladı; Amerikan gemilerine uygulanan özel liman harçlarının askıya alınması 10 Ocak’a kadar uzatıldı. Karar, Trump ile Şi Cinping’in eylülde ticaret ateşkesini uzatma anlaşmasının sonucu; iki lider bu ayın sonlarında Şenzen’deki APEC’te bir araya gelecek. Pekin, Yüksek Mahkeme’nin iptal ettiği acil durum tarifelerinin yerine 301. Madde kapsamında konulacak vergileri izleyeceğini ve misillemesini buna göre ayarlayabileceğini belirtti.",
+    "title": "WSJ: ABD istihbaratına göre İran'ın hâlâ 1.500 ila 2.500 füzesi var",
+    "summary": "Wall Street Journal’a göre adı açıklanmayan ABD’li yetkililer, ABD istihbaratının İran’ın savaşa rağmen hâlâ 1.500 ila 2.500 füzeye sahip olduğunu değerlendirdiğini, ancak stokun kesin büyüklüğü belirlenemediği için değerlendirmenin düşük güvenilirlikte olduğunu söyledi. Yetkililere göre ABD ve İsrail saldırılarında üretim tesisleri hasar görse de Tahran düşük hızda silah üretimini sürdürüyor, çok sayıda insansız hava aracı ve kısa menzilli füzesi bulunuyor; İran’ın kapasitesini yeniden kazanması Trump yönetimini saldırıları yeniden başlatma seçeneğini değerlendirmeye yöneltti. ABD’li ve İsrailli yetkililer, İran’ın ABD’ye ait askeri tesisleri, radarları ve erken uyarı sistemlerini hedef almasının ardından ABD’nin bölgedeki askeri varlıklarını daha güvenli gördüğü İsrail’e taşıdığını savundu; Trump daha önce İran’ın silahlarını ortadan kaldırdıklarını söylemişti.",
     "sources": [
       {
         "source": "bloomberght.com",
-        "title": "Çin'den ABD tarifeleriyle ilgili yeni adım",
-        "url": "https://www.bloomberght.com/cin-den-abd-tarifeleriyle-ilgili-yeni-adim-3793895"
+        "title": "WSJ: ABD istihbaratına göre İran'ın hâlâ 1.500 ila 2.500 füzesi var",
+        "url": "https://www.bloomberght.com/wsj-abd-istihbaratina-gore-iran-in-hl-1500-ila-2500-fuzesi-var-3794671"
       }
     ]
   },
   {
-    "title": "Altın yeni haftaya pozitif girdi",
-    "summary": "Altın, petrolün düşüşü ve Nvidia CEO’su hakkındaki soruşturmanın teknoloji hisselerini baskılamasıyla cuma günkü gerilemesini silerek ons başına 4 bin 100 doların üzerinde işlem gördü. Ralli geçen hafta güçlü ABD istihdam verilerinin Fed’in aralıkta faiz artıracağı beklentisini pekiştirmesiyle duraklamıştı; Vantage Global Prime analisti Hebe Chen, “Siyasi belirsizlik altın fiyatlarının altında bir yastık sağlarken, değişen Fed beklentileri ve Hazine tahvili getirileri her türlü toparlanmayı sıkı bir dizginde tutuyor” dedi.",
+    "title": "Atama bekleyen öğretmeler Ankara’dan hükümete seslendi",
+    "summary": "Atama bekleyen öğretmenler ve eğitim sendikaları Ankara Ulus Atatürk Anıtı önünde yaptıkları basın açıklamasında 2026 Akademi Giriş Sınavı (AGS) kapsamında en az 50 bin öğretmen ataması ve branşlara adil kontenjan dağılımı talep etti; “50 bin kontenjan AGS’nin hakkıdır” sloganları atıldı. Öğretmenler adına konuşan Tarık İbiri, Milli Eğitim Bakanlığı’nın 2026 AGS kontenjanları için bütçeyi beklemesini ve sınavın üzerinden geçen zamana rağmen tek bir resmi açıklama yapılmamasını eleştirerek “Sağlık Bakanlığı 38 bin alım yaparken kimse bütçe beklemedi” dedi ve geçen yıl 81 ilde 100 bine yakın ücretli öğretmen çalıştırıldığını, bunun en az yarısı olan 50 bin atamanın hakları olduğunu söyledi. Açıklamanın ardından öğretmenler temsili bir seçim sandığına diplomalarını attı.",
     "sources": [
       {
-        "source": "bloomberght.com",
-        "title": "Altın yeni haftaya pozitif girdi",
-        "url": "https://www.bloomberght.com/altin-yeni-haftaya-pozitif-girdi-3793893"
+        "source": "veryansintv.com/direct",
+        "title": "Atama bekleyen öğretmeler Ankara’dan hükümete seslendi",
+        "url": "https://www.veryansintv.com/atama-bekleyen-ogretmeler-ankaradan-hukumete-seslendi"
       }
     ]
   },
   {
-    "title": "Çin'de üretici enflasyonu 2022'den bu yana en yüksek seviyede",
-    "summary": "Çin’de üretici fiyatları ekimde yıllık yüzde 5,7 artarak 2022’den bu yana en yüksek seviyeye çıktı; artış eylüldeki yüzde 5’in ve Bloomberg anketindeki yüzde 5,3’lük medyan tahminin üzerinde gerçekleşti. NBS istatistikçisi Dong Lijuan, kömür madenciliği, petrol ve doğal gaz çıkarma ile yakıt işleme gibi sektörlerin başı çektiği dokuz sanayi kolunun artışa 6 puandan fazla katkı yaptığını söyledi. Tüketici enflasyonu ise yüzde 0,9’dan yüzde 0,7’ye geriledi, çekirdek TÜFE yüzde 0,8 ile yılın en düşük seviyesine indi.",
+    "title": "Mahkemeden Fatih Altaylı’nın hapis cezasına ilişkin karar",
+    "summary": "İstanbul Bölge Adliye Mahkemesi Ceza Daireleri Başkanlar Kurulu, Fatih Altaylı’nın YouTube videosundaki sözleri nedeniyle Cumhurbaşkanı Erdoğan’a tehdit suçundan aldığı 4 yıl 2 ay hapis cezasının onanması kararını oy birliğiyle ve kesin olarak kaldırdı; dosya yeniden değerlendirilmek üzere ilgili daireye gönderildi. İstanbul 26. Ağır Ceza Mahkemesi’nin cezasını BAM 2. Ceza Dairesi istinaf başvurusunu esastan reddederek onamış, ancak BAM Cumhuriyet Başsavcılığı Altaylı lehine itiraz ederek konuşmanın bir bütün olarak değerlendirilmesi gerektiğini, Osmanlı padişahlarına ilişkin tarihsel örneklerde “suikast demeyelim de komploya kurban giden” düzeltmesi yapıldığını ve tehdit kastıyla hareket edilmediğini, beraat kararı verilmesi gerektiğini savunmuştu. Kurul, tehdit suçu için sözlerin “objektif olarak ciddi bir korku yaratmaya elverişli, yeterli ve uygun olması gerektiğini” ve bu hususun ilk derece mahkemesi kararında yeterince tartışılmadığını belirtti.",
     "sources": [
       {
-        "source": "bloomberght.com",
-        "title": "Çin'de üretici enflasyonu 2022'den bu yana en yüksek seviyede",
-        "url": "https://www.bloomberght.com/cin-de-uretici-enflasyonu-2022-den-bu-yana-en-yuksek-seviyede-3793892"
+        "source": "veryansintv.com/direct",
+        "title": "Mahkemeden Fatih Altaylı’nın hapis cezasına ilişkin karar",
+        "url": "https://www.veryansintv.com/mahkemeden-fatih-altaylinin-hapis-cezasina-iliskin-karar"
       }
     ]
   },
   {
-    "title": "ABD'de Demokratların zaferi 1,5 trilyon dolarlık savunma bütçesini riske soktu",
-    "summary": "Cumhuriyetçilerin ara seçim yenilgisi, Kongre’nin Trump’ın bir önceki mali yıla göre %44 artış anlamına gelen 1,5 trilyon dolarlık savunma bütçesi talebini onaylama umutlarını yıktı; her iki kanatta çoğunluğu alan Demokratlar bütçeyi engelleyeceklerinin sinyalini veriyor. Temsilciler Meclisi Silahlı Hizmetler Komitesi’nin yeni başkanı Adam Smith, 1 trilyon doları aşan bir savunma bütçesi gerektirmeyen “daha gerçekçi ve sürdürülebilir bir yaklaşımın geliştirilmesi için baskı yapmalıyız” dedi. Direnç Altın Kubbe füze kalkanı ve Trump sınıfı savaş gemisi planlarını tehlikeye atıyor; 11 Aralık’ta süresi dolacak geçici finansman altında 2027 harcama planı da belirsizliğini koruyor.",
+    "title": "Kurtulmuş bölücü izleme komisyonu için parti turlarını sürdürecek",
+    "summary": "TBMM’de 2027 bütçe görüşmeleri sürerken TBMM Başkanı Numan Kurtulmuş, PKK’lı teröristlerin affını öngören “Çerçeve Yasa” kapsamında kurulması planlanan İzleme Komisyonu için siyasi parti gruplarına ziyaretlerini sürdürecek: 17 Kasım Salı İYİ Parti Genel Başkanı Müsavat Dervişoğlu ile görüşecek, Yeni Parti grubunu ziyaret ederek Özgür Özel ile görüşmesi bekleniyor; geçen hafta Kemal Kılıçdaroğlu, Yeni Yol grup başkanvekilleri, AKP Grup Başkanı Abdullah Güler ve Devlet Bahçeli ile görüşmüştü. Genel Kurul’da geçen hafta maddeleri kabul edilen ancak yeter sayı olmadığı için oylanamayan 9 maddelik Türk Kızılay Kanun Teklifi oylanacak, ardından yabancı dijital konaklama platformlarına Kültür ve Turizm Bakanlığı’ndan izin belgesi alma, Türkiye’de temsilci bulundurma ve turizm payı yükümlülüğü getiren, Türk hukuku ve mahkemelerini yetkili kılan teklif görüşülecek; teklifin yasalaşmasıyla Türkiye’den Booking’e erişim sağlanmaya başlanacak.",
     "sources": [
       {
-        "source": "bloomberght.com",
-        "title": "ABD'de Demokratların zaferi 1,5 trilyon dolarlık savunma bütçesini riske soktu",
-        "url": "https://www.bloomberght.com/abd-de-demokratlarin-zaferi-1-5-trilyon-dolarlik-savunma-butcesini-riske-soktu-3793889"
-      }
-    ]
-  },
-  {
-    "title": "Türkiye ve Irak'tan ortak açıklama: TSK'nın Başika üssünden çekilme süreci başlayacak",
-    "summary": "Türkiye ve Irak 8 Kasım’daki ortak açıklamada, Musul yakınlarındaki Başika-Zilikan yerleşkesinin Irak Federal Hükümetine kademeli devri sürecinin başlatılacağını duyurdu; 2015’ten bu yana TSK kontrolündeki üs için “Türk tarafı; liderler düzeyinde varılan mutabakat uyarınca, Başika-Zilikan yerleşkesinin Irak Federal Hükümetine kademeli olarak devrine yönelik üzerine düşen adımları atmaya başlayacağını beyan etmektedir” denildi. PKK’nın Sincar’daki varlığının sona ermesinin denetlenmesi için Ortak Güvenlik Koordinasyon Komitesi’nin faaliyete geçirilmesi kararlaştırıldı. Açıklama, Erdoğan ile Irak Başbakanı Ali Zeydi’nin 23 Eylül’de New York’ta vardığı mutabakattan bu yana sürecin bu ayağında ilk ilerleme oldu; Ankara uzlaşmanın PKK’nın silah bırakma sürecinde kritik önem taşıdığını değerlendiriyor.",
-    "sources": [
-      {
-        "source": "bbc.com/turkce",
-        "title": "Türkiye ve Irak'tan ortak açıklama: TSK'nın Başika üssünden çekilme süreci başlayacak",
-        "url": "https://www.bbc.com/turkce/articles/cxnv04p1dvgpo?at_medium=RSS&at_campaign=rss"
-      }
-    ]
-  },
-  {
-    "title": "Erdoğan'ın Azerbaycan ziyaretinde Aliyev ile 'birlik' mesajı verildi",
-    "summary": "Cumhurbaşkanı Erdoğan “Karabağ Zaferi” programı kapsamında Bakü’de Azerbaycan Cumhurbaşkanı İlham Aliyev ile bir araya geldi; ziyaret, Eylül 2026’da basına yansıyan ve Aliyev’in 29-30 Ekim’deki Ankara TDT Zirvesi’ne katılmamasıyla süren gerilimin ardından liderler arasındaki ilk temas oldu. Erdoğan ortak basın toplantısında “Türkiye ile Azerbaycan arasındaki münasebetler tarihin türlü imtihanlarından geçerek bugünkü ileri seviyesine ulaşmıştır” dedi ve “Bir millet, iki devlet” vurgusunu yineledi; Aliyev “Türkiye Azerbaycan birliği ebedidir ve sarsılmazdır” dedi. Anlaşmazlık, Azerbaycan’da okul üniformalarının laiklik ilkesine uygun olmasını öngören kıyafet düzenlemesiyle başlamıştı.",
-    "sources": [
-      {
-        "source": "bbc.com/turkce",
-        "title": "Erdoğan'ın Azerbaycan ziyaretinde Aliyev ile 'birlik' mesajı verildi",
-        "url": "https://www.bbc.com/turkce/articles/cw1m4dj30e05o?at_medium=RSS&at_campaign=rss"
+        "source": "veryansintv.com/direct",
+        "title": "Kurtulmuş bölücü izleme komisyonu için parti turlarını sürdürecek",
+        "url": "https://www.veryansintv.com/kurtulmus-bolucu-izleme-komisyonu-icin-parti-turlarini-surdurecek"
       }
     ]
   }
